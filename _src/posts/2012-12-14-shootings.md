@@ -159,6 +159,7 @@ To go back full circle:
   in this country. 
 * Fuck everything.
 
+
    [1]: http://andrewsullivan.thedailybeast.com/2012/12/the-horror-in-newtown-reader-reax.html
    [2]: http://www.motherjones.com/politics/2012/09/mass-shootings-investigation
    [3]: http://webappa.cdc.gov/sasweb/ncipc/nfirates2000.html
