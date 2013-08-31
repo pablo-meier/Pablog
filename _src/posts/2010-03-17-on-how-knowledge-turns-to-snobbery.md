@@ -2,7 +2,7 @@
     Date:2010-03-17T11:23:00
     Tags: pablolife
 
-I used to read [A List Apart][1] religiously, back when I was a lamer-than-lame 
+I used to read [A List Apart][1] religiously, back when I was a lamer-than-lame
 "web developer.\*"  I've slacked off on reading it because I haven't
 touched much web dev recently, but it's still an amazing online magazine, an
 example of well-published content on the web.

@@ -2,7 +2,7 @@
     Date:2010-06-13T17:01:00
     Tags: pablolife
 
-I love [Andrew Sullivan's blog][1].  It offers excellent analysis containing 
+I love [Andrew Sullivan's blog][1].  It offers excellent analysis containing
 many sides of the news; what separates it from other blog is the conversations
 he mediates with the readers.
 

@@ -2,8 +2,8 @@
     Date:2010-11-13T21:55:00
     Tags: pablolife
 
-Little known fact, but true.  While I took traditional music theory and piano, 
-I kind of endured that; the degree had a focus on Electronic Music and digital 
+Little known fact, but true.  While I took traditional music theory and piano,
+I kind of endured that; the degree had a focus on Electronic Music and digital
 media production. It was affiliated with the [Multimedia and Electronic Music
 Experiments (MEME)][1] program at Brown.
 

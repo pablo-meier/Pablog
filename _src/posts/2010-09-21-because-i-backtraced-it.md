@@ -2,7 +2,7 @@
     Date:2010-09-21T22:10:00
     Tags: pablolife
 
-Here's another story of Internet lore, documented pretty well here at 
+Here's another story of Internet lore, documented pretty well here at
 [Know Your Meme][1].  I've [posted][2] [before][2] about remixes), and [the
 internet making a story huge][4], and this one kind of combines the two.
 

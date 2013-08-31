@@ -3,7 +3,7 @@
     Tags: pablolife
 
 The Olympics brought more opportunities for people to be hatin' on Johnny Weir
-and his style of performance. I love what he said:  "Every little boy should be 
+and his style of performance. I love what he said:  "Every little boy should be
 so lucky to turn into me."
 
 And, you know, it's sort of true. How wonderful if we were all so lucky that

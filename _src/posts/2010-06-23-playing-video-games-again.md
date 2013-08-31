@@ -4,7 +4,7 @@
 
 A brief summary of my video gaming:
 
-*  When I was 3, I started on NES games.  From there on in, I played almost exclusively 
+*  When I was 3, I started on NES games.  From there on in, I played almost exclusively
 console games until I was about 14.
 
 * A friend of mine from high school introduced me to [Warcraft III][1], so I

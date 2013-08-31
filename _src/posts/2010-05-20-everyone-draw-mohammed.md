@@ -2,7 +2,7 @@
     Date:2010-05-20T18:52:00
     Tags: pablolife
 
-Today is Everyone Draw Mohammed Day ([news story][1], [wikipedia][2]).  A small 
+Today is Everyone Draw Mohammed Day ([news story][1], [wikipedia][2]).  A small
 day where you can stand up for free  speech in the face of bullying and the
 threat of terrorism. Sadly, I've loaned out my tablet (and am burned out from
 studying), so I can't do anything really epic. I still want to participate, so

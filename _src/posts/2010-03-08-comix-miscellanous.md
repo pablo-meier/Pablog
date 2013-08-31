@@ -2,7 +2,7 @@
     Date:2010-03-08T23:51:00
     Tags: pablolife
 
-This weekend I treated myself and bought the first Deluxe Set of [Y: The Last 
+This weekend I treated myself and bought the first Deluxe Set of [Y: The Last
 Man][1] (issues 1-10, I had thhe second set before by a happy accident). It's
 really a marvelous comic, and suggest people take a look at it.
 

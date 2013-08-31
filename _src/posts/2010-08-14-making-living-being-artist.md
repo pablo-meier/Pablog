@@ -2,7 +2,7 @@
     Date:2010-08-14T14:17:00
     Tags: pablolife
 
-This blog seems to have veered from [code][1] and [cute whimsy][2] to 
+This blog seems to have veered from [code][1] and [cute whimsy][2] to
 [Paul Screed][3] and [Bloviation][4]. Lets add one more post to that list, in part
 spurred by [a post by Jason Robert Brown][5] (writer/composer of Parade and
 The Last 5 Years, among others) that was making the rounds for a while. You

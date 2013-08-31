@@ -2,7 +2,7 @@
     Date:2010-10-08T14:25:00
     Tags: pablolife
 
-I'm off next week to visit Madly Brilliant in her current home of Istanbul, Turkey.  
+I'm off next week to visit Madly Brilliant in her current home of Istanbul, Turkey.
 She's abroad for the first time, spending 5-ish months as a lab tech,
 so my visit bisects hers. Mad props to Adobe for letting me do this ^_^
 

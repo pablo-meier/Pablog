@@ -2,7 +2,7 @@
     Date:2010-04-30T15:35:00
     Tags: pablolife
 
-If you aren't head-explodingly outraged with the Catholic church, you aren't 
+If you aren't head-explodingly outraged with the Catholic church, you aren't
 paying enough attention (or, alternatively, you're incapable of independent
 thought).
 

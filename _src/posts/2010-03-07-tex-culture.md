@@ -2,7 +2,7 @@
     Date:2010-03-07T18:42:00
     Tags: pablolife
 
-On the old (lost) blog I had a long post as to why I used LaTeX instead of Word, 
+On the old (lost) blog I had a long post as to why I used LaTeX instead of Word,
 even for non- mathematical documents. I'll surely re-post it sometime (I
 have the source somewhere...), but in the meantime, [this little
 comparison][1] beautifully demonstrates the aesthetic advantages. It also

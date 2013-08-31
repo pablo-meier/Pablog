@@ -2,7 +2,7 @@
     Date:2010-03-11T22:49:00
     Tags: pablolife
 
-I've been hitting some hard times this last year, namely aftershocks of 
+I've been hitting some hard times this last year, namely aftershocks of
 [my sister's illness][1], as well as personal/relationship troubles which may or
 may not be related. It isn't the purpose of this blog to delve into them, I'd
 rather share the better parts of my life, and part of that is the music that

@@ -4,7 +4,7 @@
 
 
 Here's a long overdue post: what the hell is up with the title to your earlier
-post, mainly the term [_observational indistinguishability?_][1] I admit to 
+post, mainly the term [_observational indistinguishability?_][1] I admit to
 mentally fapping a bit; I'll try my best to explain the term here since it
 right well blew my mind when I learned it.
 
@@ -40,21 +40,21 @@ never tell the difference\*.
 
 And with that, a bunch of slacking cryptographers eagerly lost their excuse to
 sit on their asses, and went on to build secure cryptosystems and hash functions
-on top of a mathematically precise "random enough data." Remember: even though 
-we _know_ it's not random, it really doesn't matter because we couldn't tell the 
+on top of a mathematically precise "random enough data." Remember: even though
+we _know_ it's not random, it really doesn't matter because we couldn't tell the
 difference even if we tried.
 
 The second example is more meaningful though, because it's a bit more general:
 it comes from my Programming Languages seminar, where we frequently reasoned
 about the semantic meaning of programs using [operational semantics][2]. You'd
 frequently get a program written one of a few ways and ask yourself questions
-like "what does it do," or "how can we add X feature to the language and 
+like "what does it do," or "how can we add X feature to the language and
 preserve all the previous properties?"
 
 To do this, you'd have to understand what a program is doing in relation to
-another program written with the same rules. Here's an example: are two 
-functions equal, in terms of their semantic content? Do they do the exact same 
-thing, from an inputs/outputs point of view? This isn't a trick question, answer 
+another program written with the same rules. Here's an example: are two
+functions equal, in terms of their semantic content? Do they do the exact same
+thing, from an inputs/outputs point of view? This isn't a trick question, answer
 the best you can and you're probably right:
 
     function example_one() {

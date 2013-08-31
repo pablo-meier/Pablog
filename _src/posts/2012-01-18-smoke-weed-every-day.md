@@ -24,7 +24,7 @@ Everything goes with [Guile's Theme][1]:
 
 {% youtube http://www.youtube.com/watch?v=DziD_adtSV0 %}
 
-On my wall, from a friend: 
+On my wall, from a friend:
 
 {% youtube http://www.youtube.com/watch?v=w275r0FzEdY %}
 

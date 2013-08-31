@@ -2,7 +2,7 @@
     Date:2010-03-16T20:52:00
     Tags: pablolife
 
-There's too, too much to write about, but I'm going to make a little diversion 
+There's too, too much to write about, but I'm going to make a little diversion
 known, because it blew my mind.  I have to give credit where it's due: this
 comes to us from the peerless Matt Wilde ([cs dept.][1],[facebook][2]).
 
@@ -29,7 +29,7 @@ looks the most like pseudocode):
     def enqueue(element)
         @stack.push element
     end
-   
+
     def dequeue
         if @stack.size == 1
             return @stack.pop
@@ -51,7 +51,7 @@ _Amazing!_ Here's the standard solution with two stacks:
     def enqueue(element)
         @first.push element
     end
-   
+
     def dequeue
         if not @second.empty
             return @second.pop

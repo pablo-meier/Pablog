@@ -2,7 +2,7 @@
     Date:2010-07-06T11:03:00
     Tags: pablolife
 
-We're in a beautiful, exciting, and unsustainable time in programming languages.  
+We're in a beautiful, exciting, and unsustainable time in programming languages.
 For any combination of features you could want, someone's made or
 making an interpreter/VM for you. Want dynamic message passing and objects
 (but Objective-C doesn't give you enough functional features)? Try

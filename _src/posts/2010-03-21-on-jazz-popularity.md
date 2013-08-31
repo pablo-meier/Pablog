@@ -2,7 +2,7 @@
     Date:2010-03-21T20:49:00
     Tags: pablolife
 
-Another not-very-hackery article on Hacker News caught my attention. 
+Another not-very-hackery article on Hacker News caught my attention.
 [Dyske Suematsu][1] (in 2003) gives a few reasons to why we don't hear jazz on Top-40
 radio stations, making claims like "our ears are getting lazier."
 

@@ -2,7 +2,7 @@
     Date:2010-11-07T23:26:00
     Tags: pablolife
 
-It's been a while since I've been able to run through a code book, with life 
+It's been a while since I've been able to run through a code book, with life
 throwing me so many welcome curveballs since the summer. But I'm finally
 taking the time to work through a book like old times; this go-round is with
 Conrad Barski's [_Land of Lisp_][1]. I probably wouldn't have gone for it, but

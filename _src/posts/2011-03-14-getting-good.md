@@ -1,11 +1,11 @@
-    Title: "First, try to be something, anything, else."
+    Title: First, try to be something, anything, else.
     Date:2011-03-14T12:00:00
     Tags: pablolife
 
 
 Here's an old, but [good article, ostensibly about writing][1]. The author is
 pretty funny, and I think most of what he writes applies just as well to any
-endeavor you choose to pursue with any interest.  
+endeavor you choose to pursue with any interest.
 
 Having tried to find my theatre identity in college, only to become a computer
 scientist, the question of "How do I get good at ..." is something I thought
@@ -19,7 +19,7 @@ already present in the article in one form or another, but with my words:
   when I asked if he had any advice for me going into the Real World: "If you
   can be talked out of it, do so."
 
-  The idea was crazy at the time, but it turns out I found a way to do it. And while 
+  The idea was crazy at the time, but it turns out I found a way to do it. And while
   it's hard to imagine for anybody who's only met me in the last 2-3 years,
   *leaving theatre was the hardest thing to do in my life*.  Science intimidated
   the hell out of me.  It was something I didn't do, it was for *those people*,
@@ -45,12 +45,12 @@ already present in the article in one form or another, but with my words:
   blind, or practice with a guide.
 
   My only reluctance in this guideline is that I tend to put too many hours on
-  the analysis/thinking/observing part, and not enough on the practice part. 
+  the analysis/thinking/observing part, and not enough on the practice part.
   I'll watch a lot more Starcraft than I play, read more chess books than I
   play, read about programming languages more than I use them, etc.  But I
   imagine many have the opposite problem.
 
-Well, bloviation complete. 
+Well, bloviation complete.
 
 \*= Two little notes: a) not everybody wants to be the best/do amazing things at
 X/Y/Z, they just want to do it, happily, at their own pace.  That's totally

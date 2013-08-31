@@ -21,5 +21,5 @@ love 2031 even more.
 
 {% youtube http://www.youtube.com/watch?v=3bCQkZZNiIk %}
 
-   [1]: http://en.wikipedia.org/wiki/Skies_of_Arcadia 
+   [1]: http://en.wikipedia.org/wiki/Skies_of_Arcadia
    [2]: http://skiesofarcadia.wikia.com/index.php?title=Vyse&image=Vyse-jpg

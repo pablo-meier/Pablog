@@ -2,7 +2,7 @@
     Date:2010-11-13T14:57:00
     Tags: pablolife
 
-I, Paul Meier, do solemnly offer these responses to 
+I, Paul Meier, do solemnly offer these responses to
 [the Road to Lisp Survey][1]:
 
 **When did you first try Lisp (meaning here and throughout the survey "any

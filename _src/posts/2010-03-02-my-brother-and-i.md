@@ -2,7 +2,7 @@
     Date:2010-03-02T22:15:00
     Tags: pablolife
 
-I just finished two major works of code and a midterm, but why not share some 
+I just finished two major works of code and a midterm, but why not share some
 graphics love?
 
 This is  an image I drew to replace my Facebook photo (the [old one][1]

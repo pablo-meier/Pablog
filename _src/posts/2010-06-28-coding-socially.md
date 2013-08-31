@@ -2,10 +2,10 @@
     Date:2010-06-28T21:34:00
     Tags: pablolife
 
-I decided to finally get a [GitHub][2] account, since I've downloaded countless 
-great software from it, and think it's about time I joined/gave back. So check out 
-[my profile,][3] feel free to be my friend (or follow my project\[s\], whatever 
-it is...), and check out my first "release" of a side project, a program to 
+I decided to finally get a [GitHub][2] account, since I've downloaded countless
+great software from it, and think it's about time I joined/gave back. So check out
+[my profile,][3] feel free to be my friend (or follow my project\[s\], whatever
+it is...), and check out my first "release" of a side project, a program to
 [help you cheat in Scrabble!][4]
 
 [Many][5] [other][6] Scrabble cheaters have been written, but _mine_ is in a

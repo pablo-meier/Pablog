@@ -2,7 +2,7 @@
     Date:2010-04-25T15:35:00
     Tags: pablolife
 
-I can write about Spring Weekend a bit later (this was the first and last time 
+I can write about Spring Weekend a bit later (this was the first and last time
 I'll do Spring Weekend as a student). In the meantime, I'll procrastinate by
 posting another favorite video. Sadly for you _gringos_, you have to speak
 Spanish to glean much meaning from it:

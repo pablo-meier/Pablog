@@ -2,7 +2,7 @@
     Date:2010-04-17T14:07:00
     Tags: pablolife
 
-I love remixes, and hope sometime (probably after I graduate) I can get my 
+I love remixes, and hope sometime (probably after I graduate) I can get my
 lazy bum off the computer chair so I can make a few
 myself. Here are a few that I really love (I also link to the original
 sources, you should check them out if you get the chance):

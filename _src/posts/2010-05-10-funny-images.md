@@ -2,7 +2,7 @@
     Date:2010-05-10T18:13:00
     Tags: pablolife
 
-I've posted a [bunch of][1] [remixes][2] and [3]notable videos][4] earlier, 
+I've posted a [bunch of][1] [remixes][2] and [3]notable videos][4] earlier,
 even a more serious [post on books][4]. There are about a dozen more golden ones
 I've left out, but that's for another time. This is the post for themed image
 sites.

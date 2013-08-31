@@ -2,7 +2,7 @@
     Date:2010-05-19T21:13:00
     Tags: pablolife
 
-My final Final Exam is tomorrow; after that, my graduation is at the mercy of my graders.  
+My final Final Exam is tomorrow; after that, my graduation is at the mercy of my graders.
 I'm studying for Principles of Neurobiology][1], which has been a
 most excellent way to finish college. While Biology was always my _least_
 favorite science (chemistry!), the brain and how we study it is out-of-this

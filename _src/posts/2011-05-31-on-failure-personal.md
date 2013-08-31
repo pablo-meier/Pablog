@@ -23,7 +23,7 @@ and passed. Because of this, I didn't graduate in the class of 2010, but
 technically in the class of 2011 as a "non-enrolled student.")
 
 What surprised me most, and (what I think) is **the most valuable lesson I got
-from Brown, is that failing _hard_ is one of the best things that can happen to 
+from Brown, is that failing _hard_ is one of the best things that can happen to
 you.** Only when you're kicked in the teeth and actually pushed to your limit do
 you know what it means to _truly_ confront your demons, your weaknesses, and
 test your _actual_ mettle.
@@ -48,7 +48,7 @@ They have a saying in software testing: a successful test case is one that finds
 bug in the program. This means that when you test software, you remove all
 formalities of being a kind or understanding person and put on a different hat,
 thinking to yourself "what's the meanest, cruelest thing I can do to this
-software? How can I BREAK THE SHIT OUT OF THIS." 
+software? How can I BREAK THE SHIT OUT OF THIS."
 
 It's a good thing to do this in life as well. Don't be stupid, but for the good
 of you, take a risk every once in a while. You'll never be more proud.

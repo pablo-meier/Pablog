@@ -2,8 +2,8 @@
     Date:2010-04-19T03:13:00
     Tags: pablolife
 
-I posted these on the last blog, months before I was digitally evicted.  
-Last summer I participated with some friends in the [48-hour Film Festival][1], 
+I posted these on the last blog, months before I was digitally evicted.
+Last summer I participated with some friends in the [48-hour Film Festival][1],
 making two movies.
 
 The game works as follows: at the start of the 48 hours, you're given a

@@ -2,7 +2,7 @@
     Date:2010-09-14T23:08:00
     Tags: pablolife
 
-On my [Eat, Pray, Love][1] post, Lindy West over at The Stranger 
+On my [Eat, Pray, Love][1] post, Lindy West over at The Stranger
 [wrote a review of the movie adaptation][2] that more or less echoes my sentiments
 (like I imagine for Ms. West, the sentiments get vicious primarily for
 entertainment value). If you haven't seen her [Sex and the City 2 review][3],
@@ -46,7 +46,7 @@ Again, let there be no confusions: we're being a bunch of idiots here. We have
 guys [screaming "Kill All Muslims"][9], and Fox once again shows they would
 rather stir up dangerous hate for obscene profit rather than make slightly
 minimized obscene profit through safer methods. I hate to be that kid who
-links the Daily Show, 
+links the Daily Show,
 [but they really nailed it](http://www.thedailyshow.com/watch/mon-september-13-2010/islamophobiapalooza).
 
 (also... that Imam is **awesome**).

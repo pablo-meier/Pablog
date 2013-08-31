@@ -3,7 +3,7 @@
     Tags: pablolife
 
 
-[My games group][1] is happy and proud to release Momenta (development title 
+[My games group][1] is happy and proud to release Momenta (development title
 [Platformer][2]) to the Market today!
 
 As with [my first Market release][5], you can [click here][6] if you're

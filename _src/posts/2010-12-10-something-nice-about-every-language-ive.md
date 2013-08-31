@@ -2,8 +2,8 @@
     Date:2010-12-10T19:00:00
     Tags: pablolife
 
-Inspired by [this post][1] (and more great answers on the [reddit comment 
-thread][2]), here's one nice thing about each of the languages I can 
+Inspired by [this post][1] (and more great answers on the [reddit comment
+thread][2]), here's one nice thing about each of the languages I can
 remember using in any meaningful capacity:
 
 **Java:** I learned to program in this. It led to the creation of the JVM, and

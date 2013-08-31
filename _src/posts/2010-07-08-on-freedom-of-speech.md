@@ -2,7 +2,7 @@
     Date:2010-07-08T09:47:00
     Tags: pablolife
 
-Back in DC, my family is hosting an international student for a few days as 
+Back in DC, my family is hosting an international student for a few days as
 part of a summer program, and she had a wonderful conversation with us
 regarding her faith and country. She's a Muslim, and her progressiveness,
 eloquence, and intelligence really gives a jaded, disillusioned person like

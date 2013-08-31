@@ -2,7 +2,7 @@
     Date:2010-06-08T16:59:00
     Tags: pablolife
 
-PLT Scheme, formerly my favorite Scheme implementation and [mentioned][1] 
+PLT Scheme, formerly my favorite Scheme implementation and [mentioned][1]
 [before][2] in my writings, [has been re-branded][3] as [Racket][4]. I'm very
 excited about this: Racket is a language of unbelievable potential, and
 hopefully it's re-branding will make people aware of this.

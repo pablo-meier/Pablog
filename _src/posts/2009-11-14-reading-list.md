@@ -2,7 +2,7 @@
     Date:2009-11-14T15:06:00
     Tags: pablolife
 
-Almost as contentious (maybe more) than asking a programmer what their favorite 
+Almost as contentious (maybe more) than asking a programmer what their favorite
 editor/language is would be to ask them what the most important books
 are for a budding programmer to read. Every smart programmer I know has a
 small list of books that are _essential_ (they claim) to know anything
@@ -31,7 +31,7 @@ These are what I've read since starting school, Fall 2009.
 
 * [The Pragmatic Programmer][5], by Dave Thomas and Andy Hunt (Finished October, 2009)
 * [The Little MLer][6], by Felleison and Friedman (Finished November 13, 2009)
-* [The Mythical Man-Month][7], by Fred Brooks (Finished November 13, 2009) 
+* [The Mythical Man-Month][7], by Fred Brooks (Finished November 13, 2009)
 * [Coders at Work][8], by Peter Seibel.
 * [The C Programming Language][9], by Kernighan and Ritchie
 * [Purely Functional Data Structures][10], by Chris Okasaki

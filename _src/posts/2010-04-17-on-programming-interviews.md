@@ -2,7 +2,7 @@
     Date:2010-04-17T11:19:00
     Tags: pablolife
 
-Lots of great things have been written on the subject of programming interviews, 
+Lots of great things have been written on the subject of programming interviews,
 but since I'll be entering the workforce very soon, I've taken
 away a few notes on how I would like to conduct them in the future, having
 just run the job search gauntlet.

@@ -1,4 +1,4 @@
-    Title: "Good ole 14/14"
+    Title: Good ole 14/14
     Date:2013-01-04T18:02:00
     Tags: pablolife
 
@@ -6,9 +6,9 @@ My buddy [Warren][1] and I had a Twitter conversation about learning Zerg in the
 lower levels of Starcraft 2, and asked what a good beginner build would be for a
 low-level player trying to get the basics.
 
-Luckily, such a build exists! The "14/14" is a single build you can use in any 
-matchup that leaves you (relatively) safe from cheese and (relatively) set for 
-a decent economy. It's a very old build that's been around since the release, 
+Luckily, such a build exists! The "14/14" is a single build you can use in any
+matchup that leaves you (relatively) safe from cheese and (relatively) set for
+a decent economy. It's a very old build that's been around since the release,
 and I got to Diamond using only this for my ZvZ's.
 
 Liquipedia has a [decent entry on it][2], but here's the basics:
@@ -43,10 +43,10 @@ lower-league players (since they loooooooove their gambits and cheeses):
   noob for "all-inning".
 
 * **ZvT:** While 15 hatching is preferable, you'll often get proxy raxed. This
-  is much easier to defend with the 14/14 build, which gives you lings + queen. 
-  When your 15 overlord pops, place it where the natural expansion goes to spot, 
-  for bunkers, since they'll occasionally try to build bunkers there (in that 
-  case, send 2-3 drones and kill the worker). A building hatchery has almost 
+  is much easier to defend with the 14/14 build, which gives you lings + queen.
+  When your 15 overlord pops, place it where the natural expansion goes to spot,
+  for bunkers, since they'll occasionally try to build bunkers there (in that
+  case, send 2-3 drones and kill the worker). A building hatchery has almost
   zero vision.
 
   Annoying things you'll see in lower leagues: banshee rushes, stim pushes, and
@@ -59,21 +59,21 @@ lower-league players (since they loooooooove their gambits and cheeses):
   For mech turtles (where they sit on two base and don't leave until they have a
   million thors and tanks)... these are the most annoying at the lower levels,
   but where you'll get your best macro game practice. Take the map, tech up to
-  Hive, get upgrades. You'll need to abuse mobility and keep them from expanding 
-  and later engage with a Zerg deathball of Broodlords, Corruptors, and 
+  Hive, get upgrades. You'll need to abuse mobility and keep them from expanding
+  and later engage with a Zerg deathball of Broodlords, Corruptors, and
   Infestors.
 
 * **ZvP:** Protoss are a pain in the ass. Make sure you take a drone and make an
-  early ring around your base to look for the cannon rush, around 10 or 12 supply. 
-  If you see one, _don't panic_, build a spine crawler or two as soon as you 
-  can, and that prevents them from building any closer to you. Use a queen to 
-  pick of the probe if you can. If you get trapped in your base, tech to Lair, 
+  early ring around your base to look for the cannon rush, around 10 or 12 supply.
+  If you see one, _don't panic_, build a spine crawler or two as soon as you
+  can, and that prevents them from building any closer to you. Use a queen to
+  pick of the probe if you can. If you get trapped in your base, tech to Lair,
   build roaches float an overlord to their base, and drop a Nydus Worm. Most
   cannon rushers who don't know what to do have nothing at home, and poor macro.
 
   You'll also get DT rushed a lot, especially from players who fail their cannon
-  rushes. When in doubt, build an evolution chamber, and make a spore crawler in 
-  your base. Also good against mass void rays, which is less popular these days 
+  rushes. When in doubt, build an evolution chamber, and make a spore crawler in
+  your base. Also good against mass void rays, which is less popular these days
   but still around (infestors do well against them, as do hydras). Float an
   overlord past their base and look for Stargates.
 

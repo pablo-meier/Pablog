@@ -2,7 +2,7 @@
     Date:2010-09-30T22:47:00
     Tags: pablolife
 
-Time to combine two of my favorite things:  [Professor Layton][1] and obscure 
+Time to combine two of my favorite things:  [Professor Layton][1] and obscure
 languages!  There was one puzzle (of the hardest diffficulty) that I could have
 spent 40 minutes working out, but instead spent an hour and half solving in
 Prolog (for those unfamiliar with Prolog, check out [this post][2] for a
@@ -28,7 +28,7 @@ the other tests. Can you figure out Colin's score?
 Below is the program I wrote to solve it. Verbose by contemporary language
 standards, but almost no thinking required, and the answer in an instant! Note
 the original version didn't have so many comments; these are to guide the
-curious reader. 
+curious reader.
 
 {% codeblock lang:prolog %}
 %% A question is a [[question number,answer], correctness].
@@ -139,7 +139,7 @@ test_integrity(X) :-
   test_score(Mary, 70),
   test_score(Dan, 50),
   test_score(Lisa, 30).
- 
+
 %% Finally, we bind Score to what Colin's score is by setting
 %% it to his test results, ensuring that his score has the same
 %% answer key as his peers, then calculating the score with that

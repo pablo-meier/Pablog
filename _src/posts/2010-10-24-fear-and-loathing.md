@@ -2,7 +2,7 @@
     Date:2010-10-24T20:51:00
     Tags: pablolife
 
-[Glenn Greenwald][1] has [another winner][2], this time over [the firing of 
+[Glenn Greenwald][1] has [another winner][2], this time over [the firing of
 Juan Williams][3] after his "I's afraid of Muslins!" kerfuffle. His article is
 great by describing the general trend of fear and loathing in America:
 
@@ -13,8 +13,8 @@ great by describing the general trend of fear and loathing in America:
 > poses some serious menace to their Safety, and must be stopped at all costs.
 > The more foreign-seeming that group is, the easier it is to sustain the
 > propaganda campaign of fear. \[...\]
-> 
-> 
+>
+>
 > "The Muslims" are currently the premier, featured threat which serves that
 > purpose, following in the footsteps of the American-Japanese, the Communists,
 > the Welfare-Stealing Racial Minorities, the Gays, and the Illegal Immigrants.
@@ -42,13 +42,13 @@ so mean! He (rightly) tells them to shut up and wake up:
 >
 > No, wait. I'm not. Gay kids are dying. So let's try to keep things in
 > perspective: fuck your feelings.
-> 
+>
 > A question: do you support atheist marriage? Interfaith marriage? Divorce and
 > remarriage? All legal, of course, and there's no Christian movement to deny
 > marriage rights to atheists or people marrying outside their respective faiths
 > or to people divorcing and remarrying. Why the hell not? \[...\]
-> 
-> 
+>
+>
 > The children of people who see gay people as sinful or damaged or disordered
 > and unworthy of full civil equality—even if those people strive to express
 > their bigotry in the politest possible way (at least when they happen to be
@@ -59,7 +59,7 @@ so mean! He (rightly) tells them to shut up and wake up:
 > and lesbians at the ballot box, nice and impersonally, but your children have
 > the option of attacking actual real gays and lesbians, in person, in real
 > time.
-> 
+>
 > Real gay and lesbian children. Not political abstractions, not "sinners." Real
 > gay and lesbian children.
 

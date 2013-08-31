@@ -2,7 +2,7 @@
     Date:2009-12-28T18:10:00
     Tags: pablolife
 
-Many [Project Euler][1] problems are made easier if you have a good facility 
+Many [Project Euler][1] problems are made easier if you have a good facility
 for generating and detecting prime numbers.  Usually when I see such a problem,
 I would immediately switch to Haskell, but the other day a problem took about
 a minute to solve (way too long), so I ported the functionality to C.

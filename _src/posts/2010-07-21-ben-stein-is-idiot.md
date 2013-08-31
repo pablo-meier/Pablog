@@ -2,7 +2,7 @@
     Date:2010-07-21T14:39:00
     Tags: pablolife
 
-It's my blog, so I'm free to feel smug and righteous as I like.  Today, I'll target Ben 
+It's my blog, so I'm free to feel smug and righteous as I like.  Today, I'll target Ben
 Stein, mostly because a  few days ago [he said][1]:
 
 > The people who have been laid off and cannot find work are generally people
@@ -21,33 +21,33 @@ wrote in 2009][2] for the NYT that said, among other things:
 
 > NOT long ago, a woman in California called me for advice. She is divorced,
 > with two children, and has a series of interlocking financial problems.
-> 
+>
 > She lives in a lovely home in a stylish inland enclave. It has an interest-
 > only mortgage of about $2.2 million that requires a payment of $12,000 a
 > month, very roughly. It was last appraised at $2.7 million, but who knows if
 > it’s now worth anything remotely close to that price.
-> 
+>
 > The woman, whom I’ve known since she was a teenager, has no job or other
 > remunerative employment. She has a former husband, an entrepreneur whose
 > business has suffered recently. He pays her $20,000 a month, of which roughly
 > half is alimony and half child support. The alimony is scheduled to stop this
 > summer.
-> 
+>
 > She has a wealthy beau who pays her credit card bills and other incidentals,
 > but she is thinking of telling him she is through with him. She has no savings
 > and has refinanced her home repeatedly, always adding to indebtedness and then
 > putting the money into a shop she owns that has never come close to earning a
 > dime. Now she is up all night worrying about money. “Terrified,” as she put
 > it. She wanted me to tell her what to do.
-> 
+>
 > What could I say? I did the best I could, but I had to tell her that she was
 > on very thin ice.
-> 
+>
 > Ever since, I’ve been thinking of the troubles of this sweet woman, consumed
 > with worry about money.
-> 
+>
 > \[...\]
-> 
+>
 > And all of this is compounded again because my handsome son, age 21, a
 > student, has just married a lovely young woman, 20. You may have seen on
 > television the pudgy, aging face of their sole means of support.

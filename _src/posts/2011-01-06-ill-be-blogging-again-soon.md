@@ -2,7 +2,7 @@
     Date:2011-01-06T23:27:00
     Tags: pablolife
 
-I just got back to work after a lovely, lovely break, and will get back to 
+I just got back to work after a lovely, lovely break, and will get back to
 blogging Real Things soon.  In the meantime, recording a milestone:
 
 

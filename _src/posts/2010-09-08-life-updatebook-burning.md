@@ -2,7 +2,7 @@
     Date:2010-09-08T21:22:00
     Tags: pablolife
 
-Time for a small life update, as the posts have slowed down for a while and 
+Time for a small life update, as the posts have slowed down for a while and
 some narration is due:
 
 I just moved to San Francisco after graduating from Brown in Providence, RI.

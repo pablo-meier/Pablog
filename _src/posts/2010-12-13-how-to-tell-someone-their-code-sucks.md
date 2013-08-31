@@ -4,24 +4,24 @@
 
 Some days I just wish I were [David Korn][1]:
 
-> No, it's completely wrong-headed, insane and unreasonable.  Your code is 
-> 100% bogus and should be taken out the back, lined up against a wall, and 
+> No, it's completely wrong-headed, insane and unreasonable.  Your code is
+> 100% bogus and should be taken out the back, lined up against a wall, and
 > machine-gunned.
-> 
-> 
+>
+>
 > Then the bleeding corpse should be hung, drawn and quartered.
-> 
-> 
+>
+>
 > Then burnt.
-> 
-> 
-> 
+>
+>
+>
 > Then the smouldering rubble should be jumped up and down on.
-> 
-> 
-> 
-> 
-> 
+>
+>
+>
+>
+>
 > By a hippo.
 
 

@@ -2,8 +2,8 @@
     Date:2010-04-23T09:06:00
     Tags: pablolife
 
-Roger Ebert decided to revisit a topic that got him a lot of attention a few years 
-ago, where [he claimed that video games weren't art][1].  Now he's strengthened his 
+Roger Ebert decided to revisit a topic that got him a lot of attention a few years
+ago, where [he claimed that video games weren't art][1].  Now he's strengthened his
 claim, stating that [video games can never be art][2].
 
 My reaction to this was mostly along the lines of Penny Arcade: [there's

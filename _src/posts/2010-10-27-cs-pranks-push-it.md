@@ -1,12 +1,12 @@
-    Title: "CS Pranks:  Push it!"
+    Title: CS Pranks:  Push it!
     Date:2010-10-27T23:21:00
     Tags: pablolife
 
-While working as a [Sunlab consultant][1] at Brown, my buddy and I would 
+While working as a [Sunlab consultant][1] at Brown, my buddy and I would
 frequently find ways to 'spice up' the workspace. If we ever found the other
 person's workstation empty without being properly xlocked, we'd usually pull
 pranks on each other: 'alias ls='eject; ls' being a popular harmless one, or
-writing zwrite `&lt;`username`&gt;` -m "PAUL LOGGED OUT" on my .logout file, 
+writing zwrite `&lt;`username`&gt;` -m "PAUL LOGGED OUT" on my .logout file,
 executed anytime I logged out.
 
 

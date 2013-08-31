@@ -2,7 +2,7 @@
     Date:2010-02-15T21:29:00
     Tags: pablolife
 
-Sorry for the lack of updates.  I hate when blogs say that, but publishing less 
+Sorry for the lack of updates.  I hate when blogs say that, but publishing less
 than once a month defeats the purpose of a blog. I blame what I always have:
 my insistence that what I publish be Significant (the last two posts were more
 than epic enough), even when it goes against the interests of a) myself, and

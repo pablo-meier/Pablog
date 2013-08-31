@@ -2,8 +2,8 @@
     Date:2010-09-16T00:13:00
     Tags: pablolife
 
-I just wrote a long blog post talking about why it sucks playing Zerg in 
-Starcraft 2.  But friends, there has been too much whining on this blog of 
+I just wrote a long blog post talking about why it sucks playing Zerg in
+Starcraft 2.  But friends, there has been too much whining on this blog of
 late! It's time to bring back two things we've missed for some time: computers
 and whimsy!
 
@@ -92,7 +92,7 @@ and will probably be comfortably moved in and adjusted after Christmas ^_-.
 
    [9]: http://reprap.org/wiki/Main_Page
 
-   [10]: http://image.blingee.com/images18/content/output/000/000/000/6f4/674214569_1402332.gif 
+   [10]: http://image.blingee.com/images18/content/output/000/000/000/6f4/674214569_1402332.gif
 
    [11]: http://blingee.com/blingee/view/116669782-Since-Day-1 (Since Day 1)
 

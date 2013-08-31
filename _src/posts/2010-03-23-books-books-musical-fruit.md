@@ -3,7 +3,7 @@
     Tags: pablolife
 
 A lot of big-time, [real][1] [bloggers][2] [are][3] [writing][4] [about][5]
-their 10 most influential books.  I'll present mine ne here, stealing some   
+their 10 most influential books.  I'll present mine ne here, stealing some
 terminology: this is my 'gut list,' not my 'I've thought about this for a long
 time' list:
 

@@ -2,7 +2,7 @@
     Date:2010-05-09T18:12:00
     Tags: pablolife
 
-You can talk all you want about 'practicality,' but one way in which I see 
+You can talk all you want about 'practicality,' but one way in which I see
 functional languages will ALWAYS beat imperative is the built-in love of
 lists. I simply can't express my distaste for always writing:
 
@@ -10,11 +10,11 @@ lists. I simply can't express my distaste for always writing:
 {% codeblock lang:java %}
     import java.util.Collection;
     import java.util.Iterator;
-    
+
     // crap elided
-    
+
     Iterator<String> iterator = myCollection.iterator();
-    
+
     while (iterator.hasNext()) {
         doSomethingWithString(iterator.next());
     }
@@ -78,9 +78,9 @@ let my biases shine through and used "imperative" interchangeably with
 {% codeblock lang:cpp %}
     #include <list>
     using namespace std;
-    
+
     list<string>::iterator iter;
-    
+
     for (iter = my_collection->begin(); iter != my_collection->end(); ++iter) {
         do_something_with_string(*iter);
     }

@@ -1,4 +1,4 @@
-    Title: "Shootings"
+    Title: Shootings
     Date:2012-12-14T16:04:00
     Tags: pablolife
 
@@ -11,7 +11,7 @@ Today, in light of the news, I've been feeling [pretty much this][13].
 Seriously, fuck _everything._
 
 But part of what made the whole thing so maddening was the same stupid-shit
-things people were saying in response to suggestions of gun control in 
+things people were saying in response to suggestions of gun control in
 light of this, one of [so many][12] mass shootings we get here.
 
 Here are some pretty basic concepts people need to get into their skulls about
@@ -19,15 +19,15 @@ gun control and these shootings. First, stop saying the following:
 
 * "It's not about guns, it's about people." Shut the fuck up already. Nobody
   promoting a discussion on gun control reform is absolving "people," whatever
-  that means. We _know_ evil, violent, and unstable people exist in the world 
-  (they always have, and they exist even in places without so many mass 
+  that means. We _know_ evil, violent, and unstable people exist in the world
+  (they always have, and they exist even in places without so many mass
   shootings!).  _Everybody_ I've spoken who supports more restrictive
   gun control would be _thrilled_ if we had a more robust, available system for
   people with violent tendencies, and is more than ready to have that
-  discussion too. 
+  discussion too.
 
-  Nobody at any point suggested otherwise, to use this and related phrases at 
-  this point is just a way to deflect a conversation you don't want or are 
+  Nobody at any point suggested otherwise, to use this and related phrases at
+  this point is just a way to deflect a conversation you don't want or are
   afraid of having.
 
   To quote [someone else:][1]
@@ -50,26 +50,26 @@ data-datetime="2012-12-14T20:23:40+00:00">December 14, 2012</a></blockquote>
 
 
 * "Don't politicize a tragedy." Again, spare me. By silencing a challenge to the
-  status quo, you are politicizing it. Don't tell me when a military-grade 
+  status quo, you are politicizing it. Don't tell me when a military-grade
   assault rifle used to gun down 20 kindergardeners, that the "assault rifle"
   part is off-limits.
 
 ![yeah, this is reasonable](http://morepaul.com/images/assault-rifle.png "yeah, this is reasonable")
 
 * "The solution is more guns/the victims could have protected themselves with
-  guns." Jesus, NO. In [61 mass killings, none of them were stopped by civilians with guns.][2] 
+  guns." Jesus, NO. In [61 mass killings, none of them were stopped by civilians with guns.][2]
   Do you _really_ suggest students at Virginia Tech (and by extension, every
   school in the country) should _always_ bring a gun to every class they attend
   for the very remote chance someone will barge in and fire? That Gabby Giffords
-  (and by extension, all elected officials or people who attend their events) 
-  should keep their hands at her holster at _every_ appearance, and always be 
+  (and by extension, all elected officials or people who attend their events)
+  should keep their hands at her holster at _every_ appearance, and always be
   vigilant? Kindergardeners? Kindergarden teachers?
 
   Even _if_ everyone carried concealed weapons _and_ we were
   all properly trained _and_ the resulting accidents from having everyone
-  carrying so many guns so much of the time was magically miniscule 
-  ([there were 23,237 accidental firearm injuries in 2000][3], imagine if 
-  every student, teacher and moviegoer had guns instead of the few that currently do), 
+  carrying so many guns so much of the time was magically miniscule
+  ([there were 23,237 accidental firearm injuries in 2000][3], imagine if
+  every student, teacher and moviegoer had guns instead of the few that currently do),
   _the shooters still have the advantage because they know the attack is coming._
   They can put on flak armor, they can wear masks.
 
@@ -92,7 +92,7 @@ And because we're not the only country in the world, let's see how others do it:
 
 * [German police fired 85 bullets total in 2011][9]. That's all of Germany's
   police, for the entire country, for an entire year. Meanwhile, the article
-  reports that we fired 84 at a murder suspect in Harlem, and about 90 at a 
+  reports that we fired 84 at a murder suspect in Harlem, and about 90 at a
   fleeing unarmed guy in LA.
 * In Japan, [to own any firearm (including air rifles)][10], you have to take a
   day-long class, pass a written test, pass a shooting range class, get a mental
@@ -105,10 +105,10 @@ And because we're not the only country in the world, let's see how others do it:
 Again, none of these facts can demonstrate a causal link or prove anything, and
 as mentioned previously, there's a _lot_ more to this problem then guns (and
 these examples, too -- e.g., Japan has fewer people than we do. Not 1000x fewer,
-but fewer). That said, not everyone has theses problems at the scale we do (I was pointed 
-to [this article of a mass stabbing in China][14] by someone to show other 
+but fewer). That said, not everyone has theses problems at the scale we do (I was pointed
+to [this article of a mass stabbing in China][14] by someone to show other
 countries have violent people too. As stated previously, that's not the issue, and
-never argued against. Nobody died in that attack, guns exacerbate/amplify the 
+never argued against. Nobody died in that attack, guns exacerbate/amplify the
 lethality the violent people can inflict.)
 
 At the very least, USA: quit acting like even asking the question of whether or
@@ -139,26 +139,26 @@ give this to the next person... don't worry, it's someone you've never met."
 
 Gabby Giffords isn't an abstraction, a symbol. She's a person, with a family,
 with hopes and dreams. The victims in Colorado weren't abstractions; they were
-people out to see a movie. The 20 kindergardeners shot today weren't 
+people out to see a movie. The 20 kindergardeners shot today weren't
 abstractions.
 
 When you consider the question of whether or not it should be legal to own 10
 assault rifles without ever getting background check or psychologically
-evaluated, I suggest you really ask yourself how you'd feel about such a right 
+evaluated, I suggest you really ask yourself how you'd feel about such a right
 if it was *your* child, brother, sister, or parent. Because for 27 families
 today, that's what happened.
 
 (An [interactive map][11] on mass shootings in America.)
 
-To go back full circle: 
+To go back full circle:
 
-* You'd have to be deluded (at best, more likely stupid and/or ignorant) to get 
-  offended at the notion that discussion of gun control reform _may_ be in the 
+* You'd have to be deluded (at best, more likely stupid and/or ignorant) to get
+  offended at the notion that discussion of gun control reform _may_ be in the
   best interest of the citizenry.
-* Let's also fucking get some decent mental (hell, **general**) health resources 
-  in this country. 
-* Fuck everything.
+* Let's also fucking get some decent mental (hell, **general**) health resources
+  in this country.
 
+And oh yeah, fuck everything.
 
    [1]: http://andrewsullivan.thedailybeast.com/2012/12/the-horror-in-newtown-reader-reax.html
    [2]: http://www.motherjones.com/politics/2012/09/mass-shootings-investigation

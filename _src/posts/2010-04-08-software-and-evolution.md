@@ -2,7 +2,7 @@
     Date:2010-04-08T09:59:00
     Tags: pablolife
 
-I think the software is growing, and will continue to grow, the way lifeforms have grown 
+I think the software is growing, and will continue to grow, the way lifeforms have grown
 and evolved on Earth.  By tthis I mean we started with a single
 ancestor, likely of a few proteins or perhaps a single cell, only to become a
 planet housing humans, echidnas, sponges, fungi, insects, trees, and more.

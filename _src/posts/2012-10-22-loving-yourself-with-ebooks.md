@@ -1,4 +1,4 @@
-    Title: "loving yourself with EBOOKS"
+    Title: loving yourself with EBOOKS
     Date:2012-10-22T23:41:00
     Tags: pablolife
 
@@ -66,7 +66,7 @@ I want to mix and match, how often I want it to tweet, and it does the rest.
 
 ### How does it work?
 
-Ebooker bots, like most Twitter bots, work via a mechanism called [Markov chains][13].  
+Ebooker bots, like most Twitter bots, work via a mechanism called [Markov chains][13].
 Despite the length and jargon in the Wikipedia entry, it's really pretty simple
 and I'll do my best to explain it to the curious, whatever your background.
 
@@ -97,29 +97,29 @@ seen them. The table might look like:
 
 <table style="text-align: center; margin: 25px auto;">
 <tr style="border-bottom: 1px solid black;">
-<td style="width: 7em;"><strong>Word</strong></td>  
-<td style="width: 7em;">&nbsp;</td>  
-<td style="width: 7em;"><strong>Suffix, frequencies.</strong></td>  
+<td style="width: 7em;"><strong>Word</strong></td>
+<td style="width: 7em;">&nbsp;</td>
+<td style="width: 7em;"><strong>Suffix, frequencies.</strong></td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>school</em></td>  
-<td>&rarr;</td>  
-<td><em>kids</em>, 1</td>  
+<td><em>school</em></td>
+<td>&rarr;</td>
+<td><em>kids</em>, 1</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>whole</em></td>  
-<td>&rarr;</td>  
-<td><em>sandwich</em>, 1</td>  
+<td><em>whole</em></td>
+<td>&rarr;</td>
+<td><em>sandwich</em>, 1</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td>...</td>  
-<td>...</td>  
-<td>...</td>  
+<td>...</td>
+<td>...</td>
+<td>...</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>of</em></td>  
-<td>&rarr;</td>  
-<td><em>life</em>, 1<br /><em>beard</em>, 1</td>  
+<td><em>of</em></td>
+<td>&rarr;</td>
+<td><em>life</em>, 1<br /><em>beard</em>, 1</td>
 </tr>
 </table>
 
@@ -130,34 +130,34 @@ like:
 
 <table style="text-align: center; margin: 25px auto;">
 <tr style="border-bottom: 1px solid black;">
-<td style="width: 7em;"><strong>Word</strong></td>  
-<td style="width: 7em;">&nbsp;</td>  
-<td style="width: 7em;"><strong>Suffix, frequencies.</strong></td>  
+<td style="width: 7em;"><strong>Word</strong></td>
+<td style="width: 7em;">&nbsp;</td>
+<td style="width: 7em;"><strong>Suffix, frequencies.</strong></td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>Oxford</em></td>  
-<td>&rarr;</td>  
-<td><em>University</em>, 4<br /><em>College</em>, 1<br /><em>Dictionary</em>, 3</td>  
+<td><em>Oxford</em></td>
+<td>&rarr;</td>
+<td><em>University</em>, 4<br /><em>College</em>, 1<br /><em>Dictionary</em>, 3</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>whole</em></td>  
-<td>&rarr;</td>  
+<td><em>whole</em></td>
+<td>&rarr;</td>
 <td><em>sandwich</em>, 1<br /><em>shebang</em>, 4<br /><em>matter</em>, 2<br /><em>void</em>, 55<br /><em>metric</em>, 8</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td>...</td>  
-<td>...</td>  
-<td>...</td>  
+<td>...</td>
+<td>...</td>
+<td>...</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td>...</td>  
-<td>repeat for thousands of entries...</td>  
-<td>...</td>  
+<td>...</td>
+<td>repeat for thousands of entries...</td>
+<td>...</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>of</em></td>  
-<td>&rarr;</td>  
-<td><em>life</em>, 1<br /><em>beard</em>, 3<br /><em>mine</em>, 7<br /><em>his</em>, 4<br /><em>that</em>, 9<br /><em>it</em>, 22</td> 
+<td><em>of</em></td>
+<td>&rarr;</td>
+<td><em>life</em>, 1<br /><em>beard</em>, 3<br /><em>mine</em>, 7<br /><em>his</em>, 4<br /><em>that</em>, 9<br /><em>it</em>, 22</td>
 </tr>
 </table>
 
@@ -188,34 +188,34 @@ values above, the odds look like:
 
 <table style="text-align: center; margin: 25px auto;">
 <tr style="border-bottom: 1px solid black;">
-<td style="width: 7em;"><strong>Suffix of "of"</strong></td>  
-<td style="width: 7em;">&nbsp;</td>  
-<td style="width: 7em;"><strong>Odds</strong></td>  
+<td style="width: 7em;"><strong>Suffix of "of"</strong></td>
+<td style="width: 7em;">&nbsp;</td>
+<td style="width: 7em;"><strong>Odds</strong></td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>sandwich</em></td>  
-<td>&rarr;</td>  
-<td>1/70</td>  
+<td><em>sandwich</em></td>
+<td>&rarr;</td>
+<td>1/70</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>matter</em></td>  
-<td>&rarr;</td>  
-<td>2/70</td>  
+<td><em>matter</em></td>
+<td>&rarr;</td>
+<td>2/70</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>shebang</em></td>  
-<td>&rarr;</td>  
-<td>4/70</td>  
+<td><em>shebang</em></td>
+<td>&rarr;</td>
+<td>4/70</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>metric</em></td>  
-<td>&rarr;</td>  
-<td>8/70</td>  
+<td><em>metric</em></td>
+<td>&rarr;</td>
+<td>8/70</td>
 </tr>
 <tr style="border-bottom: 1px solid black;">
-<td><em>void</em></td>  
-<td>&rarr;</td>  
-<td>55/70</td>  
+<td><em>void</em></td>
+<td>&rarr;</td>
+<td>55/70</td>
 </tr>
 </table>
 

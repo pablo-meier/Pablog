@@ -2,7 +2,7 @@
     Date:2010-05-06T12:33:00
     Tags: pablolife
 
-One summer I spent working with a professor, the father of a friend heard my 
+One summer I spent working with a professor, the father of a friend heard my
 plans and remarked (to my friend, not to me)
 
 > I can't think of anything less intellectually stimulating than writing

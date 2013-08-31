@@ -2,9 +2,9 @@
     Date:2010-02-18T23:26:00
     Tags: pablolife
 
-One of the (few) things I used to blog about was my atheism.  Since I'm starting 
-fresh in this new blog, an introduction is in order, since my relationship to 
-belief has varied widely over the years, and religious belief is something I 
+One of the (few) things I used to blog about was my atheism.  Since I'm starting
+fresh in this new blog, an introduction is in order, since my relationship to
+belief has varied widely over the years, and religious belief is something I
 care passionately about.
 
 I 'came out' as atheist almost as soon as I embraced the label, about 2 years
@@ -26,7 +26,7 @@ number of Hail Marys. In Middle School especially I would pray every night
 before going to bed. I would wear a cross, and if I took it off before
 showering, would apologize to God.
 
-As I got older, questions started forming. First, the simple facts-on-the-ground 
+As I got older, questions started forming. First, the simple facts-on-the-ground
 ones ("why does the church hate gay people?") to the higher level ones
 ("If God knows what I'm going to do, and even controls it, why does s/he
 care?"). They mounted over time, and after a while I just couldn't think about

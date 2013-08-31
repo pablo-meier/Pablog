@@ -3,8 +3,8 @@
     Tags: pablolife
 
 
-Over 60% of the video online containing Paul was only uploaded in the last month.  
-Here's another!  I'm acting in [Mt. Olympus][1], a new [Brown TV][2] show with 
+Over 60% of the video online containing Paul was only uploaded in the last month.
+Here's another!  I'm acting in [Mt. Olympus][1], a new [Brown TV][2] show with
 some really wonderful people involved.
 
 {% vimeo http://vimeo.com/11378339 %}

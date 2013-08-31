@@ -2,7 +2,7 @@
     Date:2010-06-09T07:09:00
     Tags: pablolife
 
-I've always loved the Google "Did you mean?"  (favorite is [recursion][1]), 
+I've always loved the Google "Did you mean?"  (favorite is [recursion][1]),
 but this one came up recently while helping my sister with some definitions:
 
 [![][2]][3]

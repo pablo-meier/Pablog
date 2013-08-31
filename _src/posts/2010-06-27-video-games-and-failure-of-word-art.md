@@ -2,9 +2,9 @@
     Date:2010-06-27T16:19:00
     Tags: pablolife
 
-**UPDATE (7/20/10):**  A little old, but [Ebert closes the book][1] by saying that, 
-while he still thinks he's right, he shouldn't have brought it up in the first place. 
-He essentially says "I'm not wrong, but I can't explain why I feel that I'm right." 
+**UPDATE (7/20/10):**  A little old, but [Ebert closes the book][1] by saying that,
+while he still thinks he's right, he shouldn't have brought it up in the first place.
+He essentially says "I'm not wrong, but I can't explain why I feel that I'm right."
 It's actually a pretty nice piece.
 
 ---

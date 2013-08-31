@@ -74,7 +74,7 @@ specs. The first thing you notice is that they both use DSLs. I know
 me plenty of Ruby, but when all your examples look like
 
     Feature: An online spittoon which allows users to spit at the monitor for fun and profit
-    
+
     Scenario: Spittoon graphics
     Given that my website is operational
     And that the user is full of saliva
@@ -92,11 +92,11 @@ writing these files. Similarly, RSpec shows you tons of files like
 
     describe Spittoon do
 
-        subject { :spittoon }        
+        subject { :spittoon }
 
         it "should take spit in the monitor" do
            visit("./")
-           subject.should receive_spit 
+           subject.should receive_spit
         end
     end
 

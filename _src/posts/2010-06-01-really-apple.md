@@ -2,7 +2,7 @@
     Date:2010-06-01T12:47:00
     Tags: pablolife
 
-Apple just showed themselves to be a bit lame about security, at least on Mac 
+Apple just showed themselves to be a bit lame about security, at least on Mac
 OS X two years ago. Here's the story:
 
 My sister had a MacBook to use for college when she was supposed to enroll in

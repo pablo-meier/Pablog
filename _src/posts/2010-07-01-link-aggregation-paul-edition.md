@@ -2,8 +2,8 @@
     Date:2010-07-01T19:28:00
     Tags: pablolife
 
-I don't get much feedback on the blog, but the little I get is usually 
-something along the lines of _I would read it more, but you don't write 
+I don't get much feedback on the blog, but the little I get is usually
+something along the lines of _I would read it more, but you don't write
 about  don't write about anything **interesting**..._
 
 What is usually meant by this is that the blog isn't very personal: I don't

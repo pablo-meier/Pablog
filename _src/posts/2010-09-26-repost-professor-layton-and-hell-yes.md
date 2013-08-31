@@ -1,14 +1,14 @@
-    Title: "Repost:  Professor Layton and the Hell Yes"
+    Title: Repost:  Professor Layton and the Hell Yes
     Date:2010-09-26T21:14:00
     Tags: pablolife
 
-My last blog before this got digitally bulldozed:  I was hosting on a 
-pay-per-webserver and when I got a new credit card forgetting to update the 
-account, they sent one spam-collected warning before they deleted my site. 
-Luckily I was able to salvage most of the posts via Google Cache, with the 
-hope that I could write a script to de-WordPress-HTMLize them, and upload again 
-so they could see another day. I haven't done it yet, but might still. The main 
-reason I haven't is because a) those posts had lots of images I hosted on the 
+My last blog before this got digitally bulldozed:  I was hosting on a
+pay-per-webserver and when I got a new credit card forgetting to update the
+account, they sent one spam-collected warning before they deleted my site.
+Luckily I was able to salvage most of the posts via Google Cache, with the
+hope that I could write a script to de-WordPress-HTMLize them, and upload again
+so they could see another day. I haven't done it yet, but might still. The main
+reason I haven't is because a) those posts had lots of images I hosted on the
 server as well, which makes them uglier, and b) **those posts are like these, but
 much more boring.**
 

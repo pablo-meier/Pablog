@@ -2,7 +2,7 @@
     Date:2010-07-23T17:44:00
     Tags: pablolife
 
-I decided to revisit [ScrabbleCheat][1] (took a break for administrivia), and wrote 
+I decided to revisit [ScrabbleCheat][1] (took a break for administrivia), and wrote
 [my first Wikipedia article,][2] on the data structure I'm refitting it
 with, to celebrate. It's rare that you can write something on Wikipedia that
 isn't there, so I had to pounce.

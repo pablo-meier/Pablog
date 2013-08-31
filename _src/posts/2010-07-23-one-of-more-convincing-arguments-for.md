@@ -2,8 +2,8 @@
     Date:2010-07-23T17:24:00
     Tags: pablolife
 
-... for me, anyways, was the size and scope of everything that has nothing to 
-do with us.  Statements like _"If the whole history of the universe were 
+... for me, anyways, was the size and scope of everything that has nothing to
+do with us.  Statements like _"If the whole history of the universe were
 as your arm span, you can eliminate the entire history of humanity with
 the scrape of a fingernail."_ (I can't find the official reference, but it's
 used in the irrelevant introduction to [this Ruby talk][1], until I can find

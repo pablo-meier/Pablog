@@ -6,7 +6,7 @@
 
 [![][1]][2]
 
-You don't have to be much of a fantasy fan to have a conception of magic and 
+You don't have to be much of a fantasy fan to have a conception of magic and
 wizards:  with curiosity, hard study, and diligence, you can perform taxing and
 exacting actions to do something marvelous. After studying until you're old
 enough to have a white beard, you perform some sequence of actions that will

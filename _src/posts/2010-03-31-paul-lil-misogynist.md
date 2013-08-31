@@ -2,7 +2,7 @@
     Date:2010-03-31T12:34:00
     Tags: pablolife
 
-The longer I'm away from home, the more I forget about where I come from.  I'm 
+The longer I'm away from home, the more I forget about where I come from.  I'm
 on Spring Break now, and usually when I'm home I spend some time digging
 around the house for archiving material. During my last Spring Break I put
 [some kiddie pictures on Facebook][1] that was met with much enthusiasm from

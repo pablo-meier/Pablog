@@ -2,7 +2,7 @@
     Date:2010-09-23T18:20:00
     Tags: pablolife
 
-I found [an awesome little post on Vim][1], which itself links to other excellent 
+I found [an awesome little post on Vim][1], which itself links to other excellent
 Vim posts.  [BFS][2] these links, kids, and [learn you a console
 editor][3] if you haven't already!
 

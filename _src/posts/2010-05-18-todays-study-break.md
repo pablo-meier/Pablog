@@ -2,8 +2,8 @@
     Date:2010-05-18T14:14:00
     Tags: pablolife
 
-Still studying like a madman for Neuroscience, but took a few minutes to catch up on 
-some news.  First, a co-creator of Flash [makes the best defense of Flash][1] as 
+Still studying like a madman for Neuroscience, but took a few minutes to catch up on
+some news.  First, a co-creator of Flash [makes the best defense of Flash][1] as
 a platform [contra Steve Jobs][2] I've seen, many echo my
 sentiments exactly. Some money quotes (emphasis mine):
 

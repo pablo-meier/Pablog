@@ -2,7 +2,7 @@
     Date:2010-08-12T20:59:00
     Tags: pablolife
 
-One of the smartest people I know recently wrote a blog post on 
+One of the smartest people I know recently wrote a blog post on
 _Eat, Pray, Love_ and the backlash against it; the post was something of a
 defense against that backlash.
 

@@ -2,7 +2,7 @@
     Date:2010-10-24T20:18:00
     Tags: pablolife
 
-I'm a week back from my marvelous trip, photos over at [Madly Brilliant's 
+I'm a week back from my marvelous trip, photos over at [Madly Brilliant's
 blog][1] and [a Facebook album][2].
 
 I can only say it was a magnificent, magnificent week. I might even say

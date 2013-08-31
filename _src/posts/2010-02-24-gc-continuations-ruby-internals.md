@@ -2,7 +2,7 @@
     Date:2010-02-24T12:34:00
     Tags: pablolife
 
-When I was about 6, I told my mom I wanted to be a garbageman when I grew up.  
+When I was about 6, I told my mom I wanted to be a garbageman when I grew up.
 I mostly just liked the truck, and hanging from the side  of it while it drove
 from house to house.
 

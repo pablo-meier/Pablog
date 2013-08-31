@@ -3,7 +3,7 @@
     Tags: pablolife
 
 The weekends are when I get lazy. I got promoted to Diamond League in Starcraft.
-I'm still plugging away on [ScrabbleCheat][1] (see the branch 
+I'm still plugging away on [ScrabbleCheat][1] (see the branch
 'feature-curses-ui'). Did me some laundry.
 
 While folding/placing laundry and cleaning up my room, it's good to have some

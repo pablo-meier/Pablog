@@ -2,7 +2,7 @@
     Date:2009-12-14T00:51:00
     Tags: pablolife
 
-Exam season is a royal pain, but I find ways to entertain myself.  My most 
+Exam season is a royal pain, but I find ways to entertain myself.  My most
 recent delight has been [Project Euler][1]: I discovered it late last
 semester, and took a break until about November to tackle some [Facebook
 puzzles][2]. But with the gaps between commitments getting smaller and
@@ -207,7 +207,7 @@ false.
 
 
 --
-the code: 
+the code:
 
 {% codeblock lang:prolog %}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -257,7 +257,7 @@ tiebreak(two_pair, H1, H2, Winner) :-
    beats_with_hand(H1, LowCard1, H2, LowCard2, Winner),
    Winner \= tie;
    beats_with_hand(H1, Last1, H2, Last2, Winner)).
-     
+
 tiebreak(pair, H1, H2, Winner) :-
   isolate_pair(H1, [PairCard1,_], Rst1),
   isolate_pair(H2, [PairCard2,_], Rst2),
@@ -293,7 +293,7 @@ isolate_pair(Hand, Pair, Rst) :-
    V2 = V3, Pair = [[V3,S3],[V2,S2]], Rst = [[V1,S1],[V4,S4],[V5,S5]] ;
    V4 = V3, Pair = [[V3,S3],[V4,S4]], Rst = [[V1,S1],[V2,S2],[V5,S5]] ;
    V4 = V5, Pair = [[V5,S5],[V4,S4]], Rst = [[V1,S1],[V2,S2],[V3,S3]]).
-  
+
 
 highest_card_chain([H1|T1], [H2|T2], X) :-
   beats(H1,H2,Verdict),

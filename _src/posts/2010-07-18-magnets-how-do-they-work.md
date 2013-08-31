@@ -22,7 +22,7 @@ motherfuckers lying, and getting me pissed."_
 
 _Murrrrrrrrr._
 
-(**edit:** Madly Brilliant throws me the link to an [SNL parody][3] of the video, 
+(**edit:** Madly Brilliant throws me the link to an [SNL parody][3] of the video,
 which I found sufficiently lulzy).
 
 **Programming languages.** I like the tone and content of Mozilla's ["A re-
