@@ -19,25 +19,25 @@ In Haskell, I used [a former exercise from my CS173 class][2] that highlighted
 laziness as a language feature to achieve this. First, we declare our list of
 primes:
 
-{% codeblock lang:hs %}
-    primes :: [Int]
-    primes = filter isPrime [1..]
-{% endcodeblock %}
+```hs
+primes :: [Int]
+primes = filter isPrime [1..]
+```
 
 And then we define the predicate to determine if a number is prime or not, on
 which our list depends:
 
-{% codeblock lang:hs %}
-    isPrime :: Int -> Bool
-    isPrime 1 = False
-    isPrime 2 = True
+```hs
+isPrime :: Int -> Bool
+isPrime 1 = False
+isPrime 2 = True
 
-    isPrime n = checkFactors (takeWhile (\ x -> x <= (floor $ sqrt (fromIntegral x))) primes) n
+isPrime n = checkFactors (takeWhile (\ x -> x <= (floor $ sqrt (fromIntegral x))) primes) n
 
-    checkFactors :: [Int] -> Int -> Bool
-    checkFactors [] _ = True
-    checkFactors (x:xs) num = (num `mod` x) /= 0 && checkFactors xs num
-{% endcodeblock %}
+checkFactors :: [Int] -> Int -> Bool
+checkFactors [] _ = True
+checkFactors (x:xs) num = (num `mod` x) /= 0 && checkFactors xs num
+```
 
 For those who aren't Haskellites (even those who are, since my Haskell
 probably isn't very pretty or idiomatic), the code is doing this:
@@ -98,45 +98,45 @@ use this facility. That being said, the speed of the language itself left me
 wanting, so I ported a somewhat similar abstraction to C. We'll do this in the
 opposite order, first defining an isPrime:
 
-{% codeblock lang:c %}
-    BOOL
-    isPrime(int num)
-    {
-      int curr_prime, index = 0;
-      double limit = sqrt(num);
-      while ((curr_prime = takePrime(&index)) <= limit) {
-        if (num % curr_prime == 0) return FALSE;
-      }
-      return TRUE;
-    }
-{% endcodeblock %}
+```c
+BOOL
+isPrime(int num)
+{
+  int curr_prime, index = 0;
+  double limit = sqrt(num);
+  while ((curr_prime = takePrime(&index)) <= limit) {
+    if (num % curr_prime == 0) return FALSE;
+  }
+  return TRUE;
+}
+```
 
 This relies on a takePrime function, which can be called continuously to fetch
 the next prime from an index value. It looks like:
 
-{% codeblock lang:c %}
-    unsigned int
-    takePrime(int* indx)
-    {
-      unsigned int val = prime_ptr[*indx];
-      if (val != UNCOMPUTED) {
-        ++(*indx);
-        return val;
-      }
-      else {
-        unsigned int last_prime = prime_ptr[(*indx)-1];
-        unsigned int next_prime;
-        for (next_prime = last_prime + 1; ; ++next_prime){
-          if (isPrime(next_prime)) break;
-        }
-        prime_ptr[*indx] = next_prime;
-        ++(*indx);
-        return next_prime;
-      }
+```c
+unsigned int
+takePrime(int* indx)
+{
+  unsigned int val = prime_ptr[*indx];
+  if (val != UNCOMPUTED) {
+    ++(*indx);
+    return val;
+  }
+  else {
+    unsigned int last_prime = prime_ptr[(*indx)-1];
+    unsigned int next_prime;
+    for (next_prime = last_prime + 1; ; ++next_prime){
+      if (isPrime(next_prime)) break;
     }
-{% endcodeblock %}
+    prime_ptr[*indx] = next_prime;
+    ++(*indx);
+    return next_prime;
+  }
+}
+```
 
-Where prime_ptr is an array of integers, memset to some value UNCOMPUTED (I've
+Where prime\_ptr is an array of integers, memset to some value UNCOMPUTED (I've
 left out most of the header information, as well as the init() and finished()
 calls that make this all work).
 
@@ -148,9 +148,9 @@ you find your next prime. When you do, store it in the array and return it.
 
 The C abstraction has a number of shortcomings over the Haskell version;
 namely, you can't pass in an arbitrary index and receive a prime number
-(last_prime only checks the prime immediately behind the one you are trying to
+(last\_prime only checks the prime immediately behind the one you are trying to
 compute. If you've only computed 6 primes and you ask for the 9th, you
-Segfault). You also lose the list abstraction (prime_ptr is static and this
+Segfault). You also lose the list abstraction (prime\_ptr is static and this
 set of functions is #included, so I choose not to 'export' it), and you can't
 calculate arbitrarily many primes (the array has a fixed size).
 
@@ -161,5 +161,4 @@ gcc/g++ produce some pretty slick executables.
 
 
    [1]: http://www.projecteuler.net
-
    [2]: http://www.cs.brown.edu/courses/csci1730/2008/Assignments/04-laziness-prog.html

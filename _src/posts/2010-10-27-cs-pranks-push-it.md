@@ -45,7 +45,7 @@ solutions than what I did:
 
 Here's my Ruby script:
 
-{% codeblock lang:rb %}
+```rb
     #!/usr/bin/ruby
 
     FILENAME = "this_many_pushes.txt"
@@ -69,7 +69,7 @@ Here's my Ruby script:
     else
 		system("echo '#{num_pushes - 1}' > #{FILENAME}")
     end
-{% endcodeblock %}
+```
 
 * Execute git config --global alias.psh !push_wrapper.rb.
 

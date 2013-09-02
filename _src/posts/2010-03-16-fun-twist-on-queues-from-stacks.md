@@ -25,46 +25,46 @@ instance of a stack: _use the program's call stack, along with recursion, to
 keep track of intermediate values._ Shown algorithmically (in Ruby, since it
 looks the most like pseudocode):
 
-{% codeblock lang:ruby %}
-    def enqueue(element)
-        @stack.push element
-    end
+```ruby
+def enqueue(element)
+    @stack.push element
+end
 
-    def dequeue
-        if @stack.size == 1
-            return @stack.pop
-        elsif @stack.size > 1
-            tmp = @stack.pop
-            value = self.dequeue
-            @stack.push tmp
-            return value
-        else
-            raise EmptyStackException
-        end
+def dequeue
+    if @stack.size == 1
+        return @stack.pop
+    elsif @stack.size > 1
+        tmp = @stack.pop
+        value = self.dequeue
+        @stack.push tmp
+        return value
+    else
+        raise EmptyStackException
     end
-{% endcodeblock %}
+end
+```
 
 
 _Amazing!_ Here's the standard solution with two stacks:
 
-{% codeblock lang:ruby %}
-    def enqueue(element)
-        @first.push element
-    end
+```ruby
+def enqueue(element)
+    @first.push element
+end
 
-    def dequeue
-        if not @second.empty
-            return @second.pop
-        elsif @first.empty
-            raise EmptyStackException
-        else
-            while not @first.empty
-                @second.push @first.pop
-            end
-            return @second.pop
+def dequeue
+    if not @second.empty
+        return @second.pop
+    elsif @first.empty
+        raise EmptyStackException
+    else
+        while not @first.empty
+            @second.push @first.pop
         end
+        return @second.pop
     end
-{% endcodeblock %}
+end
+```
 
 The intuition in this case is that you use one stack for enqueueing and
 another for dequeueing. When the dequeue stack becomes empty, you remove all

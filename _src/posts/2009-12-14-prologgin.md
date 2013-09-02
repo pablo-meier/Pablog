@@ -76,20 +76,20 @@ two hands is a game between two players.
 Throwing it all together, here's are some of the rules I wrote that determine
 a player's hand in poker:
 
-{% codeblock lang:prolog %}
-    determine_hand([[_,X],[_,X],[_,X],[_,X],[_,X]], flush).
-{% endcodeblock %}
+```prolog
+determine_hand([[_,X],[_,X],[_,X],[_,X],[_,X]], flush).
+```
 
-In English, this says: the relation _determine_hand_ is true if two conditions
+In English, this says: the relation _determine\_hand_ is true if two conditions
 are met. The first value is a hand of cards, for which the second value on
 every pair (the suit) is the same value X. Second, the second value of
-_determine_hand_ is the value "flush." The underscore in the place of the
+_determine\_hand_ is the value "flush." The underscore in the place of the
 values of the cards tells Prolog "we don't care what goes there," since
 getting a flush is only dependent on the suits of the cards. Here is another:
 
-{% codeblock lang:prolog %}
-    determine_hand([[10,X],[jack,X],[queen,X],[king,X],[ace,X]], royal_flush).
-{% endcodeblock %}
+```prolog
+determine_hand([[10,X],[jack,X],[queen,X],[king,X],[ace,X]], royal_flush).
+```
 
 This clause says: the relation _determine_hand_ is true if two things occur:
 the first, its left side is a 5-tuple of pairs. The values of the represented
@@ -99,16 +99,18 @@ _determine_hand_ must be the value "royal_flush."
 
 So if I then prompted Prolog with:
 
-{% codeblock lang:prolog %}
-    determine_hand([[10,clubs],[3,clubs],[8,clubs],[queen,clubs],[6,clubs]], HandType).
-{% endcodeblock %}
+```prolog
+determine_hand([[10,clubs],[3,clubs],[8,clubs],[queen,clubs],[6,clubs]], HandType).
+```
 
 Prolog would search the possible values for HandType (variables begin with
 capital letters) until it found some value to make it true given the rules
 I've provided above. We see that all suit values are the same ("clubs"), so
 Prolog replies:\*
 
-    HandType = flush.
+```prolog
+HandType = flush.
+```
 
 -
 
@@ -125,20 +127,20 @@ than OR).
 This should be enough (coming at you very fast!) to give you a flavor for how
 the program worked. Here is the top-level relation:
 
-{% codeblock lang:prolog %}
-    winner(H1, H2, Winner) :-
-       sort_hand(H1, Sorted_Hand1),
-       sort_hand(H2, Sorted_Hand2),
-       determine_hand(Sorted_Hand1, X1),
-       determine_hand(Sorted_Hand2, X2),
-       beats(X1, X2, Verdict),
-       (Verdict = X1, Winner = H1;
-        Verdict = X2, Winner = H2;
-        Verdict = tie,
-        tiebreak(X1, Sorted_Hand1, Sorted_Hand2, SortedWinner),
-         (SortedWinner = left, Winner = H1 ;
-          SortedWinner = right, Winner = H2)).
-{% endcodeblock %}
+```prolog
+winner(H1, H2, Winner) :-
+   sort_hand(H1, Sorted_Hand1),
+   sort_hand(H2, Sorted_Hand2),
+   determine_hand(Sorted_Hand1, X1),
+   determine_hand(Sorted_Hand2, X2),
+   beats(X1, X2, Verdict),
+   (Verdict = X1, Winner = H1;
+    Verdict = X2, Winner = H2;
+    Verdict = tie,
+    tiebreak(X1, Sorted_Hand1, Sorted_Hand2, SortedWinner),
+     (SortedWinner = left, Winner = H1 ;
+      SortedWinner = right, Winner = H2)).
+```
 
 It goes something like this in English: The _winner_ relation is true if the
 following are true, for two poker hands H1 and H2, and some value Winner:
@@ -209,7 +211,7 @@ false.
 --
 the code:
 
-{% codeblock lang:prolog %}
+```prolog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Top Level
 
@@ -393,29 +395,20 @@ value_greater_than(X,Y) :-
   (Y = P;
   value_greater_than(P,Y)).
 
-{% endcodeblock %}
+```
+
+Enjoy!
 
 
    [1]: http://www.projecteuler.net/
-
    [2]: http://www.facebook.com/careers/puzzles.php
-
    [3]: http://projecteuler.net/index.php?section=problems&id=54
-
    [4]: http://www.cs.brown.edu/%7esk/publications/books/proglangs/2007-04-26
-
    [5]: http://www.amazon.com/reasoned-schemer-daniel-p-friedman/dp/0262562146/ref=sr_1_1?ie=utf8&s=books&qid=1260806430&sr=8-1
-
    [6]: http://www.swi-prolog.org/
-
    [7]: http://www.gprolog.org/
-
    [8]: https://prof.ti.bfh.ch/hew1/informatik3/prolog/p-99/
-
    [9]: http://www.haskell.org/haskellwiki/H-99:_Ninety-Nine_Haskell_Problems
-
    [10]: http://aperiodic.net/phil/scala/s-99/
-
    [11]: http://www.ic.unicamp.br/%7Emeidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html
-
    [12]: http://www.cs.kuleuven.be/%7Edtai/ppcbook/

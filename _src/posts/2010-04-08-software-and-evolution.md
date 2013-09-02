@@ -55,12 +55,12 @@ abstractions? Imagine how Mel the Real Programmer and other hackers of the
 binary era must feel when we're using languages with immutable strings, and
 someone writes code like:
 
-{% codeblock lang:java %}
+```java
     String container = "";
     for (String suffix : suffixes)
         container += suffix;
     return container;
-{% endcodeblock %}
+```
 
 In which _every iteration of the loop allocates a new string!_ And the code
 doesn't render the program unusable!

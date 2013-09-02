@@ -60,7 +60,7 @@ the snippet on "web programmer" from [evolution of a Python Programmer][4] to
 demonstrate the kind of code I wrote for an old theatre board website (since
 destroyed):
 
-{% codeblock lang:python %}
+```python
     #Web designer
 
     def factorial(x):
@@ -79,7 +79,7 @@ destroyed):
             i = i + 1
         return result
     print factorial(6)
-{% endcodeblock %}
+```
 
 _(shudder...)_ So glad those days are behind me. Also see [evolution of a
 Haskell programmer][5] ^_^.
