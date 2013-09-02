@@ -2,7 +2,8 @@
     Date:2010-12-13T16:02:00
     Tags: pablolife
 
-Some days I just wish I were [David Korn][1]:
+Some days I just wish I were
+[David Korn](http://www.cygwin.com/ml/cygwin/2005-08/msg00520.html)
 
 > No, it's completely wrong-headed, insane and unreasonable.  Your code is
 > 100% bogus and should be taken out the back, lined up against a wall, and
@@ -23,7 +24,4 @@ Some days I just wish I were [David Korn][1]:
 >
 >
 > By a hippo.
-
-
-   [1]: http://www.cygwin.com/ml/cygwin/2005-08/msg00520.html
 

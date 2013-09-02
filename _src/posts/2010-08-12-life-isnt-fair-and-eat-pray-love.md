@@ -121,14 +121,14 @@ society, trying to prevent insecurity and doubt becoming a problem in the
 first place, rather than setting people up to fail by filling their heads with
 fantasies of ashrams and vague, impossible notions of fulfillment.
 
-I'll end with a favorite quote. It comes from _\_why the lucky stiff_, [a minor
+I'll end with a favorite quote. It comes from *_why the lucky stiff*, [a minor
 genius of our time][8], more or less prescribing what I think is the best way
 out of these loops of self-futility and doubt: create. Write plays, or short
 stories, or code, or fan fiction, or sand castles, or design model trains. Do
 something you care about and can share with people. Give back. As he says:
 
-> When you don’t create things, you become defined by your tastes rather than
-> ability. Your tastes only narrow and exclude people. so create.
+"When you don’t create things, you become defined by your tastes rather than
+ability. Your tastes only narrow and exclude people. so create."
 
 
    [1]: http://jezebel.com/5610528/yogas-real-backlash

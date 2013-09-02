@@ -27,10 +27,10 @@ visit the previous iteration of this blog, it's still up at
 [http://littleschemer.blogspot.com][5], and I have no intention of taking it
 down.  New posts will show up here, naturally.
 
-In the meantime, let me know what you think ^_^
+In the meantime, let me know what you think ^\_^
 
-  [1]: Jekyll
-  [2]: Knuth line breaking
-  [3]: Link to implementation
-  [4]: Markdown
+  [1]: https://github.com/mojombo/jekyll
+  [2]: http://defoe.sourceforge.net/folio/knuth-plass.html
+  [3]: http://www.bramstein.com/projects/typeset/
+  [4]: http://daringfireball.net/projects/markdown/
   [5]: http://littleschemer.blogspot.com
