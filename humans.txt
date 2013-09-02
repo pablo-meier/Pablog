@@ -1,0 +1,14 @@
+/* I am */
+Name: Paul Meier
+Site: http://www.morepaul.com
+Twitter: @SrPablo
+Location: Austin, Texas, USA
+
+/* Thanks! */
+Name: Greg Hendershott
+Twitter: @GretHendershott
+Role: He wrote Frog! https://github.com/greghendershott/frog
+
+/* Site */
+Components: Frog, Nginx, Bootstrap
+Software: Vim, Racket.
