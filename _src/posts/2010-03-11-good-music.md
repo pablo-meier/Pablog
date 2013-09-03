@@ -17,8 +17,7 @@ _Night Train_ - from the album _Gettin' To It_
 
 A solo bass performance (Jazz).
 
-[![Christian McBride - Gettin' to It - Night Train][2]][3]
-
+<a href="http://itunes.apple.com/us/album/night-train/id376710?i=376706&uo=6"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes61x15dark.gif" alt="iTunes Store logo" /></a>
 
 **Michael Cleveland and Flamekeeper**
 
@@ -26,27 +25,15 @@ _Jerusalem Ridge_ - from the album _Leavin' Town_
 
 A fiddle and mandolin duet (Bluegrass).
 
-[![Michael Cleveland and Flamekeeper - Leavin' Town - Jerusalem Ridge][2]][4]
+<a href="http://itunes.apple.com/us/album/jerusalem-ridge/id283720192?i=283720345&uo=6"><img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes61x15dark.gif" alt="iTunes store logo" /></a>
 
 A few notes:
 
-* I'm providing links to the iTunes store. Obviously I can't stop you from
-downloading them illegally, but I recommend you purchase them. At 99 cents,
-it's not much, and these are both living musicians trying to make a living
-_today_ in genres that aren't very popular. **These guys are clearly doing it
-for love of music.** Also, the YouTube versions of these songs are generally
-terrible, if applicable.
+* I'm providing links to the iTunes store. Obviously I can't stop you from downloading them illegally, but I recommend you purchase them. At 99 cents, it's not much, and these are both living musicians trying to make a living _today_ in genres that aren't very popular. **These guys are clearly doing it for love of music.** Also, the YouTube versions of these songs are generally terrible, if applicable.  <br /><br /> If you must 'try before you buy,' iTunes gives you a 30 second preview.  Alternatively, if you buy them and hate them, (and you're a friend of mine) I can give you two bucks back.
 
-If you must 'try before you buy,' iTunes gives you a 30 second preview.
-Alternatively, if you buy them and hate them, (and you're a friend of mine) I
-can give you two bucks back.
+* Listen to them _loud_. They're both string pieces, and ideally you'll listen to the loud enough to hear after-pluck resonances (in one of them, you can even hear the artist breathing). You won't regret it ^\_^
 
-* Listen to them _loud_. They're both string pieces, and ideally you'll
-listen to the loud enough to hear after-pluck resonances (in one of them, you
-can even hear the artist breathing). You won't regret it ^\_^
-
-* As with most (strangely, not all) music, you'll get more out of it if you
-listen purposefully. Clear your mind, hit play, and let it sink to you
+* As with most (strangely, not all) music, you'll get more out of it if you listen purposefully. Clear your mind, hit play, and let it sink to you
 
 
 Naturally, I also love the music of my brother [Robert Meier][5]. He's the
@@ -55,9 +42,6 @@ with, give it a look ^\_^.
 
 
    [1]: http://www.facebook.com/#!/group.php?gid=25800962459&ref=ts
-   [2]: http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes61x15dark.gif
-   [3]: http://itunes.apple.com/us/album/night-train/id376710?i=376706&uo=6
-   [4]: http://itunes.apple.com/us/album/jerusalem-ridge/id283720192?i=283720345&uo=6
    [5]: http://www.facebook.com/#!/profile.php?v=info&ref=ts&id=2403058
    [6]: http://www.oa2records.com/oa2/recordings/recording.php?TitleID=22057
    [7]: http://www.cdbaby.com/cd/moshierlebrun

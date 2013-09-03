@@ -2,8 +2,8 @@
     Date:2010-03-08T23:51:00
     Tags: pablolife
 
-This weekend I treated myself and bought the first Deluxe Set of [Y: The Last
-Man][1] (issues 1-10, I had thhe second set before by a happy accident). It's
+This weekend I treated myself and bought the first Deluxe Set of [Y: The Last Man][1]
+(issues 1-10, I had the second set before by a happy accident). It's
 really a marvelous comic, and suggest people take a look at it.
 
 My friend Lyn has [a comic of her own][2], which I also greatly enjoy. I keep
@@ -14,12 +14,9 @@ Last summer I tried to get a comic going. I considered posting the 1.5 pages I
 completed. It was going to be based in the world of the [Catlevania: SOTN][3]
 tribute I thought about writing. I may get back to it, in the meantime, here's
 the basic 'standing sprite' I drew, both the complete (enlarged, sorry for the
-blur) version, and the to-scale evolution using [Derek Yu's Pixel Art
-guide][4]:
+blur) version, and the to-scale evolution using [Derek Yu's Pixel Art guide][4]:
 
-[![][5]][6]
-
-![An animated gif showing my sprite evolving!][7]
+<img src="/img/2010/03/EstragonLarge.png" alt="My Pixel art!" />
 
 Finally, I can't stop watching this (make sure you full-screen it):
 
@@ -34,6 +31,3 @@ create.
    [2]: http://semblare.com/Fortune_Memories/index.php
    [3]: http://en.wikipedia.org/wiki/Castlevania:_Symphony_of_the_Night
    [4]: http://www.derekyu.com/?page_id=218
-   [5]: http://3.bp.blogspot.com/_3ys1dwfzc2w/S5YAqTzF7ZI/AAAAAAAAACg/GKFelWiINQE/s320/EstragonLarge.png
-   [6]: http://3.bp.blogspot.com/_3ys1dwfzc2w/S5YAqTzF7ZI/AAAAAAAAACg/GKFelWiINQE/s1600-h/EstragonLarge.png
-   [7]: http://pw.brown.edu/~paul/EstragonEvolve.gif

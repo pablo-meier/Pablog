@@ -18,7 +18,7 @@ before I had to be somewhere else.
 
 It's interesting in the way I find very crying babies interesting\*.
 
-[![][5]][6]
+<img src="http://2.bp.blogspot.com/_3ys1dwfzc2w/S5RpMMlLTJI/AAAAAAAAACQ/_Zk_Dz3TxhI/s320/crying-baby.jpg" alt="A crying baby." />
 
 \* = Crying babies, to me, are hilarious and very interesting. It's a display
 of emotion we 'grow out of' (read: learn to hide) and almost never see again.
