@@ -1,6 +1,6 @@
     Title: A short history of my belief
     Date:2010-02-18T23:26:00
-    Tags: pablolife
+    Tags: pablolife, culture
 
 One of the (few) things I used to blog about was my atheism.  Since I'm starting
 fresh in this new blog, an introduction is in order, since my relationship to
@@ -33,7 +33,7 @@ care?"). They mounted over time, and after a while I just couldn't think about
 it anymore.
 
 When Junior year rolls around, I read a few books, and realize the answer to
-all those questions is a very simple one: **S/He doesn't exist. Suddenly,
+all those questions is a very simple one: **S/he doesn't exist. Suddenly,
 almost all the issues go away.**
 
 No more fighting my brain; no more defending stupidity manifesting itself in

@@ -1,6 +1,9 @@
 Old liquid links (vimeo, Youtube) borken.
-Tag the things, images (clean the posts).
+Tag the things, formatting, images (clean the posts).
+
+--
 TeX algo for line-breaking?
+-> Hard for now -- doesn't play with formatting (even bold or italics), freaks out in lists.
 
 - Polish
 Prettify it a bit?
