@@ -1,9 +1,9 @@
-# About page
+# About
 
 I'm a 27 year-old dudebro living in Austin, TX. For work, I've mostly developed
-software, having worked for Adobe on the Flash Platform from 2010-2012, and
-Google briefly from 2012-2013, until I decided to follow someone away from the
-Bay Area.
+software, having worked for Adobe on the [Flash Platform][2] from 2010-2012, and
+for Google briefly on their [API console][3] from 2012-2013, until I decided to
+follow someone, taking me away from the Bay Area.
 
 Before software, I was into theatre production, having worked mostly as an actor
 and a sound designer, about 10-15 shows as each. I've also dabbled in modern
@@ -22,12 +22,10 @@ me:
 * [G+](https://plus.google.com/105384565409386633298)
 * [Twitter](https://www.twitter.com/SrPablo)
 * [GitHub](https://www.github.com/paul-meier)
-* [Twitch.tv](https://www.twitch.tv/sicp)
+* [Twitch.tv](https://www.twitch.tv/sicp) (mostly playing Starcraft 2 or Dota 2)
 
-Regarding that last one, yes, I'm a white-presenting male in my 20's who plays
-video games! These days I'm mostly playing competitive online games (like
-Starcraft, or Dota 2) but I'll ocassionally stream some other games. Maybe it's
-the performer in me, but feel free to watch, I love an audience.
+Contact me if you'd like to play games on Battle.net or Steam, I have accounts
+there too :)
 
 ## So is it Paul or Pablo?
 
@@ -43,3 +41,5 @@ invested in how I approach this issue. Enough that I felt compelled to write
 about it. Weird.
 
    [1]: http://www.qwantz.com/index.php?comic=2479
+   [2]: http://www.adobe.com/flash
+   [3]: http://code.google.com/apis/console
