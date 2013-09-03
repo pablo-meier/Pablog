@@ -13,6 +13,13 @@ are more cheated.</small>
 
 ---
 
+**\[UPDATE (2013-7-2)** [Jake responded!][17] There's still a lot I disagree
+with, and I could fisk those parts, but it's really not worth it at this point.
+I think we just diverge on how we frame certain things, and I think it's better
+to focus where we have common ground. I really appreciate the dialogue :)\]
+
+---
+
 I got into a Twitter disagreement with a good friend, [Jake Eakle][1], mostly
 over this tweet of mine:
 
@@ -159,6 +166,18 @@ definitions, and an accounting team to enforce it... Basically, yes, they take
 money, but they're playing a game that only works when they create a system
 where it is **much** harder to screw you).
 
+**\[UPDATE (2012-01-17):**  So as soon as I say this, [Owned3D comes to light as
+being an asshole.][18] So you can still screw artists over. Hopefully the market
+corrects this, and they either change their behavior or people move to
+Twitch/YouTube/UStream/LiveStream, or Owned cleans up their act. But if not and
+this continues, well, this overall point of “better for the artists” becomes
+less valid.]
+
+**\[UPDATE (2013-07-02):** In case you don't know how this story ends, Owned3D
+went out of business (leaving many contracts unpaid) about 2 weeks after the
+above story broke. So the market did correct for it, though this leaves Twitch
+as the clear dominant player.\]
+
 So while I don't do it, I **don't** feel that "stealing" from the big labels in
 traditional media is the same as stealing from the artist, but in game streams,
 it's much, much closer; close enough to give me pause. That said, if you're
@@ -225,8 +244,8 @@ the thread whiners and asscactuses:
 
 **It's minutes of ads for hours of entertainment, for no money at all.**
 
-_Nowhere else_ do you get this value proposition: you can pay out the ass to for
-a movie to be entertained for two hours (with non-blockable ads at the start)
+_Nowhere else_ do you get this value proposition: you can pay out the ass to go
+to a movie to be entertained for two hours (with non-blockable ads at the start)
 that barely support artists onscreen; you pay for a cable subscription to have
 the privilege to watch a sitcom episode with 23 minutes of content and 7 minutes
 of commercials.
@@ -339,3 +358,5 @@ Sorry for the delay, Newtown and holidays hit me hard. Thanks for engaging me
    [14]: http://twitter.com/col_lake
    [15]: http://www.youtube.com/watch?v=72oUUxllUrc
    [16]: http://en.wikipedia.org/wiki/MBC_Game
+   [17]: http://edgewhys.wordpress.com/2013/02/20/re-stream-ads/
+   [18]: http://www.reddit.com/r/starcraft/comments/16rxev/own3dtv_a_beginners_guide_to_being_an_asshole/

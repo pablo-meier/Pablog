@@ -1,6 +1,6 @@
     Title: Hiatus - And a voyage of vim
     Date:2010-02-15T21:29:00
-    Tags: pablolife
+    Tags: pablolife, engineering
 
 Sorry for the lack of updates.  I hate when blogs say that, but publishing less
 than once a month defeats the purpose of a blog. I blame what I always have:
@@ -51,13 +51,8 @@ Alternatively, you can use any of the equally compelling reasons in the list
 below:
 
 * Because I prefer to map Caps Lock to Esc instead of Ctrl.
-
-* Because my brilliant [hacker][6] [friends][7] next to me use vim
-exceptionally well and inspired me (they could have just as easily been emacs
-users).
-
-* Because a friend put up a photo of Richard Stallman in the lab and joked
-about the fact that he used Ctrl^H for Help.
+* Because my brilliant [hacker][6] [friends][7] next to me use vim exceptionally well and inspired me (they could have just as easily been emacs users).
+* Because a friend put up a photo of Richard Stallman in the lab and joked about the fact that he used Ctrl^H for Help.
 
 None of these are real reasons, folks. They're all true, and honest-to-Baal
 the only things that pushed me to vim. Since I have a soft spot for Lisp, I
@@ -87,23 +82,13 @@ become proficient with a serious, terminal-based text editor.** You don't have
 to love it, you don't have to keep it, but try it, and give it a fair shot.
 Why?
 
-* Learning a Terminal-based editor lets you know you have a comfortable
-editor with you anytime, anywhere. When I used SubEthaEdit, it was not only
-Mac-specific, but _commercial_. If I wasn't editing on my laptop, I wasn't
-editing in my preferred environment.
+* Learning a Terminal-based editor lets you know you have a comfortable editor with you anytime, anywhere. When I used SubEthaEdit, it was not only Mac-specific, but _commercial_. If I wasn't editing on my laptop, I wasn't editing in my preferred environment.
 
-* Both major players encourage keyboard use. You will never know the
-shackles of inconvenience that frequent mouse usage is until you've been set
-free. Doing everything on the keyboard makes using the computer for 6-7+ hour
-stretches much more tolerable.
+* Both major players encourage keyboard use. You will never know the shackles of inconvenience that frequent mouse usage is until you've been set free. Doing everything on the keyboard makes using the computer for 6-7+ hour stretches much more tolerable.
 
-* If you are in a resource-scarce environment (say, ssh on a shady
-connection), you can bet that software written in the early 90's or 70's will
-load quickly, and leave a small footprint on your resources.
+* If you are in a resource-scarce environment (say, ssh on a shady connection), you can bet that software written in the early 90's or 70's will load quickly, and leave a small footprint on your resources.
 
-* They are scriptable. Many editors are programmable, but there's a
-difference to writing a tool in ELisp or Vimscript, and writing an Eclipse
-plugin.
+* They are scriptable. Many editors are programmable, but there's a difference to writing a tool in ELisp or Vimscript, and writing an Eclipse plugin.
 
 * Most of all, **you look like a badass.**
 
@@ -117,29 +102,18 @@ sexier IDE's.
 
 \* = Open question: What is our generation's equivalent? Ruby vs. Python? More
 generally, the static typers vs. dynamic typers? Chip in, as a former actor in
-training, the only things I love more than Computer Science is Drama ^_^
+training, the only things I love more than Computer Science is Drama ^\_^
 
 
    [1]: http://www.cs.brown.edu/courses/cs258/
-
    [2]: http://www.cs.brown.edu/courses/cs167/
-
    [3]: http://www.cs.brown.edu/courses/cs273/
-
    [4]: http://projecteuler.net/
-
    [5]: http://www.facebook.com/careers/puzzles.php
-
    [6]: http://www.cs.brown.edu/people/andrew/
-
    [7]: http://www.csail.mit.edu/user/2032
-
    [8]: http://stackoverflow.com/questions/338767/tool-to-convert-python-indentation-from-spaces-to-tabs
-
    [9]: http://www.peterfriese.de/formatting-your-code-using-the-eclipse-code-formatter/
-
    [10]: http://kate-editor.org/
-
    [11]: http://www.subethaedit.net/
-
    [12]: http://www.nano-editor.org/

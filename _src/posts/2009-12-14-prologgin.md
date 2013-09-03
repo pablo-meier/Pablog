@@ -1,6 +1,6 @@
     Title: Prologgin'
     Date:2009-12-14T00:51:00
-    Tags: pablolife
+    Tags: pablolife, engineering, plt
 
 Exam season is a royal pain, but I find ways to entertain myself.  My most
 recent delight has been [Project Euler][1]: I discovered it late last
@@ -11,24 +11,22 @@ doesn't accept Scheme or SML submissions, for example), tackling 15 or so of
 the easier Project Euler problems proved fitting.
 
 I recently solved [Problem 54][3], an unusually straightforward implementation
-problem (most problems require some mathematical insight, this was a straight-
-up write-it-out problem). In Problem 54, they provide a file with 1000 games
-of poker, and you must determine how many games the first player wins.
+problem (most problems require some mathematical insight, this was a
+straight-up write-it-out problem). In Problem 54, they provide a file with 1000
+games of poker, and you must determine how many games the first player wins.
 
 **So here I saw an opportunity: Prolog!** Wouldn't it be more fun to just
 _declare_ the rules of Poker and say "go," rather than hard-code every
 individual evaluation possibility?
 
--
+---
 
 For those who don't know what Prolog is, here's a quick (very, very brief)
 primer: **Prolog is a language that attempts to satisfy truth clauses given a
 set of relations, and rules that govern them.** So if I were to define the
 following relation **R**:
 
-<div style="text-align: center">
 (_a_ **R** _b_) is true if and only if _a_ is the reverse of _b_.
-</div>
 
 Then we know that ("paul" **R** "luap") is a true statement, but ("paul" **R**
 "robert") is false.
@@ -42,15 +40,11 @@ relations, and the language will bind those variables to values that satisfy
 its truth, without having to specify exactly how to find such a value.** Using
 the example above, if I fed Prolog
 
-<div style="text-align: center">
-_x_ **R** "cantankerous"
-</div>
+_X_ **R** "cantankerous"
 
 Prolog returns
 
-<div style="text-align: center">
-_x_ = "suoreknatnac"
-</div>
+_X_ = "suoreknatnac"
 
 The key to this is that I never told Prolog _how_ to reverse a word, I simply
 _declared_ that **R** is true when one side is the reverse of the other. This
@@ -62,14 +56,11 @@ define such that one's output evaluates to my goal?" (functional programs),
 but rather "what is my goal?" (logical programs, of which Prolog is the most
 popular language).
 
--
+---
 
-I'll throw a little syntax in before we dive into the example. In Prolog,
-square brackets define a list, so \[\] is an empty list, `[paul, robert,
-annalisa]` is a list with my siblings and I, and `[[galosh, wader],[souvlaki,
-moussaka, gyro],gawker]` is a list of two lists and "gawker."
+I'll throw a little syntax in before we dive into the example. In Prolog, square brackets define a list, so` [] `is an empty list,` [paul, robert, annalisa] `is a list with my siblings and I, and` [[galosh, wader], [souvlaki, moussaka, gyro], gawker] `is a list of two lists and "gawker."
 
-In my poker program, each card is a list of the cards value and its suit (e.g.
+In my poker program, each card is a list of the card's value and its suit (e.g.
 `[ace,spades]` or `[8,diamonds]`). A list of five cards is a hand, and a list of
 two hands is a game between two players.
 
@@ -80,10 +71,10 @@ a player's hand in poker:
 determine_hand([[_,X],[_,X],[_,X],[_,X],[_,X]], flush).
 ```
 
-In English, this says: the relation _determine\_hand_ is true if two conditions
+In English, this says: the relation `determine_hand` is true if two conditions
 are met. The first value is a hand of cards, for which the second value on
 every pair (the suit) is the same value X. Second, the second value of
-_determine\_hand_ is the value "flush." The underscore in the place of the
+`determine_hand` is the value "flush." The underscore in the place of the
 values of the cards tells Prolog "we don't care what goes there," since
 getting a flush is only dependent on the suits of the cards. Here is another:
 
@@ -91,11 +82,11 @@ getting a flush is only dependent on the suits of the cards. Here is another:
 determine_hand([[10,X],[jack,X],[queen,X],[king,X],[ace,X]], royal_flush).
 ```
 
-This clause says: the relation _determine_hand_ is true if two things occur:
+This clause says: the relation `determine_hand` is true if two things occur:
 the first, its left side is a 5-tuple of pairs. The values of the represented
 cards must be 10, jack, queen, king, and ace; the second value (the suit) for
 each card must all be the same value X. Secondly, the right side of
-_determine_hand_ must be the value "royal_flush."
+`determine_hand` must be the value "royal\_flush."
 
 So if I then prompted Prolog with:
 
@@ -103,7 +94,7 @@ So if I then prompted Prolog with:
 determine_hand([[10,clubs],[3,clubs],[8,clubs],[queen,clubs],[6,clubs]], HandType).
 ```
 
-Prolog would search the possible values for HandType (variables begin with
+Prolog would search the possible values for `HandType` (variables begin with
 capital letters) until it found some value to make it true given the rules
 I've provided above. We see that all suit values are the same ("clubs"), so
 Prolog replies:\*
@@ -112,16 +103,15 @@ Prolog replies:\*
 HandType = flush.
 ```
 
--
+---
 
 Like any evaluator of conditional statements, the relation rules can be
 chained together with standard boolean operators. The following mean:
 
-* _left_`:-`_right_ means _left_ is true if _right_ is true.
+* `Left :- Right` means `Left` is true if `Right` is true.
 * Commas mean logical AND.
 * Semicolons mean logical OR.
-* And, of course, you can group with parenthesis (AND gets higher precedence
-than OR).
+* And, of course, you can group with parenthesis (AND gets higher precedence than OR).
 
 
 This should be enough (coming at you very fast!) to give you a flavor for how
@@ -145,9 +135,9 @@ winner(H1, H2, Winner) :-
 It goes something like this in English: The _winner_ relation is true if the
 following are true, for two poker hands H1 and H2, and some value Winner:
 
-1. Sorted\_Hand1 is bound to the first value that makes sort\_hand(H1,
-Sorted\_Hand1) true. In this case, it's true when a hand is sorted by ascending
-value, so if
+* `Sorted_Hand1` is bound to the first value that makes `sort_hand(H1, Sorted_Hand1)` true.
+
+In this case, it's true when a hand is sorted by ascending card value, so if
 
     H1 = [[4,spades],[king,clubs],[9,hearts],[3,diamonds],[9,spades]].
 
@@ -155,24 +145,18 @@ the predicate becomes true if
 
     SortedHand = [[3,diamonds],[4,spades],[9,spades],[9,hearts],[king,clubs]].
 
-Which Prolog will find for us ^\_^
+Which Prolog will find for us. More intuitively, `SortedHand1` becomes `H1` with
+its cards sorted.
 
-2. Find the same value for the second Hand.
+* Do the same for the second Hand.
 
-3. X1 and X2 are the values of determine\_hand for the Sorted\_Hands, and
-these are bound to the appropriate types of hand in poker (e.g. "two pair" and
-"full house").
+* X1 and X2 are the values of `determine_hand` for the `Sorted_Hands`, and these are bound to the appropriate types of hand in poker (e.g. "two pair" and "full house").
 
-4. beats is true when the third value (in this case, Verdict) is the winner
-of the first two hands. If the two hands are the same, Verdict becomes "tie."
+* `beats` is true when the third value (in this case, Verdict) is the winner of the first two hands. We usually terminate here, as Prolog has enough information to complete the relation.
 
-5. One of three things is true: Either Verdict is X1, and Winner is H1 (the
-left player has a higher hand), OR Verdict is X2, and Winner is H2, OR there
-was a tie, in which case tiebreak becomes true if it's fourth value is the
-winner of two hands of the same type. (the problem guarantees there's always a
-clear winner, so we won't have actual tie games, such as two royal flushes).
+* If the two hands are the same, Verdict becomes "tie," and we continue with the `tiebreak` relation.
 
--
+---
 
 It's a pretty radical departure from more traditional ways of programming. For
 those interested in logic programming, there are some great chapters near the
@@ -182,24 +166,19 @@ and the 'logical Scheme' they use is an interesting counterpoint to Prolog.
 I firmly believe you should base your language choice on the problem you're
 trying to solve, and you shouldn't contort your problem to fit the language
 (this is why Lisp is so much fun). I don't run into too many problems where
-Prolog is the answer, but when I always greatly look forward to when I do ^_^
+Prolog is the answer, but when I always greatly look forward to when I do ^\_^
 
---
+---
+
 Prolog links:
 
 * [SWI-Prolog][6], a free and pretty nice implementation.
-* [GNU Prolog][7], a little harder to get started with, but worth looking
-into.
-
-* [99 Prolog Problems.][8] These have [since][9] [been][10] [copied][11]
-many times over, but the first '99 Problems' set of this sort was by
-Prologgers.
-
-* [The First 10 Prolog Programming Contests.][12] A good read for idiomatic
-language use, and seeing it solve all levels of problems.
+* [GNU Prolog][7], a little harder to get started with, but worth looking into.
+* [99 Prolog Problems.][8] These have [since][9] [been][10] [copied][11] many times over, but the first '99 Problems' set of this sort was by Prologgers.
+* [The First 10 Prolog Programming Contests.][12] A good read for idiomatic language use, and seeing it solve all levels of problems.
 
 
-\* = If, given the definitions, you then passed determine\_hand(X,Y), where x
+\* = If, given the definitions, you then passed `determine_hand(X,Y)`, where x
 was a royal flush, y would be bound to "flush." why? because the first
 predicate we defined was successful (a royal flush is just a more specialized
 flush, and prolog saw that determine_hand was true for the flush first). how
@@ -209,7 +188,7 @@ false.
 
 
 --
-the code:
+The complete code, which I ran on SWI-Prolog on a Powerbook G4:
 
 ```prolog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -380,9 +359,9 @@ beats(X,Y,X) :- value_greater_than(X,Y).
 beats(X,Y,Y) :- value_greater_than(Y,X).
 
 successor(royal_flush, straight_flush). successor(straigh_flush, four_of_a_kind).
-successor(four_of_a_kind, full_house). successor(full_house, flush).
-successor(flush, straight). successor(straight, three_of_a_kind).
-successor(three_of_a_kind, two_pair). successor(two_pair, pair).
+successor(four_of_a_kind, full_house).  successor(full_house, flush).
+successor(flush, straight).             successor(straight, three_of_a_kind).
+successor(three_of_a_kind, two_pair).   successor(two_pair, pair).
 successor(pair, high_card).
 
 successor(ace,king). successor(king,queen). successor(queen,jack).

@@ -1,6 +1,6 @@
     Title: On-Demand Prime Generation
     Date:2009-12-28T18:10:00
-    Tags: pablolife
+    Tags: pablolife, engineering
 
 Many [Project Euler][1] problems are made easier if you have a good facility
 for generating and detecting prime numbers.  Usually when I see such a problem,
@@ -42,9 +42,7 @@ checkFactors (x:xs) num = (num `mod` x) /= 0 && checkFactors xs num
 For those who aren't Haskellites (even those who are, since my Haskell
 probably isn't very pretty or idiomatic), the code is doing this:
 
-* The list primes is the list of all integers beginning at 1, with all the
-non-primes filtered out, where non-primes are determined by the function
-isPrime.
+* The list primes is the list of all integers beginning at 1, with all the non-primes filtered out, where non-primes are determined by the function isPrime.
 
 * The function isPrime tests a number _x_ for primality by testing
 divisibility for all prime numbers below the square root of _x_, where the
@@ -66,22 +64,15 @@ and grow to indefinite size!
 More concretely, suppose I want to check if 9 is prime. A call to isPrime 9
 causes the following to happen:
 
-* The takeWhile in isPrime will take all numbers from primes that are less
-than or equal to 3.
+* The takeWhile in isPrime will take all numbers from primes that are less than or equal to 3.
 
-* The language will compute values for primes by running each integer
-through `isPrime`, and will do this while those values are less than or equal to
-3.
+* The language will compute values for primes by running each integer through `isPrime`, and will do this while those values are less than or equal to 3.
 
 * `isPrime 1` will fail, `isPrime 2` will pass, and `isPrime 3`...
 
-* ... we're not sure, so we repeat the steps above for all numbers in primes
-less than the square root of three. This gives us the empty list, which by
-definition of isPrime tells us 3 is prime.
+* ... we're not sure, so we repeat the steps above for all numbers in primes less than the square root of three. This gives us the empty list, which by definition of isPrime tells us 3 is prime.
 
-* We return this result, and stop taking values from primes since this is
-less than or equal to 3. We divide 9 by 3. This fails the predicate, so 9 is
-not prime.
+* We return this result, and stop taking values from primes since this is less than or equal to 3. We divide 9 by 3. This fails the predicate, so 9 is not prime.
 
 Next to shell languages, Haskell is the only language I can think of in wide
 use (if you consider Haskell in wide use...) that employs laziness by default,
@@ -136,9 +127,9 @@ takePrime(int* indx)
 }
 ```
 
-Where prime\_ptr is an array of integers, memset to some value UNCOMPUTED (I've
-left out most of the header information, as well as the init() and finished()
-calls that make this all work).
+Where `prime_ptr` is an array of integers, memset to some value `UNCOMPUTED`
+(I've left out most of the header information, as well as the init() and
+finished() calls that make this all work).
 
 This takePrime preserves previously computed values (this is the purpose of
 the first condition), so if you ever need to check the _i_-th index of a value

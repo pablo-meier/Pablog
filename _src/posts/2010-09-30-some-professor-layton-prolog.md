@@ -151,9 +151,6 @@ colin_score(Score) :-
 ```
 
    [1]: http://www.morepaul.com/2010/09/repost-professor-layton-and-hell-yes.html
-
    [2]: http://www.morepaul.com/2009/12/prologgin.html
-
    [3]: http://2.bp.blogspot.com/_3ys1dwfzc2w/TKV8eSSBEJI/AAAAAAAAAHI/tHj6Z8VErXE/s320/PL2151B.png
-
    [4]: http://2.bp.blogspot.com/_3ys1dwfzc2w/TKV8eSSBEJI/AAAAAAAAAHI/tHj6Z8VErXE/s1600/PL2151B.png

@@ -1,6 +1,6 @@
     Title: Reading List
     Date:2009-11-14T15:06:00
-    Tags: pablolife
+    Tags: pablolife, engineering
 
 Almost as contentious (maybe more) than asking a programmer what their favorite
 editor/language is would be to ask them what the most important books
