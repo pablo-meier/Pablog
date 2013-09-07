@@ -1,7 +1,6 @@
-    Title: First, try to be something, anything, else.
+    Title: "First, try to be something, anything, else."
     Date:2011-03-14T12:00:00
-    Tags: pablolife
-
+    Tags: pablolife, culture
 
 Here's an old, but [good article, ostensibly about writing][1]. The author is
 pretty funny, and I think most of what he writes applies just as well to any
@@ -17,23 +16,20 @@ already present in the article in one form or another, but with my words:
   to.**  The Lorrie Moore quote he opens his article with is almost verbatim to
   the most prescient acting advice I've ever received from a professional actor,
   when I asked if he had any advice for me going into the Real World: "If you
-  can be talked out of it, do so."
-
+  can be talked out of it, do so." <br /><br />
   The idea was crazy at the time, but it turns out I found a way to do it. And while
-  it's hard to imagine for anybody who's only met me in the last 2-3 years,
-  *leaving theatre was the hardest thing to do in my life*.  Science intimidated
+  it's hard to imagine for anybody who's only met me in the last 2-3 years, *leaving
+  theatre was the hardest thing to do in my life*.  Science intimidated
   the hell out of me.  It was something I didn't do, it was for *those people*,
   and I'd felt my whole life that I should only do what I was good at, and that
-  was Art.
-
+  was Art.<br /><br />
   So first things first: if you don't yearn to be amazing in your field, or do
   amazing things in it, I suggest taking a good look at what you're doing, and
   asking if you actually *want* to.\*
 
 * **Stop talking/thinking about it, *do* it**. It's really easy to have big
   dreams and ideas, and we often talk about them with friends.  The hardest part
-  is doing it.
-
+  is doing it.<br /><br />
   I follow [this advice][2], in that any time I'm thinking of doing something
   but don't want to, I just say "Just Fucking Do It Now."  Works best of
   anything else I've tried, which is to say, I still leave many tasks unfinished :-p.

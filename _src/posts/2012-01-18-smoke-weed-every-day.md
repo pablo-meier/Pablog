@@ -1,6 +1,6 @@
     Title: Smoke Weed Every Day
     Date:2012-01-18T12:00:00
-    Tags: pablolife
+    Tags: pablolife, culture
 
 
 In the tradition of educating the masses on memes and Internet trends,

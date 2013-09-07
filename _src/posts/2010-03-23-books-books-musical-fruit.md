@@ -1,15 +1,15 @@
     Title: Books, Books, the Musical Fruit
     Date:2010-03-23T08:28:00
-    Tags: pablolife
+    Tags: pablolife, culture
 
 A lot of big-time, [real][1] [bloggers][2] [are][3] [writing][4] [about][5]
-their 10 most influential books.  I'll present mine ne here, stealing some
+their 10 most influential books.  I'll present mine here. Stealing some
 terminology: this is my 'gut list,' not my 'I've thought about this for a long
 time' list:
 
 **Don Quijote** (_Cervantes_)
 
-[![][6]][7]
+<img src="/img/2010/03/quijote.png" alt="Picasso's Quijote art" />
 
 'Misfit' entertainment is on the rise: _Napoleon Dynamite_, _Eagle vs. Shark_,
 and pretty much everything starring Michael Cera are examples of movies where
@@ -19,30 +19,30 @@ list.
 
 None of them hold a candle to Don Quijote, however. He embodies that cute
 Akira Kurosawa line: "In a mad world, only the mad are sane." While you the
-reader know he's off his rocker, and that you're "better off," you sort of
-envy him. He's happy as a clam! He's living the adventure! You can almost
-always open up to a random point in either of the two volumes to see Quijote
-having a good time, and Sancho being completely lovable.
+reader know he's off his rocker, and that you're "better off" with your mental
+state, you can't help but envy him. He's happy as a clam! He's living the
+adventure! You can almost always open up to a random point in either of the two
+volumes to see Quijote having a good time, and Sancho being completely lovable.
 
 I feel like my connection with this book is like a lot of religious people's
 with their Holy Text: I haven't read every word of it, and its been so long
 since I read it that I'm probably just taking what I want to remember out of
 it. I'm sure my many memories are easily amended and disproven by someone
-who's really studied it. But it left enough of a mark on me to bring my dog-
-eared, notes-in-the-margin copy everywhere I go.
+who's really studied it. But it left enough of a mark on me to bring my dog-eared,
+notes-in-the-margin copy everywhere I go.
 
 **Short Stories** (_Jorge Luis Borges_)
 
-[![][8]][9]
+<img src="/img/2010/03/borges.jpg" alt="Borges" />
 
 My former Spanish teacher quipped that Borges probably wasn't the most read
-Spanish author, but the most reread. You can see why: his short fiction is
-jam-packed with beautiful imagery, contradiction, love and meaning. They're
-[Everlasting Gobstoppers][10].
+Spanish author, but arguably the the most reread. You can see why: his short
+fiction is jam-packed with beautiful imagery, contradiction, love and meaning.
+They're [Everlasting Gobstoppers][10].
 
 **The White Tiger** (_Aravind Adiga_)
 
-[![][11]][12]
+<img src="/img/2010/03/whitetiger.jpg" alt="Cover of The White Tiger" />
 
 A recent addition, I just finished this about a month ago and absolutely loved
 it. Murder is one of the most interesting themes in fiction, especially how we
@@ -51,7 +51,7 @@ murder in a modern capitalist society is entertaining and evocative.
 
 **Banvard's Folly** (_Paul Collins_)
 
-[![][13]][14]
+<img src="/img/2010/03/banvards.jpg" alt="Cover of Banvard's Folly" />
 
 The non-fiction of Paul Collins is some of my favorite reading. This book
 concerns 13 people who really thought they were going to change the world,
@@ -67,7 +67,7 @@ learned much if you haven't been kicked square in the teeth.
 
 **The Brief and Wondrous Life of Oscar Wao** (_Junot Diaz_)
 
-[![][15]][16]
+<img src="/img/2010/03/junot.jpg" alt="Cover of Junot Diaz's novel" />
 
 Another great [A List Apart essay][17] has a favorite passage of mine:
 
@@ -94,13 +94,12 @@ to try.
 
 **CivilWarLand in Bad Decline** (_George Saunders_)
 
-[![][18]][19]
+<img src="/img/2010/03/civilwarland.jpg" alt="Cover of CivilWarLand in Bad Decline" />
 
 Most people I recommend George Saunders to (my dad, an ex in particular)
 really hate his fiction. But I've always loved it. These are earlier stories
 of his, and like _Banvard's Folly_, they tend to be very funny and amazingly
 tragic at the same time.
-
 
 A lot of times you look around and realize how nutty, depressing, and
 maddening the world can be: it takes a master satirist to acknowledge this
@@ -108,7 +107,7 @@ truth, and get you to laugh about it.
 
 **The Sailor Who Fell From Grace with the Sea** (_Yukio Mishima_)
 
-[![][20]][21]
+<img src="/img/2010/03/sailor.jpg" alt="Cover of Sailor" />
 
 This book gave me chills for months after I was finished with it. It was like
 the nectar of _Crime and Punishment_ wrapped in bacon. Mishima (whose life is
@@ -117,7 +116,7 @@ reasonable, ambitious people and confronts troubling issues of psyche.
 
 **The God Delusion** (_Richard Dawkins_)
 
-[![][22]][23]
+<img src="/img/2010/03/goddelusion.jpg" alt="Cover of The God Delusion" />
 
 This will get some eye rolls, no doubt. I was something of a skeptic before I
 read this, in the closet and afraid about my lack of faith. This book helped
@@ -128,18 +127,25 @@ bitter rhetoric, and gets piled in with Christopher Hitchins as a Mean
 Atheist. Having actually _read_ his essays and seen him speak, this is really
 just a smear. His tone is civil, and he never says anything that can't be
 verified. If people think I'm wrong on this, I encourage them to let me know,
-and we can talk ^_^ But I would be lying if I said I didn't thoroughly enjoy
+and we can talk ^\_^ But I would be lying if I said I didn't thoroughly enjoy
 this book, and if I didn't mention I wouldn't be as comfortable with who I am
 if I hadn't read it.
 
-**Edit:** I spoke too soon. While _The God Delusion_ is approachable and
-civil, [Dawkins can be pretty inflammatory.][24] As apology, listen to Neil
-DeGrasse Tyson take way too long to [tell Dawkins to tone it down][25], and [a
-wonderful remix][26] of the end of the exchange.
+**Edit \[2013-07-02\]:** I'm reading this now in 2013 (Frog reboot!) and
+groaning. It remains for historical interest only. While the book still stands
+as having influenced me, and stands reasonably well on its own, Dawkins himself
+has become something of a caricature in the last few years. Not really a fan
+any more.
+
+**Edit \[sometime in 2011?\]** I spoke too soon. While _The God Delusion_ is
+approachable and civil, [Dawkins can be pretty inflammatory.][24] As apology,
+listen to Neil DeGrasse Tyson take way too long to
+[tell Dawkins to tone it down][25], and [a wonderful remix][26] of the end of
+the exchange.
 
 **Introduction to the Theory of Computation** (_Michael Sipser_)
 
-[![][27]][28]
+<img src="/img/2010/03/sipser.jpg" alt="Cover of Sipser's work" />
 
 The computer book to end all computer books. Sipser writes masterfully about
 computational theory, intent on _teaching_ it to you without just _stating_ it
@@ -148,7 +154,7 @@ keeping their brain occupied.
 
 **[The Little Schemer][29]** (_Daniel Friedman and Matthias Felleison_)
 
-[![][30]][31]
+<img src="/img/2010/03/schemer.jpg" alt="Cover of The Little Schemer" />
 
 How could I have forgotten this blog's former namesake! Teaches programming,
 recursion, all the way up to the most elegant and concise demonstrations of
@@ -158,7 +164,7 @@ even if you're not a programmer, and the most instructive book (with other,
 more general Scheme-powered books like [SICP][34] and [PLAI][35]) on how I
 approach programming.
 
--
+----
 
 Of course, more influential than most of these are theatre performances I've
 attended. That'll be another post.
@@ -171,32 +177,12 @@ haven't read more women.
    [3]: http://yglesias.thinkprogress.org/archives/2010/03/influential-books.php
    [4]: http://www.marginalrevolution.com/marginalrevolution/2010/03/books-which-have-influenced-me-most.html
    [5]: http://trueslant.com/matthewsteinglass/2010/03/19/4-of-the-10-books-that-influenced-me-most/
-   [6]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S6le9tX4ISI/AAAAAAAAADQ/ke5jBjb6aRE/s200/quijote.png
-   [7]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S6le9tX4ISI/AAAAAAAAADQ/ke5jBjb6aRE/s1600-h/quijote.png
-   [8]: http://1.bp.blogspot.com/_3ys1dwfzc2w/S6leA4uqu0I/AAAAAAAAACw/1jGVb3uF_rc/s200/borges.jpg
-   [9]: http://1.bp.blogspot.com/_3ys1dwfzc2w/S6leA4uqu0I/AAAAAAAAACw/1jGVb3uF_rc/s1600-h/borges.jpg
    [10]: http://en.wikipedia.org/wiki/Everlasting_Gobstopper
-   [11]: http://1.bp.blogspot.com/_3ys1dwfzc2w/S6le-tf_w_I/AAAAAAAAADo/0rkjTmGEuMY/s200/whitetiger.jpg
-   [12]: http://1.bp.blogspot.com/_3ys1dwfzc2w/S6le-tf_w_I/AAAAAAAAADo/0rkjTmGEuMY/s1600-h/whitetiger.jpg
-   [13]: http://4.bp.blogspot.com/_3ys1dwfzc2w/S6leAg4eiWI/AAAAAAAAACo/p9o_Gh1JsWc/s200/banvards.jpg
-   [14]: http://4.bp.blogspot.com/_3ys1dwfzc2w/S6leAg4eiWI/AAAAAAAAACo/p9o_Gh1JsWc/s1600-h/banvards.jpg
-   [15]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S6leCYzNjyI/AAAAAAAAADI/yePpuQyjFBM/s200/junot.jpg
-   [16]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S6leCYzNjyI/AAAAAAAAADI/yePpuQyjFBM/s1600-h/junot.jpg
    [17]: http://www.alistapart.com/articles/writeliving
-   [18]: http://4.bp.blogspot.com/_3ys1dwfzc2w/S6leBW2PEZI/AAAAAAAAAC4/tVkvwY-zVWg/s200/civilwarland.jpg
-   [19]: http://4.bp.blogspot.com/_3ys1dwfzc2w/S6leBW2PEZI/AAAAAAAAAC4/tVkvwY-zVWg/s1600-h/civilwarland.jpg
-   [20]: http://3.bp.blogspot.com/_3ys1dwfzc2w/S6le93vY8WI/AAAAAAAAADY/-5mEH18Xf_4/s200/sailor.jpg
-   [21]: http://3.bp.blogspot.com/_3ys1dwfzc2w/S6le93vY8WI/AAAAAAAAADY/-5mEH18Xf_4/s1600-h/sailor.jpg
-   [22]: http://3.bp.blogspot.com/_3ys1dwfzc2w/S6leB84sXZI/AAAAAAAAADA/QFSS_9nU36Q/s200/goddelusion.jpg
-   [23]: http://3.bp.blogspot.com/_3ys1dwfzc2w/S6leB84sXZI/AAAAAAAAADA/QFSS_9nU36Q/s1600-h/goddelusion.jpg
    [24]: http://richarddawkins.net/articles/5341
    [25]: http://www.youtube.com/watch?v=-_2xGIwQfik
    [26]: http://www.rathergood.com/science
-   [27]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S6le-eKRykI/AAAAAAAAADg/T6zN7wL8YrU/s200/sipser.jpg
-   [28]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S6le-eKRykI/AAAAAAAAADg/T6zN7wL8YrU/s1600-h/sipser.jpg
    [29]: http://www.ccs.neu.edu/home/matthias/BTLS/
-   [30]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S9jE8V-qpMI/AAAAAAAAAEQ/Fe6siKDlJhM/s320/schemer.jpg
-   [31]: http://2.bp.blogspot.com/_3ys1dwfzc2w/S9jE8V-qpMI/AAAAAAAAAEQ/Fe6siKDlJhM/s1600/schemer.jpg
    [32]: http://en.wikipedia.org/wiki/Halting_problem
    [33]: http://en.wikipedia.org/wiki/Fixed_point_combinator#Y_combinator
    [34]: http://mitpress.mit.edu/sicp/full-text/book/book.html

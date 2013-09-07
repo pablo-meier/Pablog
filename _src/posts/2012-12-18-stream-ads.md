@@ -1,6 +1,6 @@
     Title: Stream Ads
     Date:2012-12-18T17:22:00
-    Tags: pablolife
+    Tags: pablolife, essay, culture
 
 <em><small>Originally written on December 18, Newtown hit me very hard, then I
 got wrapped up in holidays. Actual publish date is January 4.</em>

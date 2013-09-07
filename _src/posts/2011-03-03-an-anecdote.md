@@ -1,6 +1,6 @@
     Title: An Anecdote on Observational Indistinguishibility
     Date:2011-03-03T17:00:00
-    Tags: pablolife
+    Tags: pablolife, culture
 
 
 I once saw Tony Kushner speak (playwright, author of [Angels in America][1] and
@@ -23,7 +23,5 @@ draft *n + 1* at the next due date.
 As far as we know, the dramaturge never caught on.
 
    [1]: http://en.wikipedia.org/wiki/Angels_in_America
-
    [2]: http://en.wikipedia.org/wiki/Caroline,_or_Change
-
    [3]: http://en.wikipedia.org/wiki/Dramaturge

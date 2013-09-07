@@ -1,6 +1,6 @@
     Title: Shootings
     Date:2012-12-14T16:04:00
-    Tags: pablolife
+    Tags: pablolife, culture, rants, essay
 
 <em><small>Note: I originally wrote this on December 14, the day of the Newtown
 shootings, but didn't publish it because I needed some time to cool off, and let
@@ -105,11 +105,11 @@ And because we're not the only country in the world, let's see how others do it:
 Again, none of these facts can demonstrate a causal link or prove anything, and
 as mentioned previously, there's a _lot_ more to this problem then guns (and
 these examples, too -- e.g., Japan has fewer people than we do. Not 1000x fewer,
-but fewer). That said, not everyone has theses problems at the scale we do (I was pointed
+but fewer). That said, not everyone has these problems at the scale we do (I was pointed
 to [this article of a mass stabbing in China][14] by someone to show other
 countries have violent people too. As stated previously, that's not the issue, and
 never argued against. Nobody died in that attack, guns exacerbate/amplify the
-lethality the violent people can inflict.)
+lethality the violent people can inflict).
 
 At the very least, USA: quit acting like even asking the question of whether or
 not guns have anything to do with this is some kind of irrational,
@@ -138,14 +138,15 @@ up, gives them $200,000, and takes back the box. On the way out he says "time to
 give this to the next person... don't worry, it's someone you've never met."
 
 Gabby Giffords isn't an abstraction, a symbol. She's a person, with a family,
-with hopes and dreams. The victims in Colorado weren't abstractions; they were
-people out to see a movie. The 20 kindergardeners shot today weren't
-abstractions.
+who loved and cherished her in their lives. The victims in Colorado weren't
+abstractions; they were people out to see a movie, like you probably did
+sometime this year. The 20 kindergardeners shot today weren't abstractions.
 
 When you consider the question of whether or not it should be legal to own 10
 assault rifles without ever getting background check or psychologically
 evaluated, I suggest you really ask yourself how you'd feel about such a right
-if it was *your* child, brother, sister, or parent. Because for 27 families
+if it was *your* child, brother, sister, or parent who got shot by some deranged
+person when they were going about their lives. Because for 27 families
 today, that's what happened.
 
 (An [interactive map][11] on mass shootings in America.)

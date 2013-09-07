@@ -1,6 +1,6 @@
     Title: STOP IT WITH YOUR STATE
     Date:2010-12-07T21:57:00
-    Tags: pablolife
+    Tags: pablolife, culture, rants, essay
 
 Alright forks, time for some smugness.  I know, on this blog?!?  But bear with me.
 I'm just completely [frakking][1] pissed at a number of bugs I've been chasing
@@ -13,8 +13,8 @@ programming language level. But the _primary_ one is state, and mostly, I
 think it's about time just done gone outgrown that shit.
 
 
-Java was such a rousing success in part because it was so completely idiot-
-proof. When you remove memory management and pointers from C++, and sandpaper
+Java was such a rousing success in part because it was so completely idiot-proof.
+When you remove memory management and pointers from C++, and sandpaper
 a few of its edges (no header files or need to declare methods, for example),
 virtually everyone can program in it and not make _too_ big a mess. While I
 think Java is a completely neutered language (not to mention a [liability
@@ -70,8 +70,7 @@ again, **at a certain scale, this paradigm got unmanageable.** Namely, keeping
 track of all the data associated with a function got to be way too complex.
 Structs of structs of structs would lead to [3-star programmers][9] that made
 code a vile mess to work with and debug. It was only when we decided to
-encapsulate data with its related function in objects that we got to **Object-
-Oriented programming.**
+encapsulate data with its related function in objects that we got to **Object-Oriented programming.**
 
 
 And that led to its _own_ bloom of awesomeness. But really forks, have we
@@ -106,8 +105,8 @@ Most of all, I'd have to find another way to be inflammatory, rantey, and use
 too much formatting markup.
 
 
-\* = Note that my beef isn't entirely with objects, per se. there are object-
-oriented languages that don't rely on state. [Scala][13] is the most popular
+\* = Note that my beef isn't entirely with objects, per se. there are object-oriented
+languages that don't rely on state. [Scala][13] is the most popular
 that encourages functional programming, and [Reia][14] has immutable objects.
 
 

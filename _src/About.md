@@ -10,7 +10,7 @@ and a sound designer, about 10-15 shows as each. I've also dabbled in modern
 dance before pursuing other production opportunities, and directing, which was
 a bit more rare. Performance is still always on the mind.
 
-I made the transition from Actorbro to Engineerbro at Brown University. Before
+I made the transition from Actorbro to Engineerbro at BROwn University. Before
 that, I grew up in Washington, DC. with a very lovely family.
 
 Nowawdays, I'm just Pabro. Bro bro bro. Brah.

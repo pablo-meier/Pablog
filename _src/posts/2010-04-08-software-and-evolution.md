@@ -1,6 +1,6 @@
     Title: Software and Evolution
     Date:2010-04-08T09:59:00
-    Tags: pablolife
+    Tags: pablolife, engineering, plt
 
 I think the software is growing, and will continue to grow, the way lifeforms have grown
 and evolved on Earth.  By tthis I mean we started with a single
@@ -16,7 +16,7 @@ the story (where else?) on [Hacker News][3]:
 > My biggest gripe with modern programming is the sheer volume of arbitrary
 > stuff I need to know. My current project has so far required me to know about
 > Python, Django, Google App Engine and it’s datastore, XHTML, CSS, JQuery,
-> Javascript, JSON, and a clutch of XML schema, APIs and the like.Don’t get me
+> Javascript, JSON, and a clutch of XML schema, APIs and the like. Don’t get me
 > wrong, I’m grateful for all of it, but it just doesn’t seem like what I was
 > promised when I followed SICP for the first time. It just feels like I spend
 > most of my time scouring through documentation and trying to remember umpteen
@@ -56,10 +56,10 @@ binary era must feel when we're using languages with immutable strings, and
 someone writes code like:
 
 ```java
-    String container = "";
-    for (String suffix : suffixes)
-        container += suffix;
-    return container;
+String container = "";
+for (String suffix : suffixes)
+    container += suffix;
+return container;
 ```
 
 In which _every iteration of the loop allocates a new string!_ And the code

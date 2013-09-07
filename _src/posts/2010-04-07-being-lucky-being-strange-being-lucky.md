@@ -1,6 +1,6 @@
     Title: Being lucky, being strange.  Being lucky to be strange.
     Date:2010-04-07T12:42:00
-    Tags: pablolife
+    Tags: pablolife, culture
 
 The Olympics brought more opportunities for people to be hatin' on Johnny Weir
 and his style of performance. I love what he said:  "Every little boy should be

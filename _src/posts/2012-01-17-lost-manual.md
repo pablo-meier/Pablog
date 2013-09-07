@@ -1,7 +1,6 @@
     Title: Testing, and the lost art of the manual
     Date:2012-01-17T12:00:00
-    Tags: pablolife
-
+    Tags: pablolife, culture, engineering, rants, essay
 
 I hate to be GrandPaul, the old curmudgeon who hates things that just
 ain't the way they used to be. But I've decided to touch webdev for
@@ -24,8 +23,7 @@ far, addressing the "failed promises" of TDD. Some of those promises
   once (and again and again)? What about all that semantically useless
   boilerplate (all the Mock libraries, all the fixtures, what have you)?
   At the very best you have verbose, very technical and
-  implementation-obsessed documentation only your coders can read.
-
+  implementation-obsessed documentation only your coders can read.<br /><br />
   Sure, by being executable and by having very wide coverage, Unit tests
   can help the technically-savvy person see, after some scrutiny, just
   how the application works. But this doesn't describe what _it
@@ -34,15 +32,14 @@ far, addressing the "failed promises" of TDD. Some of those promises
   how you test it, and achieves this further (in the RoR world, anyways)
   with a butt-ton of fancy DSLs to make your tests read like English.
 
-* **TDD is a boon to the developer, but the benefits aren't directly
-    known to the client.** RoR folks, moreso in my anecdotal observation
-    than most other types of devs, love to talk about what tools they're
-    using, usually much more than the projects they're working on. So
-    while they can circlejerk to _each other_ about how great their
-    methodology is and what gems they're using, how much better would it
-    be if they could include the person footing the bill, and give them
-    that extra-personal experience?
-
+* **TDD is a boon to the developer, but the benefits aren't directly known to the client.**
+  RoR folks, moreso in my anecdotal observation
+  than most other types of devs, love to talk about what tools they're
+  using, usually much more than the projects they're working on. So
+  while they can circlejerk to _each other_ about how great their
+  methodology is and what gems they're using, how much better would it
+  be if they could include the person footing the bill, and give them
+  that extra-personal experience? <br /><br />
   I only mention this because everytime Cucumber lists its advantages,
   it's always mentioned that you can show your _cukes_ (Feature
   Definition files) to the clients and they will be able to read and
@@ -91,9 +88,7 @@ It's not obvious where the code comes in. Or what the rules are for
 writing these files. Similarly, RSpec shows you tons of files like
 
     describe Spittoon do
-
         subject { :spittoon }
-
         it "should take spit in the monitor" do
            visit("./")
            subject.should receive_spit
@@ -140,8 +135,8 @@ manual.
 
 I can learn a mainstream language from 1995 (Ruby), I can leverage
 existing programming experience from several other languages and
-projects, but when Rails apps use a component list reminiscent of [The
-Startup Guys][8] ("So I'm using Cucumber and RSpec with Rails with a
+projects, but when Rails apps use a component list reminiscent of [The Startup Guys][8]
+("So I'm using Cucumber and RSpec with Rails with a
 dash of Factory Girl to practice BDD, with Launchy and Capybara since
 I think TDD and Webrat are dead.") there a real need to ensure that,
 if you rely on DSLs, the barriers to entry are low and the ability to
@@ -210,12 +205,11 @@ reverse order:
   Bryan O'Sullivan (of [Real World Haskell][22] fame) had a zinger of
   a comment in [an article describing BDD][21]:
 
-  > Oh wow. I never knew that Rubyists had a Cobol fetish. I think I
-  > liked my brain better when it didn't contain that knowledge.
+> Oh wow. I never knew that Rubyists had a Cobol fetish. I think I
+> liked my brain better when it didn't contain that knowledge.
 
-  It just feels like so much typing for not much
-  power. "Natural"-sounding executable text doesn't strike me as a
-  critical gain on the weaknesses of TDD.
+It just feels like so much typing for not much power. "Natural"-sounding
+executable text doesn't strike me as a critical gain on the weaknesses of TDD.
 
 Despite all my grousing, I'll stick through it. Watch me write a blog
 post in a few months swearing by it, like my Twitter conversion. Just

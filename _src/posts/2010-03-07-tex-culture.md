@@ -1,6 +1,6 @@
     Title: TeX, Culture.
     Date:2010-03-07T18:42:00
-    Tags: pablolife
+    Tags: pablolife, culture
 
 On the old (lost) blog I had a long post as to why I used LaTeX instead of Word,
 even for non- mathematical documents. I'll surely re-post it sometime (I

@@ -1,6 +1,6 @@
     Title: Welcome to the new blog!
     Date:2011-01-06T23:27:00
-    Tags: pablolife
+    Tags: pablolife, meta
 
 Welcome to the new morepaul.com!  After tons of reading, I decided to move
 my blog over to [Jekyll][1], for a variety of reasons:

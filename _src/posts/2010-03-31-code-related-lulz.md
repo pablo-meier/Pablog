@@ -1,10 +1,9 @@
     Title: Code-related lulz
     Date:2010-03-31T22:24:00
-    Tags: pablolife
+    Tags: pablolife, engineering
 
 The first is the [only conceivable improvement][1] I could think of for [my baby, vim][2].
 The second is  [the source code for ed][3].
-
 
 Both from [this reddit thread][4].
 

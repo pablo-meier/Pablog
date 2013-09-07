@@ -1,6 +1,6 @@
     Title: Something nice about every language I've used
     Date:2010-12-10T19:00:00
-    Tags: pablolife
+    Tags: pablolife, plt, engineering
 
 Inspired by [this post][1] (and more great answers on the [reddit comment
 thread][2]), here's one nice thing about each of the languages I can
@@ -20,7 +20,7 @@ do it well.
 **C++:** Back when everyone was using C, it's kind of a technical miracle that
 Bjarne could create a proper superset on top of C with the features it has.
 Further, it's still blazing fast; without it we wouldn't have all the video
-games we love today ^_^.
+games we love today ^\_^.
 
 
 **PHP:** Incredibly easy to learn, and no-hassle to set up on a server. One of
@@ -88,12 +88,8 @@ other languages.
 
 
    [1]: http://blog.darevay.com/2010/12/say-something-nice-about-every-language-youve-used/
-
    [2]: http://www.reddit.com/r/programming/comments/eirzj/say_something_nice_about_every_language_youve_used/
-
    [3]: http://knowyourmeme.com/memes/derp
-
    [4]: http://www.youtube.com/watch?v=HY-03vYYAjA
-
    [5]: http://en.wikipedia.org/wiki/Prototype-based_programming
 

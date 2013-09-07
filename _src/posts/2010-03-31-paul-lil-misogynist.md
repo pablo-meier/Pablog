@@ -1,6 +1,6 @@
     Title: Paul the lil' misogynist
     Date:2010-03-31T12:34:00
-    Tags: pablolife
+    Tags: pablolife, works
 
 The longer I'm away from home, the more I forget about where I come from.  I'm
 on Spring Break now, and usually when I'm home I spend some time digging
@@ -24,7 +24,7 @@ thing to look back on.
 Highlights are at 2:13 (I make some really amazing, kind of demonic throat
 sound), and the freak out at 3:10.
 
-Transcript of the scene after the jump...
+Transcript of the scene appended at the end...
 
 ----
 
@@ -44,8 +44,11 @@ of the real world. I found [this list of requirements for new hires][6] to be
 a good primer on what are contemporary considerations.
 
 For the record, I tried adding these to the video, but YouTube captioning is a
-mess or horrors. Vimeo doesn't even support it, lame sauces.
+mess of horrors. Vimeo doesn't even support it, lame sauces.
 
+---
+
+As promised, the transcript:
 
 **Sammy** Here, I'm gonna give you some background information on women. You
 might want to take notes.

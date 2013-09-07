@@ -1,7 +1,6 @@
     Title: loving yourself with EBOOKS
     Date:2012-10-22T23:41:00
-    Tags: pablolife
-
+    Tags: pablolife, works, engineering
 
 While I'm still ramping up at the [new gig][1], I've found a love of code again
 and recently launched new side project. I may still work on it yet, but chances
