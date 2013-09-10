@@ -1,6 +1,6 @@
     Title: Good ole 14/14
     Date:2013-01-04T18:02:00
-    Tags: pablolife
+    Tags: pablolife, video games
 
 My buddy [Warren][1] and I had a Twitter conversation about learning Zerg in the
 lower levels of Starcraft 2, and asked what a good beginner build would be for a

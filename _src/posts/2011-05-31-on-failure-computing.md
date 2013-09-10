@@ -1,6 +1,6 @@
     Title: On Failure (Computing)
     Date:2011-05-31T12:00:00
-    Tags: pablolife
+    Tags: pablolife, plt, engineering
 
 
 While I'd also like to speak of [personal failures][1] today, I've been thinking

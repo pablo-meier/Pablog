@@ -11,7 +11,7 @@ This mostly comes to mind when I look at essays like [this][1] [series][2], by
 Mike Taylor, on how so much of coding these days is just playing plumber
 between various libraries, fixing leaks and disasters that occur when the
 piping isn't perfect. The argument is stated well by jdietrich commenting on
-the story (where else?) on [Hacker News][3]:
+the story on [Hacker News][3]:
 
 > My biggest gripe with modern programming is the sheer volume of arbitrary
 > stuff I need to know. My current project has so far required me to know about

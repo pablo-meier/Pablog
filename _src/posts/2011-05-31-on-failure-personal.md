@@ -7,7 +7,7 @@ To contrast to the [other part][1] of this double-post, let's talk about
 something a little more familiar to the folk at home: **failing at life.** This
 is prescient to me because of this:
 
-![Degree from Brown University][2]
+<img src="/img/2011/05/degree.jpg" alt="My Brown degree." />
 
 That is my degree from Brown University, a combined BS in Computer Science/BA in
 Music. But didn't I graduate last year?
@@ -28,9 +28,9 @@ you.** Only when you're kicked in the teeth and actually pushed to your limit do
 you know what it means to _truly_ confront your demons, your weaknesses, and
 test your _actual_ mettle.
 
-Put another way: are you proud of the fact that you took a shower this morning?
-Do you look back fondly on the last time you tied your shoes? No, because those
-presented no challenge; completing those tasks presented no new knowledge of
+Put another way: it's unlikely that you're proud of taking a shower this morning,
+or that you look back fondly on the last time you tied your shoes. Those
+presented no challenge; completing those tasks gave you no new knowledge of
 the world, and no new knowledge of yourself. If you think back to anything
 you're proud of, it's almost always been a challenge.
 

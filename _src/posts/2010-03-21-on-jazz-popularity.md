@@ -1,10 +1,11 @@
     Title: On Jazz, popularity
     Date:2010-03-21T20:49:00
-    Tags: pablolife
+    Tags: pablolife, culture, essay
 
 Another not-very-hackery article on Hacker News caught my attention.
-[Dyske Suematsu][1] (in 2003) gives a few reasons to why we don't hear jazz on Top-40
-radio stations, making claims like "our ears are getting lazier."
+[Dyske Suematsu](http://dyske.com/paper/778) (in 2003) gives a few reasons to
+why we don't hear jazz on Top-40 radio stations, making claims like "our ears
+are getting lazier."
 
 I'm taking a computer science class called [Solving Hard Problems][2], but
 reading the article and the [epic comment thread that ensued][3] reminds me
@@ -23,20 +24,18 @@ anything in between (things that, you know, _matter_).
 
 (to break visual tedium, enjoy the pictures from my high school production of
 _Arcadia_, which I directed as a senior for our annual student-directed show.
-Do they still do them?)
+Hope that opportunity is still around for the students...)
 
 I told you that to tell you this: I'll give some reasons why I believe we
 don't hear more jazz all around us, but I understand the limitations of my
 arguments, and that they're specific to me.
 
-![Chloe, Valentine, Hannah, Bernard, and Augustus][4]
+<img src="/img/2010/03/modern-cast-shot.jpg" alt="Chloe, Valentine, Hannah, Bernard, and Augustus" />
 
-Chloe, Valentine, Hannah, Bernard, and Gus
+---
 
--
-
-I'm invested in this because _I love jazz._ The [Ken Burns Thelonious Monk
-CD][5] was instrumental in my personal and musical maturation. I've since
+I'm invested in this because _I love jazz._ The [Ken Burns Thelonious Monk CD][5]
+was instrumental in my personal and musical maturation. I've since
 found other tunes with this connective property, but hearing Thelonious'
 dissonances and expressive solos when I was 16 made me realize the gap between
 acting and music was vanishingly small (recently I'm finding this in [Tito][6]
@@ -51,7 +50,7 @@ Especially now that he's a professional jazz musician in the Bay Area, I would
 love nothing more than for it to be popular. I'd love for other people feel
 what I've felt in listening to it.
 
--
+---
 
 So lets move on to the article: he is, in most of his points, blaming
 perceived ignorant masses for their ignorance. I don't love his phrasing: many
@@ -94,17 +93,13 @@ paraphrase:
 > on it, they don’t even notice it.
 
 
-![Septimus, Thomasina][8]
-
-Septimus, Thomasina
-
+<img src="/img/2010/03/valentine-thomasina.jpg" alt="Valentine, Thomasina" />
 
 I'll agree with him on this too. So these are causes, but what causes the
 causes? Here we get into where I disagree with him:
 
 * "American ears are getting lazier and lazier."
-* "This rather unfortunate trend in the American culture seems to be
-irreversible."
+* "This rather unfortunate trend in the American culture seems to be irreversible."
 * "The popularity of Rap music seems to be a clear sign of this trend."
 
 These are all hitting a strawman I don't think he knows he's setting up. I
@@ -126,8 +121,9 @@ enough, scouts didn't look there, the world wasn't what it needed to be to
 enable it. I'm not well-versed in the origins of rap, but the perfect storm of
 inner-city life in the recessions of the 70's and 80's, about a generation
 after a civil rights movement to disillusioned youth with few options (and
-with lewdness/violence slowly being more acceptable in recorded media), are
-you surprised rap emerged?
+with lewdness/violence slowly being more acceptable in recorded media, which
+itself was becoming cheaper and cheaper to produce), are you surprised rap
+emerged?
 
 The funny thing about him hating on rap is that it's followed a very similar
 progression to Jazz: first it was a dirty, lower-class music for Mean
@@ -141,8 +137,8 @@ Rap is a 20th-century mindful, technologically-enabled Jazz Jr.
 
 All these lamentations that We've Lost the Sophistication To Listen to Jazz
 are misguided. People felt about Jazz the way he does about Rap (how long do
-you think before you can get your degree from a music school in Rap Studies, I
-wonder?).
+you think before you can get your degree from a music school in Hip Hop
+Performance, I wonder?).
 
 So how do you get people to care about Jazz today? The same way you get them
 to care about live theatre (dying), opera (dying), classical music (dying),
@@ -156,11 +152,9 @@ in size and into topics I didn't expect), but most of my suggestions echo
 those of [Brendan Kiley for theatre][9]. Above all, make art _fun_ again, for
 _people_.
 
-![Septimus, Jellaby][10]
+<img src="/img/2010/03/septimus-jellaby.jpg" alt="Septimus, Jellaby" />
 
-Septimus, Jellaby
-
--
+---
 
 A bit of a sidenote, but the question itself is also flawed. _What is Jazz_,
 anyways? In my History of Jazz class, my professor opened it up by mentioning
@@ -175,19 +169,15 @@ Where do Bossa Nova and Afro-Cuban jazz fit into it? Medeski, Martin, and
 Wood? How can you argue as to why people love don't love it if 'it' is such a
 moving target? I would argue Benny Goodman (bleh) or even Fats Waller (yay)
 doesn't require much 'purposeful listening' as the Jazz I expect we're talking
-about, namely 20-minute Coltrane pieces.
+about, namely 20-minute Coltrane solos on hard bop.
 
--
+---
 
-**Note:** When I say Old People, I use it in the same way [George Carlin
-does][11]: not the number of years you've been alive, but your mentality
-towards the present and future. I'm at Brown and know Old People who are 20
-years old.
+**Note:** When I say Old People, I use it in the same way [George Carlin does][11]:
+not the number of years you've been alive, but your mentality towards the present
+and future. I'm at Brown and know Old People who are 20 years old.
 
-![Me, 10 pounds thinner during Tech Week][12]
-
-Me, 10 pounds thinner during Tech Week.
-
+<img src="/img/2010/03/director-pablo.jpg" alt="Me, 10 pounds thinner during Tech Week" />
 
    [1]: http://dyske.com/paper/778
    [2]: http://cs.brown.edu/courses/cs258/
