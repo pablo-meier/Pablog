@@ -1,0 +1,9 @@
+bugged
+clean.sh
+liquid-cleaner
+md-cleaner
+push.sh
+_src
+.rsync-exclude
+.morepaulbugs
+.frogbugs

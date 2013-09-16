@@ -21,29 +21,13 @@ modern hub rich with activity and the city life that I love so much.
 So why aren't I thinking of ways to make my life there now? There are a few
 sore points with my Turkish experience:
 
-* It's [illegal to criticize Ataturk][6] in Turkey. Not that I know enough
-about him to criticize him at all (hell, it's because of him Turkey is the
-success story that it is, in terms of secularism) but I still find this law
-egregious. We all know I'm [pretty][7] [anal][8] about freedom of speech
-though.
+* It's [illegal to criticize Ataturk][6] in Turkey. Not that I know enough about him to criticize him at all (hell, it's because of him Turkey is the success story that it is, in terms of secularism) but I still find this law egregious. We all know I'm [pretty][7] [anal][8] about freedom of speech though.
 
-* [Youtube is banned throughout the country][9] after trolls made fun of
-Ataturk. Really? Yeah, that'll show'em! The funny thing is there are crappy
-proxy sites people use, and the prime minister himself said something along
-the lines of "the supreme court made a dick decision, so use the sites. I know
-it's illegal, but you should use them anyways."
+* [Youtube is banned throughout the country][9] after trolls made fun of Ataturk. Really? Yeah, that'll show'em! The funny thing is there are crappy proxy sites people use, and the prime minister himself said something along the lines of "the supreme court made a dick decision, so use the sites. I know it's illegal, but you should use them anyways."
 
-* [Turkey is the most dangerous place to surf the internet.][10] It hardly
-affects me because I'm usually on Linux/Mac, and am a security buff. But
-still, hardly a mark you want. Madly Brilliant found 2 viruses on her USB
-drive after lending it to a Turkish Roommate. That's what happens when you
-stick your stick in the wrong slot!
+* [Turkey is the most dangerous place to surf the internet.][10] It hardly affects me because I'm usually on Linux/Mac, and am a security buff. But still, hardly a mark you want. Madly Brilliant found 2 viruses on her USB drive after lending it to a Turkish Roommate. That's what happens when you stick your stick in the wrong slot!
 
-* Finally, its turn back to religion. While Istanbul and Izmir remain pretty
-secular, populated almost exclusively by MINOs (Muslims in Name Only), this is
-true of almost any country: the big cities are pretty secular. What also
-matters is the leadership, and the general populace, both of which are
-crossing into more religious territory. I avoid that when I can.
+* Finally, its turn back to religion. While Istanbul and Izmir remain pretty secular, populated almost exclusively by MINOs (Muslims in Name Only), this is true of almost any country: the big cities are pretty secular. What also matters is the leadership, and the general populace, both of which are crossing into more religious territory. I avoid that when I can.
 
 
 [![][11]][12]

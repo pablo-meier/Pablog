@@ -32,7 +32,7 @@ Iraqis/Afghans). And we're still scared.
 It's simple advice, sadly still relevant: [Refuse to be terrorized.][4] Stop
 playing into their hands and for Baal's sake, grow up.
 
--
+---
 
 On the theme of cultural Paul-is-grouchy, Dan Savage has [an exchange][5],
 followed by [another][6], from Good Christians who wish he'd just stop being
@@ -63,41 +63,29 @@ so mean! He (rightly) tells them to shut up and wake up:
 > Real gay and lesbian children. Not political abstractions, not "sinners." Real
 > gay and lesbian children.
 
-It's required reading. As someone who also [doesn't keep silent][7] on [the
-horrors of irrational thinking][8] (usually religious or religiously
-motivated), I too tire of the "stop being so mean, Paul!" line. Really guys,
-all I do is report the news. If you aren't completely outraged, you aren't
-paying attention. And any offended religious folk should probably be pointing
-their ire elsewhere, since I'm normally reacting to egregious events. The
-"don't be offended at _me_" angle was the genius of this song:
+It's required reading. As someone who also [doesn't keep silent][7] on [the horrors of irrational thinking][8]
+(usually religious or religiously motivated), I too tire of the "stop being so
+mean, Paul!" line. Really guys, all I do is report the news. If you aren't
+completely outraged, you aren't paying attention. And any offended religious
+folk should probably be pointing their ire elsewhere, since I'm normally
+reacting to egregious events. The "don't be offended at _me_" angle was the
+genius of this song:
 
 {% youtube http://www.youtube.com/watch?v=fHRDfut2Vx0 %}
 
 While not religious, also relevant:
 
-[![][9]][10]
+<a href="http://xkcd.com/808/"><img src="2010/10/the-economic-argument.png" alt="xkcd comic" /></a>
 
 I know we all want to be friends and not have anybody's feelings hurt, but
 kids, **some shit is just stupid.** And I'll call it that.
 
 
    [1]: http://www.salon.com/news/opinion/glenn_greenwald/index.html
-
    [2]: http://www.salon.com/news/opinion/glenn_greenwald/2010/10/22/muslims/index.html
-
    [3]: http://www.npr.org/templates/story/story.php?storyId=130712737
-
    [4]: http://www.schneier.com/essay-124.html
-
    [5]: http://slog.thestranger.com/slog/archives/2010/10/01/sl-letter-of-the-day-sorry-nothing-fun
-
    [6]: http://slog.thestranger.com/slog/archives/2010/10/13/the-silence-of-the-lambs
-
    [7]: http://www.morepaul.com/2010/04/i-read-news.html
-
    [8]: http://www.newvision.co.ug/D/8/12/663061
-
-   [9]: http://3.bp.blogspot.com/_3ys1dwfzc2w/TMUHeAc7-dI/AAAAAAAAAHo/U7p4Y_bIJiA/s400/the_economic_argument.png
-
-   [10]: http://xkcd.com/808/
-
