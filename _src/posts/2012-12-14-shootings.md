@@ -54,7 +54,7 @@ data-datetime="2012-12-14T20:23:40+00:00">December 14, 2012</a></blockquote>
   assault rifle used to gun down 20 kindergardeners, that the "assault rifle"
   part is off-limits.
 
-![yeah, this is reasonable](http://morepaul.com/images/assault-rifle.png "yeah, this is reasonable")
+<img src="/img/2012/12/assault-rifle.png" alt="yeah, this is reasonable" />
 
 * "The solution is more guns/the victims could have protected themselves with
   guns." Jesus, NO. In [61 mass killings, none of them were stopped by civilians with guns.][2]
