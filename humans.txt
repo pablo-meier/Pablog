@@ -6,7 +6,7 @@ Location: Austin, Texas, USA
 
 /* Thanks! */
 Name: Greg Hendershott
-Twitter: @GretHendershott
+Twitter: @GregHendershott
 Role: He wrote Frog! https://github.com/greghendershott/frog
 
 /* Site */

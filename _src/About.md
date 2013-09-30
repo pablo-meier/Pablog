@@ -13,7 +13,7 @@ a bit more rare. Performance is still always on the mind.
 I made the transition from Actorbro to Engineerbro at BROwn University. Before
 that, I grew up in Washington, DC. with a very lovely family.
 
-Nowawdays, I'm just Pabro. Bro bro bro. Brah.
+Nowawdays, I'm just Pabro. Bro bro bro. Brah.\*
 
 I'm on a bunch of social networks, if you want to follow, friend, or 'encircle'
 me:
@@ -39,6 +39,12 @@ both, and feel like I am both.
 It may surprise you to know that some people have actually been emotionally
 invested in how I approach this issue. Enough that I felt compelled to write
 about it. Weird.
+
+\* = Also, just to be COMPLETELY clear here: I'm joking with all the Bro stuff.
+I'm not a bro, and don't love the trend of 'brogrammers' (but to each their own
+and all that).
+
+
 
    [1]: http://www.qwantz.com/index.php?comic=2479
    [2]: http://www.adobe.com/flash

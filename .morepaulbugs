@@ -1,11 +1,19 @@
 Old liquid links (vimeo, Youtube) borken.
-Tag the things, formatting, images (clean the posts).
+--> Could port Liquid (ew), or just do a clean scrippt in the meantime.
 
---
+Tag the things, formatting, images (clean the posts).
+--> Long tail. Would be nice to bug track. Would be even better to just fix Markdown for some of it.
+
+Clean directory structure
+--> Things sit at top-level, a dotfile handles excludes from rysnc, a clean
+    script has to handle what stays and what goes. Consolidate to a clean src/
+    and dst/ directory, maybe fix Frog so `clean` works.
+
 TeX algo for line-breaking?
--> Hard for now -- doesn't play with formatting (even bold or italics), freaks out in lists.
+--> Hard for now -- doesn't play with formatting (even bold or italics), freaks out in lists.
+--> Would need to integrate with the Markdown parser on some level.
 
 - Polish
 Prettify it a bit?
-Favicon.
 About Page.
+
