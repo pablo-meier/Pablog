@@ -36,7 +36,8 @@ the kinds of dissonances and textures created (as well as the video cacophony)
 are right up my alley. For the curious, they're primarily voice audio overlaid
 from established music (like Love and Trolls, which used Ratatat), in this
 case from a series of shooter games in Japan. The Ronald McDonald Insanity
-songs are [here][8] (first) and [here][9] (second).
+songs are [here](http://www.youtube.com/watch?v=VIop055eJhU&feature=related)
+(first) and [here][9] (second).
 
 
    [1]: http://www.youtube.com/watch?v=qrvMTv_r8sA
@@ -46,5 +47,4 @@ songs are [here][8] (first) and [here][9] (second).
    [5]: http://www.youtube.com/watch?v=jsFebKreNE0
    [6]: http://www.youtube.com/watch?v=PRq6OSkLkKs
    [7]: http://www.youtube.com/watch?v=yRgzLAmbuws
-   [8]: http://www.youtube.com/watch?v=VIop055eJhU&feature=related
    [9]: http://www.youtube.com/watch?v=P7dLp2Eb7cg

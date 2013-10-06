@@ -1,14 +1,15 @@
     Title: Making a living being an artist
     Date:2010-08-14T14:17:00
-    Tags: pablolife
+    Tags: essay, culture
 
 This blog seems to have veered from [code][1] and [cute whimsy][2] to
 [Paul Screed][3] and [Bloviation][4]. Lets add one more post to that list, in part
-spurred by [a post by Jason Robert Brown][5] (writer/composer of Parade and
-The Last 5 Years, among others) that was making the rounds for a while. You
-should skim it, but he's basically making his case for how it's wrong that
-artists get cheated out of their royalties by technology by debating the issue
-with someone who is actively giving away and receiving his music.
+spurred by [a post by Jason Robert Brown](http://www.jasonrobertbrown.com/weblog/2010/06/fighting_with_teenagers_a_copy.php)
+(writer/composer of Parade and The Last 5 Years, among others) that was making
+the rounds for a while. You should skim it, but he's basically making his case
+for how it's wrong that artists get cheated out of their royalties by technology
+by debating the issue with someone who is actively giving away and receiving his
+music.
 
 First, a note on the post: it's pretty awful. He picks an inarticulate
 opponent to represent the other side, to the point that it's literally Master
@@ -97,8 +98,8 @@ did a great [daily show][10] and seems to get regular work, even getting to be
 
 A fringe benefit of this is that you no longer have to deal with middlemen
 taking big cuts, and stealing. Hollywood accounting means that you could
-still, technically, [lose money on the Lord of the Rings Trilogy][12] (Peter
-Jackson and the estate of JRR Tolkien had to sue to get any royalties from the
+still, technically, [lose money on the Lord of the Rings Trilogy](http://blastr.com/2010/07/11-biggest-sci-fi-blockbu.php)
+(Peter Jackson and the estate of JRR Tolkien had to sue to get any royalties from the
 movies). It's how TLC could sell 10 million CD's and [still go bankrupt.][13]
 The bad old days were bad for artists too. So leverage the technology, and
 work for yourself.
@@ -127,13 +128,11 @@ Obviously, easier said than done. But those are my two cents.
    [2]: http://www.morepaul.com/2010/06/terrible-wonderful-music-videos.html
    [3]: http://www.morepaul.com/2010/07/on-freedom-of-speech.html
    [4]: http://www.morepaul.com/2010/08/life-isnt-fair-and-eat-pray-love.html
-   [5]: http://www.jasonrobertbrown.com/weblog/2010/06/fighting_with_teenagers_a_copy.php
    [6]: http://www.guardian.co.uk/media/2010/jul/20/times-paywall-readership
    [7]: http://s-ec-sm.buzzfeed.com/static/imagebuzz/web03/2010/2/18/15/legal-dvd-vs-pirated-copy-25361-1266526187-121.jpg
    [8]: http://www.reddit.com/r/gaming/comments/cw0ax/i_downloaded_and_cracked_scii_and_played_a_couple/
    [9]: http://www.time.com/time/arts/article/0,8599,1666973,00.html
    [10]: http://www.zefrank.com/theshow/
    [11]: http://www.ted.com/speakers/ze_frank.html
-   [12]: http://blastr.com/2010/07/11-biggest-sci-fi-blockbu.php
-   [13]: http://tinpan.fortunecity.com/funkadelic/408/articles/ppl-bankrupt.html
+   [13]: http://web.archive.org/web/20041010081842/http://mbhs.bergtraum.k12.ny.us/cybereng/nyt/rapper01.htm
    [14]: http://www.thestranger.com/seattle/ten-things-theaters-need-to-do-right-now-to-save-themselves/Content?oid=691862

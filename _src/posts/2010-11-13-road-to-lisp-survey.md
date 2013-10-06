@@ -3,7 +3,7 @@
     Tags: pablolife, plt, engineering
 
 I, Paul Meier, do solemnly offer these responses to
-[the Road to Lisp Survey](http://www.cliki.net/The%20Road%20to%20Lisp%20Survey):
+[the Road to Lisp Survey](http://wiki.alu.org/Edi%20Weitz%27%20Road%20to%20Lisp)
 
 **When did you first try Lisp (meaning here and throughout the survey "any
 member of the Lisp family") seriously, and which Lisp family member was it?**

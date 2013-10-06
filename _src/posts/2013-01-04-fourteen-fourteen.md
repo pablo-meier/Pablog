@@ -110,5 +110,5 @@ difficult!) obstacle is just getting the nerve to play, especially when you
 think you're terrible and hopeless (which in my case, is more often than I'd
 like).
 
-   [1]: http://twitter.com/fearofcode
+   [1]: http://twitter.com/textsurgery
    [2]: http://wiki.teamliquid.net/starcraft2/Speedling_Expand

@@ -135,7 +135,8 @@ manual.
 
 I can learn a mainstream language from 1995 (Ruby), I can leverage
 existing programming experience from several other languages and
-projects, but when Rails apps use a component list reminiscent of [The Startup Guys][8]
+projects, but when Rails apps use a component list reminiscent of
+[The Startup Guys](http://youtu.be/LMmdl4VltD4)
 ("So I'm using Cucumber and RSpec with Rails with a
 dash of Factory Girl to practice BDD, with Launchy and Capybara since
 I think TDD and Webrat are dead.") there a real need to ensure that,
@@ -222,7 +223,6 @@ wanted to get this off my chest.
    [5]: http://ruby-doc.org/stdlib-1.9.3/libdoc/test/unit/rdoc/Test/Unit.html
    [6]: http://pragprog.com/book/achbd/the-rspec-book
    [7]: http://pragprog.com/book/hwcuc/the-cucumber-book
-   [8]: http://youtu.be/LMmdl4VltD4
    [9]: http://common-lisp.net/project/slime/
    [10]: http://norvig.com/paip.html
    [11]: http://blip.tv/railsconf/railsconf-09-robert-martin-what-killed-smalltalk-could-kill-ruby-too-2099970
@@ -231,7 +231,7 @@ wanted to get this off my chest.
    [14]: https://github.com/manopapad/proper
    [15]: https://github.com/paul-meier/ScrabbleCheat/
    [16]: http://orgmode.org/
-   [17]: http://www.erlang.org/doc/apps/tools/erlang_mode_chapter.htm
+   [17]: http://www.erlang.org/doc/apps/tools/erlang_mode_chapter.html
    [18]: https://github.com/jnicklas/capybara
    [19]: http://www.manning.com/katz/
    [20]: http://www.amazon.com/dp/1934356549/ref=asc_df_19343565491864467?smid=ATVPDKIKX0DER&tag=hyprod-20&linkCode=asn&creative=395093&creativeASIN=1934356549
