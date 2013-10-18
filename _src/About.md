@@ -1,9 +1,9 @@
 # About
 
-I'm a 27 year-old dudebro living in Austin, TX. For work, I've mostly developed
-software, having worked for Adobe on the [Flash Platform][2] from 2010-2012, and
-for Google briefly on their [API console][3] from 2012-2013, until I decided to
-follow someone, taking me away from the Bay Area.
+I'm a 27 year-old dudebro living in Philadelphia, PA. For work, I've mostly
+developed software, having worked for Adobe on the [Flash Platform][2] from
+2010-2012, and for Google briefly on their [API console][3] from 2012-2013,
+until I decided to follow someone, taking me away from the Bay Area.
 
 Before software, I was into theatre production, having worked mostly as an actor
 and a sound designer, about 10-15 shows as each. I've also dabbled in modern
@@ -27,7 +27,15 @@ me:
 Contact me if you'd like to play games on Battle.net or Steam, I have accounts
 there too :)
 
-## So is it Paul or Pablo?
+\* = Also, just to be COMPLETELY clear here: I'm joking with all the Bro stuff.
+I'm not a bro, and don't love the trend of 'brogrammers' (but to each their own
+and all that).
+
+## FAQ!
+
+There is one frequently asked question.
+
+#### Is it 'Pablo' or 'Paul'? Which is your <em>real</em> name?
 
 Yes.
 
@@ -39,11 +47,6 @@ both, and feel like I am both.
 It may surprise you to know that some people have actually been emotionally
 invested in how I approach this issue. Enough that I felt compelled to write
 about it. Weird.
-
-\* = Also, just to be COMPLETELY clear here: I'm joking with all the Bro stuff.
-I'm not a bro, and don't love the trend of 'brogrammers' (but to each their own
-and all that).
-
 
 
    [1]: http://www.qwantz.com/index.php?comic=2479
