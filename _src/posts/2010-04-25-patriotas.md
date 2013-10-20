@@ -7,7 +7,7 @@ I'll do Spring Weekend as a student). In the meantime, I'll procrastinate by
 posting another favorite video. Sadly for you _gringos_, you have to speak
 Spanish to glean much meaning from it:
 
-{% youtube http://www.youtube.com/watch?v=QZ__hR7pkbQ %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/QZ__hR7pkbQ" frameborder="0" allowfullscreen></iframe>
 
 I used this as the basis for [my first major project][1] in an Electronic
 Writing course I took last year. Other works I did for the course are on [the

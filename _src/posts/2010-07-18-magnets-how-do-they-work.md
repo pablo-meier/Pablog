@@ -7,14 +7,14 @@ Let this be a myriad post with some of the trends that currently come up in this
 **Music.**  This was shown to me  by a former roommate, and while acapella isn't
 normally my thing, I found this pretty hip:
 
-{% youtube http://www.youtube.com/watch?v=4om1rQKPijI %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/4om1rQKPijI" frameborder="0" allowfullscreen></iframe>
 
 **Internet lulz.** I never really cared much for Insane Clown Posse (see [this
 lame interview][1], where they manage to make _Bill O'Reilly_ look like the
 slightly saner party). I had never been exposed to this, a 2009 release that
 compares to Brokencyde in claw-your-facedness:
 
-{% youtube http://www.youtube.com/watch?v=_-agl0pOQfs %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/_-agl0pOQfs" frameborder="0" allowfullscreen></iframe>
 
 What makes this more notable is the [meme arising from][2] the line _"Fucking
 magnets, how do they work? And I don’t wanna talk to a scientist; Y’all

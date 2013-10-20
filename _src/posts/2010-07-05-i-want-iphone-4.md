@@ -4,7 +4,7 @@
 
 This was done by a Best Buy employee, who almost certainly got fired afterwards.  I lolled.
 
-{% youtube http://www.youtube.com/watch?v=FL7yD-0pqZg %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/FL7yD-0pqZg" frameborder="0" allowfullscreen></iframe>
 
 It's not _just_ the sentiments about the iPhone in particular, but the "Facts
 vs. Stupid" frustration that makes this a winner.

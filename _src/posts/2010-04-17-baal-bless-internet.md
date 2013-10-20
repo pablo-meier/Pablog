@@ -7,19 +7,19 @@ lazy bum off the computer chair so I can make a few
 myself. Here are a few that I really love (I also link to the original
 sources, you should check them out if you get the chance):
 
-{% youtube http://www.youtube.com/watch?v=YTihsJQHt48 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/YTihsJQHt48" frameborder="0" allowfullscreen></iframe>
 
 **Bale Out** (warning, NOT SAFE FOR WORK) is a remix of [Christian Bale's
 massive explosion][1] on the set of Terminator: Extinction. Aside from being
 absolutely hilarious, it's a pretty hip dance piece.
 
-{% youtube http://www.youtube.com/watch?v=rvYZRskNV3w %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/rvYZRskNV3w" frameborder="0" allowfullscreen></iframe>
 
 **This is Sparta!** is the classic. Thanks, Gerard Butler, for making that
 role so damn good ([original][2]) so we could get so much mileage out of it
 (more at [Know Your Meme][3]).
 
-{% youtube http://www.youtube.com/watch?v=6bMLrA_0O5I %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/6bMLrA_0O5I" frameborder="0" allowfullscreen></iframe>
 
 **Love and Trolls - Boxxy** takes the theatricality of Boxxy and makes it into
 a hell of an expressive piece in its own right. [Know Your Meme covers
@@ -28,7 +28,7 @@ the Internet that gross out or shock many people, and we don't bat an eyelash.
 But when I watch the [original][5] [Boxxy videos][6]... man. It's hard to get
 through it all.
 
-{% youtube http://www.youtube.com/watch?v=Q16KpquGsIc %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/Q16KpquGsIc" frameborder="0" allowfullscreen></iframe>
 
 **Ronald McDonald Insanity**, both the first (above) and [the second][7], are
 surreal. Not for everyone, but as a fan of electronic music and noise music,

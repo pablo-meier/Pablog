@@ -47,7 +47,7 @@ Meanwhile, a NFSW paragraph: an equally epic [dirty joke thread.][18] A NSFW
 ["I wish I were Mario" image][19] that I really, really enjoyed. This YouTube
 video, also on [Sullivan:][20]
 
-{% youtube http://www.youtube.com/watch?v=PSEYXWmEse8 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/PSEYXWmEse8" frameborder="0" allowfullscreen></iframe>
 
 There's more, but those were some of the cream from today. This doesn't
 include coding articles, etc. Hopefully these posts containing lots of

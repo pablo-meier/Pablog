@@ -4,8 +4,8 @@
 
 Concerning Teh Gays:
 
-{% youtube http://www.youtube.com/watch?v=2bCu2eGCjz4 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/2bCu2eGCjz4" frameborder="0" allowfullscreen></iframe>
 
 Concerning Scripture as Truth:
 
-{% youtube http://www.youtube.com/watch?v=RB3g6mXLEKk %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/RB3g6mXLEKk" frameborder="0" allowfullscreen></iframe>

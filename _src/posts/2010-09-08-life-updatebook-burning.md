@@ -55,7 +55,7 @@ Draw since [they're doing it all wrong.][19]
 
 Never mind the fact that these are Christians, apparently:
 
-{% youtube http://www.youtube.com/watch?v=vdtFk_V6A4M %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/vdtFk_V6A4M" frameborder="0" allowfullscreen></iframe>
 
 In Everyone Draw, there were direct threats and acts of violence being
 perpetrated in response to a specific, concrete expression of freedom of

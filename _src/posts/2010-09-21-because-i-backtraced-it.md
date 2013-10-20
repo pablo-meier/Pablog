@@ -9,7 +9,7 @@ internet making a story huge][4], and this one kind of combines the two.
 First we have an incredibly foul-mouthed, unusually sexually knowledgeable 11
 year-old girl:
 
-{% youtube http://www.youtube.com/watch?v=hQKro8WEZ3I %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/hQKro8WEZ3I" frameborder="0" allowfullscreen></iframe>
 
 Before we continue, lets learn a few things here:
 
@@ -27,7 +27,7 @@ her, file fake police reports, [call her mom pretending to be the police][6],
 spam her inbox, &etc. &etc. &etc. She's left to a smoldering pile of ashes,
 when her dad makes her sadness unintentionally hilarious:
 
-{% youtube http://www.youtube.com/watch?v=NEfY3kMnG4E %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/NEfY3kMnG4E" frameborder="0" allowfullscreen></iframe>
 
 Another thing, parents: don't make threats you can't back up. Saying "I'm her
 _father!_" doesn't incite fear in kids the way it used to, and don't invoke
@@ -38,7 +38,7 @@ threatened by the father in the second video.
 
 I only mention this story because it led to one of my favorite remixes:
 
-{% youtube http://www.youtube.com/watch?v=dYrlj9VE2fg %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/dYrlj9VE2fg" frameborder="0" allowfullscreen></iframe>
 
 It's not as entertaining, of course, when you know the whole story.
 [Gawker][7] has another write-up.

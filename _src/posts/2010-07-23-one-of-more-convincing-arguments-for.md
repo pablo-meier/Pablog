@@ -28,7 +28,7 @@ Also remember that the Sun contains _99.99% of the matter in our galaxy._
 In a related note, [Pharyngula][5] points us to some video added to Carl Sagan
 (kind of) on the matter.
 
-{% youtube http://www.youtube.com/watch?v=p_naQhynOg0 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/p_naQhynOg0" frameborder="0" allowfullscreen></iframe>
 
    [1]: http://railsconf.blip.tv/file/2089545/
    [2]: http://1.bp.blogspot.com/_3ys1dwfzc2w/TEo2AzYte4I/AAAAAAAAAGo/n0e1P_fj23s/s320/stars_little.jpg

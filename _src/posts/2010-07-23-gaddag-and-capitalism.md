@@ -34,7 +34,7 @@ working.
 
 Forgive the poor sound quality, but this Louis CK bit comes to mind:
 
-{% youtube http://www.youtube.com/watch?v=J0rSXjVuJVg %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/J0rSXjVuJVg" frameborder="0" allowfullscreen></iframe>
 
    [1]: http://github.com/paul-meier/ScrabbleCheat
    [2]: http://en.wikipedia.org/wiki/GADDAG

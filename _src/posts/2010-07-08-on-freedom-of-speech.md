@@ -21,7 +21,7 @@ First, watch this 1:25 video of Phillip Pullman, author of _His Dark
 Materials_, discussing the offense caused by the title of his new book _The
 Good Man Jesus and the Scoundrel Christ_:
 
-{% youtube http://www.youtube.com/watch?v=HQ3VcbAfd4w %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/HQ3VcbAfd4w" frameborder="0" allowfullscreen></iframe>
 
 > Yes, it was a shocking thing to say, and I knew it was a shocking thing to
 > say. But no one has the right to live without being shocked. No one has the
@@ -93,14 +93,14 @@ exercising free speech."
 Also, remember I'm an equal-opportunity blasphemer. See [this post][9] on
 Christianity in the news, with this favorite video of mine (language NSFW):
 
-{% youtube http://www.youtube.com/watch?v=fHRDfut2Vx0 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/fHRDfut2Vx0" frameborder="0" allowfullscreen></iframe>
 
 I'll close with a buddy, Bill Maher, who states it simply: **Freedom of Speech
 is non-negotiable.** This isn't uniquely Muslim hatred; if it were Buddhists
 we'd be pissing off Buddhists, if it was McDonalds we'd be protesting
 McDonalds.
 
-{% youtube http://www.youtube.com/watch?v=HmpM-b-IsYY %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/HmpM-b-IsYY" frameborder="0" allowfullscreen></iframe>
 
 (Also, for those who missed it, [Boobquake!][10]).
 

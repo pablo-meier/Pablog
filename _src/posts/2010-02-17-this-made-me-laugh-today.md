@@ -5,7 +5,7 @@
 Yes he was a traitor, but I don't mind taking orders from Lando Calrissian when
 he <strong>plays it so <em>cool.</em></strong>
 
-{% youtube http://www.youtube.com/watch?v=0pK5HmuCMBM %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/0pK5HmuCMBM" frameborder="0" allowfullscreen></iframe>
 
 Gotta love the cooool lovemakin' music they score it with.
 

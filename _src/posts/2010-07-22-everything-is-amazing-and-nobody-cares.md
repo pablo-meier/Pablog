@@ -6,7 +6,7 @@ This video (at least the middle segment on banks, flying) got a lot of coverage
 on some programmer blogs about a year ago, I'm glad I finally found it again and
 can share it with you all:
 
-{% youtube http://www.youtube.com/watch?v=8r1CZTLk-Gk %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/8r1CZTLk-Gk" frameborder="0" allowfullscreen></iframe>
 
 When he talks about the "miracle of flying," I tend to feel that way about
 computers. Computers/Internet are a complete miracle, and the beautiful thing

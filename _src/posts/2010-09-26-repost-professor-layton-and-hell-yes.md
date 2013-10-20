@@ -68,7 +68,7 @@ proponents swear touch interfaces are more "natural," but most touch software
 sucks. This game feels great, however, so much so that my brother's girlfriend
 could feel inclined to pick it up and log 15 hours of game time in 4-5 days.
 
-{% youtube http://www.youtube.com/watch?v=eHWttaixDEc %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/eHWttaixDEc" frameborder="0" allowfullscreen></iframe>
 
 If you have a DS, get these games. If you don't, ask to borrow mine ^\_^
 

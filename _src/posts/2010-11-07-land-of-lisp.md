@@ -8,7 +8,7 @@ taking the time to work through a book like old times; this go-round is with
 Conrad Barski's [_Land of Lisp_][1]. I probably wouldn't have gone for it, but
 the music video he made was just too cute:
 
-{% youtube http://www.youtube.com/watch?v=HM1Zb3xmvMc %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/HM1Zb3xmvMc" frameborder="0" allowfullscreen></iframe>
 
 The book is peppered with cute cartoons and a whimsy feel that is endearing,
 not overbearing. I highly recommend it, if only for the comics (though working

@@ -20,7 +20,7 @@ blur) version, and the to-scale evolution using [Derek Yu's Pixel Art guide][4]:
 
 Finally, I can't stop watching this (make sure you full-screen it):
 
-{% vimeo http://vimeo.com/9625370 %}
+<iframe src="//player.vimeo.com/video/9625370;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 The song is great, if only because it channels chip music. But the animation!
 Made with _real wood blocks_ using _old-school stop motion?_ It inspires me to

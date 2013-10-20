@@ -4,11 +4,11 @@
 
 ... enjoy some lulz.  Some Nirvana meets Jackson 5:
 
-{% youtube http://www.youtube.com/watch?v=JNUTYHJrutw %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/JNUTYHJrutw" frameborder="0" allowfullscreen></iframe>
 
 And "I'm retarded, I guess":
 
-{% youtube http://www.youtube.com/watch?v=S7RlSTtXuNk %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/S7RlSTtXuNk" frameborder="0" allowfullscreen></iframe>
 
 Why do I enjoy this?  A former music TA of mine summarized it best.
 "This should not be."

@@ -11,20 +11,20 @@ Experiments (MEME)][1] program at Brown.
 And sometimes I miss creating things with the skills I gathered in it. This
 kind of things is pretty awesome:
 
-{% youtube http://www.youtube.com/watch?v=NQBjNnfWMPI %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/NQBjNnfWMPI" frameborder="0" allowfullscreen></iframe>
 
 And while I linked it a long time ago already, it's always nice to have a
 refresher:
 
-{% vimeo http://vimeo.com/9625370 %}
+<iframe src="//player.vimeo.com/video/9625370;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Another:
 
-{% vimeo http://vimeo.com/2099027 %}
+<iframe src="//player.vimeo.com/video/2099027;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 And some vintage Norman McLaren for you:
 
-{% youtube http://www.youtube.com/watch?v=E3-vsKwQ0Cg %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/E3-vsKwQ0Cg" frameborder="0" allowfullscreen></iframe>
 
 
    [1]: http://brown.edu/Departments/Music/sites/meme/

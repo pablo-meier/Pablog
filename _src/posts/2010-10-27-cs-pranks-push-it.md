@@ -24,7 +24,7 @@ next one:
 
 Naturally, the youtube link plays this:
 
-{% youtube http://www.youtube.com/watch?v=vCadcBR95oU %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/vCadcBR95oU" frameborder="0" allowfullscreen></iframe>
 
 _Gotta_ love the 80's.
 

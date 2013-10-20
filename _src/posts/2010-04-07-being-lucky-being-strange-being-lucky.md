@@ -12,7 +12,7 @@ we could freely be who we want to\*, without judgement?
 I bring this all up because I saw this video yesterday (the action starts at
 about 1:08).
 
-{% youtube http://www.youtube.com/watch?v=-3-p_4z6FiM %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/-3-p_4z6FiM" frameborder="0" allowfullscreen></iframe>
 
 If we could only all be so lucky as Johnny Weir and this guy, the world would
 be a much more fun, interesting place to be.

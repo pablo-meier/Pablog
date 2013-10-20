@@ -19,7 +19,7 @@ The second half of the scene is below (the first half is out of focus, you
 need to wait a few seconds on what I've embedded below). Lord, what a strange
 thing to look back on.
 
-{% youtube http://www.youtube.com/watch?v=WG1LuhUpw8s %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/WG1LuhUpw8s" frameborder="0" allowfullscreen></iframe>
 
 Highlights are at 2:13 (I make some really amazing, kind of demonic throat
 sound), and the freak out at 3:10.

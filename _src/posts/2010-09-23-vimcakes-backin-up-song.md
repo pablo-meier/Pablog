@@ -9,7 +9,7 @@ editor][3] if you haven't already!
 Also, I meant to squeeze this video in here somewhere, by the guys who did the
 Bed Intruder song:
 
-{% youtube http://www.youtube.com/watch?v=qIoG4PlEPtY %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/qIoG4PlEPtY" frameborder="0" allowfullscreen></iframe>
 
 Source material [here][4]. But do you see this? We have a hilarious remix
 coming from [an attempted rape][5], this one from an attempted robbery ending

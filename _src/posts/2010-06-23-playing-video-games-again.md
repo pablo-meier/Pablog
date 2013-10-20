@@ -35,7 +35,7 @@ But also as a player, video games give me something to work on and master.
 This video is a bit long, and is good apart from this specific point, but
 describes what I'm trying to very well:
 
-{% youtube http://www.youtube.com/watch?v=u6XAPnuFjJc %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/u6XAPnuFjJc" frameborder="0" allowfullscreen></iframe>
 
 Namely, that we enjoy doing things and getting good at them, for giggles. Like
 practicing your foul shots, there's a great feeling that comes from getting
@@ -52,21 +52,21 @@ players. Luckily for us, the announcers learned from Latin American Soccer
 Announcers rather than the dry English-speaking ones. Here's an epic casting
 of Plague, a Zerg spell):
 
-{% youtube http://www.youtube.com/watch?v=Vpuv7VPb2rA %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/Vpuv7VPb2rA" frameborder="0" allowfullscreen></iframe>
 
 A similar description of the death of a Reaver (count how often they say it):
 
-{% youtube http://www.youtube.com/watch?v=msSvZPZXwJU %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/msSvZPZXwJU" frameborder="0" allowfullscreen></iframe>
 
 Some Pro Smash (Melee), for those who've never seen it:
 
-{% youtube http://www.youtube.com/watch?v=quwGWPUGyHM %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/quwGWPUGyHM" frameborder="0" allowfullscreen></iframe>
 
 Finally, a great epic game between my favorite Terran and Zerg players in the
 Starcraft 2 beta _that has been shoutcasted_. Skip around if you don't watch
 the whole thing (which you won't ^_^. The game starts at 3:05):
 
-{% youtube http://www.youtube.com/watch?v=93fn2VsUyDo %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/93fn2VsUyDo" frameborder="0" allowfullscreen></iframe>
 
    [1]: http://us.blizzard.com/en-us/games/war3/index.html?rhtml=y
    [2]: http://en.wikipedia.org/wiki/Super_Smash_Bros._Melee

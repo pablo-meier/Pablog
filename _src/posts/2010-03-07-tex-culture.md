@@ -51,7 +51,7 @@ bad they merit further discussion. First off, when is it _ever_ a good idea to
 criticize how 'smart' popular media is, and derive cultural judgment on it?
 Especially when you're from _here_?
 
-{% youtube http://www.youtube.com/watch?v=3taEuL4EHAg %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/3taEuL4EHAg" frameborder="0" allowfullscreen></iframe>
 
 Complaining about comedy being all about 'catch phrases' ignores too many lame
 catchphrases that got too trendy here. I've heard "I'm Rick James, bitch!" way

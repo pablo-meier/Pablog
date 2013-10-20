@@ -25,7 +25,7 @@ Also, the [last show I sound designed][8] at pw used Fly Me To The Moon as a
 recurring musical motif. So when I heard this, at first I was like "Hmm..."
 but then started grooving contentedly:
 
-{% youtube http://www.youtube.com/watch?v=oQ2QgcRrWlc %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/oQ2QgcRrWlc" frameborder="0" allowfullscreen></iframe>
 
 
 I have a very colorful, mixed relationship to the theatre that produced the

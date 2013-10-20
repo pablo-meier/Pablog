@@ -71,7 +71,7 @@ folk should probably be pointing their ire elsewhere, since I'm normally
 reacting to egregious events. The "don't be offended at _me_" angle was the
 genius of this song:
 
-{% youtube http://www.youtube.com/watch?v=fHRDfut2Vx0 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/fHRDfut2Vx0" frameborder="0" allowfullscreen></iframe>
 
 While not religious, also relevant:
 

@@ -8,7 +8,7 @@ thought).
 
 With that in mind, this video tickled me (language NSFW).
 
-{% youtube http://www.youtube.com/watch?v=fHRDfut2Vx0 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/fHRDfut2Vx0" frameborder="0" allowfullscreen></iframe>
 
 Unsurprisingly, I agree with the Hitchens/Dawkins [initiative to have the Pope
 brought to court][1].

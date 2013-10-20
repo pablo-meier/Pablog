@@ -4,7 +4,7 @@
 
 A few things.  One, **cursing, and strong words!**
 
-{% youtube http://www.youtube.com/watch?v=s_osQvkeNRM %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/s_osQvkeNRM" frameborder="0" allowfullscreen></iframe>
 
 I happen to agree.  I swear very little, and do so very carefully (which is to
 say I treat swear words like any other word). But still, someone who thinks
@@ -21,16 +21,16 @@ this Daily Show clip wins.
 
 Finally, I love 2010. First you get this story on the news:
 
-{% youtube http://www.youtube.com/watch?v=EzNhaLUT520 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/EzNhaLUT520" frameborder="0" allowfullscreen></iframe>
 
 Which, naturally gets remixed:
 
-{% youtube http://www.youtube.com/watch?v=hMtZfW2z9dw %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/hMtZfW2z9dw" frameborder="0" allowfullscreen></iframe>
 
 But here's the best part: a school picked it up and playing it for marching
 band!
 
-{% youtube http://www.youtube.com/watch?v=Q3UsvLyu3N0 %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/Q3UsvLyu3N0" frameborder="0" allowfullscreen></iframe>
 
 Are we lucky to be alive now, or what?
 
