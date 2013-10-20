@@ -1,15 +1,19 @@
-Old liquid links (vimeo, Youtube) borken.
---> Could port Liquid (ew), or just do a clean scrippt in the meantime.
+* Port the Liquid video tags with a Racket script.
+* Clean the footer.
+* Add pictures of you.
+* Write Engineering/Performance.
+* Performance on requests for render speed. (Ilya's talks, minify + combine requests).
+* FIX MARKDOWN
 
-Performance -- look again at Ilya's talk, see how to make requests short, minify+combine all files.
 
 Tag the things, formatting, images (clean the posts).
 --> Long tail. Would be nice to bug track. Would be even better to just fix Markdown for some of it.
 
 Clean directory structure
---> Things sit at top-level, a dotfile handles excludes from rysnc, a clean
-    script has to handle what stays and what goes. Consolidate to a clean src/
-    and dst/ directory, maybe fix Frog so `clean` works.
+* Things sit at top-level, a dotfile handles excludes from rysnc, a clean
+  script has to handle what stays and what goes. Consolidate to a clean src/
+  and dst/ directory, maybe fix Frog so `clean` works.
+* Also, a clean 'build' command means you could do things like minify + consolidate requests at build-time
 
 TeX algo for line-breaking?
 --> Hard for now -- doesn't play with formatting (even bold or italics), freaks out in lists.
@@ -17,7 +21,5 @@ TeX algo for line-breaking?
 
 - Polish
 Prettify it a bit?
-Search function, a la Jekyll?
 "read more" as a default, so essays don't take up everything.
-
 
