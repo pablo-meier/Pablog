@@ -1,6 +1,8 @@
 Old liquid links (vimeo, Youtube) borken.
 --> Could port Liquid (ew), or just do a clean scrippt in the meantime.
 
+Performance -- look again at Ilya's talk, see how to make requests short, minify+combine all files.
+
 Tag the things, formatting, images (clean the posts).
 --> Long tail. Would be nice to bug track. Would be even better to just fix Markdown for some of it.
 

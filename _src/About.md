@@ -15,15 +15,6 @@ that, I grew up in Washington, DC. with a very lovely family.
 
 Nowawdays, I'm just Pabro. Bro bro bro. Brah.\*
 
-I'm on a bunch of social networks, if you want to follow, friend, or 'encircle'
-me:
-
-* [Facebook](https://www.facebook.com)
-* [G+](https://plus.google.com/105384565409386633298)
-* [Twitter](https://www.twitter.com/SrPablo)
-* [GitHub](https://www.github.com/paul-meier)
-* [Twitch.tv](https://www.twitch.tv/sicp) (mostly playing Starcraft 2 or Dota 2)
-
 Contact me if you'd like to play games on Battle.net or Steam, I have accounts
 there too :)
 

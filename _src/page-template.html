@@ -16,10 +16,8 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
     <link rel="stylesheet" type="text/css" href="/css/scribble.css">
-    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/morepaul.css">
     <!-- Feeds -->
-    <link ref="alternate" type="application/atom+xml"
-          href="@|atom-feed-uri|" title="Atom Feed">
     <link ref="alternate" type="application/rss+xml"
           href="@|rss-feed-uri|" title="RSS Feed">
     <!-- JS -->
@@ -61,30 +59,95 @@
               </ul>
             </li>
             @ni["/About.html" "About"]
-            <li><a href="@|atom-feed-uri|">Atom</a></li>
+            @ni["/Engineering.html" "Engineering"]
+            @ni["/Performance.html" "Performance"]
             <li><a href="@|rss-feed-uri|">RSS</a></li>
           </ul>
+          <form class="navbar-form navbar-right" action="http://www.google.com/search" method="get">
+             <fieldset role="search">
+                <input type="hidden" name="q" value="site:www.morepaul.com" />
+                <div class="form-group">
+                  <input id="search-input" type="text" style="border-radius: 5px" name="q" results="0" placeholder="Search"/>
+                </div>
+             </fieldset>
+          </form>
         </div>
-    </header>
+        </header>
+    @(when (string-ci=? uri-path "/index.html")
+        @list{
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Paul Meier</h1>
+            <p>Software, performance, culture, and whatever else I like.</p>
+        </div>
+    </div> <!-- jumbotron -->}
+    )
     <div class="container">
       <div class="row">
-        @;{ Remember that Twitter Bootstrap has a 12 cell model. The
-            col-md-N classes should add up to 12.  For instance 3
-            "col-md-4" divs, or 2 "col-md-6" divs. }
         <!-- Main column -->
-        <div id="content" class="col-md-12">
-          @;{ To put something only on the home page, check for
-              @uri-path being "/index.html" }
-          @(when (string-ci=? uri-path "/index.html")
-            @list{
-              <h1>More Paul</h1>
-			  <h2>less lame!</h2>
-			  <p>This is the personal blog of Paul Meier. It's currently in a disarrayed state since I migrated from <a href="http://octopress.org">Octopress</a> to <a href="https://github.com/greghendershott/frog">Frog</a> recently. Some broken links, some broken formatting, all broken video embeds. Fixes soon. More about me is on the <a href="/About.html">about</a> page.</p>})
+        <div id="content" class="col-md-8">
           @;{ Index pages for posts have @tag that's not #f }
           @(when tag
             @list{<h1>Posts tagged <em>@|tag|</em></h1>})
           @;{ The main page contents are in @contents }
           @|contents|
+        </div>
+        <div id="sidebar" class="col-md-4">
+            <h3>Connect, Follow, 'Encircle'</h3>
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://plus.google.com/105384565409386633298">G+</a></li>
+                <li><a href="https://www.twitter.com/SrPablo">Twitter</a></li>
+                <li><a href="https://www.github.com/paul-meier">GitHub</a></li>
+                <li><a href="https://www.twitch.tv/sicp">Twitch.tv</a></li>
+            </ul>
+            @;{Blogroll}
+            <h3>From my RSS Feed</h3>
+            <ul>
+                <li><a href="http://batsov.com/">(think)</a>
+                <li><a href="http://www.altdevblogaday.com/">#AltDevBlogADay</a></li>
+                <li><a href="http://bitchmagazine.org">Bitch Magazine</a></li>
+                <li><a href="http://bartoszmilewski.com/">Bartosz Milewski's Programming Cafe</a></li>
+                <li><a href="http://www.8bitpeoples.com/">8bitpeoples</a>
+                <li><a href="http://mozakai.blogspot.com/">Azakai</a></li>
+                <li><a href="http://dtrace.org/blogs/brendan/">Brendan Gregg's blog</a></li>
+                <li><a href="http://www.codinghorror.com/blog/">Coding Horror</a></li>
+                <li><a href="http://www.danielyrogers.com/">dan rogers directs theatre</a></li>
+                <li><a href="http://delightfulwrites.com/">Delightful Writes</a></li>
+                <li><a href="http://dorophone.blogspot.com/">Dorophone</a></li>
+                <li><a href="http://fulfillmentofdreams.blogspot.com/">Dreams Fulfilled</a></li>
+                <li><a href="http://blog.regehr.org/">Embedded in Academia</a></li>
+                <li><a href="http://www.evanmiller.org/">Evan Miller's News</a></li>
+                <li><a href="https://www.fpcomplete.com/school">FP Complete's Blog</a></li>
+                <li><a href="http://www.catonmat.net/">good coders code, great coders reuse</a></li>
+                <li><a href="http://googleresearch.blogspot.com/">Google Research Blog</a></li>
+                <li><a href="http://www.greghendershott.com/index.html">Greg Hendershott</a></li>
+                <li><a href="http://ifyoucanreadthisyourelying.blogspot.com">If You Can Read This, You're Lying</a></li>
+                <li><a href="http://www.jwz.org/blog/">jwz</a></li>
+                <li><a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a></li>
+                <li><a href="http://blog.llvm.org/">LLVM Project Blog</a></li>
+                <li><a href="http://www.loweringthebar.net/">Lowering the Bar</a></li>
+                <li><a href="http://matt.might.net/">Matt Might's Blog</a></li>
+                <li><a href="http://mossmouth.tumblr.com/">Mossmouth</a></li>
+                <li><a href="https://nealpoole.com/blog/">Neal Poole</a></li>
+                <li><a href="http://joshua.themarshians.com/">Joshua Marsh's blog</a></li>
+                <li><a href="http://planet.lisp.org/">Planet Lisp</a></li>
+                <li><a href="http://www.popehat.com/">Popehat</a></li>
+                <li><a href="http://allendowney.blogspot.com/">Probably Overthinking It</a></li>
+                <li><a href="http://prog21.dadgum.com/">programming in the 21st century</a></li>
+                <li><a href="http://programmingisterrible.com/">programming is terrible</a></li>
+                <li><a href="http://salexanderphd.tumblr.com/">S. Alexander, PhD</a></li>
+                <li><a href="http://semblare.tumblr.com/">Semblare sketchbook</a></li>
+                <li><a href="http://www.theguardian.com/profile/tamara-winfrey-harris">Tamara Winfrey-Harris</a></li>
+                <li><a href="http://blog.brownplt.org/">The Brown PLT Blog</a></li>
+                <li><a href="http://blog.racket-lang.org/">Racket blog</a></li>
+                <li><a href="http://cmr.github.io/">Ramblin's</a></li>
+                <li><a href="https://www.schneier.com/">Schneier on Security</a></li>
+                <li><a href="http://edgewhys.wordpress.com/">twitter too short, tumblr too awful</a></li>
+                <li><a href="http://whatever.scalzi.com/">Whatever</a>
+                <li><a href="http://whatindarnation.tumblr.com/">What in DarNation</a>
+                <li><a href="http://www.wisdomandwonder.com/">Wisdom and Wonder</a></li>
+            </ul>
         </div>
       </div>
       <footer>
@@ -103,7 +166,7 @@
       </footer>
     </div>
     <!-- </body> JS -->
-    <script type="text/javascript" src="//code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   </body>
 </html>

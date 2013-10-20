@@ -22,6 +22,7 @@ but I only speak from what I know.**
 
 * [Hyperbole and a Half][1] has a wonderful two-part comic ([1][2], [2][3]) describing it.
 * [Ken White at Popehat][2] describes depression, from a first-person perspective, in [this article](http://www.popehat.com/2013/03/24/three-things-you-may-not-get-about-the-aaron-swartz-case/) (from "The Third Thing" onwards).
+* **\[Edited -- 19-10-2013\]** [Shriram Krishnamurthi](http://cs.brown.edu/people/sk/) pointed me out to Dick Cavett's [two](http://opinionator.blogs.nytimes.com/2008/06/27/smiling-through/?_r=0) [shares](http://opinionator.blogs.nytimes.com/2008/07/11/smiling-through-part-2/?_r=0) on the NYT, which I found pretty fantastic.
 
 Some main points to take away:
 

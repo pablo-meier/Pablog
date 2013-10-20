@@ -8,7 +8,9 @@ are I'll leave it be for a bit while I pursue other interests (hey, it works
 well as is and I'm not shipping it :-p).
 
 It's called **Ebooker**, and if you'd like to have a look at the source, fire me
-an email, I have it hosted on a private repo on [Bitbucket][2]
+an email, I have it hosted on a private repo on [Bitbucket][2].
+
+**\[Update! I've put it on [Github](https://github.com/paul-meier/Ebooker).\]**
 
 ### "Ebooker"?
 
@@ -78,10 +80,12 @@ This indicates the program should go through two phases: a *consumption* phase,
 where it reads your writing and does some analysis on it, and a *generation*
 phase, where it creates new text by using what it learned.
 
-How does the analysis happen? Just counting words in a table, really. Here's an
-example of how it works: previously-mentioned Karl Pichotta recently tweeted
+How does the analysis happen? First it puts the words you use into a table, then
+it uses that table to see which words you use most. Here's an
+example of how it works: previously-mentioned Karl Pichotta recently tweeted:
 
-<blockquote class="twitter-tweet"><p>Don't do well in school, kids, or you could end up like me. Is that what you want out of life? \*whole sandwich falls out of beard\*</p>&mdash; Karl Pichotta (@kpich) <a href="https://twitter.com/kpich/status/260802216519139328" data-datetime="2012-10-23T17:57:48+00:00">October 23, 2012</a></blockquote> <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p>Don't do well in school, kids, or you could end up like me. Is that what you want out of life? \*whole sandwich falls out of beard\*</p>&mdash; Karl Pichotta (@kpich) <a href="https://twitter.com/kpich/status/260802216519139328" data-datetime="2012-10-23T17:57:48+00:00">October 23, 2012</a></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Ebooker would look at every word, and make a note of what follows it. For
 example, in the tweet above, it notes that every time Karl uses the word
@@ -145,11 +149,6 @@ like:
 </tr>
 <tr style="border-bottom: 1px solid black;">
 <td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr style="border-bottom: 1px solid black;">
-<td>...</td>
 <td>repeat for thousands of entries...</td>
 <td>...</td>
 </tr>
@@ -173,7 +172,7 @@ Some things about this table:
 From here, generating text is easy. We do so _probabilistically_: we let the
 words that show up most often have more weight than those that don't.
 
-One way to think about is is with darts: Imagine a dartboard with a huge
+One way to imagine this is with darts: Imagine a dartboard with a huge
 "outside zone" and a tiny bullseye. If you're terrible at throwing darts such
 that they land on the dartboard randomly, chances are it'll hit the outside zone
 frequently, and rarely hit the bullseye.
@@ -230,10 +229,10 @@ someone else's voice!
 
 Ebooker is currently whirring away, sending up tweets for the following bots:
 
-* [@SrPablo\_ebooks][9], seeded from my stream, [@SrPablo][10].
-* [@laurelita\_ebook][14], from my girlfriend's Twitter, [@laurelita][12]
-* [@SrLaurelita][11], from [@SrPablo][10] and [@laurelita][12]
-* [@love\_that\_lita][15], from [@laurelita][12] and [@love\_that\_goku][16]
+* @SrPablo\_ebooks, seeded from my stream, @SrPablo.
+* @laurelita\_ebook, from my girlfriend's Twitter, @laurelita.
+* @SrLaurelita, from @SrPablo and @laurelita.
+* @love\_that\_lita, from @laurelita and @love\_that\_goku.
 
 **If there's a bot you'd like to see, let me know! I'm happy to get a few more
 up there!**
@@ -261,7 +260,6 @@ non-technical folk, the kinds of problems programmers solve.
    [12]: https://twitter.com/laurelita
    [13]: http://en.wikipedia.org/wiki/Markov_chain
    [14]: https://twitter.com/laurelita_ebook
-   [15]: https://twitter.com/love_that_lita
    [16]: https://twitter.com/love_that_goku
    [17]: http://joshmillard.com/garkov/
    [18]: http://en.wikipedia.org/wiki/OAuth
