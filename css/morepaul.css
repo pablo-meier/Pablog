@@ -21,3 +21,24 @@ pre {
 	margin-top: 10px;
 }
 
+
+
+/* Footer stuff */
+#page-footer {
+	text-align: center;
+}
+#page-footer ul, #page-footer ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#page-footer a {
+	text-decoration: none;
+	font-weight: bold;
+}
+#page-footer a:hover {
+	text-decoration: underline;
+}
+#page-footer table {
+	margin: 15px auto;
+}

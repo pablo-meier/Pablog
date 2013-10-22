@@ -1,8 +1,8 @@
-* Port the Liquid video tags with a Racket script.
 * Clean the footer.
 * Add pictures of you.
 * Write Engineering/Performance.
 * Performance on requests for render speed. (Ilya's talks, minify + combine requests).
+* Clean sidebar.
 * FIX MARKDOWN
 
 
