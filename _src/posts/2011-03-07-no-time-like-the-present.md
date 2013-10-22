@@ -9,6 +9,8 @@ After playing [Skies of Arcadia](http://en.wikipedia.org/wiki/Skies_of_Arcadia)
 Exploration: a time where new lands could be explored with a good ship and a lot
 of gumption.
 
+<!-- more -->
+
 I started asking friends: "If you could go back to another time in history, what
 would it be?"  The girl I liked said the 20's, she'd like to be a flapper girl,
 wear hats, that kind of thing.  My favorite response:

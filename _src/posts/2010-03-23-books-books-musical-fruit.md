@@ -9,6 +9,8 @@ time' list:
 
 **Don Quijote** (_Cervantes_)
 
+<!-- more -->
+
 <img src="/img/2010/03/quijote.png" alt="Picasso's Quijote art" />
 
 'Misfit' entertainment is on the rise: _Napoleon Dynamite_, _Eagle vs. Shark_,

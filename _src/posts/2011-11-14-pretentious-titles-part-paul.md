@@ -8,6 +8,8 @@ post, mainly the term [_observational indistinguishability?_][1] I admit to
 mentally fapping a bit; I'll try my best to explain the term here since it
 right well blew my mind when I learned it.
 
+<!-- more -->
+
 Observational Indistinguishability, as it sounds, is the principle of two
 or more entities being indistinguishable from each other (you can't tell which
 one is which) by any amount of observation. It's really just a more formal way

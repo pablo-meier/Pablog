@@ -11,6 +11,8 @@ helps lift one out of the blues.
 Two pieces I discovered in the interim time period that are simply phenomenal
 recordings:
 
+<!-- more -->
+
 **Christian McBride**
 
 _Night Train_ - from the album _Gettin' To It_

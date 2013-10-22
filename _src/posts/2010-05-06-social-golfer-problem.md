@@ -8,6 +8,8 @@ plans and remarked (to my friend, not to me)
 > I can't think of anything less intellectually stimulating than writing
 > computer code for 7 hours a day.
 
+<!-- more -->
+
 After some thinking, my guess was they were probably confusing _programming_
 with _data entry_. Moments like these make me realize how much I take computer
 literacy for granted, especially among older folk. The Supreme Court [makes

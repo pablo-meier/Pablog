@@ -12,6 +12,8 @@ That being said, she brought up [Everyone Draw Mohammed Day][1], clearly
 unhappy with it, and attributing it to Muslim hatred, as this came up in the
 context of post-9/11 hatred in the United States.
 
+<!-- more -->
+
 I attribute her reaction mostly to the press in her country, which was
 inaccurate and unfavorable (her description of it had factual errors, and she
 didn't really address the cause). It wasn't the time or place for me to defend

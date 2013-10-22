@@ -25,3 +25,5 @@ Some days I just wish I were
 >
 > By a hippo.
 
+<!-- more -->
+

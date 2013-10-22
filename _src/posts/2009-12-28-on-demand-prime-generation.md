@@ -13,6 +13,8 @@ test up to and including the square root of the number you're testing, and the
 nature of primes means you really only need to test factorization by other
 primes.
 
+<!-- more -->
+
 ---
 
 In Haskell, I used [a former exercise from my CS173 class][2] that highlighted

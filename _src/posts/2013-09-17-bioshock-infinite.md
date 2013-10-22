@@ -8,6 +8,8 @@ OPINIONS on it.
 
 Here is a 20-something male's OPINION on a video game, on the Internet. Imagine!
 
+<!-- more -->
+
 ### Actually playing the game.
 
 The fun of consuming the game doesn't really come from playing it. It's a typical

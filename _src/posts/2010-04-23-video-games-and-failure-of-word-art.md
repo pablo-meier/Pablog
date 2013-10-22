@@ -10,6 +10,8 @@ My reaction to this was mostly along the lines of Penny Arcade: [there's
 nothing to see here][3]. An older person who's never really played video games
 decides to classify them ungenerously. Whoop whoop.
 
+<!-- more -->
+
 And normally I would let it rest, but then [PZ Myers decided to weigh in][4]
 (he agrees with Ebert). Now PZ is all about thinking rationally, letting
 evidence trump prejudices, etc. So it surprised me greatly that he made such a

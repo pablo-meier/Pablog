@@ -9,6 +9,8 @@ editor][3] if you haven't already!
 Also, I meant to squeeze this video in here somewhere, by the guys who did the
 Bed Intruder song:
 
+<!-- more -->
+
 <iframe width="560" height="315" src="//www.youtube.com/embed/qIoG4PlEPtY" frameborder="0" allowfullscreen></iframe>
 
 Source material [here][4]. But do you see this? We have a hilarious remix

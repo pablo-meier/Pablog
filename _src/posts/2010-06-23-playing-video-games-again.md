@@ -7,6 +7,8 @@ A brief summary of my video gaming:
 *  When I was 3, I started on NES games.  From there on in, I played almost exclusively
 console games until I was about 14.
 
+<!-- more -->
+
 * A friend of mine from high school introduced me to [Warcraft III][1], so I
 played that a bit. I was terrible. I more or less stopped playing games,
 except for Warcraft III, and [Super Smash Bros. Melee][2]. I flirted with the

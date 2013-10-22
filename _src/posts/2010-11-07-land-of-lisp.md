@@ -10,6 +10,8 @@ the music video he made was just too cute:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/HM1Zb3xmvMc" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 The book is peppered with cute cartoons and a whimsy feel that is endearing,
 not overbearing. I highly recommend it, if only for the comics (though working
 through the examples is fun, the games you make really highlight Lisp's

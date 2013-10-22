@@ -14,6 +14,8 @@ noble attempt to address many of its shortcomings, or if I may go so
 far, addressing the "failed promises" of TDD. Some of those promises
 (and how BDD helps solve them include):
 
+<!-- more -->
+
 * **Unit testing, on its own, helps you _validate_ your code, but does
   little to help you _understand_ its purpose.** Anybody who wastes
   enough time on Hacker News or Proggit has read the mandatory article

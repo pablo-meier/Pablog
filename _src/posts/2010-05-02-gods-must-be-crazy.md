@@ -7,6 +7,8 @@ Over 60% of the video online containing Paul was only uploaded in the last month
 Here's another!  I'm acting in [Mt. Olympus][1], a new [Brown TV][2] show with
 some really wonderful people involved.
 
+<!-- more -->
+
 <iframe src="//player.vimeo.com/video/11378339;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 The premise is that the Greek Gods come down every once in a while from Mt.

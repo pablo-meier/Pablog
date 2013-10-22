@@ -12,6 +12,8 @@ proponents][2], reignited by the iPad lacking Flash support. He describes the
 pointlessness of the fighting effectively, and it generalizes to programming
 language fanboy-ism:
 
+<!-- more -->
+
 > The problem with rallying behind a technology is that it traps us within the
 > confines of its constraints. We easily shift "don’t know" and "not sure" into
 > "can’t" and "won’t." Creativity is dictated by programming languages. How sad.

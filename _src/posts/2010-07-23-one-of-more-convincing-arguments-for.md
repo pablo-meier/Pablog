@@ -10,6 +10,8 @@ used in the irrelevant introduction to [this Ruby talk][1], until I can find
 the real one).
 
 
+<!-- more -->
+
 If God existed, and cared at all about us, why would he also create _so much_
 universe, and have it exist for _so much time_?
 

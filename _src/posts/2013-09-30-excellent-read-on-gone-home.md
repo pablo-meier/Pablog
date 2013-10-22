@@ -31,6 +31,8 @@ so far. An excerpt:
 > media must struggle against increasingly strong rhetorical currents to have even
 > a chance at spawning a modicum of expression before dying off.
 
+<!-- more -->
+
 I'm extremely tickled that ["gamers"][3], on the whole, seem to hate it, and
 secretly think that fuels a large part of why I love it.
 

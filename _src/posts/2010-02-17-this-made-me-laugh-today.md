@@ -7,5 +7,7 @@ he <strong>plays it so <em>cool.</em></strong>
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/0pK5HmuCMBM" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 Gotta love the cooool lovemakin' music they score it with.
 

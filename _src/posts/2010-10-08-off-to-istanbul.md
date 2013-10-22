@@ -7,6 +7,8 @@ She's abroad for the first time, spending 5-ish months as a lab tech,
 so my visit bisects hers. Mad props to Adobe for letting me do this ^_^
 
 
+<!-- more -->
+
 (by the way, we just [released the AIR Runtime for Android][1]! Download it
 onto your phone now, and enjoy mobile AIR apps ^_^)
 

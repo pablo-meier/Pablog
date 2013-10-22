@@ -10,6 +10,8 @@ _do_ appreciate you going into details about this. I'll describe some topics
 about my depression, since you almost certainly have someone in your life who
 might like it if you knew more about it (like me!).
 
+<!-- more -->
+
 **\[Note that I'm only speaking from my own experience, and this doesn't apply
 to all depressed people. Depression affects everybody differently. None of this
 is properly medical or anything, just observations from my experience and

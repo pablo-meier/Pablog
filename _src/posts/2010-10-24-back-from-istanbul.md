@@ -10,6 +10,8 @@ I can only say it was a magnificent, magnificent week. I might even say
 been to, and Turkish people were (as many people are) kind, warm, and happy
 people.
 
+<!-- more -->
+
 Sometimes I imagine/fantasize doing what my mother did, which is to go to
 another country where you don't speak the language and really make a life for
 yourself there. If I had to do it anywhere, Istanbul would be a great

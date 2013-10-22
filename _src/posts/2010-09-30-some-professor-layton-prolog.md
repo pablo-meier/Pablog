@@ -9,6 +9,8 @@ Prolog (for those unfamiliar with Prolog, check out [this post][2] for a
 description of what this magic language is!).
 
 
+<!-- more -->
+
 I'll post the puzzle and solution here; hopefully someone finds it fun!
 
 [![][3]][4]

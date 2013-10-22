@@ -10,6 +10,8 @@ its similar in style, tone, entertainment, and parallels with how I feel.
 
 --
 
+<!-- more -->
+
 On my [Jason Robert Brown/living as an artist post][4], I hadn't read his post
 recently enough to see his updates, which are marvelous, and demonstrate that
 I've been a little unfair to him. I think my points still stand, but I'll just

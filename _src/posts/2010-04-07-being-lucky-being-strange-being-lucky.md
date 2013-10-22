@@ -9,6 +9,8 @@ so lucky to turn into me."
 And, you know, it's sort of true. How wonderful if we were all so lucky that
 we could freely be who we want to\*, without judgement?
 
+<!-- more -->
+
 I bring this all up because I saw this video yesterday (the action starts at
 about 1:08).
 

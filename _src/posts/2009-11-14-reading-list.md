@@ -11,6 +11,8 @@ important about programming, software, etc.
 Taking the union of all such books would yield a stack taller than you are.
 I'm doing my best to ferociously play catch-up.
 
+<!-- more -->
+
 I tend to read books 2 or 3 at a time: one is usually about a specific
 technology, one higher-level about programming/coding as a whole, and one
 usually more for fun (if I'm lucky, I get to read fiction! That normally

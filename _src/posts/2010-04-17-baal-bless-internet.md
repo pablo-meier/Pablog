@@ -9,6 +9,8 @@ sources, you should check them out if you get the chance):
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/YTihsJQHt48" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 **Bale Out** (warning, NOT SAFE FOR WORK) is a remix of [Christian Bale's
 massive explosion][1] on the set of Terminator: Extinction. Aside from being
 absolutely hilarious, it's a pretty hip dance piece.

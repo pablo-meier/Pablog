@@ -11,6 +11,8 @@ scientist, the question of "How do I get good at ..." is something I thought
 about (and continue to think about) all the time.  Most of what I think is
 already present in the article in one form or another, but with my words:
 
+<!-- more -->
+
 * It starts with the Lorrie Moore quote at the top: **don't even do it unless you
   feel like you *have* to.  Otherwise, you won't want to when you will have
   to.**  The Lorrie Moore quote he opens his article with is almost verbatim to

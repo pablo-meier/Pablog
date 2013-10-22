@@ -1,5 +1,9 @@
-/* This contains all the miscellaneous CSS, outside of Bootstrap,
- * pygments, scribble, etc. */
+/* **************************************************************
+ * This contains all the miscellaneous CSS, outside of Bootstrap,
+ * pygments, scribble, etc. 
+ * **************************************************************
+ * */
+
 
 code {
     color: black;
@@ -19,6 +23,13 @@ pre {
 	border-radius: 5px;
 	width: 15em;
 	margin-top: 10px;
+}
+
+/* The "read more" link causes images that are floated in the post to 'break
+ * into' other post summaries.
+ */
+article {
+	clear: both;
 }
 
 

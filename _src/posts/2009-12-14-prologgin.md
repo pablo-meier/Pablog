@@ -15,6 +15,8 @@ problem (most problems require some mathematical insight, this was a
 straight-up write-it-out problem). In Problem 54, they provide a file with 1000
 games of poker, and you must determine how many games the first player wins.
 
+<!-- more -->
+
 **So here I saw an opportunity: Prolog!** Wouldn't it be more fun to just
 _declare_ the rules of Poker and say "go," rather than hard-code every
 individual evaluation possibility?

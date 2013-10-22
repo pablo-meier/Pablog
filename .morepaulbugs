@@ -1,4 +1,3 @@
-* Clean the footer.
 * Add pictures of you.
 * Write Engineering/Performance.
 * Performance on requests for render speed. (Ilya's talks, minify + combine requests).
@@ -22,4 +21,4 @@ TeX algo for line-breaking?
 - Polish
 Prettify it a bit?
 "read more" as a default, so essays don't take up everything.
-
+* Clean the footer.

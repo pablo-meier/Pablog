@@ -10,6 +10,8 @@ The game works as follows: at the start of the 48 hours, you're given a
 character, prop, and line of dialogue that must be present in your movie.
 You're also given a genre, with one chance to re-draw if desired.
 
+<!-- more -->
+
 The first, called _Hair Today, Gone Tomorrow!_, was a dry run of sorts, where
 we would identify bottlenecks for Game Time. The plan was to do this in 12
 hours, we really did it in about 14.

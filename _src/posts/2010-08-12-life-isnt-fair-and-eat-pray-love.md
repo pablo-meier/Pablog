@@ -11,6 +11,8 @@ up Yoga and Spirituality and suffered dearly][1]), whereas I belong to another
 group that's pretty well known: guys who hate _Eat, Pray, Love_. Hate is
 probably too strong a word, allow me to elaborate.
 
+<!-- more -->
+
 First things first: no, I haven't read it. I probably won't, either, so feel
 free to add that to a long list of reasons to discredit or grain-of-salt this
 post, because there are a many. But my criticism isn't so much based on the

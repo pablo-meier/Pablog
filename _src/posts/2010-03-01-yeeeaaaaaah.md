@@ -8,3 +8,5 @@ a quickie:
 
 <img src="/img/2010/03/clojure-caruso.png" alt="An awful meme" />
 
+<!-- more -->
+

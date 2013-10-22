@@ -11,6 +11,8 @@ Hope I can keep editing it with diagrams and the like, as it's a little lame
 at the moment. Against my better other judgment, I'm still writing it in
 Erlang ^\_^
 
+<!-- more -->
+
 ---
 
 Also, while I do believe in capitalism and it's ability to generate wealth,

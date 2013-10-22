@@ -11,6 +11,8 @@ absolute control of all the elements of my blog.  Notice the text
 justification is actually using the [Knuth line-breaking algorithm][2],
 [implemented][3] in Javascript!
 
+<!-- more -->
+
 This system also allows me to author pages using Vim, in [Markdown][4];
 it allows me to post code snippets without going off-site to Gist; it
 allows me to structure my blog as a Git repository, which I find intuitive.

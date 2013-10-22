@@ -8,6 +8,8 @@ graphics love?
 This is  an image I drew to replace my Facebook photo (the [old one][1]
 celebrated [Celebrity Doppelganger Week][2]):
 
+<!-- more -->
+
 <img alt="Pablo self-portrait" src="/img/2010/03/CartoonPaul.png" />
 
 And this one continues in [the tradition of memes][3] (starring my brother

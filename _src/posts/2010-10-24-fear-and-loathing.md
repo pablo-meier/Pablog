@@ -22,6 +22,8 @@ great by describing the general trend of fear and loathing in America:
 > its luster after decades of exploitation and periodically must be replaced by
 > new ones.
 
+<!-- more -->
+
 The terrorists have won, guys. They flew a few planes, destroyed some
 buildings, killed a couple thousand people. It was our idiotic _scared_
 reactions which drove us to record deficits, torture, fewer civil liberties, a

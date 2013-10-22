@@ -7,6 +7,8 @@ functional languages will ALWAYS beat imperative is the built-in love of
 lists. I simply can't express my distaste for always writing:
 
 
+<!-- more -->
+
 ```java
 import java.util.Collection;
 import java.util.Iterator;

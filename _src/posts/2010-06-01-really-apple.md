@@ -9,6 +9,8 @@ My sister had a MacBook to use for college when she was supposed to enroll in
 2008. A few weeks later [she got sick with her encephalitis][1], and had her
 remarkable recovery story.
 
+<!-- more -->
+
 Unfortunately, she didn't remember the root password she used for her laptop,
 and it wasn't any of her 'standards' (we'd tried them all). So while she could
 still use the computer via the auto-login function, she couldn't install or

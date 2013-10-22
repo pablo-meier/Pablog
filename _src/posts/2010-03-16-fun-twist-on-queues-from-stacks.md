@@ -12,6 +12,8 @@ qualify for a programming interview (to make sure he wasn't one of those
 that the Stack ADT contains push(E), pop(), ... Implement a Queue using a
 Stack."
 
+<!-- more -->
+
 Now, this interview question is very common, if you disallow what was almost
 certainly an error in the problem phrasing; usually it's "Implement a Queue
 given Stacks" or "If you had a library that produced Stacks, how would you

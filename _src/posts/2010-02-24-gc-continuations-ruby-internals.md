@@ -12,6 +12,8 @@ make application development easier, the sad fact is that it still helps you
 avoid shooting yourself in the foot to know how your languages features are
 being implemented. Even if it didn't, wouldn't you be curious?
 
+<!-- more -->
+
 This is also a great example of a poor (or simply inflexible) design choice
 having major consequences down the road. In the talk they explain how Ruby's
 _conservative, stop-the-world mark and sweep_ collector can't really be

@@ -11,6 +11,8 @@ successfully for the first time (with her knowledge and permission) and beat
 her the following game by about 83 points. There's still tons of work to be
 done, but its core is there, certainly.
 
+<!-- more -->
+
 I learned a ton from writing it, and hope to create a few animations/blog
 posts about it in the near future. This flowchart to writing [Good Code][2],
 by xkcd, is relevant, mostly in relation to the quality differential between

@@ -8,6 +8,8 @@ Race' from your phone, it's the only app that comes up.
 
 It's free! Download it, upvote it, downvote it, PLAY IT, whatever you like ^_^
 
+<!-- more -->
+
 (short update, finals are the death of me... hopefully for the last time!).
 
 

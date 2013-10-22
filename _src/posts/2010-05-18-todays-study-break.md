@@ -19,6 +19,8 @@ sentiments exactly. Some money quotes (emphasis mine):
 > instead of building content that will only work on Apple mobile devices is
 > doing a disservice to the efforts of all those individuals.
 
+<!-- more -->
+
 > Personally, I think that Flash content will probably outlive iPhone and iPad
 > apps because Flash is designed to deliver media content while the iPhone/iPad
 > development tools are designed to build applications for a specific hardware

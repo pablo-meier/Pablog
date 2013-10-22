@@ -7,6 +7,8 @@ quite lovely.  16 pop tunes:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/i9qW6HEBo_c" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 Glenn Beck/Donald Duck. It only really picks up after 3:00 or so.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/HfuwNU0jsk0" frameborder="0" allowfullscreen></iframe>

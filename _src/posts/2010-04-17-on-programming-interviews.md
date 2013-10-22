@@ -15,6 +15,8 @@ candidate struggles a little, but if their answer to 'describe a function to
 sort an array of integers' is 'Collections.sort(array),' you might want to
 think twice about bringing them in.
 
+<!-- more -->
+
 Another advantage of living in 2010 is that we can actually see some code
 during a phone screen: one interviewer had me use [EtherPad][2] while on the
 phone with them, and I would probably do something similar.

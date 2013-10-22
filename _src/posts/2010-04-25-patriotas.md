@@ -9,6 +9,8 @@ Spanish to glean much meaning from it:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/QZ__hR7pkbQ" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 I used this as the basis for [my first major project][1] in an Electronic
 Writing course I took last year. Other works I did for the course are on [the
 course wiki][2], my work including a [programmatic riff][3] on [_Pierre

@@ -18,6 +18,8 @@ expressed arguments refuting his own position, or even really acknowledge
 their existence. It's as if the only arguments there are are the ones this
 girl mentions, and he predictably takes her to town.
 
+<!-- more -->
+
 Let's make another distinction: this post isn't to say _stealing music is
 okay_, it's more to say _royalties are doomed, think of something else._ With
 this I mean I won't go into the ethics of downloading music illegally because,

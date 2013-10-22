@@ -1,7 +1,6 @@
 bugged
 clean.sh
-liquid-cleaner
-md-cleaner
+scrubbers
 push.sh
 _src
 .rsync-exclude

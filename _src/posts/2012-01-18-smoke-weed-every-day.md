@@ -8,6 +8,8 @@ I've recently been in love with appropriation of Snoop Dogg. This post
 isn't personally an endorsement of marijuana, nor is this disclaimer a
 recommendation against it.
 
+<!-- more -->
+
 Mario can't escape the Dogg:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/iAGBa9MZu0o" frameborder="0" allowfullscreen></iframe>

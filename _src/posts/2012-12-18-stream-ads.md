@@ -11,6 +11,8 @@ ad block are acting supremely entitled because there are workarounds, and
 compared to "theft" of mass media the inconveniences are fewer, and the producers
 are more cheated.</small>
 
+<!-- more -->
+
 ---
 
 **\[UPDATE (2013-7-2)** [Jake responded!][17] There's still a lot I disagree

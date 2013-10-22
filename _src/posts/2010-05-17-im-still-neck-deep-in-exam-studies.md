@@ -8,4 +8,6 @@ seen for SML, especially. Also note the 'This space reserved for JELLY STAINS'
 at the top ^_^
 
 
+<!-- more -->
+
    [1]: http://catonmat.net/blog/on-functors

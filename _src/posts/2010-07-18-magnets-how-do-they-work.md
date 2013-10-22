@@ -7,6 +7,8 @@ Let this be a myriad post with some of the trends that currently come up in this
 **Music.**  This was shown to me  by a former roommate, and while acapella isn't
 normally my thing, I found this pretty hip:
 
+<!-- more -->
+
 <iframe width="560" height="315" src="//www.youtube.com/embed/4om1rQKPijI" frameborder="0" allowfullscreen></iframe>
 
 **Internet lulz.** I never really cared much for Insane Clown Posse (see [this

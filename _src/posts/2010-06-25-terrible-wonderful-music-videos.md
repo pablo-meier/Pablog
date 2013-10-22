@@ -5,6 +5,8 @@
 
 Here's a bunch.  The first is probably the most cringe-worthy.  This is why the terrorists hate us.
 
+<!-- more -->
+
 <iframe width="560" height="315" src="//www.youtube.com/embed/ubfWnIid5J8" frameborder="0" allowfullscreen></iframe>
 
 Here's another:

@@ -7,6 +7,8 @@ but this one came up recently while helping my sister with some definitions:
 
 [![][2]][3]
 
+<!-- more -->
+
 ---
 
 There are some words that people invoke to give false credence to ideas. The

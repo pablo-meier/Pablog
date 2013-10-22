@@ -12,6 +12,8 @@ ago, in my junior year at Brown. I'd been fighting doubts in my mind for a few
 years prior, but only really challenged and criticized my faith with any vigor
 or curiosity around when I came out.
 
+<!-- more -->
+
 I was raised culturally Catholic: technically my mother _was_ a Catholic and
 my father a Protestant. I say _was_ because my mother isn't technically
 allowed to practice anymore: she is my father's second wife. Since the

@@ -11,6 +11,8 @@ while Java isn't my favorite language, the JVM is a pretty sexy piece of
 technology that enabled a number of other languages (Scala and Clojure most
 notable) to flourish.
 
+<!-- more -->
+
 
 **C:** The closest thing imperative programming has to "sparse beauty," a la
 Scheme. Shows you really don't need many bells and whistles to do a job, and

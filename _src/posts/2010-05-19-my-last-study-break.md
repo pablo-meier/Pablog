@@ -15,6 +15,8 @@ sister's neurological illness.][2] There's _lots_ to say about that and how
 it's affected me, but in reviewing my notes I came upon this slide (click to
 enlarge):
 
+<!-- more -->
+
 [![][3]][4]
 
 And felt a flurry of emotions. Context:

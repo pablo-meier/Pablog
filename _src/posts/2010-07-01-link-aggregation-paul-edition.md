@@ -11,6 +11,8 @@ write much about my feelings, my ups-and-downs, my relationships or my
 struggles. Most of my writing is either esoteric (code, old video games, etc)
 or at arms length from my actual life.
 
+<!-- more -->
+
 I try to make up for this by [introducing][1] [snippets of][2] [internet
 culture][3] here, since only a few people I've ever met trawl the internet as
 much and as eagerly as I do. On a typical day I view dozens of images and read

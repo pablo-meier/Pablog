@@ -11,6 +11,8 @@ b) my readers (are there any there)?
 But let's continue. What am I up to? Oh, yes! These are things I'm working on
 in school, and am likely to write about (if I ever do, in fact, write):
 
+<!-- more -->
+
 **[Solving Hard Problems with Combinatorial Optimization][1]** is one of the
 5-6 legendary courses everyone at Brown CS is told to take, something like a
 rite of passage. I missed the chance to take one of those classes ([Operating

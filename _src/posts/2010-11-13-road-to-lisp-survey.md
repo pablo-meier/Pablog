@@ -8,6 +8,8 @@ I, Paul Meier, do solemnly offer these responses to
 **When did you first try Lisp (meaning here and throughout the survey "any
 member of the Lisp family") seriously, and which Lisp family member was it?**
 
+<!-- more -->
+
 I took Lisp seriously after my first exposure to it, in [Shriram
 Krishnamurthi](http://cs.brown.edu/people/sk/)'s
 [programming languages course](http://cs.brown.edu/courses/cs173/),

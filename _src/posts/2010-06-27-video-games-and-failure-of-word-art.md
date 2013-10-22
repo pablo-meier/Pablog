@@ -9,6 +9,8 @@ It's actually a pretty nice piece.
 
 ---
 
+<!-- more -->
+
 I [wrote about][2] Ebert et. al. being naive and/or lame when they don't allow
 games to be art. This great little reddit thread ["Saddest moment in a
 game?"][3] shows that, like [the NYT summarizes rather well][4], it's more a

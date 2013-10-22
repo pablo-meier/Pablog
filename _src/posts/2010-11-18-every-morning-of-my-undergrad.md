@@ -7,6 +7,8 @@ I forgot the name of, and decided to post it instead.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/x6rsp6phb5U" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 It's been a long, exciting week at work, kids. I'll post with words and write
 some long delayed emails when I have a wee bit more energy ^\_^
 

@@ -7,6 +7,8 @@ To contrast to the [other part][1] of this double-post, let's talk about
 something a little more familiar to the folk at home: **failing at life.** This
 is prescient to me because of this:
 
+<!-- more -->
+
 <img src="/img/2011/05/degree.jpg" alt="My Brown degree." />
 
 That is my degree from Brown University, a combined BS in Computer Science/BA in

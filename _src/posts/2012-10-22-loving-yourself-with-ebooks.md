@@ -10,6 +10,8 @@ well as is and I'm not shipping it :-p).
 It's called **Ebooker**, and if you'd like to have a look at the source, fire me
 an email, I have it hosted on a private repo on [Bitbucket][2].
 
+<!-- more -->
+
 **\[Update! I've put it on [Github](https://github.com/paul-meier/Ebooker).\]**
 
 ### "Ebooker"?

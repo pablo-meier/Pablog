@@ -11,6 +11,8 @@ matchup that leaves you (relatively) safe from cheese and (relatively) set for
 a decent economy. It's a very old build that's been around since the release,
 and I got to Diamond using only this for my ZvZ's.
 
+<!-- more -->
+
 Liquipedia has a [decent entry on it][2], but here's the basics:
 
 * 9 Overlord

@@ -10,6 +10,8 @@ tackles similar problems.
 
 ### CoffeeScript
 
+<!-- more -->
+
 **What it is:** JavaScript sucks. While there are deep implementation issues
 that are unavoidable no matter what you do (all numbers are floats, strings must
 be comprised of 16-bit code points...), there are also just crappy and confusing

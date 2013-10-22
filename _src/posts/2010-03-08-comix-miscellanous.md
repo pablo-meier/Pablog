@@ -10,6 +10,8 @@ My friend Lyn has [a comic of her own][2], which I also greatly enjoy. I keep
 petitioning for the inclusion of another character, and maybe one day my calls
 will be met.
 
+<!-- more -->
+
 Last summer I tried to get a comic going. I considered posting the 1.5 pages I
 completed. It was going to be based in the world of the [Catlevania: SOTN][3]
 tribute I thought about writing. I may get back to it, in the meantime, here's

@@ -10,6 +10,8 @@ here's a quickie:
 
 [![][3]][4]
 
+<!-- more -->
+
 That's him, guys. That drawing, in the eyes of way too many, is worth killing
 me for. See [a whole blog of them][5].
 

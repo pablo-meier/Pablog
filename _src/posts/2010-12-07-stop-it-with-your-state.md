@@ -8,6 +8,8 @@ down, at work and at home, and after looking for the more general problem,
 it's all about state. ALL OF IT.
 
 
+<!-- more -->
+
 Okay, not all of it. Most of it has to do with poor abstractions at the
 programming language level. But the _primary_ one is state, and mostly, I
 think it's about time just done gone outgrown that shit.

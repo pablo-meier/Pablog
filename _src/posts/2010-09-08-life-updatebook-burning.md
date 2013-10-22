@@ -11,6 +11,8 @@ have been living in and out of boxes since May. Just last week I moved in to
 my new apartment, and will slowly, surely become a normal well-adjusted human
 being again.
 
+<!-- more -->
+
 Despite the change in locale, the main reason I've not updated (or been so
 fast to move, or had much time to play) is that **I'm happily and proudly an
 engineer at Adobe Systems,** working on their [AIR product.][3] It's really a

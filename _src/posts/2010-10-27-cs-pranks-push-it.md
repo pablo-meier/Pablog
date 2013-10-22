@@ -10,6 +10,8 @@ writing zwrite `&lt;`username`&gt;` -m "PAUL LOGGED OUT" on my .logout file,
 executed anytime I logged out.
 
 
+<!-- more -->
+
 The sad thing about these pranks was that occasionally someone else would do a
 more malicious one, and we'd get blamed :( But there's still so much fun to be
 had from finding ways to shake things up.

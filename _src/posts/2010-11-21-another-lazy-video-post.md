@@ -10,6 +10,8 @@ While folding/placing laundry and cleaning up my room, it's good to have some
 videos or music playing. If you have an hour to burn, there's a great 1 hour
 interview in 4 15-minute segments with Christopher Hitchens:
 
+<!-- more -->
+
 <iframe width="560" height="315" src="//www.youtube.com/embed/S0dldtkxzVU" frameborder="0" allowfullscreen></iframe>
 
 If you only have 7 minutes, in honor of our departing Governer:

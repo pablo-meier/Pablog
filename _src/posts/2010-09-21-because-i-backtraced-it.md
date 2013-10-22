@@ -9,6 +9,8 @@ internet making a story huge][4], and this one kind of combines the two.
 First we have an incredibly foul-mouthed, unusually sexually knowledgeable 11
 year-old girl:
 
+<!-- more -->
+
 <iframe width="560" height="315" src="//www.youtube.com/embed/hQKro8WEZ3I" frameborder="0" allowfullscreen></iframe>
 
 Before we continue, lets learn a few things here:

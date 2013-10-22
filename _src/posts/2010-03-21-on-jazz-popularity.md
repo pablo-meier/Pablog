@@ -13,6 +13,8 @@ that our Hard Problems are really bollocks: our problems are at least
 solvable. Even if they aren't, they're well defined enough to know when we've
 solved them.
 
+<!-- more -->
+
 Try answering "Why isn't Jazz popular?" and all you can do is approximate.
 Social scientists have much more courage than I do.
 

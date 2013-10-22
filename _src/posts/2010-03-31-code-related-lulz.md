@@ -7,6 +7,8 @@ The second is  [the source code for ed][3].
 
 Both from [this reddit thread][4].
 
+<!-- more -->
+
 
    [1]: http://farm4.static.flickr.com/3031/2784420693_913239d70a_o.gif
    [2]: http://www.morepaul.com/2010/02/hiatus-and-voyage-of-vim.html

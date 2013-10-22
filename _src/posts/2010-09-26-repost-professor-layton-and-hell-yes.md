@@ -13,6 +13,8 @@ server as well, which makes them uglier, and b) **those posts are like these, bu
 much more boring.**
 
 
+<!-- more -->
+
 But I might re-post one or two every here and there. Here's a re-post from
 September 4, 2009, when I was playing Professor Layton and the Diabolical Box.
 I just got the sequel, Professor Layton and the Unwound Future ([official

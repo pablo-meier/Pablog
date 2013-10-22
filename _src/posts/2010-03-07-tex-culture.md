@@ -11,6 +11,8 @@ advantages.
 
 ---
 
+<!-- more -->
+
 On [Hacker News][3] someone linked to a very non-hacker article, namely, an
 author of the gaming site Kotaku [is very displeased][4] with many things
 Japan. It's a moderately epic rant, I only made it until about halfway down

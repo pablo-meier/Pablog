@@ -8,6 +8,8 @@ media production. It was affiliated with the [Multimedia and Electronic Music
 Experiments (MEME)][1] program at Brown.
 
 
+<!-- more -->
+
 And sometimes I miss creating things with the skills I gathered in it. This
 kind of things is pretty awesome:
 

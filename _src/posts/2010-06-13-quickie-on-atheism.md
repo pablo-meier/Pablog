@@ -11,6 +11,8 @@ exemplary one, I would say, of the compassion and humility the faith claims to
 provide) and he frequently discusses religion and the many conversations
 around it.
 
+<!-- more -->
+
 He recently posted [a letter from an atheist reader][2] that echoes how I feel
 about (what is being branded as) the New Atheists: yes they are loud, and
 their tone does little to persuade believers in an honest debate.

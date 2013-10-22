@@ -15,6 +15,8 @@ programming, with true object-orientation, but miss ML/Haskell type systems
 and inference. What if I could make a concise, type-inferred Object-Oriented
 language?_ Then I found [Scala][6] had already been made.
 
+<!-- more -->
+
 Reading so many new language pages, I notice that lots of older languages
 getting referenced to describe the current one. Carlos Fuentes pointed out
 that Guatemala used to be called "The Paris of the Americas" (he also pointed

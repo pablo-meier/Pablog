@@ -6,6 +6,8 @@ A few things.  One, **cursing, and strong words!**
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/s_osQvkeNRM" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 I happen to agree.  I swear very little, and do so very carefully (which is to
 say I treat swear words like any other word). But still, someone who thinks
 they have _no place_ has never seen them put to great use (my favorite example

@@ -10,6 +10,8 @@ made Latin Soap Operas much better than their US counterparts, her first answer
 was _"they end,"_ referencing the fact that they just have a story and tell it,
 rather than milk a set of characters for 30 years.
 
+<!-- more -->
+
 The problem with television's business model is that a show will just go on
 until it becomes absurd and outdated, and only _then_ will the writers (ha!
 kidding! executives) decide to wrap it up.

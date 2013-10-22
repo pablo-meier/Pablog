@@ -11,6 +11,8 @@ The winner for Most Currently Lost Potential is [The Big Caption][5], which
 takes photos from [The Big Picture][6] and captions them with funny phrases
 and appropriate typography. Two favorites:
 
+<!-- more -->
+
 [![][7]][8]
 
 [![][9]][10]

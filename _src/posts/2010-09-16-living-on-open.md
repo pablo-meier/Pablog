@@ -8,6 +8,8 @@ late! It's time to bring back two things we've missed for some time: computers
 and whimsy!
 
 
+<!-- more -->
+
 ![Haters Gonna Hate][1]
 
 

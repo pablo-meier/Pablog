@@ -16,6 +16,8 @@ Stein, mostly because a  few days ago [he said][1]:
 > worker is not one of them, he should learn how to work and how to get along --
 > not always easy.
 
+<!-- more -->
+
 Something was amiss though, and that's this: [a little business editorial he
 wrote in 2009][2] for the NYT that said, among other things:
 

@@ -6,6 +6,8 @@
 While I'd also like to speak of [personal failures][1] today, I've been thinking
 a lot more about system failure.
 
+<!-- more -->
+
 Alan Perlis famously wrote that you shouldn't bother to learn a programming
 language unless it changes the way you think about programming, and Erlang
 delivers in spades.  Almost a year in\* to [ScrabbleCheat][2], only now do I

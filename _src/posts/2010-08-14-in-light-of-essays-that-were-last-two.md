@@ -6,6 +6,8 @@
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/JNUTYHJrutw" frameborder="0" allowfullscreen></iframe>
 
+<!-- more -->
+
 And "I'm retarded, I guess":
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/S7RlSTtXuNk" frameborder="0" allowfullscreen></iframe>

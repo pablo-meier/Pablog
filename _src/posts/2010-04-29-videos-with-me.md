@@ -6,6 +6,8 @@ ME ME ME! `&lt;`STOP`&gt;`
 
 <iframe src="//player.vimeo.com/video/11344057;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<!-- more -->
+
 MY GAME IS BETTER `&lt;`STOP`&gt;`
 
 <iframe src="//player.vimeo.com/video/11344878;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

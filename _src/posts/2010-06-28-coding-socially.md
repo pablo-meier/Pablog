@@ -13,6 +13,8 @@ silly functional language! Also, I have plans to make it more than just an
 anagram/word generator, even though that's all this release contains. You'll
 need [an Erlang VM][7] to run it.
 
+<!-- more -->
+
 I'll also mention I have [a BitBucket account,][8] but no public repositories.
 [My video games group][9] used Mercurial, so now that two of us have graduated
 we moved our project to BitBucket. I put [Rat Race][10] and [FlipTile][11] on

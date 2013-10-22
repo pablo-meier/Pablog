@@ -10,6 +10,8 @@ January 4th.</small></em>
 Today, in light of the news, I've been feeling [pretty much this][13].
 Seriously, fuck _everything._
 
+<!-- more -->
+
 But part of what made the whole thing so maddening was the same stupid-shit
 things people were saying in response to suggestions of gun control in
 light of this, one of [so many][12] mass shootings we get here.

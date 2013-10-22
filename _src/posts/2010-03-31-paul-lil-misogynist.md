@@ -12,6 +12,8 @@ My school had a tradition of putting 4th graders in little skits, and I was in
 one called _Sammy Carducci's Guide to Women._ (based, as I just found out, on
 a terrible-looking [novel for middle schoolers][2]).
 
+<!-- more -->
+
 The director of these shows recorded them, and gave to me a DVD he'd made as a
 graduation gift.
 
