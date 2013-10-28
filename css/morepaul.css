@@ -37,6 +37,8 @@ article {
 /* Footer stuff */
 #page-footer {
 	text-align: center;
+	color: #D5B472;
+	background-color: #5A3C00;
 }
 #page-footer ul, #page-footer ul li {
 	list-style-type: none;
@@ -46,10 +48,47 @@ article {
 #page-footer a {
 	text-decoration: none;
 	font-weight: bold;
+	color: #986500;
 }
 #page-footer a:hover {
 	text-decoration: underline;
 }
 #page-footer table {
 	margin: 15px auto;
+}
+
+
+/* Try to override what we know exists in that dreaded minified file.
+ */
+.jumbotron {
+	background-color: #D5B472;
+	color: #5A3C00;
+}
+a, h1 a, h2 a, h3 a, h4 a, h5 a, h1, h2, h3, h4, h5 {
+	color: #986500;
+}
+a:visited {
+	color: #6C521F;
+}
+
+.navbar,
+.navbar a,
+.navbar a:visited,
+.navbar ul li a,
+.navbar ul li a:visited,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > li > a:visited {
+	color: #D5B472;
+	background-color: #5A3C00;
+}
+
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #6C521F;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #6C521F;
 }

@@ -1,13 +1,28 @@
-#Performance
+# Performance
 
-I'm a performer. Music degree.
+I spent most of my high school years acting, and applied primarily to acting
+conservatories, with the odd liberal arts college. I ended up not pursuing it
+full-time like I thought I would, focusing a bit more on theatre production and
+sound design while in college.
 
-[Pwiki page.](http://pw.brown.edu/wiki/people/paul_meier_09)
+In production, I was on the [Sock & Buskin](https://www.brown.edu/academics/theatre-arts-performance-studies/undergraduate/sb-season)
+board, helping decide the Theatre, Speech and Dance department's season with
+other students and faculty. I was also on [production workshop](http://pw.brown.edu/),
+one of the more prominent student-run boards, helping run the theatre.
 
-<ul>
-<li>Board member of Sock &amp; Buskin, Spring 2006-Present</li>
-<li>Board member of <a href="http://pw.brown.edu">production workshop</a>, Fall 2006-Fall 2007</li>
-</ul>
+Regarding sound design, I got a Music degree with a focus on music and
+sound technology (more formally the [Multimedia and Electronic Music Experiments](http://brown.edu/Departments/Music/sites/meme/)
+program). Here I had a ton of fun working on installations, live electronic
+performance, and use of the recording studio as a compositional tool.
+
+I still found the odd opportunity to act ;)
+
+I was pretty woeful about archiving my work, so much of it is totally lost or on
+very old computers I've lost (this was all
+pre-[Cloud](https://chrome.google.com/webstore/detail/cloud-to-butt-plus/apmlngnhgbnjpajelfkmabhkfapgnoai?hl=en)).
+
+On my [pwiki page.](http://pw.brown.edu/wiki/people/paul_meier_09), I had some
+of my college accomplishments listed, reproduced here:
 
 <table style="margin: 10px auto;">
 <caption><strong>Acting</strong></caption>
@@ -19,6 +34,7 @@ I'm a performer. Music degree.
 </tr>
 <tr>
 <td><em>Hair today, Gone Tomorrow!</em></td>
+<td>Dealer</td>
 <td>Lyla Fujiwara and Daniel Byers</td>
 <td>July 2009</td>
 </tr>
@@ -43,7 +59,7 @@ I'm a performer. Music degree.
 <tr>
 <td><em>In the Beginning</em> (Staged Reading)</td>
 <td>Chris</td>
-<td>Charly Simpson</td>
+<td>Rachel Caris Love</td>
 <td>November 2006</td>
 </tr>
 <tr>
@@ -148,3 +164,5 @@ I'm a performer. Music degree.
 <td>Fall 2005</td>
 </tr>
 </table>
+
+I don't produce as much art as I'd like, but here's hoping that changes.

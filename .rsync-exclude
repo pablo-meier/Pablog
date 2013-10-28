@@ -6,3 +6,4 @@ _src
 .rsync-exclude
 .morepaulbugs
 .frogbugs
+.git

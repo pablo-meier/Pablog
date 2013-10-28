@@ -18,11 +18,11 @@ kind of things is pretty awesome:
 And while I linked it a long time ago already, it's always nice to have a
 refresher:
 
-<iframe src="//player.vimeo.com/video/9625370;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/9625370" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Another:
 
-<iframe src="//player.vimeo.com/video/2099027;byline=0&amp;portrait=0&amp;badge=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/2099027" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 And some vintage Norman McLaren for you:
 
