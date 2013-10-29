@@ -7,6 +7,7 @@ Tag the things, formatting, images (clean the posts).
 
 Clean directory structure
 * Minify, inline, consolidate requests.
+* Custom download of Bootstrap without all the things you don't use?
 
 TeX algo for line-breaking?
 --> Hard for now -- doesn't play with formatting (even bold or italics), freaks out in lists.
