@@ -4,6 +4,9 @@ scheme/host = http://www.morepaul.com
 title = More Paul
 author = Paul Meier
 
+src-dir = frog-sources
+output-dir = build
+
 # Whether to show the count of posts next to each tag in sidebar
 show-tag-counts? = true
 
