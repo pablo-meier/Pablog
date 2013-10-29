@@ -2,6 +2,9 @@
 
 all: clean build preview
 
+push:
+	racket builder/builder.rkt --push
+
 build: 
 	racket builder/builder.rkt --build
 

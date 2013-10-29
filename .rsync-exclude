@@ -1,9 +1,0 @@
-bugged
-clean.sh
-scrubbers
-push.sh
-_src
-.rsync-exclude
-.morepaulbugs
-.frogbugs
-.git

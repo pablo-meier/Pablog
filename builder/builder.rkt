@@ -27,7 +27,14 @@
       (eprintf "Nothing to clean!~n")))
 
 (define (push)
-  #t)
+  (cond
+    [(is-built?)
+     (define dst-server "root@198.74.49.231")
+     (define dst-path "/root/www")
+     (define dst-string (format "~a:~a" dst-server dst-path))
+     (define command (format "rsync --chmod=u=rwx,go=rx -avze 'ssh -p 22' --delete ~a ~a" *build-dir* dst-string))
+     (make-syscall command)]
+    [else (eprintf "Must build the project before pushing it to the server~n")]))
 
 
 ;; HELPERS
@@ -90,4 +97,8 @@
   [("-p" "--preview")
    (""
     "Runs the frog server")
-   (preview)])
+   (preview)]
+  [("-t" "--push")
+   (""
+    "Pushes the generated site to the external webserver")
+   (push)])

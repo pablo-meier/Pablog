@@ -1,22 +1,16 @@
 * Performance on requests for render speed. (Ilya's talks, minify + combine requests).
 * Add pictures of you.
-* Clean sidebar.
 * FIX MARKDOWN
 
 Tag the things, formatting, images (clean the posts).
 --> Long tail. Would be nice to bug track. Would be even better to just fix Markdown for some of it.
 
 Clean directory structure
-* Things sit at top-level, a dotfile handles excludes from rysnc, a clean
-  script has to handle what stays and what goes. Consolidate to a clean src/
-  and dst/ directory, maybe fix Frog so `clean` works.
-* Also, a clean 'build' command means you could do things like minify + consolidate requests at build-time
+* Minify, inline, consolidate requests.
 
 TeX algo for line-breaking?
 --> Hard for now -- doesn't play with formatting (even bold or italics), freaks out in lists.
 --> Would need to integrate with the Markdown parser on some level.
 
 - Polish
-Prettify it a bit?
-"read more" as a default, so essays don't take up everything.
-* Clean the footer.
+* Redesign sidebar?
