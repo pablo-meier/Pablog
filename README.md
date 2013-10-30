@@ -19,7 +19,7 @@ custom color scheme.
 
    [1]: https://github.com/greghendershott/frog
    [2]: https://github.com/greghendershott/markdown
-   [3]: https://www.morepaul.com
+   [3]: http://www.morepaul.com
    [4]: http://johnmacfarlane.net/babelmark2/faq.html
    [5]: http://littleschemer.blogspot.com
    [6]: http://bootswatch.com/readable/
