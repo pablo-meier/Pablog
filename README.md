@@ -1,16 +1,25 @@
 # Pablog!
 
-My personal blog, generated with [Frog][1]. It's pretty slipshod with some files
-in \_src and others sprinkled in at the top-level, but I'll fix it in time.
+Repo for [personal blog][3], generated with [Frog][1]. It's pretty slipshod, a
+website in transition!
 
-Much of the final output is a bit wonky since Markdown is poorly defined, meaning
-the [Markdown][2] parser that Frog uses behaves a differently than the one
-Jekyll uses, especially regarding linebreaks.
+Much of the final output is a bit wonky since Markdown is [very poorly defined,][4]
+meaning the [Markdown][2] parser that Frog uses behaves a differently than the one
+Jekyll uses, especially regarding linebreaks. To make matters worse, many of
+these posts come from the an export of my old [Blogger site][5], which output
+yet another idea of what Markdown should be.
 
-In theory, just install frog and run 'raco frog -bp' from the top level
-directory to generate a fresh copy of the site. Use the `clean.sh` script to
-bring it back to normal. Uses a nonstandard Bootstrap theme from Bootswatch
-("Readability").
+To run it, you just need Racket. The Makefile at the top level is a wrapper for
+an in-progress Racket script I'm writing that will do minification and the like,
+and it expects a copy of Frog in it's directory, since I'm hacking on that as
+well.
+
+Uses a nonstandard Bootstrap theme from Bootswatch ("[Readable][6]") with a
+custom color scheme.
 
    [1]: https://github.com/greghendershott/frog
    [2]: https://github.com/greghendershott/markdown
+   [3]: https://www.morepaul.com
+   [4]: http://johnmacfarlane.net/babelmark2/faq.html
+   [5]: http://littleschemer.blogspot.com
+   [6]: http://bootswatch.com/readable/
