@@ -1,7 +1,3 @@
-# Toad
-
-## Because Frog and Toad are friends!
-
 Builds my [Frog][1] based blog with my own preferences and targets. Since it
 relies on some modifications to frog itself (namely, the ability to change
 source and destination directories) I include my own copy of Frog until all the

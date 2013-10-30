@@ -64,7 +64,7 @@ activities and murder that she never consented to, got sexually assaulted,
 repeatedly threatened, and emotionally abused. _Maybe_ she can be a bit harsh on
 Walt, I think? And as for being "hypocritical," who on that show isn't? And
 aren't these people usually fans of Walt, the king of trying to have his cake
-and eat it to? Isn't that what the show is kind of about? To me it just seemed
+and eat it too? Isn't that what the show is kind of about? To me it just seemed
 like Skyler is a sharp woman who's trying to do the best she can given what
 she's got. Most antifans don't point out better things she could have done AND
 account for the leeway they give every other character on the show.

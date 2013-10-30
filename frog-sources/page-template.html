@@ -13,6 +13,19 @@
     <link rel="icon"      href="/favicon.ico">
     <link rel="canonical" href="@|full-uri|">
     <!-- CSS -->
+    <!-- Hey friends! If you're looking at this, it means you're delving into the source. What follows
+         is pretty ugly - it's inlined CSS, minified, for quick layout. See this talk by Google performance
+         engineer Ilya Grigorik: https://docs.google.com/presentation/d/1IRHyU7_crIiCjl0Gvue0WY3eY_eYvFQvSfwQouW9368/present
+
+         But you may want a human readable version of the CSS. Just query the server for any of the files:
+         this blob is all of them together, compacted:
+
+           http://www.morepaul.com/
+                * /css/bootstrap.min.css
+                * /css/pygments.css
+                * /css/scribble.css
+                * /css/morepaul.css
+    -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
     <link rel="stylesheet" type="text/css" href="/css/scribble.css">
@@ -38,7 +51,7 @@
             <span class="icon-bar"></span>
           </button>
           <a href="/index.html" class="navbar-brand">More Paul</a>
-        </div>
+        </div> <!-- navbar-header -->
         <div class="collapse navbar-collapse our-nav-collapse"
              role="navigation">
           <ul class="nav navbar-nav">
@@ -71,8 +84,9 @@
                 </div>
              </fieldset>
           </form>
-        </div>
-        </header>
+        </div> <!-- rest of navbar -->
+      </div> <!-- container -->
+    </header>
     @(when (string-ci=? uri-path "/index.html")
         @list{
     <div class="jumbotron">
@@ -151,45 +165,45 @@
         </div>
       </div>
       <footer id="page-footer">
-	  <div class="row">
-		  <div class="col-md-3">
-			  <h3>Built On</h3>
-			  <ul>
-				  <li><a href="https://github.com/greghendershott/frog">Frog</a></li>
-				  <li><a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a></li>
-				  <li><a href="http://vim.org">Vim</a></li>
-				  <li><a href="http://wummel.github.io/linkchecker/">Linkchecker</a></li>
-			  </ul>
-		  </div>
-		  <div class="col-md-6">
-			  <h3>Copyright</h3>
+      <div class="row">
+          <div class="col-md-3">
+              <h3>Built On</h3>
+              <ul>
+                  <li><a href="https://github.com/greghendershott/frog">Frog</a></li>
+                  <li><a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a></li>
+                  <li><a href="http://vim.org">Vim</a></li>
+                  <li><a href="http://wummel.github.io/linkchecker/">Linkchecker</a></li>
+              </ul>
+          </div>
+          <div class="col-md-6">
+              <h3>Copyright</h3>
               <p><em><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">More Paul</span> by 
         <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.morepaul.com" property="cc:attributionName" rel="cc:attributionURL">Paul Meier</a> 
         is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</em> This likely won't do jack to protect any of my "valuable" "work." But if you take anything from this blog that I made, please just
       be cool and attribute it, and allow it to be shared by others.</p>
-		  </div>
-		  <div class="col-md-3">
-			<h3>Under Construction</h3>
-			<table>
-				<tr>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-				</tr>
-				<tr>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-				</tr>
-				<tr>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-					<td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-				</tr>
-			</table>
-		  </div>
-	  </div>
-	  </footer>
+          </div>
+          <div class="col-md-3">
+            <h3>Under Construction</h3>
+            <table>
+                <tr>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                </tr>
+                <tr>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                </tr>
+            </table>
+          </div>
+      </div>
+      </footer>
     </div>
     <!-- </body> JS -->
     <script type="text/javascript" src="/js/jquery.min.js"></script>
