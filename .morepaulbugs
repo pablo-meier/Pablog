@@ -1,12 +1,26 @@
-* Performance on requests for render speed. (Ilya's talks, minify + combine requests).
-* Add pictures of you.
-* FIX MARKDOWN
-
-Tag the things, formatting, images (clean the posts).
---> Long tail. Would be nice to bug track. Would be even better to just fix Markdown for some of it.
-
 Clean directory structure
 * Minify, inline, consolidate requests.
+** Happen from Frog:
+*** Before we render the template, we go through it
+**** Find all <link rel="stylesheet">
+**** Consolidate all CSS files into a single one in the order they were defined.
+**** Inline it AFTER Scribble parsing has happened so as not to confuse @media things.
+
+**** Find all <script src="">
+**** Consolidate them into a single minified request, insert at bottom of DOM.
+
+
+####################
+
+* Performance on requests for render speed. (Ilya's talks, minify + combine requests).
+* Add pictures of you.
+* FIX MARKDOWN (mdtest?)
+
+* Tag the things, formatting, images (clean the posts).
+--> Long tail. Would be nice to bug track. Would be even better to just fix Markdown for some of it.
+
+* Linkcheck support
+
 * Custom download of Bootstrap without all the things you don't use?
 
 TeX algo for line-breaking?
@@ -15,3 +29,9 @@ TeX algo for line-breaking?
 
 - Polish
 * Redesign sidebar?
+
+####################
+Builder
+
+Check for built pages, choose to build them or not as necessary. Probably require you
+to "libraryfy" Frog.

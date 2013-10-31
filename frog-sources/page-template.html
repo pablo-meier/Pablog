@@ -13,26 +13,12 @@
     <link rel="icon"      href="/favicon.ico">
     <link rel="canonical" href="@|full-uri|">
     <!-- CSS -->
-    <!-- Hey friends! If you're looking at this, it means you're delving into the source. What follows
-         is pretty ugly - it's inlined CSS, minified, for quick layout. See this talk by Google performance
-         engineer Ilya Grigorik: https://docs.google.com/presentation/d/1IRHyU7_crIiCjl0Gvue0WY3eY_eYvFQvSfwQouW9368/present
-
-         But you may want a human readable version of the CSS. Just query the server for any of the files:
-         this blob is all of them together, compacted:
-
-           http://www.morepaul.com/
-                * /css/bootstrap.min.css
-                * /css/pygments.css
-                * /css/scribble.css
-                * /css/morepaul.css
-    -->
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
     <link rel="stylesheet" type="text/css" href="/css/scribble.css">
     <link rel="stylesheet" type="text/css" href="/css/morepaul.css">
     <!-- Feeds -->
-    <link ref="alternate" type="application/rss+xml"
-          href="@|rss-feed-uri|" title="RSS Feed">
+    <link ref="alternate" type="application/rss+xml" href="@|rss-feed-uri|" title="RSS Feed">
     <!-- JS -->
     @google-analytics["UA-4424692-2" "www.morepaul.com"]
   </head>
@@ -63,14 +49,14 @@
                 <li@(when (string-ci=? uri uri-path) " class=\"active\"")>
                   <a href="@|uri|"@|a-attribs|>@|label|</a>
                 </li> })
-            <li class="dropdown">
+<!--            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Tags <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="/index.html">All Posts</a></li>
                 @|tags-list-items|
               </ul>
-            </li>
+			  </li> -->
             @ni["/About.html" "About"]
             @ni["/Engineering.html" "Engineering"]
             @ni["/Performance.html" "Performance"]
@@ -206,7 +192,7 @@
       </footer>
     </div>
     <!-- </body> JS -->
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
   </body>
 </html>

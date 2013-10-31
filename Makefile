@@ -2,6 +2,9 @@
 
 all: clean build preview
 
+prod:
+	racket tools/page-scrubbers/productionize.rkt
+
 push:
 	racket builder/builder.rkt --push
 
