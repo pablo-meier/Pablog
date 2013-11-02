@@ -10,7 +10,7 @@
 ;;
 ;; Most of this is because mobile browsers suffer hard for every such file that is
 ;; required to render the page, since the very act of making a request often takes
-;; 1 or 2 thirds of a second.
+;; 1 or 2 thirds of a second in latency.
 ;;
 ;; More can be found in the talks of Google Performance Engineer Ilya Grigorik
 ;; http://www.igvita.com/
@@ -24,7 +24,7 @@
 (define source-dir (build-path "static"))
 (define *make-backups?* #f)
 
-;; productionize : Path
+;; Top level. Call this on your template file and it does the rest :)
 (define (productionize template-file)
 
   ;; scan the template file for link or script, return a list of files for both.
@@ -57,16 +57,19 @@
             [else (reader css js)])))
       (reader '() '()))))
 
+;; Takes an output port, and returns a function that takes a filename, end echoes its entire
+;; contents into the outport port.
+(define (make-echoer out)
+  (λ (filename)
+    (define (echo in)
+      (let ([item (read-line in)])
+        (if (eof-object? item)
+            (void)
+            (begin (display item out) (newline out) (echo in)))))
+    (call-with-input-file filename echo)))
+
 (define (minify/compact filenames ext)
   (printf "minify/compact called with ~a to ~a~n" filenames ext)
-  (define (make-echoer out)
-    (λ (filename)
-      (define (echo in)
-        (let ([item (read-line in)])
-          (if (eof-object? item) 
-              (void)
-              (begin (display item out) (newline out) (echo in)))))
-      (call-with-input-file filename echo)))
   
   (define temp-no-minify (path->string (make-temporary-file)))
   (printf "Consolidated filenames going to ~a~n" temp-no-minify)
@@ -125,9 +128,9 @@
              (map (λ (x) (write-bullet x out)) (request-files-css files))
              (write-string "    -->" out)
              (newline out)
-;             (write-string "    <style>" out)
-             (write-string "    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/morepaul.min.css\">" out)             
-;             (write-string "    </style>" out)
+             (write-string "    <style>" out)
+             (inline-css "css/morepaul.min.css" out)
+             (write-string "    </style>" out)
              (newline out)
              (write-string read-item out)
              (newline)
@@ -138,6 +141,9 @@
              (read-writer js? css?)])))
       (read-writer #f #f))
     #:mode 'text #:exists 'replace))
+
+(define (inline-css file output-port)
+  ((make-echoer output-port) (build-path build-dir file)))
 
 (define (write-bullet str out)
   (write-string (format "                  * ~a" (substring str (string-length (path->string build-dir)))) out)
