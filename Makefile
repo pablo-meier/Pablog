@@ -1,6 +1,6 @@
 # Just delegates to the racket script in builder/
 
-all: clean build preview
+all: clean build prod preview
 
 prod:
 	racket tools/page-scrubbers/productionize.rkt
