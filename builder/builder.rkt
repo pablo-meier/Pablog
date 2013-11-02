@@ -1,7 +1,6 @@
 #lang racket
 
 (define *build-dir* "build")
-(define *src-dir* "frog-sources")
 (define *static-files* "static")
 
 (define *toad-dir* "builder")
