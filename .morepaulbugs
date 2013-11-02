@@ -1,14 +1,9 @@
 Clean directory structure
-* Minify, inline, consolidate requests.
-** Happen from Frog:
-*** Before we render the template, we go through it
-**** Find all <link rel="stylesheet">
-**** Consolidate all CSS files into a single one in the order they were defined.
-**** Inline it AFTER Scribble parsing has happened so as not to confuse @media things.
+** Bug with the 'tags' dropdown.
+** Inline the CSS.
+** Customize your bootstrap.
 
-**** Find all <script src="">
-**** Consolidate them into a single minified request, insert at bottom of DOM.
-
+** Bug with index pages.
 
 ####################
 

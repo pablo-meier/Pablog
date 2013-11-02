@@ -114,8 +114,10 @@
              (map (λ (x) (write-bullet x out)) (request-files-js files))
              (write-string "    -->" out)
              (newline out)
-             (write-string "    <script type=\"javascript\" src=\"/js/morepaul.min.js\"></script>" out)
+             (write-string "    <script type=\"text/javascript\" src=\"/js/morepaul.min.js\"></script>" out)
              (newline out)
+             (write-string read-item out)
+             (newline)
              (read-writer #f css?)]
             [css? 
              (write-string css-comment-start out)
@@ -124,9 +126,11 @@
              (write-string "    -->" out)
              (newline out)
 ;             (write-string "    <style>" out)
-             (write-string "    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/morepaul.min.css\" />" out)             
+             (write-string "    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/morepaul.min.css\">" out)             
 ;             (write-string "    </style>" out)
              (newline out)
+             (write-string read-item out)
+             (newline)
              (read-writer js? #f)]
             [else
              (write-string read-item out)
@@ -138,9 +142,6 @@
 (define (write-bullet str out)
   (write-string (format "                  * ~a" (substring str (string-length (path->string build-dir)))) out)
   (newline out))
-
-(define testdata (make-request-files (list "build/css/bootstrap.css" "build/css/pygments.css" "build/css/scribble.css" "build/css/morepaul.css")
-                                     (list "build/js/jquery.js" "build/js/bootstrap.js")))
 
 (define (modify-html request-files)
   (define (toplevel dir)
