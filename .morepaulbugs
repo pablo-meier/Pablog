@@ -1,13 +1,4 @@
-Clean directory structure
-** Bug with the 'tags' dropdown.
-** Inline the CSS.
-** Customize your bootstrap.
-
-** Bug with index pages.
-
 ####################
-
-* Performance on requests for render speed. (Ilya's talks, minify + combine requests).
 * Add pictures of you.
 * FIX MARKDOWN (mdtest?)
 
@@ -16,13 +7,8 @@ Clean directory structure
 
 * Linkcheck support
 
-* Custom download of Bootstrap without all the things you don't use?
+* Custom download of Bootstrap without all the things you don't use? Need to build somehow with Readability theme.
 
-TeX algo for line-breaking?
---> Hard for now -- doesn't play with formatting (even bold or italics), freaks out in lists.
---> Would need to integrate with the Markdown parser on some level.
-
-- Polish
 * Redesign sidebar?
 
 ####################
@@ -30,3 +16,13 @@ Builder
 
 Check for built pages, choose to build them or not as necessary. Probably require you
 to "libraryfy" Frog.
+
+####################
+Features and shit.
+
+Cached builds for previously-built posts?
+'Versioned' pages, where you can sustain the pages after edits?
+
+Links to individual paragraphs? Add a linkable '#' on mouseover?
+
+TeX algo for line-breaking?
