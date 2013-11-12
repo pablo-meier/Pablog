@@ -1,10 +1,12 @@
 ####################
+-- Content
+
 * Add pictures of you.
 
 * Tag the things, formatting, images (clean the posts).
---> Long tail. Would be nice to bug track. Would be even better to just fix Markdown for some of it.
+** Would be nice to bug track. See what the Markdown do-over gets you.
 
-* Linkcheck support
+* Linkcheck support built-in, fix broken links.
 
 * Custom download of Bootstrap without all the things you don't use? Need to build somehow with Readability theme.
 
@@ -17,12 +19,15 @@ Check for built pages, choose to build them or not as necessary. Probably requir
 to "libraryfy" Frog.
 
 ####################
-Features and shit.
+-- Features and shit.
+
+HTTPS support.
 
 Discourse?
 
 Cached builds for previously-built posts?
-'Versioned' pages, where you can sustain the pages after edits?
+
+'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
 
 Links to individual paragraphs? Add a linkable '#' on mouseover?
 
