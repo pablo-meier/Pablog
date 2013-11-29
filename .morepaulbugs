@@ -21,9 +21,9 @@ to "libraryfy" Frog.
 ####################
 -- Features and shit.
 
-HTTPS support.
-
 Discourse?
+HTTPS support.
+Fix bug where new posts on index aren't updated.
 
 Cached builds for previously-built posts?
 

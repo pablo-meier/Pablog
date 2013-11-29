@@ -5,7 +5,7 @@
 
 Here's a long overdue post: what the hell is up with the title to your earlier
 post, mainly the term [_observational indistinguishability?_][1] I admit to
-mentally fapping a bit; I'll try my best to explain the term here since it
+indulging a bit; I'll try my best to explain the term here since it
 right well blew my mind when I learned it.
 
 <!-- more -->

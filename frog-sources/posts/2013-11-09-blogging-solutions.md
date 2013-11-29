@@ -26,9 +26,9 @@ opinions on MS Word vs. [Scrivener][2] vs. [CeltX][3] vs. [Final Draft][4] vs.
 [WriteRoom][5], but at the end of the day, they didn't actually... _write_ much. Same
 with programmers who will tell you why Their Tools or Their Methodologies are so
 much better for writing software, and yet, they seem to spend more time arguing
-their preferences rather than writing software.
+their preferences than writing software.
 
-So take all that follows as a grain of salt. One of the best things about
+So take all that follows with a grain of salt. One of the best things about
 blogging is how lo-fi it is: displaying words is the one thing
 the Internet has always been good at. If you have a delicious ice cream
 sundae and just need help selecting the bowl and cherry, let this be a guide, but
@@ -76,7 +76,7 @@ and "July 18, 2008" to `setDate( 18-07-2008 );`. Since these were ostensibly
 part of the layout (still server-side, so bad for SEO I'm sure), I could revert
 the WordPress theme and get human-readable titles again.
 
-<small>(it looked better back then to 21 year-old me, trust me)</small>
+<small>(it looked better back then to 21 year-old Pablo, trust me)</small>
 
 An example of Ghost is my friend [Adam Zethraeus' site][18], whose first post is
 exactly about using Ghost.
@@ -99,8 +99,8 @@ Self-identified Hackers love these solutions because:
 So why do I say it's the masochist route? A few reasons:
 
 * [Markdown sucks][25]. Virtually every Markdown parser does things slightly differently, so when I wanted to move this blog from Octopress to Frog, it ended up breaking virtually all of my posts. Like UNIX, Markdown is good enough to do the job, but bites you every chance it gets.
-* Live preview is pretty nice, and you miss it. While I love typing big long things into Vim, as soon as I want to add a picture of a YouTube video, or just see what it looks like as you will read it, I have to rebuild, wait, _then_ see.
-* Site building times. Most of these tools are written in Ruby, this one is in Racket (much faster, but hardly bLaZING-SPeeD!). There's just no getting around the fact that reading _n_ files of Markdown to generate _f(n)_ pages of HTML thus every time you build will perform _g(f(n))_ operations on your filesystem. It doesn't scale particularly well. Incremental builds are hard, since every time you add or change a post, the nature of index pages and RSS means you're always reading all the posts and usually building many.
+* Live preview is pretty nice, and you miss it. While I love typing big long things into Vim, as soon as I want to add a picture of a YouTube video, or just see what my prose looks like as you will read it, I have to rebuild, wait, _then_ see.
+* Site building times. Most of these tools are written in Ruby, this one is in Racket (much faster, but hardly bLaZING-SPeeD!). There's just no getting around the fact that reading _n_ files of Markdown to generate _f(n)_ pages of HTML every time you build will perform _g(f(n))_ operations on your filesystem. It doesn't scale particularly well. Incremental builds are hard, since every time you add or change a post, the nature of index pages and RSS means you're always reading all the posts and usually building many.
 
 All this to say: I love me my Frog, but I would never suggest this (or a similar
 workflow) for anybody who didn't love process. 

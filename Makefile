@@ -2,6 +2,9 @@
 
 all: clean build prod preview
 
+new:
+	racket builder/my-frog/frog/frog.rkt -n "$(t)"
+
 prod:
 	racket tools/page-scrubbers/productionize.rkt
 
