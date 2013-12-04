@@ -1,6 +1,6 @@
     Title: Done with Compilers
-    Date: 2013-10-08T16:21:12
-    Tags: DRAFT, engineering
+    Date: 2013-12-04T14:21:12
+    Tags: engineering
 
 I'm on a bit of a professional hiatus right now, having left Google in August
 to pursue Big Life Things. I had some ideas for a big engineering project to do
@@ -19,13 +19,13 @@ language (static vs. dynamic types, manual or automatic memory management, all
 things syntax), I was hoping to make a bigger dent on on how its
 _implementation_ and _user interface_ could assist programmers more than other
 languages have. It's not often that PLT folks discuss UI since, in most
-contexts, it usually applies to some graphical element, but I think it's often
+contexts, _UI_ usually applies to some graphical element, but I think it's often
 overlooked, and where the next real big gains will be.
 
 ### User Interface in a Programming Language?
 
 What do I mean by this? Namely, we tend to view language implementations as
-source files -> compiler -> execution, and all other elements of interacting
+source files -> compiler -> binary (or bytecode), and all other elements of interacting
 with your program has to come from the outside. I'll write C code, but someone
 had to write `valgrind` for me to profile it, someone else wrote `ctags` for me
 to have access to the variables while editing, and someone else has to string
@@ -43,27 +43,37 @@ But when you consider the experience of writing and maintaining large programs,
 the features or syntax or even programming model of the language is hardly what
 you find yourself wishing to be different -- you immediately get stuck on
 "where is the test for this function" or "I want to open the applicable
-definition here" or "where else does this function occur?"
+definition here" or "where else does this function occur?" You'll spend a few
+hours or days looking for your environment's plugin to have a REPL or
+integration with compiler errors, and pray that whoever is maintaining it is on
+top of things.
 
 And we _do_ have tools that help with these, but they always come from _outside_
-the programming environment. Ctags and valgrind are mentioned above, but how
-many of us Vimmers use Eclipse for Java, DrRacket for Racket, and Visual Studio
-for C++ because it's just a much better experience?
+the compiler. Ctags and valgrind are mentioned above, but how many of us Vimmers
+use Eclipse for Java, DrRacket for Racket, and Visual Studio for C++ because it's
+just a much better experience?  
 
 Some other motivating questions, after working jobs in C++ and Java:
 
-* **What assumptions are language implementors making that 'offload' so much work to their users?** Consider build systems -- even building the code often requires a fair bit of custom work, headache, and long delays between development cycles.
+* **What assumptions are language implementors making that 'offload' so much work
+  to their users?** Consider build systems -- Google uses [their own custom one][5],
+  and one project I worked on had me learning three different purportedly "cross-platform"
+  tools that try to solve the same problems ([ant][6], [CMake][6], and [gyp][7]).
+  Yes, the respective compilers "build" the code, but they don't, really.
 
-* **What architectural or systemic assumptions are we making that are no longer true?** Consider that most compilers are programs we run locally on local files, when most code is written by teams who tie to test instances, build bots, and the like.
+* **What architectural or systemic assumptions are we making that are no longer true?**
+  Consider that most compilers are programs we run locally on local files, when most
+  code is written by teams on many computers, sometimes in many offices, who tie
+  to test instances, continuous build servers, and the like.
 
 The system I hoped to build used an idea I called the "Companion Server," which
-is succintly described as a constantly-running headless IDE.
+is succinctly described as a constantly-running headless IDE.
 
 ### Properties of the companion server
 
 You could run your companion server locally and only run it on your local files,
 and in this way it would serve like a more traditional compiler. But using a
-a command-line client to the server, you could also
+command-line client to the server, you can
 
 * Build your project.
 * Test your project.
@@ -73,7 +83,7 @@ a command-line client to the server, you could also
 
 If this sounds familiar, it's because we're seeing work on this already with
 `go`, `rust`, and `raco`. The idea that your command-line tool should do more
-is, so far, a great success. But we can go further.
+than simply compile to a binary is, so far, a great success. But we can go further.
 
 #### Thick Server, Thin Clients
 
@@ -104,8 +114,8 @@ other environments for other features. In pictoral form:
 ```
 
 Here, the compiler is _thin_, in that it only compiles code, and all the
-features are built on re-written parsers on the client side, which is often very
-_thick_ (who doesn't love Eclipse start-up times?).
+features are built on re-written parsers on the client side (or worse, regular
+expressions), which is often very _thick_ (who doesn't love Eclipse start-up times?).
 
 The Companion Server would work by implementing the features for language
 development _in the server itself_, and each environment would simply be a thin,
@@ -143,12 +153,17 @@ the cursor where it was told.
 The advantages to this are manifold:
 
 * Features for development keep right up with the language itself.
-* You don't _need_ to be "in the know" for a proper development setup, nor would you have to buy fancy tools -- once you've downloaded the runtime, you have all you need already.
-* If the feature system is designed well enough, you could have a rich third-party ecosystem by letting people write their own dev features.
-* You get the environment you want, and writing for new environments is dead easy.
+* You don't _need_ to be "in the know" for an advanced development setup, nor would 
+  you have to buy fancy tools -- once you've downloaded the runtime, you have all
+  you need already.
+* If the feature system is designed well enough, you could have a rich third-party
+  ecosystem by letting people write their own dev features.
+* You get to work in the environment you want, and writing a plugin for new environments
+  is dead easy, since you only have to write to an API provided by the companion
+  server.
 
 This is partially why DrRacket is such a fantastic IDE -- it's written by the
-authors and implementors of the language itself!
+authors and implementors of the language itself, in the language itself!
 
 #### Use [the Butt][4], Luke
 
@@ -159,11 +174,28 @@ always) working on teams that are accessing the same codebase.
 
 Using [Google's build system][5] was pretty inspiring, since you'd be compiling
 and deploying codebases with hundreds of thousands of computers. Compile times
-were non-trivial, but then again, after including every dependency,
+were still non-trivial, but considering the size and scale of the code and its
+dependencies, it was a monumental improvement.
 
+Given this, I think it would be a huge net win if **language figureheads
+included a server-farm ready build solution that figures in packages, dependencies,
+and incremental builds for teams.**
+
+#### Done with the current model
+
+The actual implementation details for these are naturally pretty complicated, 
+and I don't doubt this would be a challenge. You also don't want to lock people
+into a set of "standard tools" and kill competition (what if profiling functionality
+was in C companion servers, but was awful compared to valgrind?). That said, I think
+it's a cute ideal. When learning a new language, I'd like to feel like I'm in
+2013 while still using Vim (not Vim keybindings, actual Vim) to do the text
+editing portion of programming.
 
    [1]: http://stackoverflow.com/a/3662539/196469
    [2]: http://colinm.org/language_checklist.html
    [3]: http://eclim.org/
    [4]: https://chrome.google.com/webstore/detail/cloud-to-butt-plus/apmlngnhgbnjpajelfkmabhkfapgnoai?hl=en
    [5]: http://google-engtools.blogspot.com/2011/08/build-in-cloud-how-build-system-works.html
+   [6]: http://ant.apache.org/
+   [7]: http://www.cmake.org/
+   [8]: http://code.google.com/p/gyp/

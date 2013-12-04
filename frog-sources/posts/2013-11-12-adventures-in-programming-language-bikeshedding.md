@@ -4,26 +4,26 @@
 
 ["Greg"][2] opens a great little [bikeshedder][5] on rust-dev, proving that you can
 wink and "ironically" be aware that you're doing something you might think is uncool
-in the general sense while still totally doing it, even if you're aware of it (see
-["ironic racism"][3]). While much less harmful than marginalizing people, he's
-suggesting in the subject title ("For Great Justice") and his many qualifications
-('I am aware that I am jumping into an issue at a point in time that's considered
-"late in the game".') he seems to be aware that his emails are coming from a place
-where they probably won't be implemented, but he still just can't help himself
-but send them.
+in the general sense while still totally doing it (see ["ironic racism"][3]).
+While much less harmful than marginalizing people, he's suggesting in the subject
+title ("For Great Justice") and his many qualifications ('I am aware that I am
+jumping into an issue at a point in time that's considered "late in the game".')
+that he's aware that his suggestions, no matter how worthy or well-intentioned,
+are coming from a place where they probably can't or won't be implemented, but he
+still just can't help himself but send them.
 
 I don't mean to be too hard on the guy -- he's cordial, and I don't want to hate
-too hard on someone who's just loving what they do, and wanting to spread it.
-I think the Rust devs did a good job in their responses of giving his requests
-credence while also declining. The thread makes for a cute read if you're not
-used seeing these things.
+on someone who's just loving what they do, and wanting to spread it. I think the
+Rust devs did a good job in their responses of giving his requests credence while
+also declining. The thread makes for a cute read if you're not used seeing these 
+kinds of discussions.
 
 <!-- more -->
 
 ---
 
 [Yin Wang][1] decides to try to shed light into why FP and OOP are _both_ just 
-wrong.  I'm guessing the certainty in this statement
+wrong. I'm guessing (hoping?) the certainty in this statement
 
 > Over the years of doing programming languages research, I have seen the answer
 > clearly, so I often find it pointless debating with people on these issues.
@@ -32,7 +32,7 @@ is more likely to do with poor use of language than the kind of bravado needed t
 claim "solving" subjective qualities for a domain as large as computing and the
 languages behind them.
 
-The article disappoints, imo: in order to suggest that OOP is "wrong," he writes
+The article disappointed me: in order to suggest that OOP is "wrong," he writes
 
 > You may argue that in Python or Scala, functions are also objects. In Python,
 > every object with the method `__call__` is a function. Likewise, in Scala,
@@ -69,11 +69,11 @@ but they do about the same thing, right? So saying a "fundamental" is "jailed"
 doesn't really say OOP is inherently flawed: just that you may not like the
 definitions.
 
-His analysis on FP is similarly meh -- he states circular data structures are
-"hard" in Haskell, but
+His analysis on FP is similarly lacking to me -- he states circular data structures
+are "hard" in Haskell, but
 
 ```hs
-circularList = [4,5,6] ++ take 3 circularList
+circularList = [4,5,6] ++ circularList
 ```
 
 works in one line. It's the kind of statement you make when you read a lot of

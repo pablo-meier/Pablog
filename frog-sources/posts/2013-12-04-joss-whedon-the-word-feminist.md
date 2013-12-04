@@ -1,13 +1,13 @@
     Title: Joss Whedon, the word Feminist
-    Date: 2013-11-18T20:21:28
-    Tags: DRAFT, culture, essay
+    Date: 2013-12-04T12:21:28
+    Tags: culture, essay
 
-**\[Disclaimer: I benefit from virtually every type of privilege society grants:
+\[Disclaimer: I benefit from virtually every type of privilege society grants:
 namely, I'm White-presenting, cis, male, straight, thin, well-off, etc. Privileged
 people talking about movements aiming to equal the playing field are often [fraught with peril][8]
 and questions over to what degree I should involve myself in conversations like this
 are [pretty open][9], so take the below with this in mind. I couldn't find the original,
-but remember my reproduction of [this handy flowchart][1] just to be clear.\]**
+but remember this reproduction of [this handy flowchart][1] just to be clear.\]
 
 Some folks on my Facebook feed are angry that some feminists are angry that Joss
 Whedon [said some silly things][22] about feminism the other day. [Here][2] [are][21]
@@ -23,7 +23,7 @@ response to the response. That should fix it.
 
 * You can like problematic works or works created by people who've said or done
   problematic things, just don't be in denial if that work or creator is called
-  out. It's totally fine to love _Ender's Game_, just don't be like "quit talking shit about
+  out. It's totally fine to have loved _Ender's Game_, just don't be like "quit talking shit about
   Orson Scott Card," because Orson Scott Card has said [_some pretty heinous things_][3],
   irrespective of _Ender's Game_ as a novel.
 
@@ -40,19 +40,18 @@ response to the response. That should fix it.
 * Similarly, calling out one work doesn't render the creator's previous works
   useless. One Facebooker said something like "Heh, well Joss hasn't read feminist
   texts, sure, all he did was have strong female characters in all of his series
-  for over a decade. These feminists complain too much." Putting aside that
-  ["strong female characters"][5] are themselves subject to criticism, saying Whedon
-  said silly things doesn't mean that feminists don't appreciate or acknowledge
-  things he's done in the past that they might like.
+  for over a decade." Putting aside that ["strong female characters"][5] are themselves
+  subject to criticism, saying Whedon said silly things doesn't mean that feminists
+  don't appreciate or acknowledge things he's done in the past that they might like.
 
 * Finally, in life, just like in law, intentions don't matter, impacts matter.
   It doesn't matter if I don't mean to hurt anyone juggling machetes, if I mess
-  up I can still go to jail for manslaughter, and any casualties are still dead.
-  I know Joss Whedon and Lily Allen and Robin Thicke don't _mean_ to piss people
-  off or perpetuate regressive ideas, but that doesn't mean that they don't, and
-  directing your anger at people who are calling it out is killing the messenger,
-  and demonstrates that you're worrying more about coddling your aversion to confronting
-  potential prejudices than empathy for the experiences of others.
+  up I can still go to jail for manslaughter, and any casualties remain dead.
+  I know Joss Whedon and Lily Allen and Robin Thicke don't _mean_ to participate
+  in marginilizing people or perpetuate regressive ideas, but that doesn't mean
+  that they don't, and directing your criticism at people who are calling it out
+  is killing the messenger, and demonstrates that you're worrying more about coddling
+  your aversion to confronting potential prejudices than empathy for the experiences of others.
 
 I bring all this up because people always forget these things when topics of inequality
 come up: some progressive will say things like "X by Y is regressive for Z totally
@@ -68,11 +67,11 @@ terrible person for loving _The Avengers._ Put down them pitchforks.
 ### Lightening Rod: Joss Whedon is a white dude who hates the word "feminist"
 
 Despite the incorrectness of his claims or rationale (see the responses I linked
-above), a sticking point, for me, is his issues with the term "feminist." At some
+above), a sticking point, for me, is his issues with the word "feminist." At some
 point in all of these conversations, someone brings up that Joss Whedon is a Straight
 White Cis Man, and how utterly tiring it is to hear a Straight White Cis Man tell
 feminists that they need to fix their movement for this reason or that, one of the most
-common suggestions being "have you considered not using the word 'feminist'?". The
+common suggestions being "have you considered not using the word 'feminist'?" The
 conversation then goes to shit as most people (usually men) who are Straight, White,
 and/or Cis get defensive and accuse the feminists of being racists or sexists for
 docking points from him by pointing out his identity in the discussion.
@@ -90,74 +89,80 @@ usually comes from someone who doesn't understand what feminism looks like these
 days. A good example of this is the [#sorryfeminists hashtag][7], wherein an
 interviewer said "sorry, feminists!" when speaking about how a critic of
 feminism was hot. Uhhh... feminists don't have any issues with people making
-choices to feel attractive? It was a silly snipe that attacked a strawman, but
-yet! Sorry to ruin your party, _feminists_, watch your message!
+choices to feel attractive? It was a silly snipe that attacked a strawman, and
+yet! sorry to ruin your party, _feminists_, watch your message!! After the hundredth
+time of someone telling you fix your movement when they are clearly ignorant of
+what it means, it gets mad tiring.
 
-After the hundredth time of someone telling you you're doing something wrong in
-holding beliefs _you don't even hold_, it gets mad tiring. Said another way:
-[mansplaining][19] happens. And just like Joss can't help that he's a
-Straight White Cis Guy, he also can't help that when he slips and mansplains on
-a stage (which anybody, of any type, can do), it's in the context of most
-mansplains coming from people just like him (who, like him, haven't read the
-critical theory, they're just saying "feminism" is not ideal because, well, he
-thought about it for a while, y'know?).
+Said another way: [mansplaining][19] happens, and it's way more likely to come from
+segments of the population who due to their identity and privilege **can't**
+understand the topic first-hand, and are therefore less motivated to seek out
+the theory. And just like Joss can't help that he's a Straight White Cis Guy, he
+also can't help that when he slips and mansplains on a stage (which anybody, of
+any background, can do), it's in the context of most mansplains coming from people with
+his privilege who haven't read the critical theory, just saying "feminism" is a
+real icky word because he thought about it for a while, y'know?
 
-To reiterate: even after you get over that his argumentation is pretty weak, if you
-read what goes on in feminist circles, the very act of being a privileged person
-criticizing the term "feminist" is such a tired cliché it can't help but elicit
-some eyerolls. So please, if you're seeing feminists bring up his privilege when
-disagreeing with him, it'd be a _mistake_ to conclude that Feminists Hate All
-Men or All White Men, or All Cis Men, just that it's almost always those people who
-by construction can't understand what feminists fight against who always ask
-them to reconsider.
+To reiterate: even after you get over the weakness of his argument ("natural state" and
+all that), if you read what goes on in feminist circles, the very act of being a
+privileged person criticizing the term "feminist" is such a tired (and addressed!)
+cliché it can't help but elicit some eyerolls. So please, if you're seeing feminists
+bring up his privilege when disagreeing with him, it'd be a _mistake_
+to conclude that Feminists Hate All Men or All White Men or All Cis Men, and the
+Feminist Position is that these people Can Never Ever Say Anything Right. It's
+just that it's almost always those people who by construction can't understand
+what feminists fight against, and it's patronizing and lacking in empathy to tell
+them they're doing it wrong.
 
 ### Popular issues with the word "feminist."
 
 Like "Obamacare," feminism is funny in that virtually everybody loves what the
-the word stands for before entering a seething rage at the mention of the word.
-Most people who complain about a "branding problem" just don't understand what
+the word stands for before entering a seething rage at the mention of it.
+Most people who complain about a "branding problem" misunderstand what
 feminism actually stands for, they just know _I'm not supposed to like it_ and
-work from that premise. If you ask them what Patriarchy is, or how it models so
+work back from that premise. If you ask them what Patriarchy is, or how it models so
 many of the observable gender-based inequalities, you'll usually get a blank
 stare in response.
 
 Asking feminists to change their movement to match the ignorance or
-insecurities of their opponents (who, by the way, will often agree with all the
-movement's core premises if you explain it to them without "feminism") is putting
+insecurities of their opponents (who again, will often agree with all the movement's
+core premises if you explain it to them without "feminism") is putting
 the burden on the wrong group. Even if it was replaced, opponents will see
 _it worked_ and continue to spread [FUD][10] after whatever term they might choose
 to replace it.
 
-I've met a number of people who are totally there with the cause and understand
-that fighting over terminology is counterproductive so don't make a big stink
-about it in public (good choice!), but privately feel that "feminism" is a
-less-than-ideal term because you have "fem" in the name of a movement that's
-supposed to be about gender equality generally, and even that the use of "fem"
-suggests half of a gender binary, which most forward-thinking people would like
-to see dismantled. Others are less benevolent, they'll clearly be against any
-challenge to privilege and archaic power structures and attack the word with "why
-can't I call myself an egalitarian?!"
+Some people are clearly against any challenge to privilege and archaic power
+structures and attack the word with a dodge, demanding you tell them why they
+can't just call themselves "egalitarian" and be done with it. Others I know are
+kinder and identify as feminists, who are totally there with the cause and understand
+that fighting over terminology is counterproductive so don't make a big stink about
+it in public (good choice!), but privately feel that "feminism" is a less-than-ideal
+term because you have "fem" in the name of a movement that's supposed to be about
+gender equality generally, and even that the use of "fem" might suggest half of
+a gender binary, which most forward-thinking people would like to see dismantled. 
 
-Ultimately, these are more substantive challenges than the vanilla "it makes
-people who don't know it uncomfortable," and I'll say why I stick with "feminist."
-The biggest idealogical reason for me is that I'm not comfortable literally removing
-women from their own movement.
+These are more substantive challenges than the vanilla "it makes people who don't
+know it uncomfortable," so I'll say why I stick with "feminist." The biggest reason
+for me is idealogical: I'm not comfortable literally removing women from their own
+movement.
 
-And while yes, there are examples of where the patriarchy hurts men, I agree with
+And yes, while there are examples of where the patriarchy hurts men, I agree with
 what bell hooks said:
 
 > “Men are not exploited or oppressed by sexism, but there are ways in which
 > they suffer as a result of it” 
 
 The ways Patriarchy has historically hurt women have been more central to their
-liberty and autonomy -- treating them as chattel, keeping them from voting or owning
-property -- it's ultimately more dehumanizing than the ways I see most men
-getting affected. Succinctly put, as I see it, men's troubles from Patriarchy
-mostly stem from them having to fill in the spaces they've removed women from: the
-"disposable man" comes from keeping women out of dangerous jobs and war; men have
-to seen as worse at housekeeping or childrearing because their laws and their
-actions established a social dynamic and culture where that was "women's work."
-Repeat for most examples of where Patriarchy hurts men.
+liberty and autonomy -- a history of being treated as chattel and kept from
+voting or owning property, and a culture we've inherited from it -- it's ultimately
+more dehumanizing than the ways I see most men getting affected. More
+succinctly, as I see it, men's troubles from Patriarchy mostly stem from them having
+to fill in the spaces they've removed women from: the "disposable man" comes from
+keeping women out of dangerous jobs and war, because like any treasured and owned
+object, we didn't want to damage them. Men have to seen as worse at housekeeping
+or childrearing because their laws and their actions established a social dynamic
+and culture where that was "women's work" (really, one of the only ones). Repeat
+for most examples of where Patriarchy hurts men.
 
 This isn't to say these are minor issues or worth ignoring, just that if you look
 at the representations of men and women in any fiction, or their comparative
@@ -175,24 +180,25 @@ A second, pretty huge idealogical reason is elaborated in the last section of
 this blog post.
 
 Non-idealogical-but-still-present third reason I hate "egalitarian" and similar
-terms that are often proffered up as a potential replacement: it's almost
-_always_ used by indignant guys who just hate the word feminist and are looking
-for an excuse to avoid it. Not always, but usually. While equivalent in theory,
+terms that are often offered up as a potential replacement: it's almost
+always, with some exceptions, used by indignant guys who just hate the word
+feminist and are looking for an excuse to avoid it. While equivalent in theory,
 _de facto_ it's been pretty spoiled for me.
 
 ### From the other side
 
-With all that said, there is one line of argument that I entertain for issues with
-the word feminism: like "egalitarian" above, the term has been a bit tarred based
-on where it's frequently used, which is often in the context of white, cis, upper-middle
-class women, which may marginalize women who don't fit those categories.
+With all that said, there is one line of argument that I consider more seriously
+for issues with the word feminism: like "egalitarian" above, the term has been a
+bit tarred based on the context where it's frequently used, which is often in the
+context of white, cis, upper-middle class women, which may marginalize women who
+don't fit those categories.
 
 Some great conversations have happened here, including the satirical Twitter account
 [@WhiteFeminist][13], and the hashtag [#SolidarityIsForWhiteWomen][14]. Also
 worth checking out are the conversations around and leading up to [Hugo
 Schwyzer's burnout][15], and [Lily Allen's latest video][16].
 
-All this to say, just like the Atheism movement was looking to clean up shop
+All this to say, just like the Atheism movement was looking (rightly) to clean up shop
 with the idea of [Atheism+][17], many women are preferring the term ["womanist"][12].
 I confess I haven't read enough into these conversations to have a strong stance
 on it, but my leanings are for a more intersectional and inclusive movement,
@@ -216,10 +222,32 @@ feelings. So if you want to _really_ be a good member of a privileged group, jus
 shut up, listen to what is being said, and make a super-serious double-special effort
 to understand where the people making the criticisms are coming from, remembering
 _it probably won't line up with your initial reaction based on your life experiences,
-because, by construction, it pretty much can't._
+because, by construction, it can't._
 
 Here's [Michael Fogus' post on Women in Tech.][18] Better than 99% of all such
-articles, because he's notably absent from it.
+articles, because he notably excuses himself from it.
+
+I know I'm saying this after writing a pretty large blog post full of my Pablo
+voice, but these ideas are just intended to be reflections of what I've been
+hearing from the brilliant involved women in my life, and what I've been reading
+from others (follow the links!).
+
+I'll end with a little family anecdote. My dad is White, and my mom is a
+Guatemalan woman who speaks with a light accent. For a bit of time when they
+were beginning, when she was feeling like people were treating her differently,
+my dad told her it was probably not a big deal, and she was probably seeing things
+where they weren't. Then he grew up a little, and stopped questioning her stories,
+giving her the benefit of the doubt.
+
+But in the last few years, he got _old._ White hair, slower moving, and hard of
+hearing, he noticed people making comments and treating him differently in stores,
+at work, and at his tennis matches. It was extremely moving to hear him say to my
+mom (paraphrasing): "I've always been sorry I gave you trouble for the first few years, but
+then I thought I understood. I didn't. I really, really, didn't. People treat me
+differently! They're impatient with me! This sucks, my dear."
+
+So yeah, not feeling people defending Joss. He said a silly thing, as most
+criticisms of the word "feminism" are.
 
    [1]: /img/2013/11/flowchart.png
    [2]: http://www.salon.com/2013/11/11/no_joss_whedon_feminist_is_not_a_dirty_word/
