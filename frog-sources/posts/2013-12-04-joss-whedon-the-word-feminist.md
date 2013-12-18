@@ -48,7 +48,7 @@ response to the response. That should fix it.
   It doesn't matter if I don't mean to hurt anyone juggling machetes, if I mess
   up I can still go to jail for manslaughter, and any casualties remain dead.
   I know Joss Whedon and Lily Allen and Robin Thicke don't _mean_ to participate
-  in marginilizing people or perpetuate regressive ideas, but that doesn't mean
+  in marginilizing people or to perpetuate regressive ideas, but that doesn't mean
   that they don't, and directing your criticism at people who are calling it out
   is killing the messenger, and demonstrates that you're worrying more about coddling
   your aversion to confronting potential prejudices than empathy for the experiences of others.
@@ -82,7 +82,7 @@ discussion of inequality, ever, there's _always_ a contingent of people in the
 more privileged groups who _sympathize_, they really do, but wish the less privileged
 groups wouldn't be so _disruptive_ or _mean_ about they fact that [they're playing
 the game at a harder difficulty setting][23], and they really need to be more mindful
-of the status quo, or like Nina Simone says in Mississippi Goddamn, ["go slow."][20]
+of the status quo, or like Nina Simone says in Mississippi Goddam, ["go slow."][20]
 
 Understand that feminists get this _all the time_, and unsurprisingly, it
 usually comes from someone who doesn't understand what feminism looks like these
@@ -167,7 +167,7 @@ for most examples of where Patriarchy hurts men.
 This isn't to say these are minor issues or worth ignoring, just that if you look
 at the representations of men and women in any fiction, or their comparative
 presence in any history book, or their representation in power structures (CEO's, elected officials,
-religious authorities, casting directors/screenwriters/directors, &amp;c) -- look at
+religious authorities, casting directors/screenwriters/directors, newspaper columnists &amp;c) -- look at
 _anything_, and it's pretty clear we've got a lot of ground to make up, and things
 still are much harder, from a social standpoint, for women than men on the respect
 and autonomy front.
@@ -199,7 +199,7 @@ worth checking out are the conversations around and leading up to [Hugo
 Schwyzer's burnout][15], and [Lily Allen's latest video][16].
 
 All this to say, just like the Atheism movement was looking (rightly) to clean up shop
-with the idea of [Atheism+][17], many women are preferring the term ["womanist"][12].
+with the idea of [Atheism+][17], many women are preferring the term ["womanist."][12]
 I confess I haven't read enough into these conversations to have a strong stance
 on it, but my leanings are for a more intersectional and inclusive movement,
 naturally.
