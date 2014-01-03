@@ -92,3 +92,11 @@ a:visited {
 .navbar-inverse .navbar-nav > .active > a {
 	background-color: #6C521F;
 }
+
+#sidebar h1,
+#sidebar h2,
+#sidebar h3,
+#sidebar h4,
+#sidebar h5 {
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 # Just delegates to the racket script in builder/
 
-all: clean build prod preview
+all: clean build preview
 
 new:
 	racket builder/my-frog/frog/frog.rkt -n "$(t)"

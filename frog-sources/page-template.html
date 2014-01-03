@@ -93,7 +93,55 @@
           @;{ The main page contents are in @contents }
           @|contents|
         </div>
-        <div id="sidebar" class="col-md-4">
+        <div id="sidebar" ng-app="iama" class="col-md-4">
+            <!-- Iama widget -->
+            <div ng-controller="IamaCtrl">
+            <div class="IamaWidget">
+              <div class="row">
+                  <div class="col-md-12">
+                    <h3>PABLOFACE THROUGH TIME</h3>
+                  </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="{{prev.small_url}}"
+                       alt="photo of Pablo on {{ prev.date | date }}"
+                       ng-hide="isAtFirstPicture()"
+                       class="prev-photo" />
+                </div>
+                <div class="col-md-8">
+                  <a href="{{current.full_url}}">
+                      <img src="{{current.small_url}}"
+                           alt="photo of Pablo on {{ current.date | date}}"
+                           class="main-photo" />
+                  </a>
+                </div>
+                <div class="col-md-2">
+                  <img src="{{next.small_url}}"
+                       alt="photo of Pablo on {{ prev.date | date }}"
+                       ng-hide="isAtLastPicture()"
+                       class="next-photo" />
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-md-2">
+                  <button ng-click="previousPicture()" ng-hide="isAtFirstPicture()">&larr;</button>
+                </div>
+                <div class="col-md-8 flavor">
+                  Pablo on {{ current.date | date:'fullDate' }}
+                </div>
+                <div class="col-md-2">
+                  <button ng-click="nextPicture()" ng-hide="isAtLastPicture()">&rarr;</button>
+                </div>
+              </div>
+          
+            </div> <!-- IamaWidget -->
+            </div> <!-- IamaCtrl -->
+
+
+
             <h3>Connect, Follow, 'Encircle'</h3>
             <ul>
                 <li><a href="https://www.facebook.com">Facebook</a></li>
@@ -195,5 +243,7 @@
     <!-- </body> JS -->
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script type="text/javascript" src="/iama/js/app.js"></script>
   </body>
 </html>
