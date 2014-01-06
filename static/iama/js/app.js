@@ -51,8 +51,6 @@ angular.module('iama', [])
 
     $http.get($backend_url + "/get-timeline")
         .success(function(data, status, headers, config) {
-            $log.info("Data returned from /get-timeline is " + JSON.stringify(data, null, 4));
-
             // Set the timeline
             var json_timeline = data.timeline;
             timeline = [];
