@@ -94,7 +94,7 @@
           @;{ The main page contents are in @contents }
           @|contents|
         </div>
-        <div id="sidebar" ng-app="iama" class="col-md-4">
+        <div id="sidebar" class="col-md-4">
             <!-- Iama widget -->
             <div ng-controller="IamaCtrl">
             <div class="IamaWidget">
@@ -242,9 +242,6 @@
       </footer>
     </div>
     <!-- </body> JS -->
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script type="text/javascript" src="/iama/js/app.js"></script>
+    <script type="text/javascript" data-main="/js/main.js" src="/js/require.js"></script>
   </body>
 </html>

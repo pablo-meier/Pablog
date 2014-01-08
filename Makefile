@@ -5,9 +5,6 @@ all: clean build preview
 new:
 	racket builder/my-frog/frog/frog.rkt -n "$(t)"
 
-prod:
-	racket tools/page-scrubbers/productionize.rkt
-
 push:
 	racket builder/builder.rkt --push
 

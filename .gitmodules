@@ -1,0 +1,3 @@
+[submodule "static/js/lib/domReady"]
+	path = static/js/lib/domReady
+	url = https://github.com/requirejs/domReady
