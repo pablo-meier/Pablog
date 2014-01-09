@@ -9,6 +9,7 @@ push:
 	racket builder/builder.rkt --push
 
 build: 
+	node tools/require-optimizer/r.js -o tools/require-optimizer/build.js
 	racket builder/builder.rkt --build
 
 preview:

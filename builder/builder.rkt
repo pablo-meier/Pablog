@@ -11,7 +11,7 @@
 ;; BUILD TARGETS
 (define (build)
   (prepare)
-  (copy-static-files)
+;  (copy-static-files)
   (call-my-frog)
   #f)
 
