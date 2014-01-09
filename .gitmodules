@@ -1,3 +1,6 @@
 [submodule "static/js/lib/domReady"]
 	path = static/js/lib/domReady
 	url = https://github.com/requirejs/domReady
+[submodule "builder/my-frog"]
+	path = builder/my-frog
+	url = https://github.com/greghendershott/frog
