@@ -19,6 +19,8 @@ and resources if you ever want to delve into more Android work. This post is
 primarily about Architecture; Part 2, on Libraries, is [here][5]. Part 3 on other
 miscellany is [here.][6]
 
+<!-- more -->
+
 ## Architecture
 
 ### Few Activities, many Fragments (or ViewGroups)
