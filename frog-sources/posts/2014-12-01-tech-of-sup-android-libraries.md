@@ -5,6 +5,8 @@
 Welcome back! [Part 1][1] covered architecture, and [Part 3][3] covers testing and
 miscellany. Here we’ll talk about --
 
+<!-- more -->
+
 ## Libraries: “the cause of, and solution to, all of Android’s Problems.”
 
 The first version of Sup was written in about 4 weeks. Being a developer with
@@ -15,8 +17,6 @@ software is broken, and we’re trying to get to the moon by stacking chairs.
 
 The following are some libraries every Android developer should at least know
 about, whether or not I used it, and why.
-
-<!-- more -->
 
 ### Dagger
 

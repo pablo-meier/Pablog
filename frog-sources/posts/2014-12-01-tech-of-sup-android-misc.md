@@ -1,6 +1,6 @@
     Title: _Sup for Android_ - Part 3
     Date: 2014-12-01T23:40:28
-   Tags: programming, pablolife
+    Tags: programming, pablolife
 
 And the final part!! [Part 1][1] covered architecture, and [Part 2][2] covered
 libraries.  Let’s finish this pup up!
