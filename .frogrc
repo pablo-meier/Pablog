@@ -2,7 +2,7 @@
 scheme/host = http://www.morepaul.com
 
 title = More Paul
-author = Paul Meier
+author = pablo
 
 source-dir = frog-sources
 output-dir = build

@@ -1,38 +1,3 @@
-/* Iama widget css */
-
-/* Design goals for the widget:
- *   - Resizable: can just say "widget of width 600px" and it will make a little one.
- *   - Configurable: show/hide title, preview pictures, flavor text.Pablo's Selfie Timeline
- *   - Unobtrusive/Modular: can stick 3 or 4 on a page, doesn't mess with other scopes or anything.
- *
- * Frankly, I DON'T have the CSS chops to make it all these things, especially since I'm not
- * using a preprocessor. Ideally, I'd also do work on the HTML end to make it a pretty directive,
- * so a user could just copy + paste something like
- *
- * <script src="http://iama.morepaul.com/widget.js"></script>
- * <link rel="http://iama.morepaul.com/bootstrap.min.css" />
- * <div ng-app="widget">
- *   <widget height="true"
- *           flavortext="true"
- *           title="true"
- *           preview="true"
- *           timeline_id="3552414235" />
- * </div>
- *
- * And directives would let us do that.
- *
- * We'll see if we can make it into something like this eventually, but right now, I just want
- * something that works for my front page. Dirty hacks commence!
- */
-
-.IamaWidget {
-    text-align: center;
-    width: 325px;
-}
-
-.IamaWidget h1 {
-    font-weight: bold;
-}
 
 .main-photo, .main-photo img, .main-photo a {
     width: 228px;
