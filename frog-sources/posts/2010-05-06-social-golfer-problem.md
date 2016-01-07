@@ -26,11 +26,59 @@ The premise is this: you're organizing a golf tournament with 9 people in it.
 They play every week in groups of 3, and want to play for three weeks.
 
 Here's the catch: they are _social_ golfers, meaning if possible, they never
-want to play with the same people twice. Your job is to organize the
+want to play in a group with the same people twice. Your job is to organize the
 tournament; you have to arrange who plays with whom every week.
 
 So rather than use names, we'll just use numbers. The first week could look
 something like this:
+
+<table>
+<tr>
+  <th>Week Number</th>
+  <th>Team 1</th>
+  <th>Team 2</th>
+  <th>Team 3</th>
+</tr>
+<tr>
+  <td><strong>1</strong></td>
+  <td>1,2,3</td>
+  <td>4,5,6</td>
+  <td>7,8,9</td>
+</tr>
+</table>
+
+And here's how it could look after three weeks:
+
+<table>
+<tr>
+  <th>Week Number</th>
+  <th>Team 1</th>
+  <th>Team 2</th>
+  <th>Team 3</th>
+</tr>
+<tr>
+  <td><strong>1</strong></td>
+  <td>1,2,3</td>
+  <td>4,5,6</td>
+  <td>7,8,9</td>
+</tr>
+<tr>
+  <td><strong>2</strong></td>
+  <td>1,4,7</td>
+  <td>2,5,8</td>
+  <td>3,6,9</td>
+</tr>
+<tr>
+  <td><strong>3</strong></td>
+  <td>1,5,9</td>
+  <td>2,6,7</td>
+  <td>3,4,8</td>
+</tr>
+</table>
+
+Notice that the player "1" played with two totally different people in week two,
+and in week three "1" didn't play with anyone they played with from weeks one
+and two.
 
 So here's the question: could you organize a tournament like this with 100
 people, in groups of 10, for 10 weeks?
