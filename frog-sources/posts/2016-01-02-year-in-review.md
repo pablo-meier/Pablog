@@ -172,9 +172,9 @@ my role was pretty minimal. Charly wrote it, performed it, and the show is about
 _her_, so I often describe it as her bench pressing while I was spotting.
 
 I don't want to undersell myself: we discussed the text very heavily and
-unearthed a ton of connections and narratives that would inform the performance
-heavily. We had 8-10 rehearsals, I kept her accountable for lines and during
-rehearsals. I also provided its sound and light cue (one of each!). 
+unearthed a ton of connections and narratives that would strongly inform the
+performance. We had 8-10 rehearsals, I kept her accountable for lines and during
+rehearsals. I also provided its sound and light cues (one of each!). 
 
 In the vein of more traditional directing gigs, I _did_ make a number of
 suggestions for staging and design choices, but we decided that most of them
@@ -224,7 +224,7 @@ considered. I'll say a few very high-level True Things that applied to us:
 * A marriage and future like that were Strong Requirements for Charly: my
   understanding is that she's wanted a nuclear family in a committed,
   monogamous, happy marriage more than any specific career goal or personal goal
-  _since even the first time dated_ in our early 20's. 
+  _since even the first time we dated_ in our early 20's. 
 
 Given all that, the responsible thing to do, if past a certain degree of
 certainty you're feeling like you _are incapable_ of performing a lifetime of
