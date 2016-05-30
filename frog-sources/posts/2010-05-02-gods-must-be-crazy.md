@@ -48,4 +48,4 @@ sentiment).
    [4]: http://3.bp.blogspot.com/_3ys1dwfzc2w/S95wJafVruI/AAAAAAAAAEY/V1IyZqWE9L4/s1600/26128_619685518101_1010423_35296230_5044379_n.jpg
    [5]: http://andrewunderberg.com/home.cfm
    [6]: http://brown.mochacourses.com/mocha/search.action?semesters=13&q=MU120&professor=&title=&Hours=
-   [7]: http://www.morepaul.com/2010/04/i-read-news.html
+   [7]: http://www.morepablo.com/2010/04/i-read-news.html

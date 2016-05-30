@@ -89,5 +89,5 @@ kids, **some shit is just stupid.** And I'll call it that.
    [4]: http://www.schneier.com/essay-124.html
    [5]: http://slog.thestranger.com/slog/archives/2010/10/01/sl-letter-of-the-day-sorry-nothing-fun
    [6]: http://slog.thestranger.com/slog/archives/2010/10/13/the-silence-of-the-lambs
-   [7]: http://www.morepaul.com/2010/04/i-read-news.html
+   [7]: http://www.morepablo.com/2010/04/i-read-news.html
    [8]: http://www.newvision.co.ug/D/8/12/663061

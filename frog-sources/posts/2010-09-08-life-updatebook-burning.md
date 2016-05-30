@@ -117,6 +117,6 @@ Really kids, what would Jesus do?
 
    [17]: http://articles.cnn.com/2010-07-29/us/florida.burn.quran.day_1_american-muslims-religion-cair-spokesman-ibrahim-hooper?_s=PM:US
 
-   [18]: http://www.morepaul.com/2010/07/on-freedom-of-speech.html
+   [18]: http://www.morepablo.com/2010/07/on-freedom-of-speech.html
 
    [19]: http://www.youtube.com/watch?v=08xQLGWTSag

@@ -144,8 +144,8 @@ up there, thinking there might come a time when I hate myself less.
    [9]: http://jwz.org/blog/
    [10]: http://charlyevonsimpson.com/
    [12]: https://ghost.org/
-   [13]: http://web.archive.org/web/20080723191834/http://www.morepaul.com/
-   [14]: http://web.archive.org/web/20090815185343/http://www.morepaul.com/
+   [13]: http://web.archive.org/web/20080723191834/http://www.morepablo.com/
+   [14]: http://web.archive.org/web/20090815185343/http://www.morepablo.com/
    [15]: http://ilcapitano.livejournal.com/
    [16]: http://littleschemer.blogspot.com
    [17]: http://jwz.livejournal.com/1448545.html

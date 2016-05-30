@@ -2,7 +2,7 @@
     Date:2011-01-06T23:27:00
     Tags: pablolife, meta
 
-Welcome to the new morepaul.com!  After tons of reading, I decided to move
+Welcome to the new morepablo.com!  After tons of reading, I decided to move
 my blog over to [Jekyll][1], for a variety of reasons:
 
 First, I like having all my content, readily available, in plain text on any
@@ -18,7 +18,7 @@ it allows me to post code snippets without going off-site to Gist; it
 allows me to structure my blog as a Git repository, which I find intuitive.
 
 Altogether, this should make for a better experience. Should I choose to
-make a ``starcraft.morepaul.com`` or a `scrabblecheat.morepaul.com`, this
+make a ``starcraft.morepablo.com`` or a `scrabblecheat.morepablo.com`, this
 would let me do it.
 
 In the meantime, a few caveats: YouTube links of times prior didn't

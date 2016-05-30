@@ -84,13 +84,13 @@ Need cheering up? [Robot Unicorn Attack][15]! Or my favorite this week, the
 
 
    [1]: http://knowyourmeme.com/memes/jessi-slaughter
-   [2]: http://www.morepaul.com/2010/04/baal-bless-internet.html
-   [3]: http://www.morepaul.com/2010/04/another-remix.html
-   [4]: http://www.morepaul.com/2010/08/strong-words-bed-intruder.html
+   [2]: http://www.morepablo.com/2010/04/baal-bless-internet.html
+   [3]: http://www.morepablo.com/2010/04/another-remix.html
+   [4]: http://www.morepablo.com/2010/08/strong-words-bed-intruder.html
    [5]: http://en.wikipedia.org/wiki/Google_bomb
    [6]: http://www.youtube.com/watch?v=C2cf6JFc1Xg
    [7]: http://gawker.com/5589103/how-the-internet-beat-up-an-11+year+old-girl
-   [8]: http://www.morepaul.com/2010/04/metaphors-i-use-to-describe-software.html
+   [8]: http://www.morepablo.com/2010/04/metaphors-i-use-to-describe-software.html
    [9]: http://thinkprogress.org/2010/09/18/christine-odonnell-witchcraft/
    [10]: http://www.facebook.com/photo.php?pid=2733504&fbid=106745099551&op=10&o=global&view=global&subj=1010423&id=691574551
    [11]: http://www.facebook.com/photo.php?pid=32572619&fbid=533065679951&op=21&o=global&view=global&subj=1010423&id=1005106

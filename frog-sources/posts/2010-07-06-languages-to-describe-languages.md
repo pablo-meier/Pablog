@@ -66,7 +66,7 @@ That's enough bloviation for now. Now let's write some code.
    [10]: http://nekovm.org/
    [11]: http://slatelanguage.org/
    [12]: http://en.wikipedia.org/wiki/Prototype-based_programming
-   [13]: http://www.morepaul.com/2010/06/type-systems-from-1000-feet-high.html
+   [13]: http://www.morepablo.com/2010/06/type-systems-from-1000-feet-high.html
    [14]: http://en.wikipedia.org/wiki/Prolog
    [15]: http://www.forth.org/
    [16]: http://factorcode.org/

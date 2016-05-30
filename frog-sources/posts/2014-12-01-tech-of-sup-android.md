@@ -66,13 +66,13 @@ The biggest benefit is that you can seperate app-wide logic from screen-specific
 logic. As an example, consider Profile Cards in Sup:
 
 <div style="margin: 20px auto; width: 650px;">
-  <a href="http://morepaul.com/img/2014/12/sup-screenshot-1.png">
+  <a href="http://morepablo.com/img/2014/12/sup-screenshot-1.png">
     <img style="width: 200px; display: inline" src="/img/2014/12/sup-screenshot-1.png" alt="Profile Card in Feed" />
   </a>
-  <a href="http://morepaul.com/img/2014/12/sup-screenshot-2.png">
+  <a href="http://morepablo.com/img/2014/12/sup-screenshot-2.png">
     <img style="width: 200px; display: inline" src="/img/2014/12/sup-screenshot-2.png" alt="Profile Card in Likes" />
   </a>
-  <a href="http://morepaul.com/img/2014/12/sup-screenshot-3.png">
+  <a href="http://morepablo.com/img/2014/12/sup-screenshot-3.png">
     <img style="width: 200px; display: inline" src="/img/2014/12/sup-screenshot-3.png" alt="Profile Card in Following" />
   </a>
 </div>
@@ -124,7 +124,7 @@ View mungling, but avoid letting them fetch data that would alter the model.
 A very high level view of what Sup does is here (solid lines are method calls,
 dotted lines are events):
 
-<a href="http://morepaul.com/img/2014/12/sup-dataflow.png"><img src="/img/2014/12/sup-dataflow.png" alt="Dataflow Visualization of Sup" style="margin 15px auto; width: 600px;" /></a>
+<a href="http://morepablo.com/img/2014/12/sup-dataflow.png"><img src="/img/2014/12/sup-dataflow.png" alt="Dataflow Visualization of Sup" style="margin 15px auto; width: 600px;" /></a>
 
 This splits up the work into discrete blocks that don’t pollute one another:
 
@@ -138,8 +138,8 @@ This splits up the work into discrete blocks that don’t pollute one another:
    [2]: https://play.google.com/store/apps/details?id=com.looksee.sup&hl=en
    [3]: https://itunes.apple.com/us/app/sup-live-video-from-friends/id887742297
    [4]: http://brownandroidattack.blogspot.com/
-   [5]: http://morepaul.com/2014/12/tech-of-sup-android-libraries.html
-   [6]: http://morepaul.com/2014/12/tech-of-sup-android-misc.html
+   [5]: http://morepablo.com/2014/12/tech-of-sup-android-libraries.html
+   [6]: http://morepablo.com/2014/12/tech-of-sup-android-misc.html
    [7]: http://developer.android.com/reference/android/app/Activity.html
    [8]: http://developer.android.com/reference/android/content/Intent.html
    [9]: http://developer.android.com/guide/components/fragments.html

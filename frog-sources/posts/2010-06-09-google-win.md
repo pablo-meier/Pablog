@@ -24,5 +24,5 @@ stupid word, and today I read an [interesting blog post][5] adds
    [1]: http://www.google.com/search?client=safari&rls=en&q=recursion&ie=UTF-8&oe=UTF-8
    [2]: http://1.bp.blogspot.com/_3ys1dwfzc2w/TA-hPbpqeeI/AAAAAAAAAGI/F1EpENY-JoM/s320/Picture+1.png
    [3]: http://1.bp.blogspot.com/_3ys1dwfzc2w/TA-hPbpqeeI/AAAAAAAAAGI/F1EpENY-JoM/s1600/Picture+1.png
-   [4]: http://www.morepaul.com/2010/04/video-games-and-failure-of-word-art.html
+   [4]: http://www.morepablo.com/2010/04/video-games-and-failure-of-word-art.html
    [5]: http://www.mindhacks.com/blog/2010/06/neuroplasticity_is_a.html

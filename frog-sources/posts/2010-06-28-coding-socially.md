@@ -38,7 +38,7 @@ bit different now.)
    [7]: http://www.erlang.org/download.html
    [8]: https://bitbucket.org/paul.meier
    [9]: http://brownandroidattack.blogspot.com/
-   [10]: http://www.morepaul.com/2010/05/my-first-game-is-on-android-market.html
-   [11]: http://www.morepaul.com/2010/03/games.html
+   [10]: http://www.morepablo.com/2010/05/my-first-game-is-on-android-market.html
+   [11]: http://www.morepablo.com/2010/03/games.html
    [12]: http://stackoverflow.com/users/196469/paul-meier
    [13]: http://en.gravatar.com/

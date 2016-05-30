@@ -126,10 +126,10 @@ Actor, but I'm tired of seeing Shakespeare.
 Obviously, easier said than done. But those are my two cents.
 
 
-   [1]: http://www.morepaul.com/2010/06/type-systems-from-1000-feet-high.html
-   [2]: http://www.morepaul.com/2010/06/terrible-wonderful-music-videos.html
-   [3]: http://www.morepaul.com/2010/07/on-freedom-of-speech.html
-   [4]: http://www.morepaul.com/2010/08/life-isnt-fair-and-eat-pray-love.html
+   [1]: http://www.morepablo.com/2010/06/type-systems-from-1000-feet-high.html
+   [2]: http://www.morepablo.com/2010/06/terrible-wonderful-music-videos.html
+   [3]: http://www.morepablo.com/2010/07/on-freedom-of-speech.html
+   [4]: http://www.morepablo.com/2010/08/life-isnt-fair-and-eat-pray-love.html
    [6]: http://www.guardian.co.uk/media/2010/jul/20/times-paywall-readership
    [7]: http://s-ec-sm.buzzfeed.com/static/imagebuzz/web03/2010/2/18/15/legal-dvd-vs-pirated-copy-25361-1266526187-121.jpg
    [8]: http://www.reddit.com/r/gaming/comments/cw0ax/i_downloaded_and_cracked_scii_and_played_a_couple/

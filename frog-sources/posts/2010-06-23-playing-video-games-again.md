@@ -69,7 +69,7 @@ the whole thing (which you won't ^\_^. The game starts at 3:05):
    [2]: http://en.wikipedia.org/wiki/Super_Smash_Bros._Melee
    [3]: http://www.smashboards.com/
    [4]: http://www.wcreplays.com
-   [5]: http://www.morepaul.com/2010/05/my-last-study-break.html
+   [5]: http://www.morepablo.com/2010/05/my-last-study-break.html
    [6]: http://www.gosugamers.net/warcraft/rankings/755
    [7]: http://www.gosugamers.net/warcraft/rankings/615
    [8]: http://classic.battle.net/war3/nightelf/units/demonhunter.shtml

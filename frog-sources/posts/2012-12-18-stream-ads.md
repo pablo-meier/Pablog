@@ -5,7 +5,7 @@
 <em><small>Originally written on December 18, Newtown hit me very hard, then I
 got wrapped up in holidays. Actual publish date is January 4.</em>
 
-tl;dr I still believe <a href="http://morepaul.com/2010/08/making-living-being-artist.html">all this</a>
+tl;dr I still believe <a href="http://morepablo.com/2010/08/making-living-being-artist.html">all this</a>
 but feel people who watch game streams with
 ad block are acting supremely entitled because there are workarounds, and
 compared to "theft" of mass media the inconveniences are fewer, and the producers
@@ -83,7 +83,7 @@ So I promised a rebuttal in a similar long-form vein as the Twitlonger post:
 <blockquote><p>@<a
 href="https://twitter.com/jseakle">jseakle</a> Agree almost entirely, have for
 years, see similarities in <a href="http://t.co/w8iY0gUV"
-title="http://morepaul.com/2010/08/making-living-being-artist.html">morepaul.com/2010/08/making…</a>
+title="http://morepablo.com/2010/08/making-living-being-artist.html">morepablo.com/2010/08/making…</a>
 insufficient in this case, at this scale, imo</p>&mdash; Paul Meier (@SrPablo)
 <a href="https://twitter.com/SrPablo/status/279638002169417728"
 data-datetime="2012-12-14T17:24:29+00:00">December 14, 2012</a></blockquote>
@@ -346,7 +346,7 @@ Sorry for the delay, Newtown and holidays hit me hard. Thanks for engaging me
 ^\_^
 
    [1]: http://twitter.com/jseakle
-   [2]: http://morepaul.com/2010/08/making-living-being-artist.html
+   [2]: http://morepablo.com/2010/08/making-living-being-artist.html
    [3]: http://blastr.com/2010/07/11-biggest-sci-fi-blockbu.php
    [4]: http://web.archive.org/web/20041010081842/http://mbhs.bergtraum.k12.ny.us/cybereng/nyt/rapper01.htm
    [5]: http://en.wikipedia.org/wiki/Hollywood_accounting

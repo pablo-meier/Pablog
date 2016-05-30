@@ -202,5 +202,5 @@ pretty much every construction (industry, culture, government) is just a big
 hack.
 
    [1]: http://tevisthompson.com/on-videogame-reviews/
-   [2]: http://morepaul.com/2013/09/bioshock-infinite.html
+   [2]: http://morepablo.com/2013/09/bioshock-infinite.html
    [3]: http://tevisthompson.com/saving-zelda/

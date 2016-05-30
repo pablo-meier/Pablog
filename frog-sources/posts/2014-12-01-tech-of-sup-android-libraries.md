@@ -259,8 +259,8 @@ Finally, [ActionBarSherlock][38]. We used to use it, but now with the [Toolbar][
 being the recommended approach I think you should probably just use AppCompat (we
 switched).
 
-   [1]: http://morepaul.com/2014/12/tech-of-sup-android.html
-   [3]: http://morepaul.com/2014/12/tech-of-sup-android-misc.html
+   [1]: http://morepablo.com/2014/12/tech-of-sup-android.html
+   [3]: http://morepablo.com/2014/12/tech-of-sup-android-misc.html
    [4]: http://square.github.io/dagger/
    [5]: https://github.com/google/guice
    [6]: https://github.com/google/guice/wiki/Motivation

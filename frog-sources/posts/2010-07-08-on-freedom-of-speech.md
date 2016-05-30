@@ -108,12 +108,12 @@ McDonalds.
 
 
    [1]: http://en.wikipedia.org/wiki/Everybody_Draw_Mohammed_Day
-   [2]: http://www.morepaul.com/2010/05/everyone-draw-mohammed.html
+   [2]: http://www.morepablo.com/2010/05/everyone-draw-mohammed.html
    [3]: http://www.newmancollege.ac.in/faculty.htm
    [4]: http://timesofindia.indiatimes.com/india/Alleging-blasphemy-fanatics-hack-lecturers-hand/articleshow/6129146.cms
    [5]: http://www.asianews.it/news-en/Kerala,-hand-severed-of-Christian-Professor-accused-of-blasphemy-18843.html
    [6]: http://en.wikipedia.org/wiki/Theo_van_Gogh_(film_director)
    [7]: http://www.aolnews.com/world/article/muhammad-cartoonist-lars-vilks-attacked-during-college-lecture/19473427
    [8]: http://en.wikipedia.org/wiki/Hadith
-   [9]: http://www.morepaul.com/2010/04/i-read-news.html
+   [9]: http://www.morepablo.com/2010/04/i-read-news.html
    [10]: http://en.wikipedia.org/wiki/Boobquake

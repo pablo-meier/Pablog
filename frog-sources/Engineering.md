@@ -74,7 +74,7 @@ posts tweets to an account where you have write access. There isn't much to this
 one, but I _did_ write all my own OAuth code for access, which was buckets of
 fun.
 
-I wrote on Markov chains, trying to make it accessible to non-engineers [here](http://morepaul.com/2012/10/loving-yourself-with-ebooks.html).
+I wrote on Markov chains, trying to make it accessible to non-engineers [here](http://morepablo.com/2012/10/loving-yourself-with-ebooks.html).
 
 For a higher-level engineering audience, the most interesting part is the OAuth,
 since until you implement it yourself you can't really get a proper appreciation

@@ -57,9 +57,9 @@ price ^\_^
 
    [6]: http://en.wikipedia.org/wiki/Mustafa_Kemal_Atatürk#Turkey
 
-   [7]: http://www.morepaul.com/2010/07/on-freedom-of-speech.html
+   [7]: http://www.morepablo.com/2010/07/on-freedom-of-speech.html
 
-   [8]: http://www.morepaul.com/2010/09/updates-to-previous-posts.html
+   [8]: http://www.morepablo.com/2010/09/updates-to-previous-posts.html
 
    [9]: http://thelede.blogs.nytimes.com/2007/03/07/youtube-banned-in-turkey-after-insults-to-ataturk/
 

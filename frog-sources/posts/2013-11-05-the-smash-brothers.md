@@ -24,4 +24,4 @@ First part embedded below:
 
 
    [1]: http://twitch.tv/sicp/videos
-   [2]: http://www.morepaul.com/2010/06/playing-video-games-again.html
+   [2]: http://www.morepablo.com/2010/06/playing-video-games-again.html

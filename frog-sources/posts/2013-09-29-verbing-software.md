@@ -108,7 +108,7 @@ Many large systems are structured this way -- game engines, and what I've seen
 from the developing [Servo][13] code. I just wish we did it in retrograde more
 often, like game [demakes][14], for indispensable, old software.
 
-   [1]: http://www.morepaul.com/2010/07/languages-to-describe-languages.html
+   [1]: http://www.morepablo.com/2010/07/languages-to-describe-languages.html
    [2]: http://coffeescript.org/
    [3]: http://gcc.gnu.org/
    [4]: http://clang.llvm.org/

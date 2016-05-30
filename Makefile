@@ -1,18 +1,16 @@
-# Just delegates to the racket script in builder/
+# Decided to slim the image down and do all the Racket work locally pre-image build,
+# rather than have EVERY BUILD download/install Racket, Frog, etc. This was making
+# the image something like 750MB, which is way too large for this site.
+#
+# This Makefile assumes Racket is installed, runs Frog, and builds the `build/` file.
 
-all: clean build preview
+BUILD_DIR=build
 
-new:
-	racket builder/my-frog/frog/frog.rkt -n "$(t)"
+build:
+	[ -d $(BUILD_DIR) ] || mkdir $(BUILD_DIR)
+	raco frog -b
+	cp -R static/* build/
 
-push:
-	racket builder/builder.rkt --push
-
-build: 
-	racket builder/builder.rkt --build
-
-preview:
-	racket builder/builder.rkt --preview
 
 clean:
-	racket builder/builder.rkt --clean
+	rm -rf $(BUILD_DIR)

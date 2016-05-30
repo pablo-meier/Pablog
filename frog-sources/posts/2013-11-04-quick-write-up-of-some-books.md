@@ -170,9 +170,9 @@ you might like it, I suggest you give it a try.
    [1]: http://mediamatters.org/blog/2013/05/31/foxs-megyn-kelly-tears-into-fox-colleagues-over/194296
    [2]: http://slog.thestranger.com/slog/archives/2011/11/22/its-a-food-product-essentially/
    [3]: http://youtu.be/b0Ti-gkJiXc
-   [4]: http://morepaul.com/2013/10/on-depression-mine.html
+   [4]: http://morepablo.com/2013/10/on-depression-mine.html
    [5]: http://www.bostonglobe.com/lifestyle/health-wellness/2013/05/26/when-brain-attacks-newly-discovered-disease-can-mimic-psychosis/dyixxnwdHJJIUITsNYJC3O/story.html
-   [6]: http://www.morepaul.com/2010/05/my-last-study-break.html
+   [6]: http://www.morepablo.com/2010/05/my-last-study-break.html
    [7]: http://www.amazon.com/Number-Language-Science-Tobias-Dantzig/dp/0452288118/ref=sr_1_1?s=books&ie=UTF8&qid=1383581828&sr=1-1&keywords=Number
    [8]: http://rationalwiki.org/wiki/Igon_Value_Problem
    [9]: http://blog.chabris.com/2013/10/why-malcolm-gladwell-matters-and-why.html

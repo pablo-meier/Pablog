@@ -309,13 +309,13 @@ older together, and nap/cuddle a fuckton.
    [2]: https://reonomy.com/
    [3]: https://www.facebook.com/paul.meier/videos/vob.1010423/10100535620279471/?type=2&theater
    [4]: http://techcrunch.com/2014/08/07/sup-app/
-   [5]: http://morepaul.com/2014/12/tech-of-sup-android.html
-   [6]: http://morepaul.com/2014/12/tech-of-sup-android-libraries.html
-   [7]: http://morepaul.com/2014/12/tech-of-sup-android-misc.html
+   [5]: http://morepablo.com/2014/12/tech-of-sup-android.html
+   [6]: http://morepablo.com/2014/12/tech-of-sup-android-libraries.html
+   [7]: http://morepablo.com/2014/12/tech-of-sup-android-misc.html
    [8]: https://www.jwz.org/blog/2011/11/watch-a-vc-use-my-name-to-sell-a-con/
    [10]: https://twitter.com/richsarkis/status/679937342413631488
    [11]: https://twitter.com/SrPablo/status/679776007512014849
-   [12]: http://morepaul.com/2013/10/on-depression-mine.html
+   [12]: http://morepablo.com/2013/10/on-depression-mine.html
    [13]: https://ghostlight.io/about.html
    [14]: https://ghostlight.io/faq.html
    [15]: http://blog.ghostlight.io/we-open-source-comrades/

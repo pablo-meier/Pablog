@@ -126,7 +126,7 @@ and follow competitive [Dota 2][15]), but it's been a great 3 years :)
    [9]: http://spelunkyworld.com/
    [10]: http://www.wired.com/gamelife/2014/02/twitch-plays-pokemon/
    [11]: http://www.imdb.com/title/tt0332047/
-   [12]: http://morepaul.com/2013/10/on-depression-mine.html
+   [12]: http://morepablo.com/2013/10/on-depression-mine.html
    [13]: http://www.reddit.com/r/starcraft/comments/1g4ky1/starcraft_2_saved_my_life/
    [14]: http://wiki.teamliquid.net/starcraft2/FruitDealer
    [15]: http://blog.dota2.com/

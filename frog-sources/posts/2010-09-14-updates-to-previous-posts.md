@@ -69,13 +69,13 @@ close with my favorite headline, stolen from reddit:
 at Ground Zero!?!?!?**
 
 
-   [1]: http://www.morepaul.com/2010/08/life-isnt-fair-and-eat-pray-love.html
+   [1]: http://www.morepablo.com/2010/08/life-isnt-fair-and-eat-pray-love.html
 
    [2]: http://slog.thestranger.com/slog/archives/2010/09/14/pay-sit-barf
 
    [3]: http://www.thestranger.com/seattle/burkas-and-birkins/Content?oid=4132715
 
-   [4]: http://www.morepaul.com/2010/08/making-living-being-artist.html
+   [4]: http://www.morepablo.com/2010/08/making-living-being-artist.html
 
    [5]: http://www.digitalsociety.org/2010/07/jason-robert-brown-debates-rationalization-of-theft/
 
@@ -83,7 +83,7 @@ at Ground Zero!?!?!?**
 
    [7]: http://slog.thestranger.com/slog/archives/2010/06/23/arena-stage-in-washington-dc-puts-playwrights-on-the-payroll
 
-   [8]: http://www.morepaul.com/2010/09/life-updatebook-burning.html
+   [8]: http://www.morepablo.com/2010/09/life-updatebook-burning.html
 
    [9]: http://www.youtube.com/watch?v=VoCAbieZj1w
 
