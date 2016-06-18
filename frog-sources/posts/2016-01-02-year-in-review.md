@@ -10,7 +10,7 @@ hopes for 2016; a brief, incomplete, mostly incorrect list.
 
 ### Goodbye Sup, hello Reonomy
 
-<div style="width: 700px; margin: 20px auto">
+<div style="max-width: 700px; margin: 20px auto">
 <img src="/img/2016/01/sup.png" alt="Sup logo" style="display: inline; margin-right: 20px" />
 <img src="/img/2016/01/reonomy-logo-old.png" alt="Old Reonomy logo" style="display: inline" />
 <img src="/img/2016/01/reonomy-logo.gif" alt="New Reonomy logo" style="display: inline; margin-left: 20px" />
@@ -39,7 +39,7 @@ role when offered. Most of this was my sheer ignorance of what an opportunity
 this was, another part was a surreal interview process with a company that
 barely resembles the one I'm currently working at.
 
-<div>
+<div style="max-width: 710px; margin: 20px auto">
 <img src="/img/2016/01/reo-headshot.jpg" alt="Reonomy headshot" style="display: inline; margin-right: 20px" />
 <img src="/img/2016/01/reo-headshot-outtake.jpg" alt="Reonomy headshot outtake" style="display: inline" />
 <p style="font-size: small; text-align: center; font-style: italic">Left is company headshot, right is an outtake I happen to like.</p>
@@ -73,7 +73,7 @@ on exceptionally good footing.
 
 ### I wrote Ghostlight / Attended 60-80 shows
 
-<div style="width: 700px; margin: 20px auto">
+<div style="max-width: 700px; margin: 20px auto">
 <a href="/img/2016/01/shows1_large.jpg"><img src="/img/2016/01/shows1.jpg" alt="Pile o shows"/></a>
 <a href="/img/2016/01/shows2_large.jpg"><img src="/img/2016/01/shows2.jpg" alt="Another pile o shows"/></a>
 <p style="font-size: small; text-align: center; font-style: italic">Missing is
@@ -111,7 +111,7 @@ Over time, this is Guaranteed™ to get you work!
 
 ---
 
-<div style="width: 325px; margin: 20px auto">
+<div style="max-width: 325px; margin: 20px auto">
 <img src="/img/2016/01/ghostlight_logo.png" alt="Ghostlight logo"/>
 <p style="font-size: small; text-align: center; font-style: italic">Shitty
 Ghostlight logo made with a free tool.</p>
@@ -158,7 +158,7 @@ Fun facts about Ghostlight!
 
 ### I got back in the Theater game and """directed""" a show!
 
-<div style="width: 615px; margin: 20px auto">
+<div style="max-width: 615px; margin: 20px auto">
 <img src="/img/2016/01/fish_set.jpg" alt="Fish set"/>
 <p style="font-size: small; text-align: center; font-style: italic">Set for
 <em>Fish Out Of Water</em>.</p>
@@ -294,7 +294,7 @@ I've never been the sole caretaker of a dog, and absolutely loved living with
 [George][30]. So through a most lovely co-worker, I adopted **Sapo** 🐸 through
 [Badass Brooklyn Animal Rescue][32]:
 
-<div style="width: 615px; margin: 20px auto">
+<div style="max-width: 615px; margin: 20px auto">
 <img src="/img/2016/01/bigsapo.jpg" alt="photo of Sapo"/>
 </div>
 

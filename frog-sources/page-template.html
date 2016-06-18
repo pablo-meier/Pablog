@@ -12,178 +12,68 @@
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
     <link rel="canonical" href="@|full-uri|">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mitr|Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/morepablo.css">
     <link ref="alternate" type="application/rss+xml" href="@|rss-feed-uri|" title="RSS Feed">
-    @google-analytics["UA-4424692-2" "www.morepablo.com"]
   </head>
   <body>
-    <!-- A standard Twitter Bootstrap nav bar -->
-    <header class="navbar navbar-default navbar-inverse"
-            role="banner">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button"
-                  class="navbar-toggle"
-                  data-toggle="collapse"
-                  data-target=".our-nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="/index.html" class="navbar-brand">More Pablo</a>
-        </div> <!-- navbar-header -->
-        <div class="collapse navbar-collapse our-nav-collapse"
-             role="navigation">
-          <ul class="nav navbar-nav">
-            @;{ We can define Racket functions to "DRY". Here's one to
-                emit HMTL for a nav item, adding class="active" iff
-                this page's @|uri-path| is the same as the nav link. }
-            @(define (ni uri label [a-attribs ""])
-              @list{
-                <li@(when (string-ci=? uri uri-path) " class=\"active\"")>
-                  <a href="@|uri|"@|a-attribs|>@|label|</a>
-                </li> })
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Tags <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="/index.html">All Posts</a></li>
-                @|tags-list-items|
-              </ul>
-			  </li>
-            @ni["/About.html" "About"]
-            @ni["/Engineering.html" "Engineering"]
-            @ni["/Performance.html" "Performance"]
-            <li><a href="@|rss-feed-uri|">RSS</a></li>
-          </ul>
-          <form class="navbar-form navbar-right" action="http://www.google.com/search" method="get">
-             <fieldset role="search">
-                <input type="hidden" name="q" value="site:www.morepablo.com" />
-                <div class="form-group">
-                  <input id="search-input" type="text" style="border-radius: 5px" name="q" results="0" placeholder="Search"/>
-                </div>
-             </fieldset>
-          </form>
-        </div> <!-- rest of navbar -->
-      </div> <!-- container -->
-    </header>
     @(when (string-ci=? uri-path "/index.html")
         @list{
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Pablo Meier</h1>
-            <p>Software, performance, culture, and whatever else I like.</p>
-        </div>
-    </div> <!-- jumbotron -->}
+    <div>
+        <h1>Pablo Meier</h1>
+        <p>Software, performance, culture, and whatever else I like.</p>
+    </div>}
     )
-    <div class="container">
-      <div class="row">
-        <!-- Main column -->
-        <div id="content" class="col-md-8">
-          @;{ Index pages for posts have @tag that's not #f }
-          @(when tag
-            @list{<h1>Posts tagged <em>@|tag|</em></h1>})
-          @;{ The main page contents are in @contents }
-          @|contents|
-        </div>
-        <div id="sidebar" class="col-md-4">
-            <h3>Connect, Follow, 'Encircle'</h3>
-            <ul>
-                <li><a href="https://www.facebook.com/paul.meier">Facebook</a></li>
-                <li><a href="https://google.com/+PaulMeier">G+</a></li>
-                <li><a href="https://www.twitter.com/SrPablo">Twitter</a></li>
-                <li><a href="https://www.github.com/pablo-meier">GitHub</a></li>
-                <li><a href="https://www.twitch.tv/sicp">Twitch.tv</a></li>
-            </ul>
-            @;{Blogroll}
-            <h3>From my RSS Feed</h3>
-            <ul>
-                <li><a href="http://batsov.com/">(think)</a>
-                <li><a href="http://www.altdevblogaday.com/">#AltDevBlogADay</a></li>
-                <li><a href="http://bitchmagazine.org">Bitch Magazine</a></li>
-                <li><a href="http://bartoszmilewski.com/">Bartosz Milewski's Programming Cafe</a></li>
-                <li><a href="http://www.8bitpeoples.com/">8bitpeoples</a>
-                <li><a href="http://mozakai.blogspot.com/">Azakai</a></li>
-                <li><a href="http://dtrace.org/blogs/brendan/">Brendan Gregg's blog</a></li>
-                <li><a href="http://charlyevonsimpson.com/">Charly Evon Simpson</a></li>
-                <li><a href="http://www.codinghorror.com/blog/">Coding Horror</a></li>
-                <li><a href="http://www.danrogersdirects.com/">dan rogers directs theatre</a></li>
-                <li><a href="http://dorophone.blogspot.com/">Dorophone</a></li>
-                <li><a href="http://fulfillmentofdreams.blogspot.com/">Dreams Fulfilled</a></li>
-                <li><a href="http://blog.regehr.org/">Embedded in Academia</a></li>
-                <li><a href="http://www.evanmiller.org/">Evan Miller's News</a></li>
-                <li><a href="https://www.fpcomplete.com/school">FP Complete's Blog</a></li>
-                <li><a href="http://www.catonmat.net/">good coders code, great coders reuse</a></li>
-                <li><a href="http://googleresearch.blogspot.com/">Google Research Blog</a></li>
-                <li><a href="http://www.greghendershott.com/index.html">Greg Hendershott</a></li>
-                <li><a href="http://ifyoucanreadthisyourelying.blogspot.com">If You Can Read This, You're Lying</a></li>
-                <li><a href="http://www.jwz.org/blog/">jwz</a></li>
-                <li><a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a></li>
-                <li><a href="http://blog.llvm.org/">LLVM Project Blog</a></li>
-                <li><a href="http://www.loweringthebar.net/">Lowering the Bar</a></li>
-                <li><a href="http://matt.might.net/">Matt Might's Blog</a></li>
-                <li><a href="http://mossmouth.tumblr.com/">Mossmouth</a></li>
-                <li><a href="https://nealpoole.com/blog/">Neal Poole</a></li>
-                <li><a href="http://joshua.themarshians.com/">Joshua Marsh's blog</a></li>
-                <li><a href="http://planet.lisp.org/">Planet Lisp</a></li>
-                <li><a href="http://www.popehat.com/">Popehat</a></li>
-                <li><a href="http://allendowney.blogspot.com/">Probably Overthinking It</a></li>
-                <li><a href="http://prog21.dadgum.com/">programming in the 21st century</a></li>
-                <li><a href="http://programmingisterrible.com/">programming is terrible</a></li>
-                <li><a href="http://salexanderphd.tumblr.com/">S. Alexander, PhD</a></li>
-                <li><a href="http://semblare.tumblr.com/">Semblare sketchbook</a></li>
-                <li><a href="http://www.theguardian.com/profile/tamara-winfrey-harris">Tamara Winfrey-Harris</a></li>
-                <li><a href="http://blog.brownplt.org/">The Brown PLT Blog</a></li>
-                <li><a href="http://blog.racket-lang.org/">Racket blog</a></li>
-                <li><a href="http://cmr.github.io/">Ramblin's</a></li>
-                <li><a href="https://www.schneier.com/">Schneier on Security</a></li>
-                <li><a href="http://edgewhys.wordpress.com/">twitter too short, tumblr too awful</a></li>
-                <li><a href="http://whatever.scalzi.com/">Whatever</a>
-                <li><a href="http://whatindarnation.tumblr.com/">What in DarNation</a>
-                <li><a href="http://www.wisdomandwonder.com/">Wisdom and Wonder</a></li>
-            </ul>
-        </div>
+    <div class="row">
+      <!-- Main column -->
+      <div class="column">
+        @;{ Index pages for posts have @tag that's not #f }
+        @(when tag
+          @list{<h1>Posts tagged <em>@|tag|</em></h1>})
+        @;{ The main page contents are in @contents }
+        @|contents|
       </div>
-      <footer id="page-footer">
-      <div class="row">
-          <div class="col-md-3">
-              <h3>Built On</h3>
-              <ul>
-                  <li><a href="https://github.com/greghendershott/frog">Frog</a></li>
-                  <li><a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a></li>
-                  <li><a href="http://vim.org">Vim</a></li>
-                  <li><a href="http://wummel.github.io/linkchecker/">Linkchecker</a></li>
-              </ul>
-          </div>
-          <div class="col-md-6">
-              <h3>Copyright</h3>
-              <p><em><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">More Pablo</span> by 
-        <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.morepablo.com" property="cc:attributionName" rel="cc:attributionURL">Pablo Meier</a> 
-        is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</em> This likely won't do jack to protect any of my "valuable" "work." But if you take anything from this blog that I made, please just
-      be cool and attribute it, and allow it to be shared by others.</p>
-          </div>
-          <div class="col-md-3">
-            <h3>Under Construction</h3>
-            <table>
-                <tr>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                </tr>
-                <tr>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                </tr>
-                <tr>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                    <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
-                </tr>
-            </table>
-          </div>
-      </div>
-      </footer>
     </div>
+    <footer id="page-footer">
+    <div class="row">
+        <div class="large-3 small-12 columns">
+            <h3>Built On</h3>
+            <ul>
+                <li><a href="https://github.com/greghendershott/frog">Frog</a></li>
+                <li><a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a></li>
+                <li><a href="http://vim.org">Vim</a></li>
+                <li><a href="http://wummel.github.io/linkchecker/">Linkchecker</a></li>
+            </ul>
+        </div>
+        <div class="large-6 small-12 columns">
+            <h3>Copyright</h3>
+            <p><em><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">More Pablo</span> by 
+      <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.morepablo.com" property="cc:attributionName" rel="cc:attributionURL">Pablo Meier</a> 
+        is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</em> This likely won't do jack to protect any of my "valuable" "work." But if you take anything from this blog that I made, please just
+    be cool and attribute it, and allow it to be shared by others.</p>
+        </div>
+        <div class="large-3 small-12 columns">
+          <h3>Under Construction</h3>
+          <table>
+              <tr>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+              </tr>
+              <tr>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+              </tr>
+              <tr>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+                  <td><img src="/img/static/construction.gif" alt="Under construction!" /></td>
+              </tr>
+          </table>
+        </div>
+    </div>
+    </footer>
   </body>
 </html>

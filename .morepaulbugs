@@ -1,34 +1,29 @@
 ####################
 -- Content
 
-* Add pictures of you.
+* Redesign.
+* * Nav and footer
+* * Link styles
+* * Index page
+* * Add pictures of you.
 
 * Tag the things, formatting, images (clean the posts).
 ** Would be nice to bug track. See what the Markdown do-over gets you.
 
 * Linkcheck support built-in, fix broken links.
 
-* Custom download of Bootstrap without all the things you don't use? Need to build somehow with Readability theme.
-
-* Redesign sidebar?
-
 ####################
-Builder
+-- Posts to write
+* Spotlight post-mortem
+* Abode/Reconnexio post-mortem
+* Swagger/Dropwizard post port
 
-Check for built pages, choose to build them or not as necessary. Probably require you
-to "libraryfy" Frog.
+* Director's Notebook: Fish Out Of Water
+* Director's Notebook: Arcadia
 
 ####################
 -- Features and shit.
 
 Discourse?
-HTTPS support.
-Fix bug where new posts on index aren't updated.
-
-Cached builds for previously-built posts?
-
 'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
-
-Links to individual paragraphs? Add a linkable '#' on mouseover?
-
 TeX algo for line-breaking?
