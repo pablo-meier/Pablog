@@ -18,6 +18,44 @@
     <link ref="alternate" type="application/rss+xml" href="@|rss-feed-uri|" title="RSS Feed">
   </head>
   <body>
+
+    <div class="top-bar">
+      <div class="top-bar-title">
+           <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+             <button class="menu-icon dark" type="button" data-toggle></button>
+           </span>
+           <a href="/"><strong>More Pablo</strong></a>
+      </div>
+      <div id="responsive-menu">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text"></li>
+            <li>
+              <a href="#">Tags</a>
+              <ul class="menu vertical">
+                @|tags-list-items|
+              </ul>
+            </li>
+            <li><a href="/About.html">About (Me)</a></li>
+            <li><a href="/Engineering.html">Engineering</a></li>
+            <li><a href="/Performance.html">Performance</a></li>
+            <li><a href="/About-Site.html">About (Site)</a></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li>
+              <form action="http://www.google.com/search" method="get">
+                <fieldset role="search">
+                  <input type="hidden" name="q" value="site:www.morepablo.com" />
+                  <input id="search-input" type="text" style="border-radius: 5px" name="q" results="0" placeholder="Search"/>
+                </fieldset>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     @(when (string-ci=? uri-path "/index.html")
         @list{
     <div>
@@ -75,5 +113,8 @@
         </div>
     </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+    <script type="text/javascript"> $(document).foundation(); </script>
   </body>
 </html>
