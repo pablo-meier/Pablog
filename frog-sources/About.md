@@ -6,8 +6,8 @@ briefly on their [API console][3] from 2012-2013, until I decided to follow
 someone, taking me away from the Bay Area. After that I was the second employee
 Looksee, which made the [fun, but ill-fated Sup app][4].
 
-Most recently, I was a Series B employee of [Reonomy][5], where I was an
-engineer for about a year before getting promoted to a Lead, where I've been
+Most recently, I joined [Reonomy][5] as a Series B employee in 2015, where I was
+an engineer for about a year before getting promoted to a Lead, where I've been
 managing more.
 
 Before software, I was into theatre, having worked mostly as an actor
