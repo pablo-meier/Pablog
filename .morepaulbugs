@@ -6,15 +6,13 @@
     * Try new colors, fonts for titles
     * Make mobile expand vertical
     * Different gray?
-  * Index page
-  * Add pictures of you.
 
 -- NOT BLOCKERS:
 * Code styles
-* Favicon
-* Social icons on footer
+* Social icons on footer, and/or some on index page.
 
 * Tag the things, formatting, images (clean the posts).
+* Titles only list or 'greatest hits' on frontpage, like Evan Miller's blog.
 ** Would be nice to bug track. See what the Markdown do-over gets you.
 
 * LOL Linkcheck support built-in, fix broken links.
