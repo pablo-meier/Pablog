@@ -1,6 +1,6 @@
     Title: My favorite hypothetical virus
     Date: 2015-05-28T20:31:28
-    Tags: programming, pablolife
+    Tags: engineering, pablolife
 
 I took and TA-ed my college's [Computer Security course][1], where we did things
 like write malware and put it on VMs, or sillier projects like [port knocking][2].

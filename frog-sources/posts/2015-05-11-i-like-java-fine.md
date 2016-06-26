@@ -1,17 +1,17 @@
     Title: I like Java fine
     Date: 2015-05-11T20:31:28
-    Tags: programming, pablolife
+    Tags: engineering, pablolife
 
 **Statement: I am plenty happy to use Java in a large number of contexts.**
 
 <p style="text-align:center"><em>BANG! BANG! BANG!</em></p>
 
-<div style="width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-1.png" alt="Neo dodging bullets" /></div>
+<div style="max-width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-1.png" alt="Neo dodging bullets" /></div>
 
 Yes, I've read what [jwz][1] and [Paul][2] have written about it. In fact, I
 largely agree with all of it.
 
-<div style="width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-2.png" alt="Neo dodging bullets, again" /></div>
+<div style="max-width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-2.png" alt="Neo dodging bullets, again" /></div>
 
 No, I'm not unqualified to say that. I'm not a defensive graduate from
 [a so-called JavaSchool][3], I graduated from [a pretty renown program][4]. Like
@@ -22,14 +22,14 @@ Ruby. No company has ever fired me for technical ability or lack of contribution
 keep me. It's very, very hard to evaluate engineering ability but for the most
 standard (often bullshit) metrics, I pass.
 
-<div style="width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-3.png" alt="Neo continuing to dodge bullets" /></div>
+<div style="max-width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-3.png" alt="Neo continuing to dodge bullets" /></div>
 
 I acknowledge that even in the game Java is playing, C# often does it better.
 I've never had the opportunity to use C# given it's close association with
 Windows and the CLR; no firm I've worked with was using those, and when I choose
 technologies for my side projects, I usually use more obscure ones.
 
-<div style="width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-drop.png" alt="Neo falls" /></div>
+<div style="max-width: 600px; margin: 15px auto;"><img src="/img/2015/05/neododge-drop.png" alt="Neo falls" /></div>
 
 But frankly, I'll go further and say it's a _damn good choice_ for many
 modules/projects.

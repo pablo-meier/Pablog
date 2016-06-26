@@ -116,24 +116,39 @@ body {
 }
 
 ::-moz-selection {
-    background: #D6EDFF;
+  background: #D6EDFF;
 }
 
 ::selection {
-    background: #D6EDFF;
+  background: #D6EDFF;
+}
+
+.top-bar-title {
+  margin-top: 6px;
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+.top-bar-right form {
+  margin-top: 4px;
+  margin-right: 10px;
 }
 
 h1, h2, h3,
-h4, h5, h6 {
+h4, h5, h6, .top-bar {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
     line-height: 1.15em;
-    margin: 0 0 0.4em 0;
     font-family: "Mitr", sans-serif;
     text-rendering: geometricPrecision;
 		text-align: center;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    margin: 0 0 0.4em 0;
 }
 
 h1 {
@@ -181,12 +196,13 @@ p, ul, ol, dl {
     text-rendering: geometricPrecision;
 }
 
-ol, ul {
+.content ol, .content ul {
     padding-left: 3rem;
 }
 
-ol ol, ul ul,
-ul ol, ol ul {
+/* Adding content class because it's interfering with nav-bar */
+.content ol ol, .content ul ul,
+.content ul ol, .content ol ul {
     margin: 0 0 0.4em 0;
     padding-left: 2em;
 }
@@ -724,82 +740,44 @@ body:not(.post-template) .post-title {
 }
 
 
-/* The author credit area after the post */
-.post-footer {
-    position: relative;
-    margin: 6rem 0 0 0;
-    padding: 3rem 0 0 0;
-    border-top: #EBF2F6 1px solid;
+#page-footer {
+  background-color: rgb(230, 230, 230);
 }
 
-.post-footer h4 {
-    font-size: 1.8rem;
-    margin: 0;
+#page-footer .row, #index-header .row {
+  max-width: 1200px;
 }
 
-.post-footer p {
-    margin: 1rem 0;
-    font-size: 1.4rem;
-    line-height: 1.75em;
+@media only screen and (min-width: 630px) {
+    #page-footer .row {
+      padding-top: 15px;
+    }
 }
 
-/* list of author links - location / url */
-.author-meta {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-size: 1.4rem;
-    line-height: 1;
-    font-style: italic;
-    color: #9EABB3;
+#index-header img {
+  max-width: 450px;
+  margin: 15px auto;
 }
 
-.author-meta a {
-    color: #9EABB3;
-}
-.author-meta a:hover {
-    color: #111;
+#index-header h1 {
+  text-align: center;
+  font-size: 10rem;
 }
 
-/* Create some space to the right for the share links */
-.post-footer .author {
-    margin-right: 180px;
+#index-header p {
+  text-align: center;
 }
 
-.post-footer h4 a {
-    color: #2e2e2e;
-    text-decoration: none;
+#index-header-row {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-.post-footer h4 a:hover {
-    text-decoration: underline;
+@media only screen and (min-width: 630px) {
+  #index-header-synopsis {
+    margin-top: 100px;
+  }
 }
 
-/* Drop the share links in the space to the right.
-   Doing it like this means it's easier for the author bio
-   to be flexible at smaller screen sizes while the share
-   links remain at a fixed width the whole time */
-.post-footer .share {
-    position: absolute;
-    top: 3rem;
-    right: 0;
-    width: 140px;
-}
 
-.post-footer .share a {
-    font-size: 1.8rem;
-    display: inline-block;
-    margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
-    text-decoration: none;
-}
-
-.post-footer .share .icon-twitter:hover {
-    color: #55acee;
-}
-.post-footer .share .icon-facebook:hover {
-    color: #3b5998;
-}
-.post-footer .share .icon-google-plus:hover {
-    color: #dd4b39;
-}

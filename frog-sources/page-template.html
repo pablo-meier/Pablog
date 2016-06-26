@@ -10,7 +10,7 @@
     <meta name="author"      content="Pablo Meier">
     <meta name="keywords"    content="@|keywords|">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
-    <link rel="icon"      href="/favicon.ico">
+    <link rel="icon"      href="/favicon.ico?v=2">
     <link rel="canonical" href="@|full-uri|">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
     <link href="https://fonts.googleapis.com/css?family=Mitr|Raleway" rel="stylesheet">
@@ -21,10 +21,10 @@
 
     <div class="top-bar">
       <div class="top-bar-title">
-           <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-             <button class="menu-icon dark" type="button" data-toggle></button>
-           </span>
-           <a href="/"><strong>More Pablo</strong></a>
+         <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+           <button class="menu-icon dark" type="button" data-toggle></button>
+         </span>
+         <a href="/"><strong>More Pablo</strong></a>
       </div>
       <div id="responsive-menu">
         <div class="top-bar-left">
@@ -46,10 +46,8 @@
           <ul class="menu">
             <li>
               <form action="http://www.google.com/search" method="get">
-                <fieldset role="search">
-                  <input type="hidden" name="q" value="site:www.morepablo.com" />
-                  <input id="search-input" type="text" style="border-radius: 5px" name="q" results="0" placeholder="Search"/>
-                </fieldset>
+                <input type="hidden" name="q" value="site:www.morepablo.com" />
+                <input id="search-input" type="text" style="border-radius: 5px" name="q" results="0" placeholder="Search"/>
               </form>
             </li>
           </ul>
@@ -58,12 +56,19 @@
     </div>
     @(when (string-ci=? uri-path "/index.html")
         @list{
-    <div class="panel callout radius">
-        <h1>Pablo Meier</h1>
-        <p>Pablo Meier</p>
+    <div id="index-header">
+      <div id="index-header-row" class="row">
+        <div id="index-header-synopsis" class="small-12 large-6 columns">
+          <h1>Pablo Meier</h1>
+          <p>I &#9829; people; look for ways to make them happy, and empower them. Historically, this has been connected to software and live performance.</p>
+        </div>
+        <div class="small-12 large-6 columns">
+          <img src="/img/static/pabloface.png" alt="Photo of me, gosh I'm handsome" />
+        </div>
+      </div>
     </div>}
     )
-    <div class="row">
+    <div class="row content">
       <!-- Main column -->
       <div class="column">
         @;{ Index pages for posts have @tag that's not #f }
@@ -93,7 +98,7 @@
         is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</em> This likely won't do much to protect any of my "valuable" "work." But if you take anything from this blog that I made, please just
     be cool and attribute it, and allow it to be shared by others.</p>
         </div>
-        <div class="large-3 small-12 columns hide-for-large">
+        <div class="large-3 small-12 columns show-for-large">
           <h3>Under Construction</h3>
           <table>
               <tr>

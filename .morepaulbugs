@@ -2,14 +2,22 @@
 -- Content
 
 * Redesign.
-* * Footer
-* * Index page
-* * Add pictures of you.
+  * Top menu
+    * Try new colors, fonts for titles
+    * Make mobile expand vertical
+    * Different gray?
+  * Index page
+  * Add pictures of you.
+
+-- NOT BLOCKERS:
+* Code styles
+* Favicon
+* Social icons on footer
 
 * Tag the things, formatting, images (clean the posts).
 ** Would be nice to bug track. See what the Markdown do-over gets you.
 
-* Linkcheck support built-in, fix broken links.
+* LOL Linkcheck support built-in, fix broken links.
 
 ####################
 -- Posts to write
@@ -26,3 +34,6 @@
 Discourse?
 'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
 TeX algo for line-breaking?
+
+####################
+Maybe properly learn LESS or SASS and refactor your damn ugly CSS?

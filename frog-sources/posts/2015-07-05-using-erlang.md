@@ -1,6 +1,6 @@
     Title: Using Erlang
     Date: 2015-07-05T23:12:12
-    Tags: programming, essay, pablolife
+    Tags: engineering, essay, pablolife
 
 _The following is [cross-posted with the Ghostlight blog.](http://blog.ghostlight.io/erlang/)_
 

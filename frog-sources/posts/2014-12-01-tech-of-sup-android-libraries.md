@@ -1,6 +1,6 @@
     Title: _Sup for Android_ Part 2: Electric Boogaloo
     Date: 2014-12-01T23:38:28
-    Tags: programming, pablolife
+    Tags: engineering, pablolife
 
 Welcome back! [Part 1][1] covered architecture, and [Part 3][3] covers testing and
 miscellany. Here we’ll talk about --

@@ -1,6 +1,6 @@
     Title: Augmenting Dropwizard with Swagger and Rollbar
     Date: 2016-01-06T12:00:00
-    Tags: essay, programming, pablolife
+    Tags: engineering, pablolife
 
 _The following is a cross-post with the [Reonomy blog][13]. It was made to soar
 and look good there, but figured I'd put it here since it's still my writing._ 😛

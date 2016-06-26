@@ -1,6 +1,6 @@
     Title: Tech overview for _Sup for Android_ - Part 1
     Date: 2014-12-01T23:37:28
-    Tags: programming, pablolife
+    Tags: engineering, pablolife
 
 I’m one of a small team of engineers for [Sup][1], now on the [Play Store][2]
 and [App Store][3]. Download it! Use it! Every day! Make our founders and their
