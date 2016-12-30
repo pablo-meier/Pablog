@@ -74,18 +74,14 @@ levels).
 
 **The most dangerous part (maybe generally, but I can say definitively for me)
 is the phone screen.** By virtue of being on the phone, neither side is able to
-make themselves too human to the other. If one side speaks with a heavy accent
-that the other has trouble understanding, this can make the tech part more
-challenging. Similarly, there's only so much ground you can cover in 40 minutes.
-
-My biggest issue with this is that I think phone screens are misapplied:
-companies try to make them full-blown programming tests rather than, well,
-simple screens to weed out non-programmers. You're almost always asked to write
-an extremely artificial problem (usually some standard library function like
-[flatten][16] or an LRU cache) or something with a minor trick in it (interval
-coalescing in an array of arrays) in some shared coding environment. The
-candidate has to "think out loud" while they do it, and the interviewer watches
-them, often bored for most of it.
+make themselves too human to the other. My biggest issue with this is that I
+think phone screens are misapplied: companies try to make them full-blown
+programming tests rather than, well, simple screens to weed out non-programmers.
+You're almost always asked to write an extremely artificial problem (usually
+some standard library function like [flatten][16] or an LRU cache) or something
+with a minor trick in it (interval coalescing in an array of arrays) in some
+shared coding environment. The candidate has to "think out loud" while they do
+it, and the interviewer watches them, often bored for most of it.
 
 My favorite treatment of this is [the approach Steve Yegge outlined years
 ago:][17] be specific about a few areas you want to test, then test for a
