@@ -4,11 +4,10 @@ I'm living in New York City. For work, I've mostly developed software, having
 worked for Adobe on the [Flash Platform][2] from 2010-2012, and for Google
 briefly on their [API console][3] from 2012-2013, until I decided to follow
 someone, taking me away from the Bay Area. After that I was the second employee
-Looksee, which made the [fun, but ill-fated Sup app][4].
-
-Most recently, I joined [Reonomy][5] as a Series B employee in 2015, where I was
-an engineer for about a year before getting promoted to a Lead, where I've been
-managing more.
+Looksee, which made the [fun, but ill-fated Sup app][4]. I later joined
+[Reonomy][5] as a Series B employee in 2015, where I was an engineer for about a
+year before getting promoted to a Lead, where I've been managing more. Now I'm
+at [ClassPass][13].
 
 You can find my paper resume [hosted on GitHub][6]. It's pretty reductive in
 order to fit on one page; if you'd like to know more about my Engineering
@@ -79,3 +78,4 @@ It's a [Zerg Drone!][11] They [are adorable][12].
    [10]: https://en.wikipedia.org/wiki/Favicon
    [11]: http://wiki.teamliquid.net/starcraft2/Drone_(Legacy_of_the_Void)
    [12]: https://www.youtube.com/watch?v=8Lohi0-zYqQ
+   [13]: http://classpass.com

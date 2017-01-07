@@ -5,9 +5,6 @@
 FROM kyma/docker-nginx
 MAINTAINER Pablo Meier <pablo.a.meier@gmail.com>
 
-# Copy the sources
-COPY .frogrc .frogrc
-
 # Install Vim since I need to debug
 RUN apt-get update
 RUN apt-get install -y vim
