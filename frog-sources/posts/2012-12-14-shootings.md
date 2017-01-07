@@ -2,6 +2,7 @@
     Date:2012-12-14T16:04:00
     Tags: pablolife, culture, rants, essay
 
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <em><small>Note: I originally wrote this on December 14, the day of the Newtown
 shootings, but didn't publish it because I needed some time to cool off, and let
 this sit. Here it is, unedited, in all its rage-ey glory, actually published
@@ -19,27 +20,28 @@ light of this, one of [so many][12] mass shootings we get here.
 Here are some pretty basic concepts people need to get into their skulls about
 gun control and these shootings. First, stop saying the following:
 
-* "It's not about guns, it's about people." Shut the fuck up already. Nobody
-  promoting a discussion on gun control reform is absolving "people," whatever
-  that means. We _know_ evil, violent, and unstable people exist in the world
-  (they always have, and they exist even in places without so many mass
-  shootings!).  _Everybody_ I've spoken who supports more restrictive
-  gun control would be _thrilled_ if we had a more robust, available system for
-  people with violent tendencies, and is more than ready to have that
-  discussion too.
+### "It's not about guns, it's about people."
 
-  Nobody at any point suggested otherwise, to use this and related phrases at
-  this point is just a way to deflect a conversation you don't want or are
-  afraid of having.
+Oh shut the fuck up already. Nobody promoting a discussion on gun control reform
+is absolving "people," whatever that means. We _know_ evil, violent, and
+unstable people exist in the world (they always have, and they exist even in
+places without so many mass shootings!).  _Everybody_ I've spoken who supports
+more restrictive gun control would be _thrilled_ if we had a more robust,
+available system for people with violent tendencies, and is more than ready to
+have that discussion too.
 
-  To quote [someone else:][1]
+Nobody at any point suggested otherwise, to use this and related phrases at this
+point is just a way to deflect a conversation you don't want or are afraid of
+having.
 
-    "Guns don't kill people - people do. By the same token, planes don't kill people -
-    people flying them into buildings do. And yet, I recall that we immediately
-    and decisively worked to keep deranged people from gaining possession of
-    planes when a handful of those people used them as tools of mass murder;
-    indeed, we made it much more difficult for the overwhelming majority of
-    peaceful, law-abiding citizens to board a plane."
+To quote [someone else:][1]
+
+> "Guns don't kill people - people do. By the same token, planes don't kill people
+> - people flying them into buildings do. And yet, I recall that we immediately
+> and decisively worked to keep deranged people from gaining possession of planes
+> when a handful of those people used them as tools of mass murder; indeed, we
+> made it much more difficult for the overwhelming majority of peaceful,
+> law-abiding citizens to board a plane."
 
 Also:
 
@@ -48,34 +50,37 @@ built to ease killing does precisely what it was designed for.</p>&mdash; Lauren
 Johnson (@laurelita) <a
 href="https://twitter.com/laurelita/status/279683092430585859"
 data-datetime="2012-12-14T20:23:40+00:00">December 14, 2012</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-* "Don't politicize a tragedy." Again, spare me. By silencing a challenge to the
-  status quo, you are politicizing it. Don't tell me when a military-grade
-  assault rifle used to gun down 20 kindergardeners, that the "assault rifle"
-  part is off-limits.
+### "Don't politicize a tragedy."
+
+Again, spare me. By silencing a challenge to the status quo, you are
+politicizing it. Don't tell me when a military-grade assault rifle used to gun
+down 20 kindergardeners, that the "assault rifle" part is off-limits.
 
 <img src="/img/2012/12/assault-rifle.png" alt="yeah, this is reasonable" />
 
-* "The solution is more guns/the victims could have protected themselves with
-  guns." Jesus, NO. In [61 mass killings, none of them were stopped by civilians with guns.][2]
-  Do you _really_ suggest students at Virginia Tech (and by extension, every
-  school in the country) should _always_ bring a gun to every class they attend
-  for the very remote chance someone will barge in and fire? That Gabby Giffords
-  (and by extension, all elected officials or people who attend their events)
-  should keep their hands at her holster at _every_ appearance, and always be
-  vigilant? Kindergardeners? Kindergarden teachers?
+### "The solution is more guns/the victims could have protected themselves with guns."
 
-  Even _if_ everyone carried concealed weapons _and_ we were
-  all properly trained _and_ the resulting accidents from having everyone
-  carrying so many guns so much of the time was magically miniscule
-  ([there were 23,237 accidental firearm injuries in 2000][3], imagine if
-  every student, teacher and moviegoer had guns instead of the few that currently do),
-  _the shooters still have the advantage because they know the attack is coming._
-  They can put on flak armor, they can wear masks.
+Jesus, NO. In [61 mass killings, none of them were stopped by civilians with guns.][2]
+Do you _really_ suggest students at Virginia Tech (and by extension, every
+school in the country) should _always_ bring a gun to every class they attend
+for the very remote chance someone will barge in and fire? That Gabby Giffords
+(and by extension, all elected officials or people who attend their events)
+should keep their hands at her holster at _every_ appearance, and always be
+vigilant? Kindergardeners? Kindergarden teachers?
 
-  For fuck's sake.
+Even _if_ everyone carried concealed weapons _and_ we were all properly trained
+_and_ the resulting accidents from having everyone carrying so many guns so much
+of the time was magically miniscule ([there were 23,237 accidental firearm
+injuries in 2000][3], imagine if every student, teacher and moviegoer had guns
+instead of the few that currently do), _the shooters still have the advantage
+because they know the attack is coming._ They can put on flak armor, they can
+wear masks.
+
+For fuck's sake.
+
+---
 
 Again, **nobody is denying that mental state is a factor, nobody is saying a
 discussion on gun control should exclude or ignore more comprehensive mental
