@@ -1,5 +1,5 @@
     Title: 2016 in review
-    Date: 2017-04-13T16:37:00
+    Date: 2017-06-05T16:00:00
     Tags: essay, pablolife
 
 **I wrote most of this on the last day of 2016. Then I put it down and forgot

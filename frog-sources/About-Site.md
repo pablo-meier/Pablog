@@ -28,20 +28,15 @@ migrating at this point 😛
 
 ## Hosting
 
-Since this site is a safe sandbox to futz around with things I want to learn, I
-did the MASSIVE OVERENGINEERING thing here. This used to be on a Linode, but
-with the bigger cloud providers who've come up, their offering is mad
-overpriced, and were always pretty terrible about security.  
+I used to do something ridiculous, which was host this on Google Cloud (my old
+team!) using Kubernetes. I did this mostly because this site is a safe sandbox
+to futz around with things I want to learn, and I had no experience with
+containers. Prior to that it was on a Linode; I left after they were supremely
+embarassing about security. I used [CloudFlare][11] for easy SSL. There [might
+be drawbacks to this][24], however.
 
-So I'm on Google Cloud, and took this opportunity to learn [Docker][30] and
-[Kubernetes][31]. I'm hardly an ops/infrastructure engineer, so a lot of this
-was new to me. I figured serving a static site is pretty much the "Hello World"
-of Docker. So if this blog gets **flooded with traffic** and the nginx that
-serves HTML simply _can't handle the load_ then in theory it's "easy" to scale
-this out (I'd have to learn more Kubernetes).
-
-SSL provided by [CloudFlare][11], which, damn that was easy. There [might be
-drawbacks to this][24], however.
+Nowadays, I use a full AWS stack of S3, CloudFront, and Route 53. A decent guide
+to do this is [here][32].
 
 ## Styles
 
@@ -122,3 +117,4 @@ Use Squarespace.
    [29]: http://a11yproject.com/
    [30]: https://www.docker.com/
    [31]: http://kubernetes.io/
+   [32]: https://stormpath.com/blog/ultimate-guide-deploying-static-site-aws

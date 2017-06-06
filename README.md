@@ -13,11 +13,7 @@ Building it sucks, but I'm making it better! You need [Racket][9], to get
 [Frog][8], to build it in `build/` then you have to copy `static` into that. The
 single-task Makefile does this.
 
-To run it in Docker, see the Dockerfile, which assumes `make` was run. Earlier
-revisions have Docker do those steps too, but that leads to a pretty fat image.
-
-Uses a nonstandard Bootstrap theme from Bootswatch ("[Readable][6]") with a
-custom color scheme, until I get fed up and change it.
+I eschewed Docker; we push to S3 now.
 
    [1]: https://github.com/greghendershott/frog
    [2]: https://github.com/greghendershott/markdown
