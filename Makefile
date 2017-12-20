@@ -6,11 +6,20 @@
 
 BUILD_DIR=build
 
+serve: build
+	raco frog -s
+
+preview: build
+	raco frog -p
+
+publish: build
+	./push_site.sh
+
+.PHONY: build
 build:
 	[ -d $(BUILD_DIR) ] || mkdir $(BUILD_DIR)
 	raco frog -b
 	cp -R static/* build/
-
 
 clean:
 	rm -rf $(BUILD_DIR)
