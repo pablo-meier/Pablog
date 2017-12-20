@@ -1,4 +1,6 @@
-push_site.sh
 .DS_Store
 build/
 .frog
+env_vars
+*.swp
+*.swo
