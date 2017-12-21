@@ -38,6 +38,12 @@ be drawbacks to this][24], however.
 Nowadays, I use a full AWS stack of S3, CloudFront, and Route 53. A decent guide
 to do this is [here][32].
 
+Note that if you want to add [HSTS][37] with this stack, it's a bit more
+cumbersome than using CloudFlare as I did before, when I was hosting this on a
+running nginx container. Julia Evans [explains the basics of the tech here][34],
+and this posts [explains how to do it in this stack here][35]. If you're feeling
+so empowered, check your site [Mozilla Observatory][36].
+
 ## Styles
 
 I read the [CSS book by the authors][16] way back in 2006, when blue beanies
@@ -122,3 +128,7 @@ Use Squarespace.
    [31]: http://kubernetes.io/
    [32]: https://stormpath.com/blog/ultimate-guide-deploying-static-site-aws
    [33]: https://foundation.zurb.com/
+   [34]: https://jvns.ca/blog/2017/04/30/using-strict-transport-security/
+   [35]: https://nvisium.com/blog/2017/08/10/lambda-edge-cloudfront-custom-headers/
+   [36]: https://observatory.mozilla.org/
+   [37]: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
