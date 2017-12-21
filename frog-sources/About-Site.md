@@ -61,6 +61,9 @@ After a bit of bonking my head, I got through this basic process:
 I found [this guide][19] (part two [here][23]) a pretty great read on these
 topics, too.
 
+Frog uses Bootstrap by default, but I went with [Foundation][33] since I knew it
+better.
+
 ## Perf
 
 If you run a site, there's a good chance you can find something you didn't know
@@ -118,3 +121,4 @@ Use Squarespace.
    [30]: https://www.docker.com/
    [31]: http://kubernetes.io/
    [32]: https://stormpath.com/blog/ultimate-guide-deploying-static-site-aws
+   [33]: https://foundation.zurb.com/
