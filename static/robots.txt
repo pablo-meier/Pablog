@@ -1,3 +1,1 @@
 User-agent: *
-Disallow: /_src/
-Disallow: /md-cleaner/

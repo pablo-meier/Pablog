@@ -4,11 +4,6 @@ A few things I'd like this site to be/do
 
 ## TODO
 
-### HTTPS-only, HSTS
-
-It's 2017 and I'm not supporting customers or anything. I already have HTTPS
-(though it breaks on `www` subdomain...), now to HSTS
-
 ### Tweakable
 
 I want to have more flexibility for things like linkable paragraphs, or post
@@ -39,3 +34,8 @@ Get my old old stuff on there.
 - That shit is _cheap_ to host.
 
 - Less tech to worry about performance or anything like that.
+
+### HTTPS-only, HSTS
+
+It's 2017 and I'm not supporting customers or anything. I already have HTTPS
+(though it breaks on `www` subdomain...), now to HSTS

@@ -1,6 +1,6 @@
 /* I am */
 Name: Pablo Meier
-Site: http://www.morepablo.com
+Site: https://morepablo.com
 Twitter: @SrPablo
 Location: New York, NY, USA
 
@@ -10,5 +10,5 @@ Twitter: @GregHendershott
 Role: He wrote Frog! https://github.com/greghendershott/frog
 
 /* Site */
-Components: Docker, Frog, Nginx, Bootstrap
+Components: Frog, Nginx, Bootstrap
 Software: Vim, Racket.

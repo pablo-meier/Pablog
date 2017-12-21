@@ -4,10 +4,10 @@
 ;; in frog/params.
 (define/contract (init)
   (-> any)
-  (current-scheme/host "http://www.morepablo.com")
+  (current-scheme/host "https://morepablo.com")
   (current-uri-prefix #f)
   (current-title "More Pablo")
-  (current-author "pablo")
+  (current-author "Pablo Meier")
   (current-editor "$EDITOR")
   (current-editor-command "{editor} {filename}")
   (current-show-tag-counts? #t)
