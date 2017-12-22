@@ -1,3 +1,13 @@
+@;{ I'm... not sure I'm loving how I'm having to implement
+    the open graph tags. That said, there's some fun to be
+    had reading how Frog is getting its information. Having all of
+    Racket here is... something of a power trip.
+  }
+
+@(define is-homepage? (string-ci=? uri-path "/index.html"))
+@(define canned-description "A website where Pablo Meier Pablo Meiers, usually about code, culture, performance, and where they all meet. Also, the life of Pablo Meiers.")
+@(define toplevel-url "https://morepablo.com")
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,12 +21,42 @@
         @description etc. }
     <meta charset="utf-8">
     <title>@|title|</title>
-    <meta name="description" content="@|description|">
-    <meta name="author"      content="Pablo Meier">
-    <meta name="keywords"    content="@|keywords|">
-    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="@|author|">
+    <meta name="keywords" content="Pablo Meier, @|keywords|">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    @(let* [(appropriate-description (if is-homepage? canned-description description))
+            (desc-length (string-length appropriate-description))
+            (description-abridged (substring appropriate-description 0 (min desc-length 200)))]
+      @list{
+    <meta name="description" content="@|description-abridged|">
+    <meta name="og:description" content="@|description-abridged|">
+    <meta name="twitter:description" content="@|description-abridged|">
+    })
+
+    <meta name="og:title" content="@|title|">
+    <meta name="og:image" content="https://morepablo.com/img/static/pabloface.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="@|title|">
+    <meta name="twitter:creator" content="@"@"SrPablo">
+    <meta name="twitter:image" content="https://morepablo.com/img/static/pabloface.png">
+
+
+    @(let [(the-uri (if is-homepage? toplevel-url full-uri))]
+      @list{
+    <meta name="twitter:url" content="@|the-uri|">
+    <meta name="og:url" content="@|the-uri|">
+    <link rel="canonical" href="@|the-uri|">
+    })
+
+    @(let [(og-type (if is-homepage? "website" "article"))]
+      @list{
+    <meta name="og:type" content="@|og-type|">
+    })
+
     <link rel="icon"      href="/favicon.ico?v=2">
-    <link rel="canonical" href="@|full-uri|">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
     <link href="https://fonts.googleapis.com/css?family=Mitr|Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/morepablo.css">
@@ -59,7 +99,7 @@
         </div>
       </div>
     </div>
-    @(when (string-ci=? uri-path "/index.html")
+    @(when is-homepage?
         @list{
     <div id="index-header">
       <div id="index-header-row" class="row">
