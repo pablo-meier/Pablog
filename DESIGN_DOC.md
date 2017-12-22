@@ -39,3 +39,11 @@ Get my old old stuff on there.
 
 It's 2017 and I'm not supporting customers or anything. I already have HTTPS
 (though it breaks on `www` subdomain...), now to HSTS
+
+### Social Shareability (Open Graph tags)
+
+Added a few
+
+### Easter Eggs
+
+Open the console!
