@@ -9,7 +9,7 @@
 @(define toplevel-url "https://morepablo.com")
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,29 +31,24 @@
             (description-abridged (substring appropriate-description 0 (min desc-length 200)))]
       @list{
     <meta name="description" content="@|description-abridged|">
-    <meta name="og:description" content="@|description-abridged|">
-    <meta name="twitter:description" content="@|description-abridged|">
+    <meta property="og:description" content="@|description-abridged|">
     })
 
-    <meta name="og:title" content="@|title|">
-    <meta name="og:image" content="https://morepablo.com/img/static/pabloface.png">
+    <meta property="og:title" content="@|title|">
+    <meta property="og:image" content="https://morepablo.com/img/static/pabloface.png">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="@|title|">
     <meta name="twitter:creator" content="@"@"SrPablo">
-    <meta name="twitter:image" content="https://morepablo.com/img/static/pabloface.png">
-
 
     @(let [(the-uri (if is-homepage? toplevel-url full-uri))]
       @list{
-    <meta name="twitter:url" content="@|the-uri|">
-    <meta name="og:url" content="@|the-uri|">
+    <meta property="og:url" content="@|the-uri|">
     <link rel="canonical" href="@|the-uri|">
     })
 
     @(let [(og-type (if is-homepage? "website" "article"))]
       @list{
-    <meta name="og:type" content="@|og-type|">
+    <meta property="og:type" content="@|og-type|">
     })
 
     <link rel="icon"      href="/favicon.ico?v=2">

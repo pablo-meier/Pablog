@@ -1,37 +1,18 @@
-####################
--- Content
+# Infra
 
-* Redesign.
-  * Top menu
-    * Try new colors, fonts for titles
-    * Make mobile expand vertical
-    * Different gray?
+`www` prefix still broken on HTTPS
+Content-Security-Policy headers in Lambda function (get that A on Mozilla Observatory)
+receive mail at pablo@morepablo
+Other og or schema.org data https://moz.com/blog/meta-data-templates-123
 
--- NOT BLOCKERS:
-* Code styles
-* Social icons on footer, and/or some on index page.
+# Content
 
-* Tag the things, formatting, images (clean the posts).
-* Titles only list or 'greatest hits' on frontpage, like Evan Miller's blog.
-** Would be nice to bug track. See what the Markdown do-over gets you.
+* Titles only list or 'greatest hits' on frontpage, like Evan Miller's blog. Personal statements too.
 
-* LOL Linkcheck support built-in, fix broken links.
-
-####################
--- Posts to write
-* Spotlight post-mortem
-* Abode/Reconnexio post-mortem
-* Swagger/Dropwizard post port
-
-* Director's Notebook: Fish Out Of Water
-* Director's Notebook: Arcadia
-
-####################
--- Features and shit.
+# Features and shit.
 
 Discourse?
-'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
-TeX algo for line-breaking?
 
-####################
-Maybe properly learn LESS or SASS and refactor your damn ugly CSS?
+'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
+
+TeX algo for line-breaking?
