@@ -1,18 +1,23 @@
 # Infra
 
 `www` prefix still broken on HTTPS
+
+og:image default to my face image is Bad
+
 Content-Security-Policy headers in Lambda function (get that A on Mozilla Observatory)
-receive mail at pablo@morepablo
+
 Other og or schema.org data https://moz.com/blog/meta-data-templates-123
+receive mail at pablo@morepablo
 
 # Content
 
 * Titles only list or 'greatest hits' on frontpage, like Evan Miller's blog. Personal statements too.
+* Audit RSS feed
 
 # Features and shit.
 
+"Hey this is old" post
+linkable paragraphs (each `p` gets an `id`, hover exposes link)
 Discourse?
-
 'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
-
 TeX algo for line-breaking?

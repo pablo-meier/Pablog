@@ -109,7 +109,7 @@ each other.
 
 ### Additional Reading
 
-GamaSutra had [a great set of interviews with developers about _Pocket Camp_][1],
+- GamaSutra had [a great set of interviews with developers about _Pocket Camp_][1],
 where I quoted Daniel Cook above. It also included this great line by Yoko Taro:
 
 > I played the 3DS DobuMori (Animal Crossing), and you know the raccoon who
@@ -143,6 +143,8 @@ where I quoted Daniel Cook above. It also included this great line by Yoko Taro:
 > 
 > I'll enjoy playing this game until I burn that dark forest down.
 
+- People are making [little prisons and cults][12] in _Pocket Camp_.
+
 
    [1]: https://www.gamasutra.com/view/news/311352/What_devs_are_saying_about_the_design_of_Animal_Crossing_Pocket_Camp.php
    [2]: https://www.polygon.com/2017/11/27/16704558/animal-crossing-pocket-camp-review-chrissy-teigen-twitter
@@ -155,3 +157,4 @@ where I quoted Daniel Cook above. It also included this great line by Yoko Taro:
    [9]: http://www.animal-crossing.com/newleaf/
    [10]: http://laytonseries.com/?lang=uk
    [11]: http://www.lostgarden.com/
+   [12]: http://www.popbuzz.com/internet/viral/animal-crossing-camp-prison-cult-meme-furniture/
