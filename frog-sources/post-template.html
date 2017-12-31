@@ -3,6 +3,15 @@
     <h1>@|title|</h1>
     @|date+tags|
   </header>
+  @(let* ([this-year (date-year (seconds->date (* 0.001 (current-inexact-milliseconds))))]
+          [is-old? (>= (- this-year (date-year date-struct)) 2)])
+    (when is-old?
+      @list{
+      <hr />
+      <p><strong>Hey! Thanks for reading! Just a reminder that I wrote this some years ago, and may have much more complicated feelings about this topic than I did when I wrote it. Happy to elaborate, feel free to reach out to me! 😄</strong></p>
+      <hr />
+    }))
+
   @|content|
   <footer>
     @older/newer-links[older-uri older-title newer-uri newer-title]
