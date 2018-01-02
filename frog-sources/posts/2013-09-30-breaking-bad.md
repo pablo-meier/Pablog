@@ -74,7 +74,7 @@ engineer the show for you to root for Walt. [Take it from them, not me.][7]
 
 ### On the finale
 
-<img src="/img/2013/09/thats-all-bitch.jpeg" style="display: block; margin: 30px auto;" alt="that's all, bitch" />
+<img src="/img/2013/09/thats-all-bitch.jpg" style="display: block; margin: 30px auto;" alt="that's all, bitch" />
 
 [Emily Nussbaum (again)][8] has my favorite take. I had a similar set of
 reactions, and really prefer her proposed interpretation. I also agree with

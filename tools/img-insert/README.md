@@ -7,7 +7,8 @@ Internet there are some hackles that I could use computers to fix.
 
 First, if you want the image to have a thumbnail and full-size: you could just
 download the whole thing then use CSS to adjust the width, but I like what
-blogspot did and had a small version you could click through for the full-size.
+Blogspot did and had a small version embedded that you could click through for
+the full-size.
 
 So for every image, you probably want it in two sizes.
 
@@ -30,6 +31,8 @@ Dependencies:
 
 - You'll need `magick` as a shell command (ImageMagick, you can `brew update &&
   brew install imagemagick`).
+- You'll want `jpegtran`, which is already installed on Macs IIRC.
+- [`optipng`][2] (`brew install optipng` works).
 - Ditto being on a UNIX-ey enough system to `cp` to shell because OCAML IS
   AWESOME AND DOESN'T HAVE SIMPLE FILE COPY. They _do_ have unlink and rename
   though, oddly 😛
@@ -71,6 +74,8 @@ reading:
 
 - https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization
 - https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#images-in-markup
+- https://developers.google.com/speed/docs/insights/OptimizeImages
+- https://gist.github.com/ryansully/1720244
 
 Tools:
 - http://www.lcdf.org/gifsicle/
@@ -78,3 +83,6 @@ Tools:
 - http://optipng.sourceforge.net/
 - https://pngquant.org/
 - https://www.imagemagick.org/script/index.php
+
+   [1]: https://www.imagemagick.org/script/index.php
+   [1]: http://optipng.sourceforge.net/
