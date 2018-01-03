@@ -61,6 +61,7 @@ Dependencies:
 ## Eventualities
 
 - Use tools to optimize the images to make them smol.
+- Support multiple images to make an album or somesuch.
 
 ## OCaml?
 

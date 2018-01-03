@@ -33,7 +33,7 @@ let thumbnail_path_from img =
  * width threshold, we rename the original to <file>_FULLSIZE or somesuch and replace
  * the original file with a resized version. *)
 let thumbnail_and_fullsize fullsize =
-    let total_width = 350 in
+    let total_width = 700 in
     let thumb_path = thumbnail_path_from fullsize in
     let _status = Printf.sprintf "magick %s -resize '%d' %s" fullsize total_width thumb_path |> Sys.command in
     (thumb_path, fullsize)

@@ -8,6 +8,6 @@ then
     exit 1
 fi
 
-aws s3 sync --acl public-read --sse --delete ./build/ s3://www.morepablo.com
-aws configure set preview.cloudfront true
-aws cloudfront create-invalidation --distribution-id $AMAZON_DISTRIBUTION_ID --paths '/*'
+aws s3 sync --acl public-read --sse --delete ./build/ s3://www.morepablo.com --profile=pablo
+aws configure set preview.cloudfront true --profile=pablo
+aws cloudfront create-invalidation --distribution-id $AMAZON_DISTRIBUTION_ID --paths '/*' --profile=pablo

@@ -1,8 +1,15 @@
 # Infra
 
+404 page http://blog.michaelcwright.com/2015/11/26/custom-404-pages-with-amazon-s3/
+go through checklist: https://frontendchecklist.io/
+
 og:image default to my face image is Bad
 
+put smolling in image-insert
+
 Content-Security-Policy headers in Lambda function (get that A on Mozilla Observatory)
+
+minify/uglify output of build (HTML, CSS).
 
 Other og or schema.org data https://moz.com/blog/meta-data-templates-123
 receive mail at pablo@morepablo
@@ -12,10 +19,21 @@ receive mail at pablo@morepablo
 * Titles only list or 'greatest hits' on frontpage, like Evan Miller's blog. Personal statements too.
 * Audit RSS feed
 * Get a combination of fonts that allow <strong> tags
+* Audit tags
+* Newsletter option
+
+# Data migration/interop
+
+Backport data from + push new posts to:
+
+- Twitter
+- Feedly
+- Facebook
+- Instagram
 
 # Features and shit.
 
-linkable paragraphs (each `p` gets an `id`, hover exposes link)
 Discourse?
+Mastodon?
 'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
-TeX algo for line-breaking?
+TeX algo for line-breaking? (yeah right)
