@@ -12,9 +12,9 @@ reasons:
 
 * [Racket!][7]
 
-* Greg Hendershott wrote [the best damn Scheme Macro tutorial ever.][8]
+* Greg Hendershott, author of Frog, wrote [the best damn Scheme Macro tutorial ever.][8]
 
-* Generated sites are easy to host, version control, etc.
+* Generated sites are extremely cheap to host, I can version control the content.
 
 I used Jekyll previously, but its original author [heinously mismanaged
 GitHub][6] and was a petulant little asshole about his deservedly shameful exit.
@@ -28,12 +28,12 @@ migrating at this point 😛
 
 ## Hosting
 
-I used to do something ridiculous, which was host this on Google Cloud (my old
+The most ridiculous thing I ever did was host this on Google Cloud (my old
 team!) using Kubernetes. I did this mostly because this site is a safe sandbox
 to futz around with things I want to learn, and I had no experience with
 containers. Prior to that it was on a Linode; I left after they were supremely
-embarassing about security. I used [CloudFlare][11] for easy SSL. There [might
-be drawbacks to this][24], however.
+embarassing about security practices. I used [CloudFlare][11] for easy SSL.
+There [might be drawbacks to this][24], however.
 
 Nowadays, I use a full AWS stack of S3, CloudFront, and Route 53. A decent guide
 to do this is [here][32].
@@ -56,8 +56,8 @@ So when I was rebuilding this, I was looking at other sources and more or less
 losing my mind. Has science gone too far? What is this [text-rendering][17]
 property? [vh][18] as a length descriptor?!?
 
-I can't say I've really learned this deeply, and you can now see how well I did.
-After a bit of bonking my head, I got through this basic process:
+I can't say I've really learned this deeply. I did some more traditional styling,
+archived [here][39] and [here][38]. I got those by applying this basic process:
 
 * Look at the default Ghost template, Casper. Good demonstration/style-test
   [here][20]. They kindly annotated/explained [its CSS file][21].
@@ -67,8 +67,8 @@ After a bit of bonking my head, I got through this basic process:
 I found [this guide][19] (part two [here][23]) a pretty great read on these
 topics, too.
 
-Frog uses Bootstrap by default, but I went with [Foundation][33] since I knew it
-better.
+Frog uses Bootstrap by default; I went with [Foundation][33] since I knew it
+better. Now I'm trying to stay off both.
 
 ## Perf
 
@@ -132,3 +132,5 @@ Use Squarespace.
    [35]: https://nvisium.com/blog/2017/08/10/lambda-edge-cloudfront-custom-headers/
    [36]: https://observatory.mozilla.org/
    [37]: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
+   [38]: /2016/06/new-look-new-page.html
+   [38]: /2018/01/

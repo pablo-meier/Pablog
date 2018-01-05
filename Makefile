@@ -6,6 +6,10 @@
 
 BUILD_DIR=build
 
+css-check:
+	cp -R static/* build/
+	raco frog -s
+
 serve: build
 	raco frog -s
 

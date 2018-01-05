@@ -4,3 +4,6 @@ build/
 env_vars
 *.swp
 *.swo
+tools/img-insert/_build/
+tools/img-insert/static/
+tools/img-insert/img-insert

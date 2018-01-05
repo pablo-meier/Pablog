@@ -1,6 +1,17 @@
+# Finish redesign
+
+- Header
+- Footer
+- 'Newest' links
+
+- Header centering
+- Link styling (before, visited)
+
 # Infra
 
 404 page http://blog.michaelcwright.com/2015/11/26/custom-404-pages-with-amazon-s3/
+On redesign http://www.heydonworks.com/article/on-writing-less-damn-code
+
 go through checklist: https://frontendchecklist.io/
 
 og:image default to my face image is Bad
@@ -16,10 +27,8 @@ receive mail at pablo@morepablo
 
 # Content
 
-* Titles only list or 'greatest hits' on frontpage, like Evan Miller's blog. Personal statements too.
-* Audit RSS feed
-* Get a combination of fonts that allow <strong> tags
 * Audit tags
+* Audit RSS feed
 * Newsletter option
 
 # Data migration/interop
@@ -30,6 +39,15 @@ Backport data from + push new posts to:
 - Feedly
 - Facebook
 - Instagram
+
+# Fonts
+
+Make fonts smarter, looks like there's a lot to it
+- https://www.zachleat.com/web/comprehensive-webfonts/
+- https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/
+- https://www.zachleat.com/web/23-minutes/
+- https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
 
 # Features and shit.
 
