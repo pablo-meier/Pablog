@@ -49,7 +49,6 @@
     })
 
     <link rel="icon"      href="/favicon.ico?v=2">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Mitr|Raleway" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="/css/morepablo.css">
     <link ref="alternate" type="application/rss+xml" href="@|rss-feed-uri|" title="RSS Feed">
   </head>
@@ -84,11 +83,11 @@
         <div id="newest-posts">
             <h2>Newest Posts</h2>
             <ul>
+                <li><a href="/2018/01/shoutout-to-steve-ballmer.html">Shoutout to Steve Ballmer</a></li>
                 <li><a href="/2018/01/minimal-pages-brought-to-you-by-the-letter-f.html">Minimal Pages, brought to you by the letter F</a></li>
                 <li><a href="/2018/01/towards-a-more-open-web.html">Towards a More Open Web</a></li>
                 <li><a href="/2017/12/2017-in-review.html">2017 in Review</a></li>
                 <li><a href="/2017/12/hats-off-to-animal-crossing.html">Animal Crossing: New Leaf</a></li>
-                <li><a href="/2017/12/company-culture.html">Two anecdotes about culture</a></li>
             </ul>
         </div>
         <div id="favorite-posts">
@@ -109,16 +108,13 @@
       </div>
     </div>}
     )
-    <div class="row content">
+    <div class="content">
       <!-- Main column -->
-      <div class="column">
-        @;{ Index pages for posts have @tag that's not #f }
-        @(when tag
-          @list{<h1>Posts tagged <em>@|tag|</em></h1>})
-        @;{ The main page contents are in @contents }
-        @(when (not is-homepage?) contents)
-        @;|contents|
-      </div>
+      @;{ Index pages for posts have @tag that's not #f }
+      @(when tag
+        @list{<h1>Posts tagged <em>@|tag|</em></h1>})
+      @;{ The main page contents are in @contents }
+      @(when (not is-homepage?) contents)
     </div>
 
 	<!-- You too
