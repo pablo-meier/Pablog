@@ -2,6 +2,9 @@ open Printf
 open Core
 
 
+type image = Png of string | Jpg of string
+
+
 (** Given a source path, generates the destination path.*)
 let generate_dest_path srcpath =
     let filename =  Filename.basename srcpath in
@@ -9,6 +12,7 @@ let generate_dest_path srcpath =
     let (year, month) = (year_unchanged + 1900, month_unchanged + 1) in
     let destpath = Printf.sprintf "static/img/%d/%d/%s" year month filename in
     (srcpath, destpath)
+
 
 (** Moves the source file to dest file location, creating directories as necessary.
  * Returns the path of copied file. 
@@ -19,6 +23,25 @@ let copy_original (srcpath, destpath) =
     let _status = Printf.sprintf "cp %s %s" srcpath destpath |> Sys.command in
     destpath
 
+
+(** Runs "convert" to run compression on an image *)
+let compress_and_crush fullsize_path =
+    let as_typed p = match Filename.split_extension p with
+      | (_, Some "jpg") -> Jpg p
+      | (_, Some "png") -> Png p
+      | _ -> invalid_arg "Unsupported file type" in
+    match as_typed fullsize_path with
+      | Jpg x ->
+        let _status = Printf.sprintf "convert %s -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB %s" x x
+            |> Sys.command in
+        let _other_status = Printf.sprintf "jpegtran -copy none -optimize -perfect %s" x |> Sys.command in
+        x
+      | Png x ->
+        let _status = Printf.sprintf "convert %s -strip %s" x x |> Sys.command in
+        let _other_status = Printf.sprintf "optipng -o5 %s" x |> Sys.command in
+        x
+
+
 (** Preserves the directory, takes last bit and appends _THUMB (or somesuch). *)
 let thumbnail_path_from img = 
     let suffix = "_THUMB" in
@@ -27,6 +50,7 @@ let thumbnail_path_from img =
     match ext_maybe with
     | None -> non_ext
     | Some x -> non_ext ^ "." ^ x
+
 
 (** Returns a pair for the thumbnail and fullsize versions of an image. If an image
  * is already under the width threshold, they are equivalent. If it is over the
@@ -38,11 +62,13 @@ let thumbnail_and_fullsize fullsize =
     let _status = Printf.sprintf "magick %s -resize '%d' %s" fullsize total_width thumb_path |> Sys.command in
     (thumb_path, fullsize)
 
+
 (** Remove the first part of the path *)
 let strip_first path =
     Filename.parts path
     |> List.tl_exn
     |> List.fold_left ~f:Filename.concat ~init:"/"
+
 
 (** Given a relative path to thumbnail and fullsize, produce a snippet of HTML that we
  * can introduce into our Markdown file to include the image. *)
@@ -60,6 +86,7 @@ let write_html_output (thumbnail, fullsize) =
 let process_image srcpath =
     generate_dest_path srcpath
     |> copy_original
+    |> compress_and_crush
     |> thumbnail_and_fullsize 
     |> write_html_output
     |> Printf.printf "%s\n"

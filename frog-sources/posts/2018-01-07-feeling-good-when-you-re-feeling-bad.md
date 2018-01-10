@@ -17,7 +17,7 @@ I'll share a few thoughts and links on self-care in case anyone likes it.
 
 <!-- more -->
 
-<h3 id="links">Links</h3>
+### Links
 
 * [Jace Harr][2] uses Twine to [create an interactive Q&A to help you take steps
   to feel better][3]. I haven't played with all the branches, but the times I've
@@ -56,7 +56,7 @@ is today).
 Its helped me tremendously. That said, finding a therapist **sucks.** It's
 **fucking terrible.** On top of our shit healthcare system, non-transparent
 pricing, and delay in evaluating effectiveness, many therapists are simply
-terrible at their jobs. Please don't think I'm not writing "consider therapy"
+terrible at their jobs. Please don't think I'm writing "consider therapy"
 believing this is something you can do lightly.
 
 I wish I had advice here, but I really don't: I got introduced to mine via
@@ -72,7 +72,7 @@ early for whether your therapist is queer-friendly, poly-friendly, and/or
 kink-friendly if you feel it'd be useful to work with someone who's conversant
 with those issues. Therapists are just people, after all, and might hold many of
 the social or structural biases that are putting you in a place to look for a
-therapist ine he first place.
+therapist in the first place.
 
 #### HALT
 

@@ -16,4 +16,4 @@ build:
 	mv _build/src/main.native $(OUTPUT)
 
 clean:
-	rm -rf $(OUTPUT) _build static
+	rm -rf $(OUTPUT) _build static *.jpg *.png
