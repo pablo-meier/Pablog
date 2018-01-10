@@ -27,7 +27,7 @@ Byrne][4], which goes pretty into detail about how cryptocurrencies manage
 to capture the working parts of both Pyramid and Ponzi schemes while reducing
 their weaknesses to getting caught and ferreted out.
 
-Summer Hale has **[an essay that touches on Federated vs. Distributed vs.
+[Summer Hale][20] has **[an essay that touches on Federated vs. Distributed vs.
 Centralized][10]** very intelligently from the perspective of risk and
 empowerment, using Mastodon as an example.
 
@@ -164,3 +164,4 @@ Reader.
    [17]: https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)
    [18]: https://www.vox.com/2016/8/24/12615258/nsa-security-breach-hoard
    [19]: https://programmingisterrible.com/
+   [20]: https://www.patreon.com/approvednews6/posts
