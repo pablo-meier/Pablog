@@ -25,7 +25,7 @@ incumbents as Wile E. Coyote is at catching birds. Which! Doesn't mean they
 **[The Problem with Calling Bitcoin a "Ponzi Scheme"][3]** by [Preston
 Byrne][4], which goes pretty into detail about how cryptocurrencies manage
 to capture the working parts of both Pyramid and Ponzi schemes while reducing
-their weaknesses to getting caught in the way we tend to frame these issues.
+their weaknesses to getting caught and ferreted out.
 
 Summer Hale has **[an essay that touches on Federated vs. Distributed vs.
 Centralized][10]** very intelligently from the perspective of risk and
@@ -49,18 +49,18 @@ other realities about them:
 
 #### They can reinforce existing power structures as much as they thwart them
 
-Many prospective systems are primarily available to those who have _access_, and
-that itself is usually gated. For example, it would be hard to participate in
-the 90's dot-com boom if you couldn't access computers.
+New systems and technologies require _access_, and _that_ is usually gated. For
+example, it would've been hard to participate in the 90's dot-com boom without
+computer access.
 
-Similarly, who were the first to get cell phones? The Internet and Google
-Search? YouTube may have "freed" many content creators from the inefficiencies
-of TV, but you needed a camera and decent upload speed to be one of the early
-YouTubers.
+Similarly, who were the first to get cell phones, and the increased productivity
+as a result? The Internet and Google Search? YouTube may have "freed" many
+content creators from the inefficiencies of TV, but you needed a camera and
+decent upload speed to be one of the early YouTubers.
 
 Unless you specifically design your Enabler Of Freedom around the folks who need
-it most, the ones who will usually benefit earliest and most strongly will be
-the ones who need it least.
+it most, the ones who will usually benefit the most strongly will be the ones
+who need it least.
 
 #### Criminals
 
@@ -76,12 +76,13 @@ well, you allow nobody to police it.
 
 Except when they _really_ want to police it.
 
-One of my favorite arguments gun fetishists make is that we need the unfettered
-2nd Amendment interpretations to be armed enough to rebel against our government
-if we decide it isn't working for us. Uh, yeah, the government have _tanks_ and
-_fighter jets._ We [spend more on our military than the next 7 nations
-combined][12]. You and your tough-guy friends with AR-15s aren't going to topple
-trained professionals with that level of equipment.
+One of my favorite arguments gun fetishists make is that we need unfettered and
+untethered 2nd Amendment interpretations so that we can be sufficiently armed
+to fight the government, in case they become tyrannical or murderous to their
+populace. Uh, yeah, the government have _tanks_ and _fighter jets._ We [spend
+more on our military than the next 7 nations combined][12]. You and your
+tough-guy friends with AR-15s aren't going to topple trained professionals with
+that level of equipment.
 
 Similarly, while the mathematical primitives underlying all this tech is sound,
 as the old saying goes: "In theory, theory and practice are the same. In
@@ -90,9 +91,10 @@ be crippling, and I consider it unlikely you'll topple that orthodoxy.
 
 Look at how [the creator of PGP refuses to use it][13]. Look at [the
 complications in executing an air gap][14]. Consider ways that [Tor's benefits
-can be made null.][15] World-enders like [Heartbleed][16] and [Spectre][17]? How
-much do you wanna bet that they were discovered by states well before
-researchers, given that the government [uses them regularly][18]?
+can be made null.][15] World-ending vulnerabilities like [Heartbleed][16] and
+[Spectre][17]? How much do you wanna bet that they were discovered by State
+Intelligence well before researchers, given that the government [uses undisclosed
+vulnerabilities regularly][18]?
 
 Let's not forget the xkcd on this:
 
@@ -105,22 +107,27 @@ Let's not forget the xkcd on this:
 So, yes, build that decentralized network so The Thoughts Of People Can Be Free,
 but unless you address that pesky "society" and solve 3-4 other hard problems:
 
-- If the powers that be ever _do_ find a challenger, there's a good chance
-  they'll get found out and murdered anyways.
+- If the powers that be ever _do_ encouter a challenge, there's a good chance
+  your New Effort will be a magical tech that prevents them from getting found
+  out and murdered anyways.
 
 - Criminals who don't threaten the existence of the state enough to get the big
   guns pointed at them (or are so numerous they'd overwhelm the big guns) will
   be empowered more than they already are.
 
 - Your network will probably just be a bunch of privileged early adopters who
-  aren't self-aware enough to see their own massive egos and only talk the
-  social justice game, and may end up hurting your cause (think little Julian
-  Assanges, only not famous).
+  may only support noble causes in spirit and intention but end up hurting it
+  (think little Julian Assanges, only not famous).
 
-As [tef][19] likes to say: if you ask programmers to solve a problem that's 90%
-social and 10% technical, they'll spend 90% of their time on the technical bit.
-The technical bit is _easy_. Blockchains, 10 years in, still feel like a very
-cool solution in search of a problem.
+I repeat: **build and defend these tools and networks.** I'm in _no_ way saying
+not to, nor do I mean to diminish the people and work that brought us here. But
+please be mindful of the above.
+
+Paraphrasing something I remember [tef][19] saying: if you ask programmers to
+solve a problem that's 90% social and 10% technical, they'll spend most of their
+time on the technical bit. The technical bit is (comparably) _easy_.
+Blockchains, 10 years in, still feel like a very cool solution in search of a
+problem.
 
 ### Additional Fun Reading
 
