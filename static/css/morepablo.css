@@ -490,6 +490,26 @@ a:hover {
   }
 }
 
+/* Ensure pagination on "newest posts" is minimal */
+#newest-posts footer ul {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#newest-posts footer ul li {
+  display: none;
+}
+
+#newest-posts footer ul .active, #newest-posts footer ul > li:first-child, #newest-posts footer ul > li:last-child {
+  display: inline;
+}
+
+#newest-posts footer ul .disabled {
+  display: none;
+}
+
+
 /*
 #page-footer {
   background-color: rgb(230, 230, 230);

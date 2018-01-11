@@ -17,7 +17,7 @@
   (current-max-feed-items 20)
   (current-decorate-feed-uris? #t)
   (current-feed-image-bugs? #t)
-  (current-posts-per-page 10)
+  (current-posts-per-page 5)
   (current-index-newest-first? #t)
   (current-posts-index-uri "/index.html")
   (current-source-dir "frog-sources")

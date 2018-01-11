@@ -1,7 +1,28 @@
+@(define (month-word int)
+  (cond
+    [(= 1 int) "January"]
+    [(= 2 int) "February"]
+    [(= 3 int) "March"]
+    [(= 4 int) "April"]
+    [(= 5 int) "May"]
+    [(= 6 int) "June"]
+    [(= 7 int) "July"]
+    [(= 8 int) "August"]
+    [(= 9 int) "September"]
+    [(= 10 int) "October"]
+    [(= 11 int) "November"]
+    [(= 12 int) "December"]))
+
 <article class="post">
   <header>
     <h1>@|title|</h1>
-    @|date+tags|
+    @(let* ([month (month-word (date-month date-struct))]
+            [day (date-day date-struct)]
+            [year (date-year date-struct)]
+            [date-formatted (format "~a ~a, ~a" month day year)])
+      @list{
+        <p>@|date-formatted| :: Tagged under: @|tags|</p>
+    })
   </header>
   @(let* ([this-year (date-year (seconds->date (* 0.001 (current-inexact-milliseconds))))]
           [is-old? (> (- this-year (date-year date-struct)) 2)])

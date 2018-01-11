@@ -1,9 +1,7 @@
 # Finish redesign
 
-- 'Newest' links
 - Header
 - Footer
-- Archive page
 - 'max-width' on images (scaled viewport)
 
 # Infra
@@ -54,4 +52,9 @@ Make fonts smarter, looks like there's a lot to it
 Discourse?
 Mastodon?
 'Versioned' pages, where you can sustain the pages after edits, with links to those edits?
+
+
+# Eventually
+
+(proper archive page)
 TeX algo for line-breaking? (yeah right)

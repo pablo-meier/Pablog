@@ -5,6 +5,7 @@
   }
 
 @(define is-homepage? (string-ci=? uri-path "/index.html"))
+@(define is-index-page? (string-prefix? uri-path "/index"))
 @(define canned-description "A website where Pablo Meier Pablo Meiers, usually about code, culture, performance, and where they all meet. Also, the life of Pablo Meiers.")
 @(define toplevel-url "https://morepablo.com")
 
@@ -23,7 +24,7 @@
     <meta name="keywords" content="Pablo Meier, @|keywords|">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    @(let* [(appropriate-description (if is-homepage? canned-description description))
+    @(let* [(appropriate-description (if is-index-page? canned-description description))
             (desc-length (string-length appropriate-description))
             (description-abridged (substring appropriate-description 0 (min desc-length 200)))]
       @list{
@@ -43,7 +44,7 @@
     <link rel="canonical" href="@|the-uri|">
     })
 
-    @(let [(og-type (if is-homepage? "website" "article"))]
+    @(let [(og-type (if is-index-page? "website" "article"))]
       @list{
     <meta property="og:type" content="@|og-type|">
     })
@@ -67,7 +68,7 @@
       </ul>
     </nav> -->
 
-    @(when is-homepage?
+    @(when is-index-page?
         @list{
     <div id="index-header">
       <div id="index-header-row">
@@ -83,11 +84,7 @@
         <div id="newest-posts">
             <h2>Newest Posts</h2>
             <ul>
-                <li><a href="/2018/01/blockchain.html">⛓ＢＬＯＣＫＣＨＡＩＮ⛓ </a></li>
-                <li><a href="/2018/01/feeling-good-when-you-re-feeling-bad.html">Feeling good when you’re feeling bad</a></li>
-                <li><a href="/2018/01/shoutout-to-steve-ballmer.html">Shoutout to Steve Ballmer</a></li>
-                <li><a href="/2018/01/minimal-pages-brought-to-you-by-the-letter-f.html">Minimal Pages, brought to you by the letter F</a></li>
-                <li><a href="/2018/01/towards-a-more-open-web.html">Towards a More Open Web</a></li>
+                @|contents|
             </ul>
         </div>
         <div id="favorite-posts">
@@ -114,7 +111,7 @@
       @(when tag
         @list{<h1>Posts tagged <em>@|tag|</em></h1>})
       @;{ The main page contents are in @contents }
-      @(when (not is-homepage?) contents)
+      @(when (not is-index-page?) contents)
     </div>
 
 	<!-- You too
