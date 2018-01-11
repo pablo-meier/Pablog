@@ -2,9 +2,6 @@ open Printf
 open Core
 
 
-type image = Png of string | Jpg of string
-
-
 (** Given a source path, generates the destination path.*)
 let generate_dest_path srcpath =
     let filename =  Filename.basename srcpath in
@@ -26,20 +23,19 @@ let copy_original (srcpath, destpath) =
 
 (** Runs "convert" to run compression on an image *)
 let compress_and_crush fullsize_path =
-    let as_typed p = match Filename.split_extension p with
-      | (_, Some "jpg") -> Jpg p
-      | (_, Some "png") -> Png p
-      | _ -> invalid_arg "Unsupported file type" in
-    match as_typed fullsize_path with
-      | Jpg x ->
+    let x = fullsize_path in
+    let _status = match Filename.split_extension fullsize_path with
+      | (_, Some "jpg") ->
         let _status = Printf.sprintf "convert %s -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB %s" x x
             |> Sys.command in
-        let _other_status = Printf.sprintf "jpegtran -copy none -optimize -perfect %s" x |> Sys.command in
-        x
-      | Png x ->
+        let _s = Printf.sprintf "jpegtran -copy none -optimize -perfect %s > tmp.jpg" x |> Sys.command in
+        Printf.sprintf "mv -f tmp.jpg %s" x |> Sys.command
+      | (_, Some "png") ->
         let _status = Printf.sprintf "convert %s -strip %s" x x |> Sys.command in
-        let _other_status = Printf.sprintf "optipng -o5 %s" x |> Sys.command in
-        x
+        Printf.sprintf "optipng -o5 %s" x |> Sys.command
+      | _ -> invalid_arg "unsupported filetype"
+    in
+    fullsize_path
 
 
 (** Preserves the directory, takes last bit and appends _THUMB (or somesuch). *)
@@ -66,6 +62,7 @@ let thumbnail_and_fullsize fullsize =
 (** Remove the first part of the path *)
 let strip_first path =
     Filename.parts path
+    |> List.tl_exn (* First entry is . *)
     |> List.tl_exn
     |> List.fold_left ~f:Filename.concat ~init:"/"
 

@@ -13,8 +13,6 @@ go through checklist: https://frontendchecklist.io/
 
 og:image default to my face image is Bad
 
-put smolling in image-insert
-
 Content-Security-Policy headers in Lambda function (get that A on Mozilla Observatory)
 
 minify/uglify output of build (HTML, CSS).
