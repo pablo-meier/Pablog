@@ -108,7 +108,7 @@ So, yes, build that decentralized network so The Thoughts Of People Can Be Free,
 but unless you address that pesky "society" and solve 3-4 other hard problems:
 
 - If the powers that be ever _do_ encouter a challenge, there's a good chance
-  your New Effort will be a magical tech that prevents them from getting found
+  your New Effort won't be a magical tech that prevents them from getting found
   out and murdered anyways.
 
 - Criminals who don't threaten the existence of the state enough to get the big
