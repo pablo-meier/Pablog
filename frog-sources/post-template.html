@@ -35,6 +35,29 @@
 
   @|content|
   <footer>
+      <hr />
+      <p style="text-align: center; font-size: small;"><strong>Thanks for the read!</strong> Disagreed? <em>Violent agreement!?</em> Feel free to drop me a line at <span id="contact-mail"></span>, I'd love to hear from you 😄</p>
+      <script>
+(function() {
+  /** Hopefully this trick still works. */
+  function rot13(str) {
+    var input =  'abcdefghijklmnopqrstuvwxyz&>!';
+    var output = 'nopqrstuvwxyzabcdefghijklm@"@".:';
+    var index = x => input.indexOf(x);
+    var translate = x => index(x) > -1 ? output[index(x)] : x;
+    return str.split('').map(translate).join('');
+  }
+
+  const email_obs = 'cnoyb>n>zrvre&tznvy>pbz';
+  const email_plaintext = rot13(email_obs);
+
+  const mailElem = document.createElement('a');
+  const textNodeElem = document.createTextNode(email_plaintext);
+  mailElem.setAttribute('href', rot13('znvygb!') + email_plaintext);
+  mailElem.appendChild(textNodeElem);
+  document.getElementById('contact-mail').appendChild(mailElem);
+})();
+      </script>
 
 	<hr />
     @older/newer-links[older-uri older-title newer-uri newer-title]
