@@ -109,7 +109,7 @@ wealthy business clients who want to speak to power brokers in other
 places. I mean, Jesus, the cheapest offering at the [Offical Place to buy these
 lectures][5] is $130 (I did not pay this much). I don't think his core audience
 are folks who can't pay. Many of them likely don't feel it as valuable to
-invest as much time learning the differences between Ethiopia and Libera vs.
+invest as much time learning the differences between Ethiopia and Liberia vs.
 Italy and Germany (or enjoy confronting why they feel or act on this). Speaking
 of…
 
