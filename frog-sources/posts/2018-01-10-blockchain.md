@@ -4,7 +4,7 @@
 
 <div class="caption-img-block" style="margin: 25px auto">
   <a href="https://twitter.com/MikeIsaac/status/950430971144187904">
-  <img src="/img/2018/1/mike_isaac_THUMB.png" alt="Click to go to the Tweet." style="margin: 15px auto;" /></a>
+  <img src="/img/2018/1/mike_isaac_THUMB.png" alt="Click to go to the Tweet." /></a>
 <p style="font-style: italic; text-align: center; font-size: small">Thanks, Mike.</p>
 </div>
  
@@ -98,9 +98,11 @@ vulnerabilities regularly][18]?
 
 Let's not forget the xkcd on this:
 
+<div class="caption-img-block" style="margin: 25px auto">
 <a href="https://xkcd.com/538/">
-<img src="/img/2018/1/xkcd_security.png" alt="XKCD on Security: you'll probably get wrenched." style="display: block; margin: 15px auto; max-width: 500px;" />
+<img src="/img/2018/1/xkcd_security.png" alt="XKCD on Security: you'll probably get wrenched."/>
 </a>
+</div>
 
 ---
 

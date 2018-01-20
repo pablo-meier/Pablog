@@ -521,6 +521,12 @@ blockquote p {
   display: inline;
 }
 
+.caption-img-block img {
+  max-width: 95%;
+  display: block;
+  margin: 15px auto;
+}
+
 /*
 #page-footer {
   background-color: rgb(230, 230, 230);
