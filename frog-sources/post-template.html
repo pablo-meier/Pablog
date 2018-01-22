@@ -35,9 +35,14 @@
 
   @|content|
   <footer>
-      <hr />
-      <p style="text-align: center; font-size: small;"><strong>Thanks for the read!</strong> Disagreed? <em>Violent agreement!?</em> Feel free to drop me a line at <span id="contact-mail"></span>, I'd love to hear from you 😄</p>
-      <script>
+	<hr />
+    @older/newer-links[older-uri older-title newer-uri newer-title]
+	<hr />
+  </footer>
+
+  <section>
+    <p style="text-align: center; font-size: small;"><strong>Thanks for the read!</strong> Disagreed? <em>Violent agreement!?</em> Feel free to drop me a line at <span id="contact-mail"></span>, or leave a comment below! I'd love to hear from you 😄</p>
+    <script>
 (function() {
   /** Hopefully this trick still works. */
   function rot13(str) {
@@ -57,10 +62,17 @@
   mailElem.appendChild(textNodeElem);
   document.getElementById('contact-mail').appendChild(mailElem);
 })();
-      </script>
+    </script>
+    <div id='discourse-comments'></div>
+    <script type="text/javascript">
+      DiscourseEmbed = { discourseUrl: 'https://us.morepablo.com/',
+                         discourseEmbedUrl: '@|full-uri|' };
 
-	<hr />
-    @older/newer-links[older-uri older-title newer-uri newer-title]
-	<hr />
-  </footer>
+      (function() {
+        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+      })();
+    </script>
+  </section>
 </article>
