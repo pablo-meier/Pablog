@@ -2,7 +2,7 @@
     Date: 2018-01-23T20:47:52
     Tags: engineering
 
-_🎵 The song for this PR is [Men in Black][16], by Will Smith 🎵_
+_🎵 The song for this post is [Men in Black][16], by Will Smith 🎵_
 
 I haven't written about code in a long time, so here are some reckons about
 (micro)services, monoliths, and modularity.
@@ -11,8 +11,8 @@ I haven't written about code in a long time, so here are some reckons about
 
 After leaving Adobe and Google in SF, my experience in NYC has been with
 progressively growing startups: [Sup][17] (seed, 3 employees), [Reonomy][18] (B
-Round, ~50 employees at max), [ClassPass][19] (C round, ~220 employees), and now…
-[Lyft][20] (G? H round? ~2k employees). 
+Round, ~50 employees at max), [ClassPass][19] (C round, ~220 employees), and now
+[Lyft][20] (…G? H round? ~2k employees).
 
 All but Sup have involved growing the number of services in the backend, rather
 than growing the monolith.
@@ -23,7 +23,7 @@ Every company starts from a monolith. If you're lucky, you'll get a company that
 won't deviate from this. DHH and the friends at Basecamp advocate this in
 ["The Majestic Monolith"][1].
 
-That said, "just stay monolith" wasn't possible at the companies I've worked for:
+That said, "just stay monolith" wasn't a possibility at the companies I worked for:
 while Basecamp brands excellently writing [multiple][2] [books][3] about growing
 companies responsibly and eschewing outside funding, the companies that
 have the most funding and press are largely that way because of VCs and the
@@ -46,7 +46,7 @@ this happen:
   almost always mean "code I didn't write." Splitting into services gets you the
   opportunity to greenfield.
 
-- When the company gets big enough that CTO/VP is now managing managers instead
+- When the company gets big enough that the CTO/VP is now managing managers instead
   of line engineers. Two things happen here: they want clear boundaries between
   the teams their managers run, and they also want to stem the tide of issues
   arising from dozens of engineers sharing a single codebase. They might,
@@ -55,7 +55,7 @@ this happen:
   developers to work effectively on a single codebase (consider open source
   projects with many contributors). But they grew quickly, the issues are
   happening _now_, and per VC dictum, they must ship new shit all the time while
-  growing like Tetsuo at the end of AKIRA (warning: [extremely graphic][29]).
+  growing like Tetsuo at the end of _AKIRA_ (warning: [extremely graphic][29]).
 
 Microservices are also fashionable: there's cachet in saying "we've
 grown so much we're moving to microservices" if you're tech leadership at a
@@ -74,8 +74,9 @@ swim downstream of Conway's Law rather than against the grain."
 
 **Fickle engineer tenure.** Engineers at these companies are extremely
 high-turnover.  My resume has almost as many companies as years, _and this has
-been great for me and my career._ There's a lot to say here (ultimately, I'll
-just say [software engs are undervalued][30], strange as it may seem), but
+been great for me and my career._ This is a big topic (here I'll
+just say [software engs are undervalued][30], strange as it may seem, and
+capital in tech is still flowing too freely), but
 overall, the industry is such that it's often better for talented folk to always
 seek better offers. 
 
@@ -91,7 +92,8 @@ Corollary: many people are in their position _not_ because they're great at what
 their position requires, but because they're great at what you needed to arrive
 there or be selected for it (examples: CEO not because you're good at running
 companies, but because you have access to capital and can persuade investors.
-I've [written before about this][7]).
+Many engineers are amazing at interviewing but terrible on the job.  I've
+[written before about this][7]).
 
 So most employees are a) new to code they are now responsible for, b) working
 mostly with other people new to the organization, since growth, c) learning from
@@ -126,15 +128,16 @@ you, on a technical level:
 These aren't nothing! I'm of the opinion that most companies adopt them for the
 non-technical reasons in the previous sections: greenfield is fun, management is
 immediately less painful while you grow unnaturally fast. But these should be
-remembered.
+remembered, especially since they become especially true at the scale of
+hundreds of engineers.
 
 ### What sucks about microservices
 
 Here come my reckons. I think **microservices are usually a bad fit for the
 companies that adopt them.** That said, I have trouble offering _practical_
 solutions to companies playing the VC playbook, since I frame microservices as
-the natural consequence of how our industry currently looks, how these companies
-form, and how they are structured.
+the natural consequence of how how these companies form, who works at them, who
+leads them, and what their strategies are.
 
 Here's what sucks about microservices: you took what was one of the most
 dependable abstractions in all of software (the humble function call) and added
@@ -145,18 +148,20 @@ maintain; really, avoid code when you can) but you need to add:
 - Alerting
 - Error handling
 - Deploy/CI
+- Latency requirements
 
 You took a whole category of `a -> b` calls and made them `a -> IO Maybe b`
 calls.
 
-Now, of course, when you had to deploy one codebase, you now need deploy
-pipelines for several, interlocking codebases. Now when you want to write an
-integration test, you need an eng-wide discussion on how to do this. A ton of
-Docker containers, with subsets of the database?
+You previously had to deploy one codebase, you now need deploy pipelines for
+several, interlocking codebases. Now when you want to write an integration test,
+you need an eng-wide discussion on how to do this. Usually this has developers
+waiting several minutes for tests to run after downloading gigabytes of
+containers.
 
-These aren't small costs. Engineers who work with code cost _x_, and engineers
-who comfortably write code and manage all the above are worth _px_ for some _p_ >
-2, and they'll work a whole lot slower. And they'll be getting paged.
+These aren't small costs. Engineers who work with code have a price of _x_, and
+engineers who comfortably write code and manage all the above cost _px_ for some
+_p_ > 2, and they'll work a whole lot slower. And they'll be getting paged.
 
 Lets say I have to debug another team's code. In a monolithic system? "Jump
 to definition" in the IDE, add a breakpoint or a printline. Microservices? `git
@@ -194,14 +199,13 @@ _built_ for this. To take from [the chapter on Distributed Computing][12] in
 > sense of aim to kill the monsters, Erlang gives you a flashlight, a machete,
 > and a pretty kick-ass mustache to feel more confident [...]
 
-Erlang programmers use "components as their own self-contained, share-nothing,
-independent servers with clean API and message passing semantics" as _the
-default_ way to program virtually everything. It's such the default that someone
-made [a "microservices module"][14] that's jokingly just
-[our beloved `gen_server`][15]
+Erlang programs use "components as self-contained, share-nothing, restartable
+servers with clean API and message passing semantics" as _the default_ way to
+program virtually everything. It's such the default that someone made [a
+"microservices module"][14] that's jokingly just [our beloved `gen_server`][15]
 
 I'm obviously not advocating "JUST REWRITE IT ALL IN ERLANG!!" (though please go
-and be That Person at your company 😛), I'm just taking this opportunity to plug
+and be That Person at your company 🍿), I'm just taking this opportunity to plug
 the language/runtime I think software engineers will learn the most from when
 wanting to structure applications in this environment.
 
@@ -217,8 +221,8 @@ My not-useful takeaway from these reckons is that _what you need is modularity,
 not microservices._ If you replaced "each team publishes a library with a stable
 API to something like [Artifactory][23]" instead of "each team runs and monitors
 _n_ services," you get many of the same team structure benefits of microservices
-with a lot less of the technical hassle. It looks similar to what's written
-about [here: "The Modular Monolith"][24].
+with a lot less of the technical hassle or staffing needs. It looks similar to
+what's written about [here: "The Modular Monolith"][24].
 
 I listed an _all-time favorite blog post_, here is _one of my all-time favorite
 talks:_ [Boundaries][25], by Gary Bernhardt. There's a _lot_ here about
