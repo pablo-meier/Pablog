@@ -10,7 +10,7 @@ I haven't written about code in a long time, so here are some reckons about
 ### Who am I
 
 After leaving Adobe and Google in SF, my experience in NYC has been with
-progressively growing startups: [Sup][17] (seed, 3 employees), [Reonomy][18] (B
+progressively larger startups: [Sup][17] (seed, 3 employees), [Reonomy][18] (B
 Round, ~50 employees at max), [ClassPass][19] (C round, ~220 employees), and now
 [Lyft][20] (…G? H round? ~2k employees).
 
@@ -199,10 +199,11 @@ _built_ for this. To take from [the chapter on Distributed Computing][12] in
 > sense of aim to kill the monsters, Erlang gives you a flashlight, a machete,
 > and a pretty kick-ass mustache to feel more confident [...]
 
-Erlang programs use "components as self-contained, share-nothing, restartable
-servers with clean API and message passing semantics" as _the default_ way to
+Erlang programs use "components as self-contained, share-nothing, monitored,
+restartable servers with and API to callers" as _the default_ way to
 program virtually everything. It's such the default that someone made [a
-"microservices module"][14] that's jokingly just [our beloved `gen_server`][15]
+"microservices module"][14] that's jokingly just [our beloved `gen_server`][15],
+arguably the most-used module in Erlang.
 
 I'm obviously not advocating "JUST REWRITE IT ALL IN ERLANG!!" (though please go
 and be That Person at your company 🍿), I'm just taking this opportunity to plug
@@ -221,8 +222,8 @@ My not-useful takeaway from these reckons is that _what you need is modularity,
 not microservices._ If you replaced "each team publishes a library with a stable
 API to something like [Artifactory][23]" instead of "each team runs and monitors
 _n_ services," you get many of the same team structure benefits of microservices
-with a lot less of the technical hassle or staffing needs. It looks similar to
-what's written about [here: "The Modular Monolith"][24].
+with a lot less of the technical hassle or infrastructure staffing needs. It
+looks similar to what's written about [here: "The Modular Monolith"][24].
 
 I listed an _all-time favorite blog post_, here is _one of my all-time favorite
 talks:_ [Boundaries][25], by Gary Bernhardt. There's a _lot_ here about
