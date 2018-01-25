@@ -200,15 +200,15 @@ _built_ for this. To take from [the chapter on Distributed Computing][12] in
 > and a pretty kick-ass mustache to feel more confident [...]
 
 Erlang programs use "components as self-contained, share-nothing, monitored,
-restartable servers with and API to callers" as _the default_ way to
+restartable servers with an API to callers" as _the default_ way to
 program virtually everything. It's such the default that someone made [a
 "microservices module"][14] that's jokingly just [our beloved `gen_server`][15],
-arguably the most-used module in Erlang.
+arguably the most-used abstraction in Erlang.
 
-I'm obviously not advocating "JUST REWRITE IT ALL IN ERLANG!!" (though please go
+I obviously don't advocate "JUST REWRITE IT ALL IN ERLANG!!" (though please go
 and be That Person at your company 🍿), I'm just taking this opportunity to plug
 the language/runtime I think software engineers will learn the most from when
-wanting to structure applications in this environment.
+wanting to structure applications like this.
 
 ### How do you cut a monolith? Not with message brokers
 
