@@ -1,0 +1,17 @@
+opam-version: "1.2"
+name: "battletoad"
+version: "~unknown"
+maintainer: "Pablo Meier <pablo.a.meier@gmail.com>"
+authors: "Pablo Meier <pablo.a.meier@gmail.com>"
+homepage: "https://morepablo.com"
+bug-reports: ""
+license: ""
+dev-repo: "https://github.com/pablo-meier/Pablog"
+build: [
+  [make]
+]
+install: [make "install"]
+remove: ["ocamlfind" "remove" "battletoad"]
+depends: [
+  "ocamlfind" {build}
+]

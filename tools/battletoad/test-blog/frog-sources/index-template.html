@@ -1,0 +1,27 @@
+@;{ It is GROSS that I have to do it this way but goddamn it I'll do it.
+  I'm p sure I don't have racket/match either, so `cond` it is.
+}
+
+
+@(define (month-word int)
+  (cond
+    [(= 1 int) "January"]
+    [(= 2 int) "February"]
+    [(= 3 int) "March"]
+    [(= 4 int) "April"]
+    [(= 5 int) "May"]
+    [(= 6 int) "June"]
+    [(= 7 int) "July"]
+    [(= 8 int) "August"]
+    [(= 9 int) "September"]
+    [(= 10 int) "October"]
+    [(= 11 int) "November"]
+    [(= 12 int) "December"]))
+
+@(let* ([month (month-word (date-month date-struct))]
+        [day (date-day date-struct)]
+        [year (date-year date-struct)]
+        [date-formatted (format "~a ~a, ~a" month day year)])
+  @list{
+<li>@|date-formatted| &mdash; <a href='@|uri-path|'>@|title|</a></li>
+})
