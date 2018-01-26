@@ -7,19 +7,11 @@ open Re2.Std
 open Re2.Infix
 open Omd
 
+open Files
+
 (** Data/functions related to posts. *)
 
 type post_body = Split of (Omd.t * Omd.t) | Whole of Omd.t
-
-(** Record for what we read from the input files. *)
-type post_input = {
-  title : string;
-  datetime : Unix.tm;
-  tags : string list;
-  og_image : string option;
-  og_description : string option;
-  content : post_body;
-}
 
 (** Record for a completed, publishable post *)
 type post = {
@@ -30,12 +22,25 @@ type post = {
   og_description : string option;
   content : post_body;
 
+  fs_path : string;
   reading_time : int;
+
+  next_post_fs_path : string option;
+  prev_post_fs_path : string option;
 }
 
+let metadata_regex : Re2.regex = Re2.create_exn "^    ([^:]+): *(.+)$"
+let filename_regex : Re2.regex = Re2.create_exn ".+/\\d\\d\\d\\d-\\d\\d-\\d\\d-([a-z-]+)\\.md$"
+
+let make_outfile_name input_filename datetime =
+  let year = datetime.tm_year + 1900 in
+  let month = datetime.tm_mon + 1 in
+  let () = Printf.printf "Trying: %s" input_filename in
+  let matches = Re2.find_submatches_exn filename_regex input_filename in
+  let nm = matches.(1) |> Option.value_exn in
+  Printf.sprintf "/%4d/%02d/%s.html" year month nm
 
 let add_newlines = String.concat ~sep:"\n"
-
 
 let all_content = function
   | Split (top, bottom) -> List.append top bottom
@@ -79,9 +84,6 @@ let reading_time_for content =
     |> (fun x -> x /. 275.0)
     |> Pervasives.ceil
     |> Pervasives.int_of_float
-
-
-let metadata_regex : Re2.regex = Re2.create_exn "^    ([^:]+): *(.+)$"
 
 
 (** Given a bunch of non-metadata lines, returns it as either Whole or Split. We have to
@@ -141,9 +143,16 @@ let handle_metadata data =
   (title, datetime, tags, og_img, og_desc)
 
 
-let make_post_input contents =
-  let (metadata, content) = split_contents contents in
+(** Given a string input (presumably the contents of a file), produce a Post.
+ *
+ * The first thing we do is create a post_input which is a raw reading of
+ * the contents, after which we can calculate the remaining values in a full-blown
+ * post.
+ * *)
+let make_post (contents:file_with_contents) =
+  let (metadata, content) = split_contents contents.lines in
   let (title, datetime, tags, og_img, og_desc) = handle_metadata metadata in
+  let pathname = make_outfile_name contents.name datetime in
   {
     title = title;
     datetime = datetime;
@@ -151,30 +160,44 @@ let make_post_input contents =
     og_image = og_img;
     og_description = og_desc;
     content = content;
-  }
 
-
-(** Once we've parsed the input, this does additional calculation *)
-let post_from_input ({title; datetime; tags; og_image; og_description; content} : post_input)=
-  {
-    title = title;
-    datetime = datetime;
-    tags = tags;
-    og_image = og_image;
-    og_description = og_description;
-    content = content;
-
+    fs_path = pathname;
     reading_time = reading_time_for content;
+
+    next_post_fs_path = None;
+    prev_post_fs_path = None;
   }
 
 
-(** Given a string input (presumably the contents of a file), produce a Post.
- *
- * The first thing we do is create a post_input which is a raw reading of
- * the contents, after which we can calculate the remaining values in a full-blown
- * post.
- * *)
-let make_post contents = make_post_input contents |> post_from_input
+(** Inverting the normal sort order since we want them in descending order *)
+let compare_post_dates {datetime = datetime1;_} {datetime = datetime2;_} =
+  let tm x = Unix.mktime x |> (fun (y,_) -> y) in
+  match (tm datetime1) < (tm datetime2) with
+  | true -> 1
+  | _ -> -1
+
+
+(** Pray, motherfuckers *)
+let form_prev_next_links_fn posts =
+  let arr = Array.of_list posts in
+  let fs_path_at x = Some ((Array.get arr x).fs_path) in
+
+  let foldable (count, accum) post =
+    let (prev_in, next_in) = (count - 1, count + 1) in
+    let (prev, next) =
+      match (prev_in < 0, next_in >= List.length posts) with
+      | (true, _) -> (None, fs_path_at next_in)
+      | (_, true) -> (fs_path_at prev_in, None)
+      | (_, _) -> (fs_path_at prev_in, fs_path_at next_in)
+    in
+    let updated_post =
+      {post with next_post_fs_path = next; prev_post_fs_path = prev; }
+    in
+    (count + 1, updated_post::accum) in
+
+  List.fold_left ~f:foldable ~init:(0, []) posts
+    |> Utils.snd
+    |> List.rev
 
 
 (** Do JSON libraries make this any easier? _Still_ no Deriving Show? O_O *)

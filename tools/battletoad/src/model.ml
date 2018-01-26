@@ -29,8 +29,8 @@ let read_config_values lines =
 let build_blog_model path =
   let conf = read_config_values (Filename.concat path "frog.rkt") in
   let posts = Files.file_contents_in_dir (Filename.concat path "posts")
-    |> List.map ~f:(fun x -> x.lines)
-    |> List.map ~f:(fun x -> Post.make_post x) in 
+    |> List.map ~f:(fun x -> Post.make_post x)
+    |> List.sort ~cmp:Post.compare_post_dates in
   {
     title = conf.title;
     description = conf.description;

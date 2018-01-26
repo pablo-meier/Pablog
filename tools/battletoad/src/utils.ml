@@ -10,3 +10,7 @@ let from_string_list input =
 let option_maybe x = match x with
   | Some v -> v
   | None -> "None"
+
+let fst (x,_) = x
+
+let snd (_,y) = y
