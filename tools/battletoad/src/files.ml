@@ -1,5 +1,6 @@
 (** "Imperative shell" functions for dealing with the filesystem. *)
 open Core
+open Filename
 open Re2.Std
 open Re2.Infix
 
@@ -24,3 +25,9 @@ let file_contents_in_dir dirname =
     |> List.map ~f:(Filename.concat dirname)
     |> List.filter ~f:in_whitelist
     |> List.map ~f:to_record
+
+
+let write_out_to_file build_dir (path, content) =
+  let filename = Filename.concat build_dir path in
+  let () = Unix.mkdir_p (dirname filename) in
+  Out_channel.write_all filename ~data:content

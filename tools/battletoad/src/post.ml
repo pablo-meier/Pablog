@@ -13,6 +13,11 @@ open Files
 
 type post_body = Split of (Omd.t * Omd.t) | Whole of Omd.t
 
+type post_linkable = {
+  title : string;
+  path : string
+}
+
 (** Record for a completed, publishable post *)
 type post = {
   title : string;
@@ -25,8 +30,8 @@ type post = {
   fs_path : string;
   reading_time : int;
 
-  next_post_fs_path : string option;
-  prev_post_fs_path : string option;
+  next_post_fs_path : post_linkable option;
+  prev_post_fs_path : post_linkable option;
 }
 
 let metadata_regex : Re2.regex = Re2.create_exn "^    ([^:]+): *(.+)$"
@@ -35,7 +40,6 @@ let filename_regex : Re2.regex = Re2.create_exn ".+/\\d\\d\\d\\d-\\d\\d-\\d\\d-(
 let make_outfile_name input_filename datetime =
   let year = datetime.tm_year + 1900 in
   let month = datetime.tm_mon + 1 in
-  let () = Printf.printf "Trying: %s" input_filename in
   let matches = Re2.find_submatches_exn filename_regex input_filename in
   let nm = matches.(1) |> Option.value_exn in
   Printf.sprintf "/%4d/%02d/%s.html" year month nm
@@ -171,17 +175,19 @@ let make_post (contents:file_with_contents) =
 
 (** Inverting the normal sort order since we want them in descending order *)
 let compare_post_dates {datetime = datetime1;_} {datetime = datetime2;_} =
-  let tm x = Unix.mktime x |> (fun (y,_) -> y) in
+  let tm x = Unix.mktime x |> Utils.fst in
   match (tm datetime1) < (tm datetime2) with
   | true -> 1
   | _ -> -1
 
 
 (** Pray, motherfuckers *)
-let form_prev_next_links_fn posts =
+let form_prev_next_links posts =
   let arr = Array.of_list posts in
-  let fs_path_at x = Some ((Array.get arr x).fs_path) in
-
+  let fs_path_at x = 
+    let p = (Array.get arr x) in
+    Some {title = p.title; path = p.fs_path}
+  in
   let foldable (count, accum) post =
     let (prev_in, next_in) = (count - 1, count + 1) in
     let (prev, next) =
@@ -193,8 +199,8 @@ let form_prev_next_links_fn posts =
     let updated_post =
       {post with next_post_fs_path = next; prev_post_fs_path = prev; }
     in
-    (count + 1, updated_post::accum) in
-
+    (count + 1, updated_post::accum)
+  in
   List.fold_left ~f:foldable ~init:(0, []) posts
     |> Utils.snd
     |> List.rev
@@ -202,15 +208,21 @@ let form_prev_next_links_fn posts =
 
 (** Do JSON libraries make this any easier? _Still_ no Deriving Show? O_O *)
 let post_to_string {title; datetime; tags; og_image; og_description;
-                    content; reading_time } =
+                    content; reading_time; next_post_fs_path;
+                    prev_post_fs_path;
+                   } =
   let get_timestring x = Unix.mktime x |> (fun (x,_) -> x) |> ISO8601.Permissive.string_of_datetime in
   let time_str = get_timestring datetime in
-  let content_str = match content with
+  (* let content_str = match content with
     | Split (a,b) -> "Split(" ^ (Omd.to_html a) ^ " | " ^ (Omd.to_html b) ^ ")"
-    | Whole x -> "Whole(" ^ (Omd.to_html x) ^ ")" in
+    | Whole x -> "Whole(" ^ (Omd.to_html x) ^ ")" in *)
 
   let tag_string = Utils.from_string_list tags in
   let og_img = Utils.option_maybe og_image in
   let og_desc = Utils.option_maybe og_description in
-  Printf.sprintf "Post(title: %s; time: %s; tags: %s; og_image: %s; og_desc: %s; content: %s; reading_time: %d)"
-                  title time_str tag_string og_img og_desc content_str reading_time
+  let next_or_prev = function | None -> "None" | Some {title = t; path = p} -> p in
+  let prev = next_or_prev prev_post_fs_path in
+  let next = next_or_prev next_post_fs_path in
+
+  Printf.sprintf "Post(title: %s; time: %s; tags: %s; og_image: %s; og_desc: %s; content: %s; reading_time: %d; next %s; prev %s)"
+                  title time_str tag_string og_img og_desc (* content_str *) "CONTENT CONTENT" reading_time next prev

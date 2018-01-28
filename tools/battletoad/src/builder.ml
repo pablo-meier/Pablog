@@ -9,7 +9,8 @@ open Post
 open Model
 
 (** TODOs:
-  * Parallelization. *)
+ * Caching
+ * Parallelization. *)
 
 (** Generates the blog's index pages *)
 let generate_index_pages blog_model =
@@ -45,7 +46,7 @@ let format_date {tm_wday; tm_mon; tm_mday; tm_year; _} =
 
 (** Generates the blog's individual post pages *)
 let generate_post_pages (blog_model:blog_model) =
-  let () = Printf.printf "Building post pages" in
+  let () = Printf.printf "Building post pages...\n\n" in
   let today_now = Unix.time () |> Unix.gmtime in
   let is_old x = (today_now.tm_year - x.tm_year) > 1 in
   let or_string x default = match x with
@@ -56,30 +57,43 @@ let generate_post_pages (blog_model:blog_model) =
         ("name", Jg_types.Tstr tag);
         ("url", Jg_types.Tstr (String.concat ["/tags/"; tag; ".html"]))] in
 
-  let make_model {title; datetime; tags; og_image; og_description; content; reading_time} =
-    [("title", Jg_types.Tstr title);
-     ("author", Jg_types.Tstr blog_model.author);
-     ("keywords_list", Jg_types.Tstr "Pablo Meier engineering management tech");
+  let prev_next_url = function
+    | None -> Jg_types.Tnull
+    | Some (linkable:post_linkable) -> Jg_types.Tobj [
+        ("name", Jg_types.Tstr linkable.title);
+        ("url", Jg_types.Tstr ("/" ^ linkable.path))] in
+
+  let make_model {title; datetime; tags; og_image;
+                  og_description; content; reading_time;
+                  next_post_fs_path;
+                  prev_post_fs_path;
+                  fs_path } =
+    [("title",                Jg_types.Tstr title);
+     ("author",               Jg_types.Tstr blog_model.author);
+     ("keywords_list",        Jg_types.Tstr "Pablo Meier engineering management tech");
      ("description_abridged", or_string og_description blog_model.description);
-     ("og_description", or_string og_description blog_model.description);
-     ("og_image", or_string og_image "https://morepablo.com/pabloface.png");
-     ("full_uri", Jg_types.Tstr "https://morepablo.com/my-special-blog-post.html");
-     ("rss_feed_uri", Jg_types.Tstr "/feeds.xml");
-     ("formatted_date", Jg_types.Tstr (format_date datetime));
-     ("tags", Jg_types.Tlist (List.map ~f:tag_url tags));
-     ("reading_time", Jg_types.Tint reading_time);
-     ("if_old", Jg_types.Tbool (is_old datetime));
-     ("content", Post.all_content content |> Omd.to_html |> Jg_types.Tstr);
-     ("link_to_newer", Jg_types.Tnull);
-     ("link_to_older", Jg_types.Tobj [("name", Jg_types.Tstr "Go Right, man"); ("url", Jg_types.Tstr "2018/01/blockchain.html")]);
+     ("og_description",       or_string og_description blog_model.description);
+     ("og_image",             or_string og_image "https://morepablo.com/pabloface.png");
+     ("full_uri",             Jg_types.Tstr (blog_model.hostname ^ "/" ^ fs_path));
+     ("rss_feed_uri",         Jg_types.Tstr "/feeds.xml");
+     ("formatted_date",       Jg_types.Tstr (format_date datetime));
+     ("tags",                 Jg_types.Tlist (List.map ~f:tag_url tags));
+     ("reading_time",         Jg_types.Tint reading_time);
+     ("if_old",               Jg_types.Tbool (is_old datetime));
+     ("content",              Post.all_content content |> Omd.to_html |> Jg_types.Tstr);
+     ("link_to_newer",        prev_next_url prev_post_fs_path);
+     ("link_to_older",        prev_next_url next_post_fs_path);
     ]
   in
   let post_page p =
     let models = make_model p in
-    Jg_template.from_file ~models:models (Filename.concat blog_model.root_path "post_template.tmpl")
+    Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "post_template.tmpl")
   in
-  let page_contents = List.map ~f:post_page blog_model.posts in
-  let _unused = List.map ~f:(fun x -> Printf.printf "=======\nPost:\n\n%s\n" x) page_contents in
+  let () =
+    blog_model.posts
+    |> List.map ~f:(fun x -> (x.fs_path, post_page x))
+    |> List.iter ~f:(Files.write_out_to_file blog_model.build_dir)
+  in
   blog_model
 
 (** Generates the blog's toplevel homepage *)
@@ -90,8 +104,10 @@ let generate_homepage blog_model =
 let generate_statics blog_model =
     blog_model
 
-let build model =
-    generate_index_pages model
+let build (model:blog_model) =
+  let () = Unix.mkdir_p model.build_dir in
+  model
+    |> generate_index_pages
     |> generate_rss_feeds
     |> generate_post_pages
     |> generate_homepage
