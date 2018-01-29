@@ -5,7 +5,7 @@
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="https://twitter.com/SrPablo/status/645360215647485952" target="blank">
 <img src="/img/2018/1/reactivate_okc_THUMB.png" alt="My reactions in 2015 after starting to date again." style="margin: 15px auto;" /></a>
-<p style="font-style: italic; text-align: center; font-size: small">My 2012 profile was a lot more cringeworthy.
+<p style="font-style: italic; text-align: center; font-size: small">My 2012 profile was a lot more cringeworthy than what's here.
 </p>
 </div>
 
