@@ -110,7 +110,7 @@ warnings were Spam collected. The experience of the last two blogs might be
 why, in part, I really appreciate static sites (and how easy it is to `git
 commit && git push` them to the cloud).
 
-## Hosting
+### Hosting
 
 After the above and I switched to static sites, I put my files into a
 [Linode][48]. This worked a bit S3 (push the diff) except it was more like an
@@ -125,7 +125,7 @@ If you're not doing your DNS through Amazon, it's pretty nice to use
 [CloudFlare][11], especially for easy SSL. There [might be drawbacks to
 this][24], however.
 
-## Styles
+### Styles
 
 I read the [CSS book by the authors][16] way back in 2006, when blue beanies
 were a thing and "web standards" was still something of a fight (such was my
