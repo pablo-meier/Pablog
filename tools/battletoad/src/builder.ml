@@ -12,13 +12,10 @@ open Model
  * Caching
  * Parallelization. *)
 
-(** Generates the blog's index pages *)
-let generate_index_pages blog_model =
-    blog_model
-
 (** Generates the blog's RSS feed *)
 let generate_rss_feeds blog_model =
     blog_model
+
 
 let format_date {tm_wday; tm_mon; tm_mday; tm_year; _} = 
   let day_of_week = match tm_wday with
@@ -44,18 +41,71 @@ let format_date {tm_wday; tm_mon; tm_mday; tm_year; _} =
     | _ -> "December" in
   Printf.sprintf "%s, %s %d, %d" day_of_week month tm_mday (tm_year + 1900)
 
+
+let format_date_index {tm_mon; tm_mday; tm_year; _} =
+  Printf.sprintf "%d-%02d-%02d" (tm_year + 1900) (tm_mon + 1) tm_mday
+
+
+let tag_path tag =
+  match tag with
+  | "archives" -> "/archives.html"
+  | _ -> String.concat ["/tags/"; tag; ".html"]
+
+
+let post_uri ({hostname;_}:blog_model) fs_path =
+  hostname ^ "/" ^ fs_path
+
+
+let or_string x default = match x with
+  | Some y -> Jg_types.Tstr y
+  | None -> Jg_types.Tstr default
+
+
+(** Generates the blog's index and tag pages *)
+let generate_index_pages blog_model =
+  let () = Printf.printf "Building index pages...\n\n" in
+  let split_into_tag_groups posts =
+    [("archives", posts)]
+  in
+  let post_model {title; datetime; og_description;
+                  reading_time; fs_path; _} =
+    Jg_types.Tobj [
+      ("title", Jg_types.Tstr title);
+      ("url", Jg_types.Tstr (post_uri blog_model fs_path));
+      ("datestring", Jg_types.Tstr (format_date_index datetime));
+      ("description", or_string og_description "");
+      ("reading_time", Jg_types.Tint reading_time);
+    ]
+  in
+  let make_model tag posts =
+    [("index_title", Jg_types.Tstr ("Posts: " ^ tag));
+     ("author", Jg_types.Tstr blog_model.author);
+     ("og_image", Jg_types.Tstr "https://morepablo.com/pabloface.png");
+     ("full_uri", Jg_types.Tstr (blog_model.hostname ^ (tag_path tag)));
+     ("posts", Jg_types.Tlist (List.map ~f:post_model posts));
+    ]
+  in
+  let index_page tag posts =
+    let models = make_model tag posts in
+    Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "index-template.tmpl")
+  in
+  let () =
+    blog_model.posts
+    |> split_into_tag_groups
+    |> List.map ~f:(fun (tag, posts) -> (tag_path tag, index_page tag posts))
+    |> List.iter ~f:(Files.write_out_to_file blog_model.build_dir)
+  in
+  blog_model
+
+
 (** Generates the blog's individual post pages *)
 let generate_post_pages (blog_model:blog_model) =
   let () = Printf.printf "Building post pages...\n\n" in
   let today_now = Unix.time () |> Unix.gmtime in
   let is_old x = (today_now.tm_year - x.tm_year) > 1 in
-  let or_string x default = match x with
-    | Some y -> Jg_types.Tstr y
-    | None -> Jg_types.Tstr default
-  in
   let tag_url tag = Jg_types.Tobj [
         ("name", Jg_types.Tstr tag);
-        ("url", Jg_types.Tstr (String.concat ["/tags/"; tag; ".html"]))] in
+        ("url", Jg_types.Tstr (tag_path tag))] in
 
   let prev_next_url = function
     | None -> Jg_types.Tnull
@@ -74,7 +124,7 @@ let generate_post_pages (blog_model:blog_model) =
      ("description_abridged", or_string og_description blog_model.description);
      ("og_description",       or_string og_description blog_model.description);
      ("og_image",             or_string og_image "https://morepablo.com/pabloface.png");
-     ("full_uri",             Jg_types.Tstr (blog_model.hostname ^ "/" ^ fs_path));
+     ("full_uri",             Jg_types.Tstr (post_uri blog_model fs_path));
      ("rss_feed_uri",         Jg_types.Tstr "/feeds.xml");
      ("formatted_date",       Jg_types.Tstr (format_date datetime));
      ("tags",                 Jg_types.Tlist (List.map ~f:tag_url tags));
@@ -96,13 +146,16 @@ let generate_post_pages (blog_model:blog_model) =
   in
   blog_model
 
+
 (** Generates the blog's toplevel homepage *)
 let generate_homepage blog_model =
     blog_model
 
+
 (** Generates the blog's toplevel homepage *)
 let generate_statics blog_model =
     blog_model
+
 
 let build (model:blog_model) =
   let () = Unix.mkdir_p model.build_dir in

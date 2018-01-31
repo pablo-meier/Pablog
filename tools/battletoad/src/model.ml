@@ -1,5 +1,16 @@
 open Core
 
+
+(** not exported, just a placeholder to read from the separate config file *)
+type blog_metadata = {
+  title : string;
+  description : string;
+  author : string;
+  hostname : string;
+  build_dir : string;
+}
+
+
 type blog_model = {
   title : string;
   description : string;
@@ -13,18 +24,7 @@ type blog_model = {
 }
 
 
-(** not exported, just a placeholder to read from the separate config file *)
-type blog_metadata = {
-  title : string;
-  description : string;
-  author : string;
-  hostname : string;
-  build_dir : string;
-}
-
-
-let read_config_values lines =
-  {
+let read_config_values lines = {
     title = "More Pablo";
     description = "Description";
     author = "Pablo Meier";

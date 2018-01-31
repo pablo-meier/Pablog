@@ -21,7 +21,7 @@
 {% endblock %}
 
 {% block main %}
-      <article class="post">
+      <article>
         <header>
           <h1>{{title}}</h1>
           <p>{{formatted_date}} :: Tagged under:{% for tag in tags %} <a href="{{tag.url}}">{{tag.name}}</a>{% endfor %}. Reading Time: {{reading_time}} minutes.</p>
