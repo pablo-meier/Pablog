@@ -1,5 +1,5 @@
     Title: 🗣 Meetings, Part 1: Leaders and Org Worms
-    Date: 2018-02-01T11:02:04
+    Date: 2018-02-05T11:02:04
     Tags: culture, engineering, management
 
 _🎵 The song for this post is [Survivor][9], by Destiny's Child 🎵._

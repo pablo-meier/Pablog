@@ -1,6 +1,6 @@
     Title: Observations after another go-round of tech interviewing
     Date:2016-10-12T12:34:00
-    Tags: pablolife, engineering
+    Tags: pablolife, engineering, management
 
 Ha! So I'm leaving Reonomy. Not what I thought I'd write after the way [that
 last post][29] ended. But we muster the most hope when it's most desperately

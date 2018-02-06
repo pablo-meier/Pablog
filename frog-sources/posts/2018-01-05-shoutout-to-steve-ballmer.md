@@ -1,6 +1,6 @@
     Title: Shoutout to Steve Ballmer
     Date: 2018-01-05T11:23:41
-    Tags: culture
+    Tags: culture, management
 
 <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/I14b-C67EXY?rel=0" frameborder="0"

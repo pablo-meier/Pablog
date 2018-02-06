@@ -1,6 +1,6 @@
     Title: Six Months of Managing
     Date: 2016-08-18T20:24:00
-    Tags: essay, work, pablolife
+    Tags: essay, work, pablolife, management
 
 It's been a pretty momentous few months for me at [Reonomy][1]. Like I mentioned
 in my [2015 in Review][2] post, it's been the most professionally fulfilling job
