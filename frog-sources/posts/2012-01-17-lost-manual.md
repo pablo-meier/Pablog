@@ -16,42 +16,43 @@ far, addressing the "failed promises" of TDD. Some of those promises
 
 <!-- more -->
 
-* **Unit testing, on its own, helps you _validate_ your code, but does
-  little to help you _understand_ its purpose.** Anybody who wastes
-  enough time on Hacker News or Proggit has read the mandatory article
-  claiming that Unit Tests _are_ your documentation, but it doesn't take
-  long for this to break down. What about the 92% of TDD practitioners
-  who, at some point, broke down and wrote code before tests just that
-  once (and again and again)? What about all that semantically useless
-  boilerplate (all the Mock libraries, all the fixtures, what have you)?
-  At the very best you have verbose, very technical and
-  implementation-obsessed documentation only your coders can read.<br /><br />
-  Sure, by being executable and by having very wide coverage, Unit tests
-  can help the technically-savvy person see, after some scrutiny, just
-  how the application works. But this doesn't describe what _it
-  does_. BDD rectifies this by separating the specification of the
-  behavior (what behavior you are testing) with the implementation of
-  how you test it, and achieves this further (in the RoR world, anyways)
-  with a butt-ton of fancy DSLs to make your tests read like English.
-
-* **TDD is a boon to the developer, but the benefits aren't directly known to the client.**
-  RoR folks, moreso in my anecdotal observation
-  than most other types of devs, love to talk about what tools they're
-  using, usually much more than the projects they're working on. So
-  while they can circlejerk to _each other_ about how great their
-  methodology is and what gems they're using, how much better would it
-  be if they could include the person footing the bill, and give them
-  that extra-personal experience? <br /><br />
-  I only mention this because everytime Cucumber lists its advantages,
-  it's always mentioned that you can show your _cukes_ (Feature
-  Definition files) to the clients and they will be able to read and
-  understand it, even as nontechnical people. So that's a weakness of
-  unit testing, I guess -- you can't show _that_ typing to the clients
-  and it be anything meaningful.
+<ul>
+<li>
+<p><strong>Unit testing, on its own, helps you <em>validate</em> your code, but
+does little to help you <em>understand</em> its purpose.</strong> Anybody who
+wastes enough time on Hacker News or Proggit has read the mandatory article
+claiming that Unit Tests <em>are</em> your documentation, but it doesn't take
+long for this to break down. What about the 92% of TDD practitioners who, at
+some point, broke down and wrote code before tests just that once (and again and
+again)? What about all that semantically useless boilerplate (all the Mock
+libraries, all the fixtures, what have you)?  At the very best you have verbose,
+very technical and implementation-obsessed documentation only your coders can
+read.</p>
+<p>Sure, by being executable and by having very wide coverage, Unit tests can
+help the technically-savvy person see, after some scrutiny, just how the
+application works. But this doesn't describe what <em>it does.</em> BDD
+rectifies this by separating the specification of the behavior (what behavior
+you are testing) with the implementation of how you test it, and achieves this
+further (in the RoR world, anyways) with a butt-ton of fancy DSLs to make your
+tests read like English.</p></li>
+<li>
+<p><strong>TDD is a boon to the developer, but the benefits aren't directly
+known to the client.</strong> RoR folks, moreso in my anecdotal observation than
+most other types of devs, love to talk about what tools they're using, usually
+much more than the projects they're working on. So while they can circlejerk to
+<em>each other</em> about how great their methodology is and what gems they're
+using, how much better would it be if they could include the person footing the
+bill, and give them that extra-personal experience?</p> <p>I only mention this
+because everytime Cucumber lists its advantages, it's always mentioned that you
+can show your <em>cukes</em> (Feature Definition files) to the clients and they
+will be able to read and understand it, even as nontechnical people. So that's a
+weakness of unit testing, I guess -- you can't show <em>that</em> typing to the
+clients and it be anything meaningful.</li>
+</ul>
 
 I bring all this up because, well, I'm trying to get on this train and
 I'm finding it a bit of a pain in the ass. There are two major reasons
-for it, one the current Ruby ecosystem in particular, and the other
+for it, one being the current Ruby ecosystem in particular, and the other
 simply being skeptical of the whole approach in the first place.
 
 ### BDD in Ruby, today

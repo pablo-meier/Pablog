@@ -44,8 +44,6 @@ let make_outfile_name input_filename datetime =
   let nm = matches.(1) |> Option.value_exn in
   Printf.sprintf "/%4d/%02d/%s.html" year month nm
 
-let add_newlines = String.concat ~sep:"\n"
-
 let all_content = function
   | Split (top, bottom) -> List.append top bottom
   | Whole all -> all
@@ -95,7 +93,7 @@ let reading_time_for content =
  * at the bottom, so we pattern match the split later. *)
 let handle_content contents = 
   let is_separator x = x <> Omd.Html_comment "<!-- more -->" in
-  add_newlines contents
+  Utils.add_newlines contents
     |> Omd.of_string
     |> List.split_while ~f:is_separator
     |> function

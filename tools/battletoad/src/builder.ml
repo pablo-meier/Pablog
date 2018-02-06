@@ -12,11 +12,6 @@ open Model
  * Caching
  * Parallelization. *)
 
-(** Generates the blog's RSS feed *)
-let generate_rss_feeds blog_model =
-    blog_model
-
-
 let format_date {tm_wday; tm_mon; tm_mday; tm_year; _} = 
   let day_of_week = match tm_wday with
     | 0 -> "Sunday"
@@ -89,13 +84,9 @@ let generate_index_pages blog_model =
     let models = make_model tag posts in
     Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "index-template.tmpl")
   in
-  let () =
-    blog_model.posts
+  blog_model.posts
     |> split_into_tag_groups
     |> List.map ~f:(fun (tag, posts) -> (tag_path tag, index_page tag posts))
-    |> List.iter ~f:(Files.write_out_to_file blog_model.build_dir)
-  in
-  blog_model
 
 
 (** Generates the blog's individual post pages *)
@@ -139,29 +130,49 @@ let generate_post_pages (blog_model:blog_model) =
     let models = make_model p in
     Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "post_template.tmpl")
   in
-  let () =
-    blog_model.posts
+  blog_model.posts
     |> List.map ~f:(fun x -> (x.fs_path, post_page x))
-    |> List.iter ~f:(Files.write_out_to_file blog_model.build_dir)
-  in
-  blog_model
 
 
 (** Generates the blog's toplevel homepage *)
 let generate_homepage blog_model =
-    blog_model
+  []
 
 
 (** Generates the blog's toplevel homepage *)
 let generate_statics blog_model =
-    blog_model
+  []
+
+
+(** Generates the blog's RSS feed. Generate an "all" feed to start,
+ * later one for every tag. *)
+let generate_rss_feeds blog_model =
+  let () = Printf.printf "Making RSS feeds...\n" in
+  []
+
+
+(** Generates the sitemap. Note that we need more than merely the post URLs, we also
+ * need homepage, tag pages, statics. *)
+let generate_sitemap blog_model =
+  let () = Printf.printf "Making sitemap...\n" in
+  let contents =
+    blog_model.posts
+    |> List.map ~f:(fun x -> blog_model.hostname ^ x.fs_path)
+    |> Utils.add_newlines
+  in
+  [("sitemap.txt", contents)]
 
 
 let build (model:blog_model) =
   let () = Unix.mkdir_p model.build_dir in
-  model
-    |> generate_index_pages
-    |> generate_rss_feeds
-    |> generate_post_pages
-    |> generate_homepage
-    |> generate_statics
+  let output_funcs = [
+    generate_index_pages;
+    generate_rss_feeds;
+    generate_post_pages;
+    generate_sitemap;
+    generate_homepage;
+    generate_statics;
+  ] in
+  List.map ~f:(fun f -> f model) output_funcs
+    |> List.concat
+    |> List.iter ~f:(Files.write_out_to_file model.build_dir)

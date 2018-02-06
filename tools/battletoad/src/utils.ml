@@ -14,3 +14,6 @@ let option_maybe x = match x with
 
 let fst (x,_) = x
 let snd (_,y) = y
+
+
+let add_newlines = String.concat ~sep:"\n"
