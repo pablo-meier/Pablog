@@ -172,13 +172,12 @@ promoted. Are you accidentally rewarding the above behaviors? Measure how well
 leaders and managers are managing down and treat it as one of your company's
 most important OKRs.
 
-Really, learn that **good company culture, like having correct business
-accounting, is not something you can just count on happening, you must allocate
-resources to it and treat it as critical to the survival of your business.** If
-you misreport your books, your business dies despite your product or your
-customers. Responsible business leaders don't ad-hoc their books, _they hire
-accountants_, they spend money and energy, they do audits. You must do the same
-with culture.
+**Good company culture, like having correct business accounting, is not
+something you can just count on happening, you must allocate resources to it and
+treat it as critical to the survival of your business.** If you misreport your
+books, your business dies despite your product or your customers. Responsible
+business leaders don't ad-hoc their books, _they hire accountants_, they spend
+money and energy, they do audits. You must do the same with culture.
 
 If you have 5 minutes, watch Jay Smooth talk about it on a more personal scale:
 nobody is "finished" being a good person, they must work on it every day.
