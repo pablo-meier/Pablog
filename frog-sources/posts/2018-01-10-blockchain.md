@@ -109,7 +109,7 @@ Let's not forget the xkcd on this:
 So, yes, build that decentralized network so The Thoughts Of People Can Be Free,
 but unless you address that pesky "society" and solve 3-4 other hard problems:
 
-- If the powers that be ever _do_ encouter a challenge, there's a good chance
+- If the powers that be ever _do_ encounter a challenge, there's a good chance
   your New Effort won't be a magical tech that prevents them from getting found
   out and murdered anyways.
 
@@ -119,7 +119,7 @@ but unless you address that pesky "society" and solve 3-4 other hard problems:
 
 - Your network will probably just be a bunch of privileged early adopters who
   may only support noble causes in spirit and intention but end up hurting it
-  (think little Julian Assanges, only not famous).
+  (think little Julian Assanges).
 
 I repeat: **build and defend these tools and networks.** I'm in _no_ way saying
 not to, nor do I mean to diminish the people and work that brought us here. But

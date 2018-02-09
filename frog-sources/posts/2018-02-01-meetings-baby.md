@@ -1,5 +1,5 @@
     Title: 🗣 Meetings, Part 1: Leaders and Org Worms
-    Date: 2018-02-05T11:02:04
+    Date: 2018-02-01T11:02:04
     Tags: culture, engineering, management
 
 _🎵 The song for this post is [Survivor][9], by Destiny's Child 🎵._
@@ -32,7 +32,7 @@ When people complain about meetings, they usually ask the wrong question.
 "what is making this number of meetings feel necessary?"** Well-intentioned
 palliatives like "no-meeting Wednesday" aren't addressing the core problems.
 
-I'll discuss those "core problems" in Part 2; here, I'll talk about how,
+I'll discuss those "core problems" [in Part 2][14]; here, I'll talk about how,
 just [as when we arrive at technical decisions][11], the main driver behind
 what Work At A Company feels like is some very human failure modes by the people
 who make up that company.
@@ -133,7 +133,7 @@ perpetuate and defend it, since it keeps the spotlight on where they are strong
 rather than where they are clueless. Commanding a high salary while always being
 in Important Meetings is one of the most accepted and desirable narratives in professional
 life, so to many people, this _is_ success. It shouldn't surprise that there's
-an unwillingness to question whether all these eeetings are the expensive
+an unwillingness to question whether all these meeetings are the expensive
 illusion of success. **The main thing you can do to remove meetings
 from your org is to remove the people who seem to need them like oxygen.**
 
@@ -172,12 +172,13 @@ promoted. Are you accidentally rewarding the above behaviors? Measure how well
 leaders and managers are managing down and treat it as one of your company's
 most important OKRs.
 
-**Good company culture, like having correct business accounting, is not
-something you can just count on happening, you must allocate resources to it and
-treat it as critical to the survival of your business.** If you misreport your
-books, your business dies despite your product or your customers. Responsible
-business leaders don't ad-hoc their books, _they hire accountants_, they spend
-money and energy, they do audits. You must do the same with culture.
+Really, learn that **good company culture, like having correct business
+accounting, is not something you can just count on happening, you must allocate
+resources to it and treat it as critical to the survival of your business.** If
+you misreport your books, your business dies despite your product or your
+customers. Responsible business leaders don't ad-hoc their books, _they hire
+accountants_, they spend money and energy, they do audits. You must do the same
+with culture.
 
 If you have 5 minutes, watch Jay Smooth talk about it on a more personal scale:
 nobody is "finished" being a good person, they must work on it every day.
@@ -187,8 +188,8 @@ Companies are the same.
 src="https://www.youtube-nocookie.com/embed/E7c9CIHm09M" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-In Part 2, I'll talk a bit about what cultural problems have "creating meetings"
-as a symptom. But really, start with the people.
+In [Part 2,][14] I'll talk a bit about what cultural problems have "creating
+meetings" as a symptom. But really, start with the people.
 
    [1]: https://en.wikipedia.org/wiki/Scheme_(programming_language)
    [2]: http://www.schemers.org/Documents/Standards/R5RS/
@@ -202,3 +203,4 @@ as a symptom. But really, start with the people.
    [11]: /2018/01/services-monoliths-modularity.html
    [12]: https://hyperboleandahalf.blogspot.com/2010/04/alot-is-better-than-you-at-everything.html
    [13]: http://www.paulgraham.com/makersschedule.html
+   [14]: /2018/02/meetings-part-2.html
