@@ -19,7 +19,7 @@ type blog_model = {
   input_fs_path : string;
   build_dir : string;
 
-  posts : Post.post list;
+  posts_by_tag : Post.post list String.Map.t;
   static_pages : Page.page list;
 }
 
@@ -30,7 +30,21 @@ let read_config_values lines = {
     author = "Pablo Meier";
     hostname = "https://morepablo.com";
     build_dir = "bt_build";
-  }
+}
+
+
+(* Takes a list of posts and produces a map of each post in list
+ * *)
+let build_tags_map posts =
+  let conditional_add k d m = match Map.find m k with
+    | None -> Map.add m ~key:k ~data:[d]
+    | Some xs -> Map.add m ~key:k ~data:(d::xs) in
+  let tag_adder map (post:Post.post) =
+    List.fold_left ~f:(fun m tag -> conditional_add tag post m) ~init:map ("all"::post.tags)
+  in
+  posts
+    |> List.fold_left ~f:tag_adder ~init:String.Map.empty
+    |> Map.map ~f:List.rev
 
 
 let build_blog_model path =
@@ -47,6 +61,6 @@ let build_blog_model path =
     hostname = conf.hostname;
     build_dir = conf.build_dir;
 
-    posts = posts;
+    posts_by_tag = build_tags_map posts;
     static_pages = [];
   }

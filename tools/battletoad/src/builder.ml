@@ -41,6 +41,10 @@ let format_date_index {tm_mon; tm_mday; tm_year; _} =
   Printf.sprintf "%d-%02d-%02d" (tm_year + 1900) (tm_mon + 1) tm_mday
 
 
+let all_posts blog_model =
+  Map.find_exn blog_model.posts_by_tag "all"
+
+
 let tag_path tag =
   match tag with
   | "archives" -> "/archives.html"
@@ -55,38 +59,37 @@ let or_string x default = match x with
   | Some y -> Jg_types.Tstr y
   | None -> Jg_types.Tstr default
 
+let index_post_model blog_model {title; datetime; og_description; reading_time; fs_path; _} =
+  Jg_types.Tobj [
+    ("title", Jg_types.Tstr title);
+    ("url", Jg_types.Tstr (post_uri blog_model fs_path));
+    ("datestring", Jg_types.Tstr (format_date_index datetime));
+    ("description", or_string og_description "");
+    ("reading_time", Jg_types.Tint reading_time);
+  ]
+
+(* Model for template rendering Indexes or RSS feed *)
+let index_model blog_model tag posts =
+  [("index_title", Jg_types.Tstr ("Posts: " ^ tag));
+   ("author", Jg_types.Tstr blog_model.author);
+   ("toplevel_description", Jg_types.Tstr ("Post from More Pablo labelled: " ^ tag));
+   ("full_uri", Jg_types.Tstr (blog_model.hostname ^ (tag_path tag)));
+   ("build_date", Jg_types.Tstr "ISO8601");
+   ("og_image", Jg_types.Tstr "https://morepablo.com/pabloface.png");
+   ("posts", Jg_types.Tlist (List.map ~f:(index_post_model blog_model) posts));
+  ]
+
 
 (** Generates the blog's index and tag pages *)
 let generate_index_pages blog_model =
   let () = Printf.printf "Building index pages...\n\n" in
-  let split_into_tag_groups posts =
-    [("archives", posts)]
-  in
-  let post_model {title; datetime; og_description;
-                  reading_time; fs_path; _} =
-    Jg_types.Tobj [
-      ("title", Jg_types.Tstr title);
-      ("url", Jg_types.Tstr (post_uri blog_model fs_path));
-      ("datestring", Jg_types.Tstr (format_date_index datetime));
-      ("description", or_string og_description "");
-      ("reading_time", Jg_types.Tint reading_time);
-    ]
-  in
-  let make_model tag posts =
-    [("index_title", Jg_types.Tstr ("Posts: " ^ tag));
-     ("author", Jg_types.Tstr blog_model.author);
-     ("og_image", Jg_types.Tstr "https://morepablo.com/pabloface.png");
-     ("full_uri", Jg_types.Tstr (blog_model.hostname ^ (tag_path tag)));
-     ("posts", Jg_types.Tlist (List.map ~f:post_model posts));
-    ]
-  in
   let index_page tag posts =
-    let models = make_model tag posts in
+    let models = index_model blog_model tag posts in
     Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "index-template.tmpl")
   in
-  blog_model.posts
-    |> split_into_tag_groups
-    |> List.map ~f:(fun (tag, posts) -> (tag_path tag, index_page tag posts))
+  blog_model.posts_by_tag
+  |> Map.to_alist
+  |> List.map ~f:(fun (tag, posts) -> (tag_path tag, index_page tag posts))
 
 
 (** Generates the blog's individual post pages *)
@@ -95,8 +98,8 @@ let generate_post_pages (blog_model:blog_model) =
   let today_now = Unix.time () |> Unix.gmtime in
   let is_old x = (today_now.tm_year - x.tm_year) > 1 in
   let tag_url tag = Jg_types.Tobj [
-        ("name", Jg_types.Tstr tag);
-        ("url", Jg_types.Tstr (tag_path tag))] in
+      ("name", Jg_types.Tstr tag);
+      ("url", Jg_types.Tstr (tag_path tag))] in
 
   let prev_next_url = function
     | None -> Jg_types.Tnull
@@ -130,8 +133,8 @@ let generate_post_pages (blog_model:blog_model) =
     let models = make_model p in
     Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "post_template.tmpl")
   in
-  blog_model.posts
-    |> List.map ~f:(fun x -> (x.fs_path, post_page x))
+  all_posts blog_model
+  |> List.map ~f:(fun x -> (x.fs_path, post_page x))
 
 
 (** Generates the blog's toplevel homepage *)
@@ -148,7 +151,22 @@ let generate_statics blog_model =
  * later one for every tag. *)
 let generate_rss_feeds blog_model =
   let () = Printf.printf "Making RSS feeds...\n" in
-  []
+  let make_rss_from tag posts =
+    "It's an RSS feed for " ^ tag
+  in
+  let make_atom_from tag posts =
+    "It's an Atom feed for " ^ tag
+  in
+  let make_feeds_for ~key ~data =
+    let rss_filename = Filename.concat "feeds" (key ^ ".rss.xml") in
+    let atom_filename = Filename.concat "feeds" (key ^ ".atom.xml") in
+    [(rss_filename, make_rss_from key data);
+     (atom_filename, make_atom_from key data)]
+  in
+  blog_model.posts_by_tag
+  |> Map.keys
+  |> List.map ~f:(fun k -> make_feeds_for k (Map.find_exn blog_model.posts_by_tag k))
+  |> List.concat
 
 
 (** Generates the sitemap. Note that we need more than merely the post URLs, we also
@@ -156,7 +174,7 @@ let generate_rss_feeds blog_model =
 let generate_sitemap blog_model =
   let () = Printf.printf "Making sitemap...\n" in
   let contents =
-    blog_model.posts
+    all_posts blog_model 
     |> List.map ~f:(fun x -> blog_model.hostname ^ x.fs_path)
     |> Utils.add_newlines
   in
@@ -174,5 +192,5 @@ let build (model:blog_model) =
     generate_statics;
   ] in
   List.map ~f:(fun f -> f model) output_funcs
-    |> List.concat
-    |> List.iter ~f:(Files.write_out_to_file model.build_dir)
+  |> List.concat
+  |> List.iter ~f:(Files.write_out_to_file model.build_dir)
