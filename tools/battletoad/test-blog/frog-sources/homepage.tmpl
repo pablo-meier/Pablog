@@ -1,0 +1,60 @@
+{% extends "test-blog/frog-sources/base.tmpl" %}
+
+{% block header %}
+    <title>{{title}}</title>
+    <meta name="author" content="{{author}}">
+    <meta name="keywords" content="Pablo Meier, {{keywords_list}}">
+    
+    <meta name="description" content="{{description_abridged}}">
+    <meta property="og:description" content="{{og_description}}">
+
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:image" content="{{og_image}}">
+    
+    <meta property="og:url" content="{{full_uri}}">
+    <link rel="canonical" href="{{full_uri}}">
+    
+    <meta property="og:type" content="website">
+    <link ref="alternate" type="application/rss+xml" href="{{rss_feed_uri}}" title="RSS Feed">
+{% endblock %}
+
+{% block main %}
+    <div id="index-header">
+      <div id="index-header-row">
+        <div id="index-header-synopsis">
+          <h1>Pablo Meier</h1>
+          <p>I &#9829; people; look for ways to make them happy, and empower them. Historically, this has been connected to software and live performance.</p>
+        </div>
+        <div class="caption-img-block">
+          <img src="/img/static/pabloface.png" alt="Photo of me, gosh I'm handsome" />
+        </div>
+      </div>
+      <div id="post-row">
+        <div id="newest-posts">
+            <h2>Newest Posts</h2>
+            <ul>
+              {% for post in posts %}
+                <li>{{post.datestring}} &mdash; <a href='{{post.url}}'>{{post.title}}</a></li>
+              {% endfor %}
+            </ul>
+            <p>Archives for <a href="/archives.html">all posts</a>, or by category ().
+        </div>
+        <div id="favorite-posts">
+            <h2>My Favorites</h2>
+            <ul>
+                <li>Nerd talk over <a href="/2018/01/services-monoliths-modularity.html">modularity, monoliths, and microservices</a> in 2018.</li>
+                <li>Opening up <a href="/2013/10/on-depression-mine.html">on my depression</a> in 2013.</li>
+                <li><a href="/2016/08/six-months-of-managing.html">Thoughts on engineering management</a> after my first time doing it, in 2016.</li>
+                <li><a href="/2016/10/programming-interview.html">Thoughts on tech interviews</a> (with a set of juicy links at the bottom), also 2016.</li>
+                <li>Lessons on building my first commercial Android apps (2013, parts <a href="/2014/12/tech-of-sup-android.html">1</a>, <a href="/2014/12/tech-of-sup-android-libraries.html">2</a>, and <a href="/2014/12/tech-of-sup-android-misc.html">3</a>).</li>
+                <li>Year in Review (<a href="/2016/01/year-in-review.html">2015</a>, <a href="/2017/06/year-in-review.html">2016</a>, <a href="/2017/12/2017-in-review.html">2017</a>) posts.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>More</h3>
+            <p>You can read more <a href="/About.html">about me</a>, about <a href="/Engineering.html">my feelings on engineering and management</a>, my <a href="/Performance.html">feelings about arts and live performance</a>. If you like RSS, subscribe to <a href="/feeds/all.rss.xml">the feed!</a></p>
+            <p>(If you're really nerdy, read about <a href="/About-Site.html">what powers this site</a>, and/or try opening your JavaScript console!)</p>
+        </div>
+      </div>
+    </div>
+{% endblock %}

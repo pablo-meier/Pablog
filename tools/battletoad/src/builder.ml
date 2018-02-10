@@ -9,6 +9,11 @@ open Post
 open Model
 
 (** TODOs:
+ *
+ * Inline TODOs
+ * pabloface hardcode
+ * hardcode magic numbers
+ *
  * Caching
  * Parallelization. *)
 
@@ -44,13 +49,17 @@ let format_date_index {tm_mon; tm_mday; tm_year; _} =
 let format_date_iso8601 dt =
   "2018-02-15T10:20:000"
 
+
 let all_posts blog_model =
   Map.find_exn blog_model.posts_by_tag "all"
 
 
+let take num lst = List.take lst num
+
+
 let tag_path tag =
   match tag with
-  | "archives" -> "/archives.html"
+  | "all" -> "/archives.html"
   | _ -> String.concat ["/tags/"; tag; ".html"]
 
 
@@ -86,7 +95,7 @@ let index_model blog_model tag posts =
 
 (** Generates the blog's index and tag pages *)
 let generate_index_pages blog_model =
-  let () = Printf.printf "Building index pages...\n\n" in
+  let () = Printf.printf "Building index pages...\n" in
   let index_page tag posts =
     let models = index_model blog_model tag posts in
     Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "index-template.tmpl")
@@ -98,7 +107,7 @@ let generate_index_pages blog_model =
 
 (** Generates the blog's individual post pages *)
 let generate_post_pages (blog_model:blog_model) =
-  let () = Printf.printf "Building post pages...\n\n" in
+  let () = Printf.printf "Building post pages...\n" in
   let today_now = Unix.time () |> Unix.gmtime in
   let is_old x = (today_now.tm_year - x.tm_year) > 1 in
   let tag_url tag = Jg_types.Tobj [
@@ -123,7 +132,7 @@ let generate_post_pages (blog_model:blog_model) =
      ("og_description",       or_string og_description blog_model.description);
      ("og_image",             or_string og_image "https://morepablo.com/pabloface.png");
      ("full_uri",             Jg_types.Tstr (post_uri blog_model fs_path));
-     ("rss_feed_uri",         Jg_types.Tstr "/feeds.xml");
+     ("rss_feed_uri",         Jg_types.Tstr "/feeds/all.atom.xml");
      ("formatted_date",       Jg_types.Tstr (format_date datetime));
      ("tags",                 Jg_types.Tlist (List.map ~f:tag_url tags));
      ("reading_time",         Jg_types.Tint reading_time);
@@ -143,7 +152,27 @@ let generate_post_pages (blog_model:blog_model) =
 
 (** Generates the blog's toplevel homepage *)
 let generate_homepage blog_model =
-  []
+  let () = Printf.printf "Building homepage...\n" in
+  let homepage_model posts =
+    [("title",                Jg_types.Tstr blog_model.title);
+     ("author",               Jg_types.Tstr blog_model.author);
+     ("description_abridged", Jg_types.Tstr blog_model.description);
+     ("og_description",       Jg_types.Tstr blog_model.description);
+     ("rss_feed_uri",         Jg_types.Tstr "/feeds/all.atom.xml");
+     ("full_uri", Jg_types.Tstr blog_model.hostname);
+     ("og_image", Jg_types.Tstr "https://morepablo.com/pabloface.png");
+     ("posts", Jg_types.Tlist (List.map ~f:(index_post_model blog_model) posts));
+    ]
+  in
+  let render_homepage posts =
+    let models = homepage_model posts in
+    let contents = Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "homepage.tmpl") in
+    [("index.html", contents)]
+  in
+  blog_model
+  |> all_posts
+  |> take 5
+  |> render_homepage
 
 
 (** Generates the blog's static pages *)
@@ -158,7 +187,7 @@ let generate_statics blog_model =
  * Formatting the last build date to ISO8601 is borken.
  * *)
 let generate_rss_feeds blog_model =
-  let () = Printf.printf "Making RSS feeds...\n" in
+  let () = Printf.printf "Building RSS feeds...\n" in
   let make_rss_from models =
     Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "rss.xml.tmpl")
   in
@@ -180,14 +209,14 @@ let generate_rss_feeds blog_model =
 
 (** Generates the sitemap. *)
 let generate_sitemap blog_model pairs =
-  let () = Printf.printf "Making sitemap...\n" in
+  let () = Printf.printf "Building sitemap...\n" in
   let contents =
     pairs
     |> List.map ~f:Utils.fst
     |> List.map ~f:(fun x -> Filename.concat blog_model.hostname x)
     |> Utils.add_newlines
   in
-  [("sitemap.txt", contents)]
+  ("sitemap.txt", contents)::pairs
 
 
 let build (model:blog_model) =
