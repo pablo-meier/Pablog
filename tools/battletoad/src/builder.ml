@@ -41,6 +41,9 @@ let format_date_index {tm_mon; tm_mday; tm_year; _} =
   Printf.sprintf "%d-%02d-%02d" (tm_year + 1900) (tm_mon + 1) tm_mday
 
 
+let format_date_iso8601 dt =
+  "2018-02-15T10:20:000"
+
 let all_posts blog_model =
   Map.find_exn blog_model.posts_by_tag "all"
 
@@ -59,22 +62,23 @@ let or_string x default = match x with
   | Some y -> Jg_types.Tstr y
   | None -> Jg_types.Tstr default
 
-let index_post_model blog_model {title; datetime; og_description; reading_time; fs_path; _} =
+let index_post_model blog_model {title; datetime; og_description; reading_time; fs_path; content; _} =
   Jg_types.Tobj [
     ("title", Jg_types.Tstr title);
     ("url", Jg_types.Tstr (post_uri blog_model fs_path));
     ("datestring", Jg_types.Tstr (format_date_index datetime));
     ("description", or_string og_description "");
     ("reading_time", Jg_types.Tint reading_time);
+    ("content", Post.all_content content |> Omd.to_html |> Jg_types.Tstr);
   ]
 
 (* Model for template rendering Indexes or RSS feed *)
 let index_model blog_model tag posts =
-  [("index_title", Jg_types.Tstr ("Posts: " ^ tag));
+  [("index_title", Jg_types.Tstr (String.concat [blog_model.title; ": "; tag]));
    ("author", Jg_types.Tstr blog_model.author);
    ("toplevel_description", Jg_types.Tstr ("Post from More Pablo labelled: " ^ tag));
    ("full_uri", Jg_types.Tstr (blog_model.hostname ^ (tag_path tag)));
-   ("build_date", Jg_types.Tstr "ISO8601");
+   ("build_date", Jg_types.Tstr (Unix.gettimeofday () |> Unix.gmtime |> format_date_iso8601));
    ("og_image", Jg_types.Tstr "https://morepablo.com/pabloface.png");
    ("posts", Jg_types.Tlist (List.map ~f:(index_post_model blog_model) posts));
   ]
@@ -142,40 +146,45 @@ let generate_homepage blog_model =
   []
 
 
-(** Generates the blog's toplevel homepage *)
+(** Generates the blog's static pages *)
 let generate_statics blog_model =
   []
 
 
 (** Generates the blog's RSS feed. Generate an "all" feed to start,
- * later one for every tag. *)
+ * later one for every tag.
+ *
+ * TODO: ID tag is hardcoded.
+ * Formatting the last build date to ISO8601 is borken.
+ * *)
 let generate_rss_feeds blog_model =
   let () = Printf.printf "Making RSS feeds...\n" in
-  let make_rss_from tag posts =
-    "It's an RSS feed for " ^ tag
+  let make_rss_from models =
+    Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "rss.xml.tmpl")
   in
-  let make_atom_from tag posts =
-    "It's an Atom feed for " ^ tag
+  let make_atom_from models =
+    Jg_template.from_file ~models:models (Filename.concat blog_model.input_fs_path "atom.xml.tmpl")
   in
-  let make_feeds_for ~key ~data =
-    let rss_filename = Filename.concat "feeds" (key ^ ".rss.xml") in
-    let atom_filename = Filename.concat "feeds" (key ^ ".atom.xml") in
-    [(rss_filename, make_rss_from key data);
-     (atom_filename, make_atom_from key data)]
+  let make_feeds_for (tag, posts) =
+    let rss_filename = Filename.concat "feeds" (tag ^ ".rss.xml") in
+    let atom_filename = Filename.concat "feeds" (tag ^ ".atom.xml") in
+    let models = index_model blog_model tag (List.take posts 10) in
+    [(rss_filename, make_rss_from models);
+     (atom_filename, make_atom_from models)]
   in
   blog_model.posts_by_tag
-  |> Map.keys
-  |> List.map ~f:(fun k -> make_feeds_for k (Map.find_exn blog_model.posts_by_tag k))
-  |> List.concat
+    |> Map.to_alist
+    |> List.map ~f:make_feeds_for
+    |> List.concat
 
 
-(** Generates the sitemap. Note that we need more than merely the post URLs, we also
- * need homepage, tag pages, statics. *)
-let generate_sitemap blog_model =
+(** Generates the sitemap. *)
+let generate_sitemap blog_model pairs =
   let () = Printf.printf "Making sitemap...\n" in
   let contents =
-    all_posts blog_model 
-    |> List.map ~f:(fun x -> blog_model.hostname ^ x.fs_path)
+    pairs
+    |> List.map ~f:Utils.fst
+    |> List.map ~f:(fun x -> Filename.concat blog_model.hostname x)
     |> Utils.add_newlines
   in
   [("sitemap.txt", contents)]
@@ -187,10 +196,10 @@ let build (model:blog_model) =
     generate_index_pages;
     generate_rss_feeds;
     generate_post_pages;
-    generate_sitemap;
     generate_homepage;
     generate_statics;
   ] in
   List.map ~f:(fun f -> f model) output_funcs
   |> List.concat
+  |> (generate_sitemap model)
   |> List.iter ~f:(Files.write_out_to_file model.build_dir)
