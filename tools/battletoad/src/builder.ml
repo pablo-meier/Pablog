@@ -68,8 +68,7 @@ let tag_path tag =
   | _ -> String.concat ["/tags/"; tag; ".html"]
 
 
-let post_uri ({hostname;_}:blog_model) fs_path =
-  hostname ^ "/" ^ fs_path
+let post_uri ({hostname;_}:blog_model) fs_path = Filename.concat hostname fs_path
 
 
 let or_string x default = match x with

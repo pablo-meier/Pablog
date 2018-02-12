@@ -7,7 +7,7 @@ let create_new_post name =
 
 
 let build_site () =
-  let _unused = Model.build_blog_model "./test-blog/frog-sources"
+  let _unused = Model.build_blog_model "./bigger-test-case/"
     |> Builder.build
   in ()
 

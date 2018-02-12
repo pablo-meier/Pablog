@@ -35,7 +35,7 @@ type post = {
 }
 
 let metadata_regex : Re2.regex = Re2.create_exn "^    ([^:]+): *(.+)$"
-let filename_regex : Re2.regex = Re2.create_exn ".+/\\d\\d\\d\\d-\\d\\d-\\d\\d-([a-z-]+)\\.md$"
+let filename_regex : Re2.regex = Re2.create_exn ".+/\\d\\d\\d\\d-\\d\\d-\\d\\d-([a-z-0-9]+)\\.md$"
 
 let make_outfile_name input_filename datetime =
   let year = datetime.tm_year + 1900 in
