@@ -21,4 +21,4 @@ build:
 	mv _build/src/main.byte $(OUTPUT)
 
 clean:
-	rm -rf $(OUTPUT) _build
+	rm -rf $(OUTPUT) _build bt_build

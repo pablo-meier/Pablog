@@ -135,11 +135,11 @@ let handle_metadata data =
         | _ -> None
   in
 
-  let to_datetime = Fn.compose Unix.gmtime ISO8601.Permissive.datetime in
+  let to_datetime = Fn.compose Unix.gmtime (ISO8601.Permissive.datetime ~reqtime:true) in
 
   let title = metadata_handle "Title" |> Option.value_exn in
   let datetime = metadata_handle "Date" |> Option.value_exn |> to_datetime in
-  let tags = metadata_handle "Tags" |> Option.value_exn |> String.split ~on:',' |> List.map ~f:String.strip in
+  let tags = metadata_handle "Tags" |> Option.value_exn |> String.split ~on:',' |> List.map ~f:(String.strip ) in
   let og_img = metadata_handle "og_image" in
   let og_desc = metadata_handle "og_description" in
   (title, datetime, tags, og_img, og_desc)
@@ -206,8 +206,8 @@ let form_prev_next_links posts =
 
 (** Do JSON libraries make this any easier? _Still_ no Deriving Show? O_O *)
 let post_to_string {title; datetime; tags; og_image; og_description;
-                    content; reading_time; next_post_fs_path;
-                    prev_post_fs_path;
+                    reading_time; next_post_fs_path;
+                    prev_post_fs_path; _
                    } =
   let get_timestring x = Unix.mktime x |> (fun (x,_) -> x) |> ISO8601.Permissive.string_of_datetime in
   let time_str = get_timestring datetime in
@@ -218,7 +218,7 @@ let post_to_string {title; datetime; tags; og_image; og_description;
   let tag_string = Utils.from_string_list tags in
   let og_img = Utils.option_maybe og_image in
   let og_desc = Utils.option_maybe og_description in
-  let next_or_prev = function | None -> "None" | Some {title = t; path = p} -> p in
+  let next_or_prev = function | None -> "None" | Some {path = p;_} -> p in
   let prev = next_or_prev prev_post_fs_path in
   let next = next_or_prev next_post_fs_path in
 

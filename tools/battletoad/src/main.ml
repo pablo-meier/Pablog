@@ -3,12 +3,14 @@ open Core
 
 
 let create_new_post name =
-    Printf.printf "New post named %s\n" name
+  Printf.printf "New post named %s\n" name
+
 
 let build_site () =
   let _unused = Model.build_blog_model "./test-blog/frog-sources"
     |> Builder.build
   in ()
+
 
 let toplevel new_post should_build () =
     match should_build with
@@ -24,6 +26,7 @@ let spec =
     +> flag "-n" (optional string) ~doc:"create a template blog post"
     +> flag "-b" no_arg ~doc:" build the site from scratch."
 
+
 let command =
     Command.basic
       ~summary:"Static site generation with goodies"
@@ -34,5 +37,6 @@ me at present, so we have Battletoads!
 |})
       spec
       toplevel
+
 
 let () = Command.run ~version:"1.0" ~build_info:"RWO" command

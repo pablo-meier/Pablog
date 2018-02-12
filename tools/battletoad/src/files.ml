@@ -15,7 +15,7 @@ let to_record x =
 
 
 let whitelist = [".md$"; ".html$"]
-let whitelist_regexes = List.map ~f:Re2.create_exn whitelist
+let whitelist_regexes = List.map ~f:(Re2.create_exn ~options:[]) whitelist
 let in_whitelist x = List.exists whitelist_regexes ~f:(fun y -> Re2.matches y x)
 
 (** Retrieves files from a directory and their contents as lines *)

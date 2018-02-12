@@ -50,9 +50,11 @@ let build_tags_map posts =
 let build_blog_model path =
   let conf = read_config_values (Filename.concat path "frog.rkt") in
   let posts = Files.file_contents_in_dir (Filename.concat path "posts")
-    |> List.map ~f:(fun x -> Post.make_post x)
+    |> List.map ~f:Post.make_post
     |> List.sort ~cmp:Post.compare_post_dates
     |> Post.form_prev_next_links in
+  let statics = Files.file_contents_in_dir (Filename.concat path "pages")
+    |> List.map ~f:Page.to_page in
   {
     title = conf.title;
     description = conf.description;
@@ -62,5 +64,5 @@ let build_blog_model path =
     build_dir = conf.build_dir;
 
     posts_by_tag = build_tags_map posts;
-    static_pages = [];
+    static_pages = statics;
   }

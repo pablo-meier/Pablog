@@ -1,10 +1,28 @@
-(** Ultimately, the content gets written as _something,_ usually as a page, or
- * part of a page. Every entity we write out gets written from here. *)
+open Core
+open ISO8601.Permissive
+open Re2.Std
+open Re2.Infix
+open Omd
 
-type page_type = PostPage | IndexPage | RssFeed | Homepage | StaticPage
 
+(* Static pages are simpler *)
 type page = {
-  file_loc : string;
-  of_type : page_type;
-  contents : string
+  title : string;
+  description : string;
+  fs_path : string;
+  contents : Omd.t;
 }
+
+
+let to_page (record:Files.file_with_contents) =
+  let contents =
+    record.lines
+    |> Utils.add_newlines
+    |> Omd.of_string
+  in
+  {
+    title = "Static Page";
+    description = "Description";
+    fs_path = record.name;
+    contents = contents;
+  }
