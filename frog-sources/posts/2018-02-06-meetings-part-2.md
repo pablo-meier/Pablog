@@ -117,7 +117,7 @@ they're always "too busy" to read email or docs. If management is top-down,
 meetings become a way to _get permission_ instead of _state intent,_ and the
 company fails to scale because the workers don't feel like they have ownership
 or autonomy (which also [makes them leave][13]). Because Leader's permission 
-is needed to move forward, the all teams need that attention, Leader gets busy
+is needed to move forward, and all teams need that attention, Leader gets busy
 and can't read the prepared docs adequately. The only way to get their full
 attention is to put them in a meeting. So.
 
