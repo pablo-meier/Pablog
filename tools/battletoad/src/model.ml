@@ -1,4 +1,5 @@
 open Core
+open Inifiles
 
 
 (** not exported, just a placeholder to read from the separate config file *)
@@ -19,18 +20,32 @@ type blog_model = {
   input_fs_path : string;
   build_dir : string;
 
-  posts_by_tag : Post.post list String.Map.t;
-  static_pages : Page.page list;
+  posts_by_tag : Post.t list String.Map.t;
+  static_pages : Page.t list;
 }
 
+type t = blog_model
 
-let read_config_values lines = {
-    title = "More Pablo";
-    description = "Description";
-    author = "Pablo Meier";
-    hostname = "https://morepablo.com";
-    build_dir = "bt_build";
-}
+
+let title {title;_ } = title
+let description {description;_ } = description
+let author {author;_ } = author
+let hostname {hostname;_ } = hostname
+let input_fs_path {input_fs_path;_ } = input_fs_path
+let build_dir {build_dir;_ } = build_dir
+let posts_by_tag {posts_by_tag;_ } = posts_by_tag
+let static_pages {static_pages;_ } = static_pages
+
+
+let read_config_values path =
+  let ini = new Inifiles.inifile path in
+  {
+    title =       ini#getval "general" "title";
+    description = ini#getval "general" "description";
+    author =      ini#getval "general" "author";
+    hostname =    ini#getval "general" "hostname";
+    build_dir =   ini#getval "general" "build_dir";
+  }
 
 
 (* Takes a list of posts and produces a map of each post in list
@@ -39,22 +54,22 @@ let build_tags_map posts =
   let conditional_add k d m = match Map.find m k with
     | None -> Map.add m ~key:k ~data:[d]
     | Some xs -> Map.add m ~key:k ~data:(d::xs) in
-  let tag_adder map (post:Post.post) =
-    List.fold_left ~f:(fun m tag -> conditional_add tag post m) ~init:map ("all"::post.tags)
+  let tag_adder map (post:Post.t) =
+    List.fold_left ~f:(fun m tag -> conditional_add tag post m) ~init:map ("all"::(Post.tags post))
   in
   posts
-    |> List.fold_left ~f:tag_adder ~init:String.Map.empty
-    |> Map.map ~f:List.rev
+  |> List.fold_left ~f:tag_adder ~init:String.Map.empty
+  |> Map.map ~f:List.rev
 
 
 let build_blog_model path =
-  let conf = read_config_values (Filename.concat path "frog.rkt") in
+  let conf = read_config_values (Filename.concat path "config.ini") in
   let posts = Files.file_contents_in_dir (Filename.concat path "posts")
-    |> List.map ~f:Post.make_post
-    |> List.sort ~cmp:Post.compare_post_dates
-    |> Post.form_prev_next_links in
+  |> List.map ~f:Post.make_post
+  |> List.sort ~cmp:Post.compare_post_dates
+  |> Post.form_prev_next_links in
   let statics = Files.file_contents_in_dir (Filename.concat path "pages")
-    |> List.map ~f:Page.to_page in
+  |> List.map ~f:Page.to_page in
   {
     title = conf.title;
     description = conf.description;

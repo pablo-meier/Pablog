@@ -8,7 +8,7 @@ build:
 		-pkg ISO8601 \
 		-pkg omd \
 		-pkg jingoo \
-		-pkg xml-light \
+		-pkg inifiles \
 		-tag "ppx(ppx-jane -as-ppx)" \
 		-tag thread \
 		-tag debug \
@@ -28,7 +28,7 @@ prod:
 		-pkg ISO8601 \
 		-pkg omd \
 		-pkg jingoo \
-		-pkg xml-light \
+		-pkg inifiles \
 		-tag "ppx(ppx-jane -as-ppx)" \
 		-tag thread \
 		-tag debug \

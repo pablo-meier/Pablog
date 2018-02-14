@@ -9,16 +9,10 @@ open Omd
 
 open Files
 
-(** Data/functions related to posts. *)
 
 type post_body = Split of (Omd.t * Omd.t) | Whole of Omd.t
 
-type post_linkable = {
-  title : string;
-  path : string
-}
 
-(** Record for a completed, publishable post *)
 type post = {
   title : string;
   datetime : Unix.tm;
@@ -30,9 +24,11 @@ type post = {
   fs_path : string;
   reading_time : int;
 
-  next_post_fs_path : post_linkable option;
-  prev_post_fs_path : post_linkable option;
+  next_post_fs_path : (string * string) option;
+  prev_post_fs_path : (string * string) option;
 }
+
+type t = post
 
 let metadata_regex : Re2.regex = Re2.create_exn "^    ([^:]+): *(.+)$"
 let filename_regex : Re2.regex = Re2.create_exn ".+/\\d\\d\\d\\d-\\d\\d-\\d\\d-([a-z-0-9]+)\\.md$"
@@ -44,10 +40,13 @@ let make_outfile_name input_filename datetime =
   let nm = matches.(1) |> Option.value_exn in
   Printf.sprintf "/%4d/%02d/%s.html" year month nm
 
-let all_content = function
+
+let all_body = function
   | Split (top, bottom) -> List.append top bottom
   | Whole all -> all
 
+
+let all_content {content; _} = all_body content
 
 (** Doing the naive thing Medium stated they did way back when:
   *
@@ -59,7 +58,9 @@ let all_content = function
   * inline Markdown or HTML.
   *)
 let reading_time_for content =
-  let rec words_in = function
+  let rec words_in lst = 
+    let sum_all x = List.map ~f:words_in x |> List.fold_left ~f:(+) ~init:0 in
+    match lst with
     | [] -> 0
     | x::xs -> let rst = match x with
       | Omd.H1 x -> words_in x
@@ -72,20 +73,20 @@ let reading_time_for content =
       | Omd.Text x -> String.length x
       | Omd.Emph x -> words_in x
       | Omd.Bold x -> words_in x
-      | Omd.Ul x -> List.map ~f:words_in x |> List.fold_left ~f:(+) ~init:0
-      | Omd.Ol x -> List.map ~f:words_in x |> List.fold_left ~f:(+) ~init:0
-      | Omd.Ulp x -> List.map ~f:words_in x |> List.fold_left ~f:(+) ~init:0
-      | Omd.Olp x -> List.map ~f:words_in x |> List.fold_left ~f:(+) ~init:0
+      | Omd.Ul x -> sum_all x
+      | Omd.Ol x -> sum_all x
+      | Omd.Ulp x -> sum_all x
+      | Omd.Olp x -> sum_all x
       | Omd.Blockquote x -> words_in x
       | _ -> 0
     in rst + words_in xs
   in
-  let corpus = all_content content in
+  let corpus = all_body content in
   words_in corpus
-    |> Pervasives.float_of_int
-    |> (fun x -> x /. 275.0)
-    |> Pervasives.ceil
-    |> Pervasives.int_of_float
+  |> Pervasives.float_of_int
+  |> (fun x -> x /. 275.0)
+  |> Pervasives.ceil
+  |> Pervasives.int_of_float
 
 
 (** Given a bunch of non-metadata lines, returns it as either Whole or Split. We have to
@@ -94,12 +95,12 @@ let reading_time_for content =
 let handle_content contents = 
   let is_separator x = x <> Omd.Html_comment "<!-- more -->" in
   Utils.add_newlines contents
-    |> Omd.of_string
-    |> List.split_while ~f:is_separator
-    |> function
-      | (top, []) -> Whole top
-      | (top, bottom) -> Split (top, List.drop bottom 3)
-      (* We drop the first 3 here because they include the comment + newlines *)
+  |> Omd.of_string
+  |> List.split_while ~f:is_separator
+  |> function
+    | (top, []) -> Whole top
+    | (top, bottom) -> Split (top, List.drop bottom 3)
+    (* We drop the first 3 here because they include the comment + newlines *)
 
 
 (** At a high level, we go iterate through lines. First we take metadata
@@ -145,16 +146,10 @@ let handle_metadata data =
   (title, datetime, tags, og_img, og_desc)
 
 
-(** Given a string input (presumably the contents of a file), produce a Post.
- *
- * The first thing we do is create a post_input which is a raw reading of
- * the contents, after which we can calculate the remaining values in a full-blown
- * post.
- * *)
-let make_post (contents:file_with_contents) =
-  let (metadata, content) = split_contents contents.lines in
+let make_post contents =
+  let (metadata, content) = Files.lines contents |> split_contents in
   let (title, datetime, tags, og_img, og_desc) = handle_metadata metadata in
-  let pathname = make_outfile_name contents.name datetime in
+  let pathname = make_outfile_name (Files.name contents) datetime in
   {
     title = title;
     datetime = datetime;
@@ -179,12 +174,24 @@ let compare_post_dates {datetime = datetime1;_} {datetime = datetime2;_} =
   | _ -> -1
 
 
-(** Pray, motherfuckers *)
+let title {title;_} = title
+let datetime {datetime;_} = datetime
+let tags {tags;_} = tags
+let og_image {og_image;_} = og_image
+let og_description {og_description;_} = og_description
+let content {content;_} = content
+let fs_path {fs_path;_} = fs_path
+let reading_time {reading_time;_} = reading_time
+let next_post_fs_path {next_post_fs_path;_} = next_post_fs_path
+let prev_post_fs_path {prev_post_fs_path;_} = prev_post_fs_path
+
+
+(* Pray, motherfuckers *)
 let form_prev_next_links posts =
   let arr = Array.of_list posts in
   let fs_path_at x = 
     let p = (Array.get arr x) in
-    Some {title = p.title; path = p.fs_path}
+    Some (p.title, p.fs_path)
   in
   let foldable (count, accum) post =
     let (prev_in, next_in) = (count - 1, count + 1) in
@@ -195,7 +202,7 @@ let form_prev_next_links posts =
       | (_, _) -> (fs_path_at prev_in, fs_path_at next_in)
     in
     let updated_post =
-      {post with next_post_fs_path = next; prev_post_fs_path = prev; }
+      {post with next_post_fs_path = next; prev_post_fs_path = prev}
     in
     (count + 1, updated_post::accum)
   in
@@ -218,7 +225,7 @@ let post_to_string {title; datetime; tags; og_image; og_description;
   let tag_string = Utils.from_string_list tags in
   let og_img = Utils.option_maybe og_image in
   let og_desc = Utils.option_maybe og_description in
-  let next_or_prev = function | None -> "None" | Some {path = p;_} -> p in
+  let next_or_prev = function | None -> "None" | Some (p,_) -> p in
   let prev = next_or_prev prev_post_fs_path in
   let next = next_or_prev next_post_fs_path in
 

@@ -8,10 +8,15 @@ type file_with_contents = {
   name : string;
   lines : string list;
 }
+type t = file_with_contents
 
 
 let to_record x =
   {name = x; lines = In_channel.read_lines x}
+
+
+let name {name;_} = name
+let lines {lines;_} = lines
 
 
 let whitelist = [".md$"; ".html$"]
@@ -21,10 +26,10 @@ let in_whitelist x = List.exists whitelist_regexes ~f:(fun y -> Re2.matches y x)
 (** Retrieves files from a directory and their contents as lines *)
 let file_contents_in_dir dirname =
   Sys.readdir dirname
-    |> Array.to_list
-    |> List.map ~f:(Filename.concat dirname)
-    |> List.filter ~f:in_whitelist
-    |> List.map ~f:to_record
+  |> Array.to_list
+  |> List.map ~f:(Filename.concat dirname)
+  |> List.filter ~f:in_whitelist
+  |> List.map ~f:to_record
 
 
 let write_out_to_file build_dir (path, content) =
