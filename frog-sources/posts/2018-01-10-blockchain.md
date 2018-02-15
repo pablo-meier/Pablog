@@ -16,16 +16,16 @@ point to some of my favorite pieces on blockchains, cryptocurrency, and
 decentralization:
 
 **[Ten years in, nobody has come up with a use for blockchain][2],** by [Kai
-Stinchcombe][5].  I love that his subheading is "whatever the opposite of a
+Stinchcombe][5].  I love his subheading "whatever the opposite of a
 futurist is." It makes a pretty compelling case that many of the "revolutionary"
 applications of blockchains have been about as effective at replacing their
 incumbents as Wile E. Coyote is at catching birds. Which! Doesn't mean they
 **can't** succeed! Just that they haven't, very comically.
 
 **[The Problem with Calling Bitcoin a "Ponzi Scheme"][3]** by [Preston
-Byrne][4], which goes pretty into detail about how cryptocurrencies manage
-to capture the working parts of both Pyramid and Ponzi schemes while reducing
-their weaknesses to getting caught and ferreted out.
+Byrne][4], which details how cryptocurrencies manage to capture the working
+parts of both Pyramid and Ponzi schemes while reducing their weaknesses to
+getting caught, ferreted out.
 
 [Summer Hale][20] has **[an essay that touches on Federated vs. Distributed vs.
 Centralized][10]** very intelligently from the perspective of risk and
@@ -49,14 +49,12 @@ other realities about them:
 
 #### They can reinforce existing power structures as much as they thwart them
 
-New systems and technologies require _access_, and _that_ is usually gated. For
-example, it would've been hard to participate in the 90's dot-com boom without
-computer access.
-
-Similarly, who were the first to get cell phones, and the increased productivity
-as a result? The Internet and Google Search? YouTube may have "freed" many
-content creators from the inefficiencies of TV, but you needed a camera and
-decent upload speed to be one of the early YouTubers.
+New systems and technologies require access, and _that_ is usually gated. It
+would have been hard to participate in the 90's dot-com boom without
+computer access. Who were the first to get cell phones, and the increased
+productivity as a result? The Internet and Google Search? YouTube may have
+"freed" many content creators from the inefficiencies of TV, but you needed a
+camera and decent upload speed to be one of the early YouTubers.
 
 Unless you specifically design your Enabler Of Freedom around the folks who need
 it most, the ones who will usually benefit the most strongly will be the ones
