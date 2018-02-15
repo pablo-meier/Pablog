@@ -6,6 +6,7 @@ open Core
  *
  * Inline TODOs
  * hardcode magic numbers
+ * URI should be relative except canonical
  *
  * Caching
  * Parallelization. *)

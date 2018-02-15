@@ -68,10 +68,17 @@ let build_tags_map posts =
   |> Map.map ~f:List.rev
 
 
+let no_drafts post =
+  match Post.tags post |> List.find ~f:(String.equal "DRAFT") with
+  | Some _ -> false
+  | None -> true
+
+
 let build_blog_model path =
   let conf = read_config_values (Filename.concat path "config.ini") in
   let posts = Files.file_contents_in_dir (Filename.concat path "posts")
   |> List.map ~f:Post.make_post
+  |> List.filter ~f:no_drafts
   |> List.sort ~cmp:Post.compare_post_dates
   |> Post.form_prev_next_links in
   let statics = Files.file_contents_in_dir (Filename.concat path "pages")
