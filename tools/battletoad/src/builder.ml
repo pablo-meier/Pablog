@@ -1,18 +1,10 @@
-open Printf
 open Unix
-
 open Core
-open Jg_template
-open Jg_types
-open ISO8601.Permissive
 
-open Post
-open Model
 
 (** TODOs:
  *
  * Inline TODOs
- * pabloface hardcode
  * hardcode magic numbers
  *
  * Caching
@@ -81,10 +73,11 @@ let or_string x ~default = match x with
 
 let index_post_model blog_model post =
   let (title, reading_time) = (Post.title post, Post.reading_time post) in
+  let content_md = Post.all_content post in
   let url = Post.fs_path post |> (post_uri blog_model) in
   let datestring = Post.datetime post |> format_date_index in
-  let description = Post.og_description post |> (or_string ~default:"") in
-  let content = Post.all_content post |> Omd.to_html in
+  let description = Post.og_description post |> (or_string ~default:(Utils.get_desc content_md)) in
+  let content = content_md |> Omd.to_html in
   Jg_types.Tobj [
     ("title",        Jg_types.Tstr title);
     ("url",          Jg_types.Tstr url);
@@ -95,21 +88,19 @@ let index_post_model blog_model post =
   ]
 
 
-(* Model for template rendering Indexes or RSS feed
- * TODO:
- * - hardcodec copy
- * - Pabloface
- * *)
+(* Model for template rendering Indexes or RSS feed *)
 let index_model model tag posts =
   let index_title = String.concat [Model.title model; ": "; tag] in
   let author = Model.author model in
+  let toplevel_description = String.concat ["Posts from "; Model.title model; " tagged as: "; tag] in
   let full_uri = ((Model.hostname model) ^ (tag_path tag)) in
+  let og_image = Model.default_og_image model in
   [("index_title",          Jg_types.Tstr index_title);
    ("author",               Jg_types.Tstr author);
-   ("toplevel_description", Jg_types.Tstr ("Post from More Pablo labelled: " ^ tag));
+   ("toplevel_description", Jg_types.Tstr toplevel_description);
    ("full_uri",             Jg_types.Tstr full_uri);
    ("build_date",           Jg_types.Tstr (current_time_as_iso ()));
-   ("og_image",             Jg_types.Tstr "https://morepablo.com/pabloface.png");
+   ("og_image",             Jg_types.Tstr og_image);
    ("posts",                Jg_types.Tlist (List.map ~f:(index_post_model model) posts));
   ]
 
@@ -132,7 +123,6 @@ let generate_index_pages blog_model =
  * TODO:
  * - keywords list.
  * - og_description from post, not blog model default
- * - default og_image from blog_model
  * *)
 let generate_post_pages model =
   let () = Printf.printf "Building post pages...\n" in
@@ -151,7 +141,7 @@ let generate_post_pages model =
   let make_model post =
     let (title, reading_time) = (Post.title post, Post.reading_time post) in
     let description = Post.og_description post |> or_string ~default:(Model.description model) in
-    let og_image = Post.og_image post |> or_string ~default:"https://morepablo.com/pabloface.png" in
+    let og_image = Post.og_image post |> or_string ~default:(Model.default_og_image model) in
     let full_uri = Post.fs_path post |> post_uri model in
     let tags = Post.tags post |> List.map ~f:tag_url in
     let formatted_date = Post.datetime post |> format_date in
@@ -222,13 +212,14 @@ let generate_statics model =
   let statics_model page =
     let title = Page.title page in
     let description = Page.description page in
+    let full_uri = Page.fs_path page |> post_uri model in
     let contents = Page.contents page |> Omd.to_html in
     [("title",                Jg_types.Tstr title);
      ("author",               Jg_types.Tstr (Model.author model));
      ("description_abridged", Jg_types.Tstr description);
      ("og_description",       Jg_types.Tstr description);
      ("rss_feed_uri",         Jg_types.Tstr "/feeds/all.atom.xml");
-     ("full_uri",             Jg_types.Tstr (Model.hostname model));
+     ("full_uri",             Jg_types.Tstr full_uri);
      ("og_image",             Jg_types.Tstr "https://morepablo.com/pabloface.png");
      ("content",              Jg_types.Tstr contents);
     ]
@@ -277,18 +268,19 @@ let generate_rss_feeds model =
 (** Generates the sitemap. *)
 let generate_sitemap model pairs =
   let () = Printf.printf "Building sitemap...\n" in
+  let hostname = Model.hostname model in
   let contents =
     pairs
     |> List.map ~f:Utils.fst
-    |> List.map ~f:(Filename.concat (Model.hostname model))
+    |> List.map ~f:(Filename.concat hostname)
+    |> List.cons hostname
     |> Utils.add_newlines
   in
   ("sitemap.txt", contents)::pairs
 
 
 let build model =
-  let build_dir = (Model.build_dir model) in
-  let () = Unix.mkdir_p build_dir in
+  let () = Model.build_dir model |> Unix.mkdir_p in
   let output_funcs = [
     generate_index_pages;
     generate_rss_feeds;
@@ -299,4 +291,3 @@ let build model =
   List.map ~f:(fun f -> f model) output_funcs
   |> List.concat
   |> (generate_sitemap model)
-  |> List.iter ~f:(Files.write_out_to_file build_dir)

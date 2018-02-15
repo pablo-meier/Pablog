@@ -21,16 +21,31 @@ let fs_path {fs_path; _} = fs_path
 let contents {contents; _} = contents
 
 
-(** TODO: Smarter way to get a proper title + description for pages *)
+let get_title_description content =
+  let rec get_title lst = match lst with
+    | [] -> ("NO GODS; NO TITLE", [])
+    | x::xs -> match x with
+      | Omd.H1 x -> (Utils.words_in x, xs)
+      | Omd.H2 x -> (Utils.words_in x, xs)
+      | Omd.H3 x -> (Utils.words_in x, xs)
+      | Omd.H4 x -> (Utils.words_in x, xs)
+      | Omd.H5 x -> (Utils.words_in x, xs)
+      | Omd.H6 x -> (Utils.words_in x, xs)
+      | _ -> get_title xs in
+  let (title, rst) = get_title content in
+  let description = Utils.get_desc rst in
+  (title, description)
+
+
 let to_page record =
   let contents =
     Files.lines record
     |> Utils.add_newlines
-    |> Omd.of_string
-  in
+    |> Omd.of_string in
+  let (title, description) = get_title_description contents in
   {
-    title = "Static Page";
-    description = "Description";
+    title = title;
+    description = description;
     fs_path = Files.name record;
     contents = contents;
   }

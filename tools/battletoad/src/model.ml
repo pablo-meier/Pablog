@@ -9,6 +9,7 @@ type blog_metadata = {
   author : string;
   hostname : string;
   build_dir : string;
+  default_og_image : string;
 }
 
 
@@ -19,6 +20,7 @@ type blog_model = {
   hostname : string;
   input_fs_path : string;
   build_dir : string;
+  default_og_image : string;
 
   posts_by_tag : Post.t list String.Map.t;
   static_pages : Page.t list;
@@ -35,16 +37,20 @@ let input_fs_path {input_fs_path;_ } = input_fs_path
 let build_dir {build_dir;_ } = build_dir
 let posts_by_tag {posts_by_tag;_ } = posts_by_tag
 let static_pages {static_pages;_ } = static_pages
+let default_og_image {default_og_image;_ } = default_og_image
 
 
 let read_config_values path =
   let ini = new Inifiles.inifile path in
+  let hostname = ini#getval "general" "hostname" in
+  let default_og_image = ini#getval "general" "default_og_image" in
   {
-    title =       ini#getval "general" "title";
-    description = ini#getval "general" "description";
-    author =      ini#getval "general" "author";
-    hostname =    ini#getval "general" "hostname";
-    build_dir =   ini#getval "general" "build_dir";
+    title =            ini#getval "general" "title";
+    description =      ini#getval "general" "description";
+    author =           ini#getval "general" "author";
+    hostname =         hostname;
+    build_dir =        ini#getval "general" "build_dir";
+    default_og_image = hostname ^ default_og_image;
   }
 
 
@@ -77,6 +83,7 @@ let build_blog_model path =
     input_fs_path = path;
     hostname = conf.hostname;
     build_dir = conf.build_dir;
+    default_og_image = conf.default_og_image;
 
     posts_by_tag = build_tags_map posts;
     static_pages = statics;

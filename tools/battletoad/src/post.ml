@@ -2,12 +2,7 @@ open Printf
 open Unix
 
 open Core
-open ISO8601.Permissive
 open Re2.Std
-open Re2.Infix
-open Omd
-
-open Files
 
 
 type post_body = Split of (Omd.t * Omd.t) | Whole of Omd.t
@@ -59,6 +54,10 @@ let all_content {content; _} = all_body content
   *)
 let reading_time_for content =
   let rec words_in lst = 
+    let num_words str =
+      String.split_on_chars str ~on:['\t';'\n';' ']
+      |> List.filter ~f:(fun x -> x <> "")
+      |> List.length in
     let sum_all x = List.map ~f:words_in x |> List.fold_left ~f:(+) ~init:0 in
     match lst with
     | [] -> 0
@@ -70,7 +69,7 @@ let reading_time_for content =
       | Omd.H5 x -> words_in x
       | Omd.H6 x -> words_in x
       | Omd.Paragraph x -> words_in x
-      | Omd.Text x -> String.length x
+      | Omd.Text x -> num_words x
       | Omd.Emph x -> words_in x
       | Omd.Bold x -> words_in x
       | Omd.Ul x -> sum_all x

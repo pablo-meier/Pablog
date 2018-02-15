@@ -7,9 +7,11 @@ let create_new_post name =
 
 
 let build_site () =
-  let _unused = Model.build_blog_model "./bigger-test-case/"
+  let model = Model.build_blog_model "./bigger-test-case/" in
+  let build_dir = (Model.build_dir model) in
+  model
   |> Builder.build
-  in ()
+  |> List.iter ~f:(Files.write_out_to_file build_dir)
 
 
 let toplevel new_post should_build () =
