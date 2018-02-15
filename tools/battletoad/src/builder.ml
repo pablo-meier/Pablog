@@ -119,10 +119,6 @@ let generate_index_pages blog_model =
 
 
 (** Generates the blog's individual post pages
- *
- * TODO:
- * - keywords list.
- * - og_description from post, not blog model default
  * *)
 let generate_post_pages model =
   let () = Printf.printf "Building post pages...\n" in
@@ -140,18 +136,19 @@ let generate_post_pages model =
 
   let make_model post =
     let (title, reading_time) = (Post.title post, Post.reading_time post) in
-    let description = Post.og_description post |> or_string ~default:(Model.description model) in
+    let content_md = Post.all_content post in
+    let description = Post.og_description post |> or_string ~default:(Utils.get_desc content_md) in
     let og_image = Post.og_image post |> or_string ~default:(Model.default_og_image model) in
     let full_uri = Post.fs_path post |> post_uri model in
     let tags = Post.tags post |> List.map ~f:tag_url in
     let formatted_date = Post.datetime post |> format_date in
     let is_old = Post.datetime post |> is_old in
-    let content = Post.all_content post |> Omd.to_html in
+    let content = content_md |> Omd.to_html in
     let prev = Post.prev_post_fs_path post in
     let next = Post.next_post_fs_path post in
 
     let author = Model.author model in
-    let keywords_list = "Pablo Meier engineering management tech" in
+    let keywords_list = Post.tags post |> String.concat ~sep:" " |> ((^) (Model.author model)) in
     let rss_feed_uri = "/feeds/all.atom.xml" in
 
     [("title",                Jg_types.Tstr title);
