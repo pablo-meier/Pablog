@@ -25,8 +25,8 @@ let toplevel new_post should_build () =
 let spec =
     let open Command.Spec in
     empty
-    +> flag "-n" (optional string) ~doc:"create a template blog post"
-    +> flag "-b" no_arg ~doc:" build the site from scratch."
+    +> flag "-n" (optional string) ~doc:"Generate a new file for a blog post with parameterized title."
+    +> flag "-b" no_arg ~doc:" Build the site."
 
 
 let command =
@@ -39,6 +39,5 @@ me at present, so we have Battletoads!
 |})
       spec
       toplevel
-
 
 let () = Command.run ~version:"1.0" ~build_info:"RWO" command

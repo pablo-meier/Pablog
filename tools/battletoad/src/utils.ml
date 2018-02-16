@@ -37,7 +37,7 @@ let words_in md_lst =
 
 (** Get up to 300 characters of words from the first non-header in a body of Markdown. *)
 let rec get_desc lst = match lst with
-  | [] -> "NO GODS; NO DESCRIPTION"
+  | [] -> ""
   | x::xs -> match x with
     | Omd.Paragraph x -> words_in x
     | _ -> get_desc xs

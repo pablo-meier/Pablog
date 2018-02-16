@@ -1,6 +1,8 @@
 open Unix
 open Core
 
+open Re2.Std
+
 
 (** TODOs:
  *
@@ -72,20 +74,35 @@ let or_string x ~default = match x with
   | None -> default
 
 
-let index_post_model blog_model post =
+let bad_in_urns = Re2.create_exn "[^a-z]+"
+let generate_urn url_components =
+  let rewrite_bads x = Re2.rewrite_exn bad_in_urns ~template:"-" x in
+  List.map ~f:rewrite_bads url_components
+  |> List.cons "urn"
+  |> String.concat ~sep:":"
+
+
+
+let index_post_model model post =
   let (title, reading_time) = (Post.title post, Post.reading_time post) in
   let content_md = Post.all_content post in
-  let url = Post.fs_path post |> (post_uri blog_model) in
+  let url = Post.fs_path post in
+  let full_url = Post.fs_path post |> (post_uri model) in
+  let id = generate_urn [Model.hostname model; url] in
   let datestring = Post.datetime post |> format_date_index in
+  let publish_date_iso = Post.datetime post |> Unix.mktime |> Utils.fst |> ISO8601.Permissive.string_of_datetime in
   let description = Post.og_description post |> (or_string ~default:(Utils.get_desc content_md)) in
   let content = content_md |> Omd.to_html in
   Jg_types.Tobj [
-    ("title",        Jg_types.Tstr title);
-    ("url",          Jg_types.Tstr url);
-    ("datestring",   Jg_types.Tstr datestring);
-    ("description",  Jg_types.Tstr description);
-    ("reading_time", Jg_types.Tint reading_time);
-    ("content",      Jg_types.Tstr content);
+    ("title",            Jg_types.Tstr title);
+    ("url",              Jg_types.Tstr url);
+    ("datestring",       Jg_types.Tstr datestring);
+    ("description",      Jg_types.Tstr description);
+    ("reading_time",     Jg_types.Tint reading_time);
+    ("content",          Jg_types.Tstr content);
+    ("publish_date_iso", Jg_types.Tstr publish_date_iso);
+    ("full_url",         Jg_types.Tstr full_url);
+    ("id",               Jg_types.Tstr id);
   ]
 
 
@@ -237,8 +254,10 @@ let generate_statics model =
 (** Generates the blog's RSS feed. Generate an "all" feed to start,
  * later one for every tag.
  *
- * TODO: ID tag is hardcoded.
- * Formatting the last build date to ISO8601 is borken.
+ * TODO:
+ * - ID tag is hardcoded (both per-entry and blogwide)
+ * - link rel="self" broken
+ * - per-entry published and updated are missing
  * *)
 let generate_rss_feeds model =
   let () = Printf.printf "Building RSS feeds...\n" in
