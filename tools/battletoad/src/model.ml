@@ -10,6 +10,7 @@ type blog_metadata = {
   hostname : string;
   build_dir : string;
   default_og_image : string;
+  posts_in_feed : int;
 }
 
 
@@ -21,6 +22,7 @@ type blog_model = {
   input_fs_path : string;
   build_dir : string;
   default_og_image : string;
+  posts_in_feed : int;
 
   posts_by_tag : Post.t list String.Map.t;
   static_pages : Page.t list;
@@ -38,6 +40,7 @@ let build_dir {build_dir;_ } = build_dir
 let posts_by_tag {posts_by_tag;_ } = posts_by_tag
 let static_pages {static_pages;_ } = static_pages
 let default_og_image {default_og_image;_ } = default_og_image
+let posts_in_feed {posts_in_feed; _} = posts_in_feed
 
 
 let read_config_values path =
@@ -51,6 +54,7 @@ let read_config_values path =
     hostname =         hostname;
     build_dir =        ini#getval "general" "build_dir";
     default_og_image = hostname ^ default_og_image;
+    posts_in_feed =    int_of_string @@ ini#getval "general" "posts_in_feed"
   }
 
 
@@ -91,6 +95,7 @@ let build_blog_model path =
     hostname = conf.hostname;
     build_dir = conf.build_dir;
     default_og_image = conf.default_og_image;
+    posts_in_feed = conf.posts_in_feed;
 
     posts_by_tag = build_tags_map posts;
     static_pages = statics;

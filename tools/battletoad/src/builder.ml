@@ -6,9 +6,7 @@ open Re2.Std
 
 (** TODOs:
  *
- * Inline TODOs
  * hardcode magic numbers
- * URI should be relative except canonical
  *
  * Caching
  * Parallelization. *)
@@ -37,6 +35,11 @@ let format_date {tm_wday; tm_mon; tm_mday; tm_year; _} =
     | _ -> "December" in
   Printf.sprintf "%s, %s %d, %d" day_of_week month tm_mday (tm_year + 1900)
 
+
+let all_feeds_path = "/feeds/all.atom.xml"
+
+let rss_path_for tag = Filename.concat "feeds" (tag ^ ".rss.xml")
+let atom_path_for tag = Filename.concat "feeds" (tag ^ ".atom.xml")
 
 let format_date_index {tm_mon; tm_mday; tm_year; _} =
   Printf.sprintf "%d-%02d-%02d" (tm_year + 1900) (tm_mon + 1) tm_mday
@@ -74,6 +77,8 @@ let or_string x ~default = match x with
   | None -> default
 
 
+(** I don't fully understand what a URN is or why they look like this, just aiming
+ * for compatibility with Hendershott's Frog here. *)
 let bad_in_urns = Re2.create_exn "[^a-z]+"
 let generate_urn url_components =
   let rewrite_bads x = Re2.rewrite_exn bad_in_urns ~template:"-" x in
@@ -111,12 +116,17 @@ let index_model model tag posts =
   let index_title = String.concat [Model.title model; ": "; tag] in
   let author = Model.author model in
   let toplevel_description = String.concat ["Posts from "; Model.title model; " tagged as: "; tag] in
-  let full_uri = ((Model.hostname model) ^ (tag_path tag)) in
+  let tag_path = tag_path tag in
+  let id = generate_urn [Model.hostname model; tag_path] in
+  let full_uri = ((Model.hostname model) ^ tag_path) in
+  let full_atom_uri = String.concat ~sep:"/" [Model.hostname model; atom_path_for tag] in
   let og_image = Model.default_og_image model in
   [("index_title",          Jg_types.Tstr index_title);
    ("author",               Jg_types.Tstr author);
    ("toplevel_description", Jg_types.Tstr toplevel_description);
    ("full_uri",             Jg_types.Tstr full_uri);
+   ("full_atom_uri",        Jg_types.Tstr full_atom_uri);
+   ("id",                   Jg_types.Tstr id);
    ("build_date",           Jg_types.Tstr (current_time_as_iso ()));
    ("og_image",             Jg_types.Tstr og_image);
    ("posts",                Jg_types.Tlist (List.map ~f:(index_post_model model) posts));
@@ -167,7 +177,7 @@ let generate_post_pages model =
 
     let author = Model.author model in
     let keywords_list = Post.tags post |> String.concat ~sep:" " |> ((^) (Model.author model)) in
-    let rss_feed_uri = "/feeds/all.atom.xml" in
+    let rss_feed_uri = all_feeds_path in
 
     [("title",                Jg_types.Tstr title);
      ("author",               Jg_types.Tstr author);
@@ -203,7 +213,7 @@ let generate_homepage model =
      ("author",               Jg_types.Tstr (Model.author model));
      ("description_abridged", Jg_types.Tstr (Model.description model));
      ("og_description",       Jg_types.Tstr (Model.description model));
-     ("rss_feed_uri",         Jg_types.Tstr "/feeds/all.atom.xml");
+     ("rss_feed_uri",         Jg_types.Tstr all_feeds_path);
      ("full_uri",             Jg_types.Tstr (Model.hostname model));
      ("og_image",             Jg_types.Tstr "https://morepablo.com/pabloface.png");
      ("posts",                Jg_types.Tlist (List.map ~f:(index_post_model model) posts));
@@ -233,7 +243,7 @@ let generate_statics model =
      ("author",               Jg_types.Tstr (Model.author model));
      ("description_abridged", Jg_types.Tstr description);
      ("og_description",       Jg_types.Tstr description);
-     ("rss_feed_uri",         Jg_types.Tstr "/feeds/all.atom.xml");
+     ("rss_feed_uri",         Jg_types.Tstr all_feeds_path);
      ("full_uri",             Jg_types.Tstr full_uri);
      ("og_image",             Jg_types.Tstr "https://morepablo.com/pabloface.png");
      ("content",              Jg_types.Tstr contents);
@@ -253,11 +263,6 @@ let generate_statics model =
 
 (** Generates the blog's RSS feed. Generate an "all" feed to start,
  * later one for every tag.
- *
- * TODO:
- * - ID tag is hardcoded (both per-entry and blogwide)
- * - link rel="self" broken
- * - per-entry published and updated are missing
  * *)
 let generate_rss_feeds model =
   let () = Printf.printf "Building RSS feeds...\n" in
@@ -270,9 +275,9 @@ let generate_rss_feeds model =
     Jg_template.from_file ~models:models atom_template_path
   in
   let make_feeds_for (tag, posts) =
-    let rss_filename = Filename.concat "feeds" (tag ^ ".rss.xml") in
-    let atom_filename = Filename.concat "feeds" (tag ^ ".atom.xml") in
-    let models = index_model model tag (List.take posts 10) in
+    let rss_filename = rss_path_for tag in
+    let atom_filename = atom_path_for tag in
+    let models = index_model model tag (List.take posts @@ Model.posts_in_feed model) in
     [(rss_filename, make_rss_from models);
      (atom_filename, make_atom_from models)]
   in
