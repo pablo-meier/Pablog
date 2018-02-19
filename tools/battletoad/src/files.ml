@@ -36,3 +36,8 @@ let write_out_to_file build_dir (path, content) =
   let filename = Filename.concat build_dir path in
   let () = Unix.mkdir_p (dirname filename) in
   Out_channel.write_all filename ~data:content
+
+
+let copy_static_dir toplevel build_dir =
+  let static_dir = Filename.concat toplevel "static/" in
+  FileUtil.cp ~force:Force ~recurse:true ~preserve:true [static_dir] build_dir;;

@@ -12,7 +12,6 @@ type t
  * are currently `.md` and `.html`. Not recursive. *)
 val file_contents_in_dir : string -> t list
 
-
 val name : t -> string
 val lines : t -> string list
 
@@ -27,3 +26,8 @@ val lines : t -> string list
  * writes `<html></html>` to build/index.html
  *)
 val write_out_to_file : string -> (string * string) -> unit
+
+(**
+ * Copy the contents of "static" from first path into the second path directory.
+ * *)
+val copy_static_dir : string -> string -> unit
