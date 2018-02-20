@@ -19,6 +19,11 @@ I describe a lot of the technical choices behind this blog on [this static
 page][6]. I also talk about my relationship to blogging over the years on [this
 page][7].
 
+## Bugs
+
+Omd doesn't respect self-closing tags as HTML, relies on a close to read it as
+HTML.
+
    [1]: https://github.com/greghendershott/frog
    [2]: https://racket-lang.org/
    [3]: https://morepablo.com

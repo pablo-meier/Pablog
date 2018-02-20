@@ -11,7 +11,7 @@ Experience again. Here are some findings and reactions; most of this is old hat
 for anyone with the ear to the ground, but hopefully someone finds this
 interesting.
 
-<video src="/img/2016/10/skeletor_exit.webm" loop="true" autoplay="true" />
+<video src="/img/2016/10/skeletor_exit.webm" loop="true" autoplay="true"></video>
 
 <!-- more -->
 
