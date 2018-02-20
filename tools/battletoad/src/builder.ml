@@ -160,7 +160,7 @@ let generate_post_pages model =
     | None -> Jg_types.Tnull
     | Some (title, path) -> Jg_types.Tobj [
         ("name", Jg_types.Tstr title);
-        ("url",  Jg_types.Tstr ("/" ^ path))] in
+        ("url",  Jg_types.Tstr path)] in
 
   let make_model post =
     let (title, reading_time) = (Post.title post, Post.reading_time post) in
