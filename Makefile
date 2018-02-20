@@ -1,7 +1,7 @@
 # Assumes you have the npm program 'http-server' to simple serve
 
 BUILD_DIR=build
-BT=battletoad
+BT=./battletoad
 
 serve: build
 	http-server $(BUILD_DIR)

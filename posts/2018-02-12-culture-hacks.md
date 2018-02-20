@@ -31,7 +31,7 @@ was [Chamillionaire's _Ridin'_][1], while at Reonomy.<sup id="place2"><a href="#
 
 ### README gifs
 
-<video autoplay="true" loop="true" src="/img/2018/2/milestones.mp4" style="margin: 5px auto; display: block"/>
+<video autoplay="true" loop="true" src="/img/2018/2/milestones.mp4" style="margin: 5px auto; display: block" />
 <p style="font-style: italics; font-size: small; text-align: center">This is the
 README gif I used for ClassPass' "milestones" service.</p>
 
