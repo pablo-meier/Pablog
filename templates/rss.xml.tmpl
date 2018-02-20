@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>{{index_title}}</title>
+  <description>{{toplevel_description}}</description>
+  <link>{{full_uri}}</link>
+  <lastBuildDate>{{build_date}}</lastBuildDate>
+  <pubDate>{{build_date}}</pubDate>
+  <ttl>1800</ttl>
+ {% for post in posts %}
+  <item>
+   <title>{{post.title}}</title>
+   <link>{{post.full_url}}?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">{{post.id}}</guid>
+   <pubDate>{{post.publish_date_iso}}</pubDate>
+   <author>{{author}}</author>
+   <description>
+    {{post.content}}
+   </description>
+  </item>
+ {% endfor %}
+</channel>
+</rss>

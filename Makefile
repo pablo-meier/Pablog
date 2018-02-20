@@ -1,29 +1,18 @@
-# Decided to slim the image down and do all the Racket work locally pre-image build,
-# rather than have EVERY BUILD download/install Racket, Frog, etc. This was making
-# the image something like 750MB, which is way too large for this site.
-#
-# This Makefile assumes Racket is installed, runs Frog, and builds the `build/` file.
+# Assumes you have the npm program 'http-server' to simple serve
 
 BUILD_DIR=build
-
-css-check:
-	cp -R static/* build/
-	raco frog -s
+BT=battletoad
 
 serve: build
-	raco frog -s
-
-preview: build
-	raco frog -p
+	http-server $(BUILD_DIR)
 
 publish: build
-	./push_site.sh
+	./tools/push_site.sh
 
 .PHONY: build
 build:
 	[ -d $(BUILD_DIR) ] || mkdir $(BUILD_DIR)
-	raco frog -b
-	cp -R static/* build/
+	$(BT) -b
 
 clean:
 	rm -rf $(BUILD_DIR)

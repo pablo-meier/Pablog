@@ -1,19 +1,17 @@
 # Pablog!
 
-Repo for [personal blog][3], generated with [Frog][1]. It's… not updated and/or
-as technically cool as it should be, for a Professional Software Developer.
+Repo for [personal blog][3], generated with something I wrote. It's… not updated
+and/or as technically cool as it should be, for a Professional Software Developer.
 
-I mostly use this to play with tech as I like (used to use Docker when I was
-trying to learn the ropes with containers); we push to S3 now.
+I mostly use this to play with tech as I like; we push to S3 now.
 
 ## Prerequisites
 
-* Install [Racket][2]
-* Install [Frog][4]
 * Install [AWS command line tools][5] (and, naturally, that you have it
   configured/authenticated for your AWS account).
 * Ensure, when running commands, that the following env vars are set
   - `AMAZON_DISTRIBUTION_ID` -> to push changes to S3.
+* See `tools/push_site.sh` to see how to push to S3.
 
 ## Design
 

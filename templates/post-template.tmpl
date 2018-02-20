@@ -1,0 +1,82 @@
+{% extends "bigger-test-case/templates/base.tmpl" %}
+
+{% block header %}
+    <title>{{title}}</title>
+    <meta name="author" content="{{author}}">
+    <meta name="keywords" content="Pablo Meier, {{keywords_list}}">
+    
+    <meta name="description" content="{{description_abridged}}">
+    <meta property="og:description" content="{{og_description}}">
+
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:image" content="{{og_image}}">
+    
+    <meta property="og:url" content="{{full_uri}}">
+    <link rel="canonical" href="{{full_uri}}">
+    
+    <meta property="og:type" content="article">
+    <link ref="alternate" type="application/rss+xml" href="{{rss_feed_uri}}" title="RSS Feed">
+
+    <meta name="label1" value="Read time" />
+    <meta name="data1" value="{{reading_time}} min 🕑" />
+{% endblock %}
+
+{% block main %}
+      <article>
+        <header>
+          <h1>{{title}}</h1>
+          <p>{{formatted_date}} :: Tagged under:{% for tag in tags %} <a href="{{tag.url}}">{{tag.name}}</a>{% endfor %}. ⏰ {{reading_time}} minutes.</p>
+          </header>
+            {% if is_old %}<hr />
+            <p><strong>Hey! Thanks for reading! Just a reminder that I wrote this some years ago, and may have much more complicated feelings about this topic than I did when I wrote it. Happy to elaborate, feel free to reach out to me! 😄</strong></p>
+            <hr /> {% endif %}
+        {{content | safe}}
+        <footer>
+        	<div id="nav-links">
+        	  <ul>
+        	  {% if link_to_newer %}<li id="next">&larr; <a href="{{link_to_newer.url}}">{{link_to_newer.name}}</a></li>{% endif %}
+        	  {% if link_to_older %}<li id="prev"><a href="{{link_to_older.url}}">{{link_to_older.name}}</a> &rarr;</li>{% endif %}
+        	  </ul>
+        	</div>
+        </footer>
+      
+        <section>
+          <p style="text-align: center; font-size: small;"><strong>Thanks for the read!</strong> Disagreed? <em>Violent agreement!?</em> Feel free to drop me a line at <span id="contact-mail"></span>, or leave a comment below! I'd love to hear from you 😄</p>
+      
+          <!-- Obfuscate for 2006-era scrapers -->
+          <script>
+      (function() {
+        /** Hopefully this trick still works. */
+        function rot13(str) {
+          var input =  'abcdefghijklmnopqrstuvwxyz&>!';
+          var output = 'nopqrstuvwxyzabcdefghijklm@.:';
+          var index = x => input.indexOf(x);
+          var translate = x => index(x) > -1 ? output[index(x)] : x;
+          return str.split('').map(translate).join('');
+        }
+      
+        const email_obs = 'cnoyb>n>zrvre&tznvy>pbz';
+        const email_plaintext = rot13(email_obs);
+      
+        const mailElem = document.createElement('a');
+        const textNodeElem = document.createTextNode(email_plaintext);
+        mailElem.setAttribute('href', rot13('znvygb!') + email_plaintext);
+        mailElem.appendChild(textNodeElem);
+        document.getElementById('contact-mail').appendChild(mailElem);
+      })();
+          </script>
+      
+          <div id='discourse-comments'></div>
+          <script type="text/javascript">
+            DiscourseEmbed = { discourseUrl: 'https://us.morepablo.com/',
+                               discourseEmbedUrl: '{{full_uri}}' };
+      
+            (function() {
+              var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+              d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+            })();
+          </script>
+        </section>
+      </article>
+{% endblock %}
