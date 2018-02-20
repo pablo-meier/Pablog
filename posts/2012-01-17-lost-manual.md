@@ -54,7 +54,7 @@ I'm finding it a bit of a pain in the ass. There are two major reasons
 for it, one the current Ruby ecosystem in particular, and the other
 simply being skeptical of the whole approach in the first place.
 
-### BDD in Ruby, today
+<h3 id="bdd-in-ruby-today">BDD in Ruby, today</h3>
 
 Despite my seething cynicism, I'm working through it and giving it a
 try. Hell, the only reason I joined Twitter was because, four years
@@ -172,7 +172,7 @@ person like me who comes along to join the party, 10 won't stick
 around past this frustration as I have. Do the dirty work and write a
 damn manual, preferably downloadable as a PDF.
 
-### On BDD, generally
+<h3 id="on-bdd-generally">On BDD, generally</h3>
 
 All that being said, I can't help but be skeptical about the advantages
 of BDD in the first place. A lot of it is well said in [this blog

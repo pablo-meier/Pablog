@@ -22,7 +22,7 @@ languages have. It's not often that PLT folks discuss UI since, in most
 contexts, _UI_ usually applies to some graphical element, but I think it's often
 overlooked, and where the next real big gains will be.
 
-### User Interface in a Programming Language?
+<h3 id="user-interface-in-a-programming-language">User Interface in a Programming Language?</h3>
 
 What do I mean by this? Namely, we tend to view language implementations as
 source files -> compiler -> binary (or bytecode), and all other elements of interacting
@@ -69,7 +69,7 @@ Some other motivating questions, after working jobs in C++ and Java:
 The system I hoped to build used an idea I called the "Companion Server," which
 is succinctly described as a constantly-running headless IDE.
 
-### Properties of the companion server
+<h3 id="properties-of-the-companion-server">Properties of the companion server</h3>
 
 You could run your companion server locally and only run it on your local files,
 and in this way it would serve like a more traditional compiler. But using a
@@ -85,7 +85,7 @@ If this sounds familiar, it's because we're seeing work on this already with
 `go`, `rust`, and `raco`. The idea that your command-line tool should do more
 than simply compile to a binary is, so far, a great success. But we can go further.
 
-#### Thick Server, Thin Clients
+<h4 id="thick-server-thin-clients">Thick Server, Thin Clients</h4>
 
 Most features of an IDE are very useful, like
 
@@ -165,7 +165,7 @@ The advantages to this are manifold:
 This is partially why DrRacket is such a fantastic IDE -- it's written by the
 authors and implementors of the language itself, in the language itself!
 
-#### Use [the Butt][4], Luke
+<h4 id="use-the-butt4-luke">Use [the Butt][4], Luke</h4>
 
 The other idea of using a server model would be to take advantage of yet another
 architectural change that seems to get ignored: we're all multicore, usually
@@ -181,7 +181,7 @@ Given this, I think it would be a huge net win if **language figureheads
 included a server-farm ready build solution that figures in packages, dependencies,
 and incremental builds for teams.**
 
-#### Done with the current model
+<h4 id="done-with-the-current-model">Done with the current model</h4>
 
 The actual implementation details for these are naturally pretty complicated, 
 and I don't doubt this would be a challenge. You also don't want to lock people

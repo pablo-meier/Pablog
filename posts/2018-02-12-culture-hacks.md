@@ -17,7 +17,7 @@ as Pablo, I don't avoid them, and they see a few things I do to make work/code
 a bit more fun. I invite you to steal these! Alternatively, create new ones,
 and/or share favorites in the comments!
 
-### Song of the PR
+<h3 id="song-of-the-pr">Song of the PR</h3>
 
 **What to do:** Add a song link to your PRs!
 
@@ -29,7 +29,7 @@ like to expose to your co-workers.
 it came from the "current song" fields in LiveJournal. The first one
 was [Chamillionaire's _Ridin'_][1], while at Reonomy.<sup id="place2"><a href="#footnote2">2</a></sup>
 
-### README gifs
+<h3 id="readme-gifs">README gifs</h3>
 
 <video autoplay="true" loop="true" src="/img/2018/2/milestones.mp4" style="margin: 5px auto; display: block"></video>
 <p style="font-style: italics; font-size: small; text-align: center">This is the
@@ -41,7 +41,7 @@ Since [every company I worked at moved to multiple services][3], this meant a
 proliferation of repositories and folks visiting them. Adding gifs generally
 gets a giggle from folks and make your code just a little more welcoming.
 
-### Printing banners
+<h3 id="printing-banners">Printing banners</h3>
 
 **What to do:** When your service/code starts, print a dope banner.
 
@@ -112,7 +112,7 @@ insistently and universally after using [Dropwizard][5] at companies, which
 You should _probably_ have a `--quiet` option to suppress this, since [even
 printing a joke to standard error apparently introduces bugs.][6]
 
-### Easter eggs
+<h3 id="easter-eggs">Easter eggs</h3>
 
 **What to do:** If your company is small enough, spend an afternoon adding an
 Easter Egg somewhere in your code.
@@ -133,7 +133,7 @@ Pablo heads invaded the app. Here's me testing it:
 </a>
 </div>
 
-### "Comrades!"
+<h3 id="comrades">"Comrades!"</h3>
 
 **What to do:** Call people your comrades! Or, really, something fun. And
 gender-neutral!
@@ -158,7 +158,7 @@ to my professor's liking: bluegrass music:
 
 My professor and I bonded over bluegrass 😊
 
-### Fun job title ("Flossing Enthusiast")
+<h3 id="fun-job-title-flossing-enthusiast">Fun job title ("Flossing Enthusiast")</h3>
 
 **What to do:** Give yourself an obscure hobby or interest and parade it. Mine
 is usually related to flossing. It's been on [my Twitter bio and header

@@ -15,7 +15,7 @@ of participants. <a href="https://t.co/nzck5aJ3rh">pic.twitter.com/nzck5aJ3rh</a
 Cohen (@philltopia) <a href="https://twitter.com/philltopia/status/727190980726689792?ref_src=twsrc%5Etfw">May 2, 2016</a>
 </blockquote>
 
-### "Not by piling feature upon feature…"
+<h3 id="not-by-piling-feature-upon-feature">"Not by piling feature upon feature…"</h3>
 
 One of my favorite quotes in design comes from the Scheme Steering Committee, a
 group in charge of the design of the [Scheme][1] programming language. For
@@ -37,7 +37,7 @@ just [as when we arrive at technical decisions][11], the main driver behind
 what Work At A Company feels like is some very human failure modes by the people
 who make up that company.
 
-### Why not address the core problems?
+<h3 id="why-not-address-the-core-problems">Why not address the core problems?</h3>
 
 The short reason: they're cultural, changing culture is hard, and the
 folks most able to change it (people in leadership) are frequently incentivized to
@@ -119,7 +119,7 @@ with the people working on the product.
 Also! Reminder that #NotAllBosses. I'm looking at incentives and making note of
 what I've seen. I've also worked with some brilliant, inspiring bosses.
 
-### Parasites
+<h3 id="parasites">Parasites</h3>
 
 Back to meetings (kinda): [Every complex system has parasites.][3] If there's a
 niche, a parasite will fill it, and white-collar company culture is no
@@ -165,7 +165,7 @@ Ask their reports directly: when [PERSON] comes to your desk, do you feel good,
 neutral, or bad? Do they make it easier or harder for you to perform your tasks,
 and how?
 
-### Just get the right people and do the damn work
+<h3 id="just-get-the-right-people-and-do-the-damn-work">Just get the right people and do the damn work</h3>
 
 Get good people, keep good people. Pay attention to who gets fired and who gets
 promoted. Are you accidentally rewarding the above behaviors? Measure how well

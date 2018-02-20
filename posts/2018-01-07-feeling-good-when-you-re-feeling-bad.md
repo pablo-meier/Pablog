@@ -17,7 +17,7 @@ I'll share a few thoughts and links on self-care in case anyone likes it.
 
 <!-- more -->
 
-### Links
+<h3 id="links">Links</h3>
 
 * [Jace Harr][2] uses Twine to [create an interactive Q&A to help you take steps
   to feel better][3]. I haven't played with all the branches, but the times I've
@@ -28,13 +28,13 @@ I'll share a few thoughts and links on self-care in case anyone likes it.
   practices by increments. Don't worry about where the destination is, just try
   to see the next step.
 
-### Some practices of mine
+<h3 id="some-practices-of-mine">Some practices of mine</h3>
 
 (note that these aren't available or effective to everybody; it's a big world,
 and folks live in lots of different circumstances, I'm just sharing from my
 experiences 🙂)
 
-#### Importance of agency
+<h4 id="importance-of-agency">Importance of agency</h4>
 
 This is more of a "theme" than a process, but one of the most central things
 I've observed (and subsequently try to be mindful of) is how central 
@@ -51,7 +51,7 @@ answers to this can be terrifying, but it's almost always rewarding to ask
 very long run. Still: best day to plant a tree was 20 years ago, second-best day
 is today).
 
-#### Therapy
+<h4 id="therapy">Therapy</h4>
 
 Its helped me tremendously. That said, finding a therapist **sucks.** It's
 **fucking terrible.** On top of our shit healthcare system, non-transparent
@@ -74,14 +74,14 @@ with those issues. Therapists are just people, after all, and might hold many of
 the social or structural biases that are putting you in a place to look for a
 therapist in the first place.
 
-#### HALT
+<h4 id="halt">HALT</h4>
 
 This one was given to me by a boots-on-the-ground therapist I spoke to in 2012,
 **_HALT_** which stands for **Hungry, Angry, Lonely, Tired.** The thinking is,
 if you feel like shit, ask if any of those is working on you and if there's a
 way to address it.
 
-#### Unplugging, log off
+<h4 id="unplugging-log-off">Unplugging, log off</h4>
 
 <blockquote>I don&#39;t know why I&#39;m anxious. I just constantly stare at a device that
 beams nightmares into my eyes.</p>&mdash; Brandon (@UNDEADTRESOR) <a
@@ -98,7 +98,7 @@ So, unplugging is great. Recently, [Animal Crossing][7] has helped. Before _AC_
 I listened to Jazz or Bluegrass. Novels are great. Try to find that bit of art
 such that consumption can chill you out a bit.
 
-#### Minimizing notifications
+<h4 id="minimizing-notifications">Minimizing notifications</h4>
 
 You really won't miss them.
 

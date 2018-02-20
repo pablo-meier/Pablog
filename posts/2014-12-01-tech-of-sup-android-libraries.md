@@ -7,7 +7,7 @@ miscellany. Here we’ll talk about --
 
 <!-- more -->
 
-## Libraries: “the cause of, and solution to, all of Android’s Problems.”
+<h2 id="libraries-the-cause-of-and-solution-to-all-of-androids-problems">Libraries: “the cause of, and solution to, all of Android’s Problems.”</h2>
 
 The first version of Sup was written in about 4 weeks. Being a developer with
 little Android experience, I was able to produce this quickly in large part due
@@ -18,7 +18,7 @@ software is broken, and we’re trying to get to the moon by stacking chairs.
 The following are some libraries every Android developer should at least know
 about, whether or not I used it, and why.
 
-### Dagger
+<h3 id="dagger">Dagger</h3>
 
 I’ll start with the most bittersweet: [Dagger][4] is a dependency-injection framework
 for Java. The other notable player in this space is [Guice][5]. Dagger builds on the
@@ -72,7 +72,7 @@ has repercussions for your project:
 
 So, think carefully when deciding to use Dagger.
 
-### Picasso, ButterKnife
+<h3 id="picasso-butterknife">Picasso, ButterKnife</h3>
 
 After the hoo-haa of Dagger, here are two unambiguously good additions to your
 project. There is absolutely no reason to use anything other than [Picasso][16]
@@ -86,7 +86,7 @@ you a ton of typing. If you’re working with classes that have a dozen or so vi
 that need configuring, `ButterKnife.inject(this)` is all you need to wire up your
 classes.
 
-### Otto
+<h3 id="otto">Otto</h3>
 
 We use [Otto][19] for our Event Bus. Guava has one, but as Otto’s homepage points out,
 it’s not especially suited for mobile. I trusted it because Square Open Source,
@@ -104,7 +104,7 @@ Otto is great, here are some gotchas:
   events a certain way, you can’t just register the object and put the `@Subscribe`
   methods in the superclass. It violates DRY, but you’ll need it both places.
 
-### Retrofit, OkHttp
+<h3 id="retrofit-okhttp">Retrofit, OkHttp</h3>
 
 Use these for your network requests. [Volley][20] over [Retrofit][21] is worthy
 of consideration, but there seems to be [no major benefit][22] and I prefer the
@@ -177,7 +177,7 @@ uploading to S3. They have [a great recipes page][24] that engineer Jesse Wilson
 said they were quite proud of in [his OkHttp talk][25], and I would say rightfully
 so.
 
-### Realm
+<h3 id="realm">Realm</h3>
 
 A new one! If you’re an Android vet, you may have been nodding along at the
 mentions of these previous libraries, but Realm for Android has just shipped two
@@ -232,7 +232,7 @@ it has saved me time and effort. Just understand that there’s some unexplored
 territory here, and while SQLite is laborious and gross, it’s generally easier
 to understand its use and failures.
 
-### Lesser-knowns: Phrase, Timber, pidcat, Hugo, NineOldAndroids, and ActionBarSherlock?
+<h3 id="lesserknowns-phrase-timber-pidcat-hugo-nineoldandroids-and-actionbarsherlock">Lesser-knowns: Phrase, Timber, pidcat, Hugo, NineOldAndroids, and ActionBarSherlock?</h3>
 
 These I’ll just sprint through.
 

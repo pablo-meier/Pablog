@@ -35,7 +35,7 @@ Some thoughts and reflections follow, but 👆🏼 is the better reading to do �
 
 <!-- more -->
 
-### Unmoderated systems in practice
+<h3 id="unmoderated-systems-in-practice">Unmoderated systems in practice</h3>
 
 Exchanges that are distributed, anonymous, and unmoderated by design are a very
 alluring idea. Consider the romantic image of revolutionaries against a despot
@@ -47,7 +47,7 @@ I think these channels are important, and deserve being built and defended.
 However, I also think most of their proponents are remiss for not acknowledging
 other realities about them:
 
-#### They can reinforce existing power structures as much as they thwart them
+<h4 id="they-can-reinforce-existing-power-structures-as-much-as-they-thwart-them">They can reinforce existing power structures as much as they thwart them</h4>
 
 New systems and technologies require access, and _that_ is usually gated. It
 would have been hard to participate in the 90's dot-com boom without
@@ -60,7 +60,7 @@ Unless you specifically design your Enabler Of Freedom around the folks who need
 it most, the ones who will usually benefit the most strongly will be the ones
 who need it least.
 
-#### Criminals
+<h4 id="criminals">Criminals</h4>
 
 Friends who go to the "dark web" tell me it's about 20% what most people expect
 it to be (radical political discussion by anonymous avatars) and 80%
@@ -70,7 +70,7 @@ stolen passwords and credit card numbers.
 Yes, [HACK THE PLANET][11] and all that, but when you allow nobody to police it,
 well, you allow nobody to police it.
 
-#### Actual safety vs. state-level actors is Hard As Hell
+<h4 id="actual-safety-vs-statelevel-actors-is-hard-as-hell">Actual safety vs. state-level actors is Hard As Hell</h4>
 
 Except when they _really_ want to police it.
 
@@ -129,7 +129,7 @@ time on the technical bit. The technical bit is (comparably) _easy_.
 Blockchains, 10 years in, still feel like a very cool solution in search of a
 problem.
 
-### Additional Fun Reading
+<h3 id="additional-fun-reading">Additional Fun Reading</h3>
 
 Sometimes programmers hit me hard with great senses of humor. So there's a
 great little language called [Scheme][8], of which some nerds made into

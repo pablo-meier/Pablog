@@ -23,7 +23,7 @@ are preserved. Some of those links point good places, I encourage clicking them.
 
 ---
 
-### My self-summary
+<h3 id="my-selfsummary">My self-summary</h3>
 
 I used to be an actor, now I write code. Either way, it's scripts and love, all
 day, every day.
@@ -40,7 +40,7 @@ I'm a bunch of other places if you wanna dig further:
 
 Death to simple narratives.
 
-### What I'm doing with my life
+<h3 id="what-im-doing-with-my-life">What I'm doing with my life</h3>
 
 Isn't that the question. Trying to drink life in [big gulps][4] while I figure
 it out. The way I sell my labor is by managing engineers for a startup, which I
@@ -50,7 +50,7 @@ I recently adopted a large pair of ears with a dog attached to them; he's
 friendly, does what he likes, and full of 🔥 _verve_ 🔥, so that's a big thing in
 my life right now.
 
-### I'm really good at
+<h3 id="im-really-good-at">I'm really good at</h3>
 
 generating laffs by stitching together cultural minutiae & narratives
 
@@ -65,7 +65,7 @@ getting [written up by the best news publication][7]. A few other profiles are
 charming the hell out of strangers if they initiate a conversation with me
 (e.g. airplane seatmates, grocery checkout lines, fellow inmates, etc.).
 
-### Favorite books, movies, shows, music, and food
+<h3 id="favorite-books-movies-shows-music-and-food">Favorite books, movies, shows, music, and food</h3>
 
 I don't take myself (or anybody, really) too seriously on the merits of their
 taste as an indicator of compatibility. That said, here are things I've liked:
@@ -105,7 +105,7 @@ _Super Hexagon_.
 I used to play a fair bit of competitive StarCraft 2 and Dota (Zerg, and
 positions 4-5, for you who play 😄).
 
-### Six things I could never do without
+<h3 id="six-things-i-could-never-do-without">Six things I could never do without</h3>
 
 Twitter and my RSS reader
 
@@ -119,7 +119,7 @@ Thelonious Monk recordings
 
 mechanical keyboards
 
-### I spend a lot of time thinking about
+<h3 id="i-spend-a-lot-of-time-thinking-about">I spend a lot of time thinking about</h3>
 
 ... intersectionality, inclusivity.
 
@@ -134,7 +134,7 @@ feeling/experiencing them openly, presently, more genuinely.
 
 ... dog stuff, software stuff, theater stuff.
 
-### On a typical Friday night I am
+<h3 id="on-a-typical-friday-night-i-am">On a typical Friday night I am</h3>
 
 … either 33%, 50%, or 100% of the guys in my Zumba or Pon de FLO class.
 
@@ -142,7 +142,7 @@ feeling/experiencing them openly, presently, more genuinely.
 
 … with friends, catching up, having one beer too many.
 
-### The most private thing I'm willing to admit
+<h3 id="the-most-private-thing-im-willing-to-admit">The most private thing I'm willing to admit</h3>
 
 I was an extra (fully clothed) in a kinky porn movie (happy to provide a link
 on request). Funny enough, I was invited to this as an OkCupid date! I'm
@@ -156,7 +156,7 @@ I can sing [this song][16] from memory.
 (█'██ ████ ████ ██ █████████████ █████ ██ ███████ ████'█ █ ███), ███ ████ ██ █
 █████ █████ ██. █'█ █████ ██ ████ █████ ██ ██ ████'█ ██ ███ ████████████
 
-### You should message me if
+<h3 id="you-should-message-me-if">You should message me if</h3>
 
 I seem like fun!
 
@@ -178,7 +178,7 @@ Some other data that might indicate we'd get along:
   ████ ████████/██████ ████████.
 
 ---
-### Photos
+<h3 id="photos">Photos</h3>
 
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="/img/2018/1/collapsible_dog.jpg" target="blank">

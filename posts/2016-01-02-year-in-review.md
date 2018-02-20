@@ -8,7 +8,7 @@ hopes for 2016; a brief, incomplete, mostly incorrect list.
 
 <!-- more -->
 
-### Goodbye Sup, hello Reonomy
+<h3 id="goodbye-sup-hello-reonomy">Goodbye Sup, hello Reonomy</h3>
 
 <div style="max-width: 700px; margin: 20px auto">
 <img src="/img/2016/01/sup.png" alt="Sup logo" style="display: inline; margin-right: 20px" />
@@ -71,7 +71,7 @@ life is usually the most stable slice of my Life Pie, and adding risk to my
 financials or [poking my mental health hornet nest][12] would require me to be
 on exceptionally good footing.
 
-### I wrote Ghostlight / Attended 60-80 shows
+<h3 id="i-wrote-ghostlight-attended-6080-shows">I wrote Ghostlight / Attended 60-80 shows</h3>
 
 <div style="max-width: 700px; margin: 20px auto">
 <a href="/img/2016/01/shows1_large.jpg"><img src="/img/2016/01/shows1.jpg" alt="Pile o shows"/></a>
@@ -156,7 +156,7 @@ Fun facts about Ghostlight!
   and "bad" incorrectly][20], so maybe Crockford making me call myself stupid is
   totally legit.
 
-### I got back in the Theater game and """directed""" a show!
+<h3 id="i-got-back-in-the-theater-game-and-directed-a-show">I got back in the Theater game and """directed""" a show!</h3>
 
 <div style="max-width: 615px; margin: 20px auto">
 <img src="/img/2016/01/fish_set.jpg" alt="Fish set"/>
@@ -197,7 +197,7 @@ I'm not opposed to the idea of getting back into making more theater, I just
 don't think, given everything else I've got going on and my goals for this year,
 that I'll be in a position to do this again.
 
-### I broke up
+<h3 id="i-broke-up">I broke up</h3>
 
 <p style="text-align: center; font-size: large">💔</p>
 
@@ -252,7 +252,7 @@ the list of victories and celebrations for 2015, even though there was no
 fist-pumping or joy, just a shitton of crying and despair but the knowledge that
 I've raised the ceiling for both of our futures.
 
-### I started getting therapy again
+<h3 id="i-started-getting-therapy-again">I started getting therapy again</h3>
 
 It's not cheap, and this doctor is out of network (he came recommended; we're
 doing very well so I'd rather not change). For both of those reasons, Aetna will
@@ -264,7 +264,7 @@ Healthcare. America.
 
 But! Getting therapy in the first place: A victory that belongs to 2015!
 
-### I started dancing again 💃🏽
+<h3 id="i-started-dancing-again-">I started dancing again 💃🏽</h3>
 
 Mentioned above! Like [that time I brunched][36], I've become the type of person
 I love to hate on because I can say the following:
@@ -286,7 +286,7 @@ Francisco branch][29], under Sensei Tomiyama, around 2012 (if you live in the
 Bay Area I can't recommend his classes highly enough). I'm delighted to know I
 could feel this way again, and look forward to much more **in 2016.**
 
-### I got a dog
+<h3 id="i-got-a-dog">I got a dog</h3>
 
 We'll end with dog pics! This really deserves its own post.
 

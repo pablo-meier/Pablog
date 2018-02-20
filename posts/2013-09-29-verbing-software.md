@@ -8,7 +8,7 @@ from the reader. It's obviously done with software too, and I'd like to "verb"
 two particular projects attack certain software problems, and hope more software
 tackles similar problems.
 
-### CoffeeScript
+<h3 id="coffeescript">CoffeeScript</h3>
 
 <!-- more -->
 
@@ -48,7 +48,7 @@ But C++ as-is is so noisy (and all the noise is there for a good reason), and I
 feel it'd be nice to have a simple preprocessor language like CoffeeScript to
 clean it up.
 
-### Clang
+<h3 id="clang">Clang</h3>
 
 **What it is:** It should first be explicitly stated that [gcc][3] is software
 that's changed the world for the better by making a free, world-class compiler

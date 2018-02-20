@@ -12,7 +12,7 @@ for 2017; a brief, mostly incorrect list:
 
 <!-- more -->
 
-### I switched gigs
+<h3 id="i-switched-gigs">I switched gigs</h3>
 
 <div style="max-width: 700px; margin: 20px auto; text-align:center;">
 <img src="/img/2016/01/reonomy-logo.gif" alt="Reonomy logo" style="display: inline;" />
@@ -62,7 +62,7 @@ teaching throughout the week.
 
 _lol_
 
-### Much higher success rate on fighting off the depression
+<h3 id="much-higher-success-rate-on-fighting-off-the-depression">Much higher success rate on fighting off the depression</h3>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">the best
 thing about twitter is u can tweet about being sad and nobody is like &quot;try
@@ -87,7 +87,7 @@ post) are my best guesses for this change:
 
 _this, thankfully, remains true._
 
-#### I got into much better shape.
+<h4 id="i-got-into-much-better-shape">I got into much better shape.</h4>
 
 I made some changes to my diet, and treated exercise as a necessary medication,
 rather than "a thing I should do, aspirationally." Much of it is spiritually
@@ -104,7 +104,7 @@ pascalle (@frenchielaboozi) <a
 href="https://twitter.com/frenchielaboozi/status/438886443927502848">February
 27, 2014</a></blockquote>
 
-#### Therapy.
+<h4 id="therapy">Therapy.</h4>
 
 Anyone who's friends with me knows that I never frame this as "it's the
 best!!!!" It's my second-largest expense after rent, and the person I see, while
@@ -146,7 +146,7 @@ allowfullscreen></iframe>
 
 This plays nicely into the last one:
 
-#### Giving fewer fucks.
+<h4 id="giving-fewer-fucks">Giving fewer fucks.</h4>
 
 Harder to quantify, but this year I plainly gave fewer fucks about things I
 believed prevented me from feeling like I wanted to feel. I forget who said
@@ -162,7 +162,7 @@ So we'll see. Here's to being alive.
 and I'll continue to let Pablo out with more frequency than I have at previous
 points in my life.
 
-### I wrote code in new languages
+<h3 id="i-wrote-code-in-new-languages">I wrote code in new languages</h3>
 
 The side projects were a bit more of a dry well this year; my [Ghostlight][9] of
 this year has slowed down a bit (and under wraps, but the not-so-hidden truth is
@@ -195,7 +195,7 @@ much damn fun with it: [23-odd languages for Advent of Code][12]. The ones I'm
 most proud of were [my first Factor code][13], [my first Mercury code][14], and
 getting to hack in [C][15] and [C++][16] again.
 
-### I had healthier relationships
+<h3 id="i-had-healthier-relationships">I had healthier relationships</h3>
 
 I think part of why my post resonated last year was because I stumbled
 into vulnerability writing about the end of a very meaningful relationship.
@@ -239,7 +239,7 @@ This isn't to say there wasn't (immense) heartache, nights of fits and starts,
 crying, or desperate loneliness. That… was all there. But it feels like I'm
 making new, better mistakes.
 
-### Another year with the pup
+<h3 id="another-year-with-the-pup">Another year with the pup</h3>
 
 So now that I've kept him alive for over a year, I can tell the more nuanced
 story of Sapo, my little bastard kangaroo. Charly and I lived with [George, who

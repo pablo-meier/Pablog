@@ -12,7 +12,7 @@ I'd write up a few thoughts I have.
 
 <!-- more -->
 
-### What is _The Room_?
+<h3 id="what-is-the-room">What is _The Room_?</h3>
 
 Succinctly, it's a [fractally terrible][3] piece of art. There are no redeeming
 features in terms of craft -- the plot is inconsistent and hackneyed, the dialogue
@@ -34,7 +34,7 @@ yesterday. [The Onion AV Club][6] and [Entertainment Weekly][7] do a great job
 covering its magic. And do checkout [the soundboard][8] for some more fun after
 watching.
 
-### The Bell Curve theory of bad art
+<h3 id="the-bell-curve-theory-of-bad-art">The Bell Curve theory of bad art</h3>
 
 I have a way of convincing myself to enjoy a piece of art once it's clear that
 it's one of the worst things I've ever seen. I think of a normalized bell curve:
@@ -67,7 +67,7 @@ Whether in _The Room_ or anything else, remember the bell curve. Ask yourself
 "if I tried to make something this bad, could I?" Because sometimes the answer
 is a very shakey "no."
 
-### Tension
+<h3 id="tension">Tension</h3>
 
 I'd say the one thing that most surprises people watching _The Room_, no matter
 how they're prepped, is the sheer number of questions you're left with. _How the
@@ -89,7 +89,7 @@ And if you accept this as a reason for _The Room_ to be what it is, well... we'r
 all collectively laughing at a guy who's trying to tell us something, play the game
 of life with us, and is literally incapable at it.
 
-### Brains and my family, my family and brains
+<h3 id="brains-and-my-family-my-family-and-brains">Brains and my family, my family and brains</h3>
 
 I've mentioned before that [my sister has spent much of the last 5 years recovering 
 from a brain injury.][10]. When she first woke up from her coma, 3 months after
@@ -143,7 +143,7 @@ brain is working differently than ours:
   first big acting paycheck.
 
 
-### Don Wiseau of La Mancha
+<h3 id="don-wiseau-of-la-mancha">Don Wiseau of La Mancha</h3>
 
 haha Frog parser.
 

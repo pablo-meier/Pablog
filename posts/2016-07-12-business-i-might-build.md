@@ -8,7 +8,7 @@ thing).
 
 <!-- more -->
 
-## Motivation — Why do you, Pablo, want to found a company?
+<h2 id="motivation-why-do-you-pablo-want-to-found-a-company">Motivation — Why do you, Pablo, want to found a company?</h2>
 
 Let's be clear on a few things: I don't consider myself particularly
 entrepreneurial. I've met many people who get _fired up_ at the thought of
@@ -51,7 +51,7 @@ while owning none of them, years of working for companies that had cultures
 ranging from barely acceptable to downright shitty, and the promise of years
 more of _that_, I think I'll bite the bullet and play this shitty game.
 
-## Enough of that: what will you build?
+<h2 id="enough-of-that-what-will-you-build">Enough of that: what will you build?</h2>
 
 I have two ideas I like, one way more possible than the other. In my very
 miniscule business understanding, there are two ends of a spectrum: attack a
@@ -69,7 +69,7 @@ worth paying to solve).
 
 My two ideas fall in along those lines:
 
-### ProngFork, or, "I will kill you, MindBody"
+<h3 id="prongfork-or-i-will-kill-you-mindbody">ProngFork, or, "I will kill you, MindBody"</h3>
 
 Virtually every gym I know uses [MindBody][6] to manage their classes. Everyone
 I speak to hates it. Some of the reasons it's an attractive target:
@@ -94,7 +94,7 @@ down. Now, they're a skeleton, and you're [ignoring the warning.][11]
 Fucking Hard independent of problem domain. It's just _also_ hard when your
 problem domain requires innovation.
 
-#### "Prongfork"?!
+<h4 id="prongfork">"Prongfork"?!</h4>
 
 Okay, I don't really call this ProngFork, but **wow** "MindBody" is about as
 silly a name.<sup><a href="#fn2" id="ref2">2</a></sup> Other names I've
@@ -110,7 +110,7 @@ look like this:
 
 <img src="/img/2016/08/ribcage.png" alt="many appointments with small gaps" style="max-width: 450px; margin: 15px auto;" />
 
-### Goblins: spreadsheets as if you care about what's on them.
+<h3 id="goblins-spreadsheets-as-if-you-care-about-whats-on-them">Goblins: spreadsheets as if you care about what's on them.</h3>
 
 What's the most popular programming language in the world? Or in any case, the
 most impactful? That's right, [Excel!][10]
@@ -156,7 +156,7 @@ I'm less confident in this as a business for a few reasons:
 But! There's some novel value to be had here, and I think if it was adopted our
 businesses would have their practices and numbers be much more tied to reality.
 
-#### Goblins?!
+<h4 id="goblins">Goblins?!</h4>
 
 Like in Harry Potter; I doubt Gringotts has accounting errors on the same level.
 

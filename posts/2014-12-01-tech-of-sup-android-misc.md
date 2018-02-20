@@ -7,7 +7,7 @@ libraries.  Let’s finish this pup up!
 
 <!-- more -->
 
-## Testing
+<h2 id="testing">Testing</h2>
 
 I confess we don’t have enough automated testing on our client. The idea is much
 like [jwz describes in his Coders At Work interview][3]:
@@ -49,7 +49,7 @@ The kind of TDD practitioner who [just wants it hooked into their veins][6] (who
 will only write code after a failing test, and MUST re-test several times a
 commit) will want to check out [Robolectric][7].
 
-### The APK limit: The "Escort Mission" of Android Dev
+<h3 id="the-apk-limit-the-escort-mission-of-android-dev">The APK limit: The "Escort Mission" of Android Dev</h3>
 
 Designers of strategy or war games almost inevitably, when realizing they can’t
 make a single-player campaign entirely of "kill all the bad things" missions,
@@ -78,7 +78,7 @@ years the ecosystem will have permeated these changes, so you no longer have to 
 _like a barbarian_ and can use your programming language’s "reusable function"
 feature. Until then, decide which library or method you love least, and cull it.
 
-### Resources
+<h3 id="resources">Resources</h3>
 
 When getting to know a new ecosystem, it’s always handy to see who’s in that
 space and what they’re saying. I’ve written about almost all the Square

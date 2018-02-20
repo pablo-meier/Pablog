@@ -33,7 +33,7 @@ writing one! Here's a more edited version of what I wrote back to my dad.
 
 <!-- more -->
 
-### You're not the first person to think about People
+<h3 id="youre-not-the-first-person-to-think-about-people">You're not the first person to think about People</h3>
 
 Something I see missing from arguments like those in the piece is
 an awareness of social sciences. Thinkpiece authors make salaries stitching
@@ -73,7 +73,7 @@ or what they do to us" but if you have to make a direct comparison of millenials
 to their Better Parents please at least demonstrate that you tried
 controlling for bias against people growing up differently than they did.
 
-### A counterexample using the same bad rules
+<h3 id="a-counterexample-using-the-same-bad-rules">A counterexample using the same bad rules</h3>
 
 All that being said, referencing whitepapers is nobody's idea of a good time,
 and the world runs on simple narratives. So here's one of mine for why it seems
@@ -101,7 +101,7 @@ plant; I'm willing to bet most people preferred simple consumption then too, you
 just didn't have to see them as much or run into them (we still spend most of
 our waking lives [watching TV all day,][2] and it was worse pre-Internet).
 
-### All this mental contortion to help an asshat
+<h3 id="all-this-mental-contortion-to-help-an-asshat">All this mental contortion to help an asshat</h3>
 
 As for the editor of a journal or whatnot, I just remember the headline: [I
 Don’t Know How To Explain To You That You Should Care About Other People.][3]
@@ -151,7 +151,7 @@ and I don't have to be a predator to start a magazine. Kick them out.
 
 ---
 
-### Why I'm not linking it
+<h3 id="why-im-not-linking-it">Why I'm not linking it</h3>
 
 I found it and… it's not worth linking to. Message me if you're really curious,
 but I was expecting a more reputable outlet (I'd not heard of this one, it was

@@ -27,9 +27,9 @@ a 6.8][2].
 
 <!-- more -->
 
-### Chip Music
+<h3 id="chip-music">Chip Music</h3>
 
-##### Background
+<h5 id="background">Background</h5>
 
 <div style="max-width: 700px; margin: 20px auto; text-align:center;">
 <img style="max-width: 200px" src="/img/2017/06/8bitsofchristmas.gif" alt="The 8bits of Christmas album art" style="display: inline;" />
@@ -51,7 +51,7 @@ I first got into this when some game publication (_Electronic Gaming Monthly_?)
 did a feature on [8bitpeoples][46] when I was in high school. After that I
 downloaded a ton of their tracks, and found it in other places.
 
-##### Selections
+<h5 id="selections">Selections</h5>
 
 Some favorites of mine:
 
@@ -90,7 +90,7 @@ like Pixel Art. A lot of the same questions of authenticity and who follows
 what constraints are present, see [this great article][18] using pixel art as an
 example and note how it also applies to the music I've linked.
 
-### Dubstep
+<h3 id="dubstep">Dubstep</h3>
 
 <div style="max-width: 700px; margin: 20px auto; text-align:center;">
 <video src="/img/2017/06/dubstep.mp4" autoplay loop><p>Key and Peele gif
@@ -130,7 +130,7 @@ Hyuna's [Bubble Pop][23] is a decent K-Pop song from the era and was a mainstay
 with [HuK][24]'s StarCraft fanbase. But _goddamn_ is that a terrible, horrible,
 no-good, very bad B-section.  
 
-### `#DeepTrance` and `#DeepHouse`
+<h3 id="deeptrance-and-deephouse">`#DeepTrance` and `#DeepHouse`</h3>
 
 <div style="max-width: 700px; margin: 20px auto; text-align:center;">
 <video src="/img/2017/06/rave_dogs.mp4" autoplay loop><p>Dogs raving</p></video>
@@ -191,9 +191,9 @@ kind that lead people to [divorce their parakeets][61] after Burning Man.
 another time or post. A great read related to this is [the fine advice of Rave
 Grandpa][39]).
 
-### Mashup
+<h3 id="mashup">Mashup</h3>
 
-##### Background
+<h5 id="background">Background</h5>
 
 <div style="max-width: 700px; margin: 20px auto; text-align:center;">
 <img style="max-width: 300px" src="/img/2017/06/neil_cicierega_mouth_sounds.jpg" alt="MOUTH SOUNDS" style="display: inline;" />
@@ -213,7 +213,7 @@ About mashup, I used to say (arguably cynically?): what if you only took
 the best parts of most songs and put them together? Like the "only marshmallows"
 bowl of Lucky Charms? Take the melodies/hooks of songs and leave nothing else 😛
 
-##### Selections
+<h5 id="selections">Selections</h5>
 
 Back in the day I really enjoyed [Super Mash Bros.][50], with a [few great
 albums.][51] Hard to find official-looking web presence, the closest being [this

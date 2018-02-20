@@ -7,7 +7,7 @@ _🎵 The song for this post is [Men in Black][16], by Will Smith 🎵_
 I haven't written about code in a long time, so here are some reckons about
 (micro)services, monoliths, and modularity.
 
-### Who am I
+<h3 id="who-am-i">Who am I</h3>
 
 After leaving Adobe and Google in SF, my experience in NYC has been with
 progressively larger startups: [Sup][17] (seed, 3 employees), [Reonomy][18] (B
@@ -17,7 +17,7 @@ Round, ~50 employees at max), [ClassPass][19] (C round, ~220 employees), and now
 All but Sup have involved growing the number of services in the backend, rather
 than growing the monolith.
 
-### Monoliths and their majesty
+<h3 id="monoliths-and-their-majesty">Monoliths and their majesty</h3>
 
 Every company starts from a monolith. If you're lucky, you'll get a company that
 won't deviate from this. DHH and the friends at Basecamp advocate this in
@@ -36,7 +36,7 @@ and I'm already more senior than 11.2% of the employees? 🤔)
 So if you work for a company that scales or has scaled like that at any point in
 their history, there comes a point when someone says the following:
 
-### "It will never get easier to split into services"
+<h3 id="it-will-never-get-easier-to-split-into-services">"It will never get easier to split into services"</h3>
 
 Eventually, there come grumblings for separate services (guilty). I usually see
 this happen:
@@ -63,7 +63,7 @@ cocktail party with startup types. I'm surprised nobody espousing its virtues in
 these companies brings up [Steve Yegge's big rant about SOA from 2011,][5]
 because there's pretty good stuff there too.
 
-#### Natural forces: Conway's Law, Engineering employment, Engineering Management
+<h4 id="natural-forces-conways-law-engineering-employment-engineering-management">Natural forces: Conway's Law, Engineering employment, Engineering Management</h4>
 
 A few other forces at play:
 
@@ -105,7 +105,7 @@ circumstances.
 So is it a surprise that teams pick the fashionable solution that allows them to
 feel productive (greenfield) without confronting the code they didn't write?
 
-### A solution: microservices!
+<h3 id="a-solution-microservices">A solution: microservices!</h3>
 
 In light of all this, let's talk about what microservices are supposed to offer
 you, on a technical level:
@@ -131,7 +131,7 @@ immediately less painful while you grow unnaturally fast. But these should be
 remembered, especially since they become especially true at the scale of
 hundreds of engineers.
 
-### What sucks about microservices
+<h3 id="what-sucks-about-microservices">What sucks about microservices</h3>
 
 Here come my reckons. I think **microservices are usually a bad fit for the
 companies that adopt them.** That said, I have trouble offering _practical_
@@ -172,7 +172,7 @@ Two lovely articles that elaborate on these and other points are [here][8] and
 [here][9].  Needless to say, [distributed systems are hard][10], and you should
 avoid them if you possibly can.
 
-### Is there ever a time to switch to SOA?
+<h3 id="is-there-ever-a-time-to-switch-to-soa">Is there ever a time to switch to SOA?</h3>
 
 Of course! I couldn't imagine Lyft without the services architecture we have:
 with this many engineers, our processes would surely flood. Then again, [we
@@ -184,7 +184,7 @@ amount for tooling, architecture, and support. That's probably not your startup.
 The correct time to switch to microservices is [at precisely the moment you have
 a "heap" of engineers.][31]
 
-### Wow Pablo, _another_ Erlang plug… 🙄
+<h3 id="wow-pablo-another-erlang-plug-">Wow Pablo, _another_ Erlang plug… 🙄</h3>
 
 All 3 of you who can tolerate talking to me about programming will hear me plug
 Erlang all the time, and I have [waxed about it here][11]. But! It really was
@@ -210,13 +210,13 @@ and be That Person at your company 🍿), I'm just taking this opportunity to pl
 the language/runtime I think software engineers will learn the most from when
 wanting to structure applications like this.
 
-### How do you cut a monolith? Not with message brokers
+<h3 id="how-do-you-cut-a-monolith-not-with-message-brokers">How do you cut a monolith? Not with message brokers</h3>
 
 Last thing I'll point out: message brokers are very popular in SOA/microservice
 environments. One of my _all-time favorite blog posts_ is [this one][22] on
 issues arising from their very common use cases in distributed environments.
 
-### Last words, further reading
+<h3 id="last-words-further-reading">Last words, further reading</h3>
 
 My not-useful takeaway from these reckons is that _what you need is modularity,
 not microservices._ If you replaced "each team publishes a library with a stable

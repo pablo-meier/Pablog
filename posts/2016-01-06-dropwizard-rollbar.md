@@ -27,7 +27,7 @@ deployment of Dropwizard, read on!
 
 <!-- read more -->
 
-### Requirements of the server
+<h3 id="requirements-of-the-server">Requirements of the server</h3>
 
 Beyond fulfilling the needs of the customers, my design goals from an
 engineering perspective were these:
@@ -55,7 +55,7 @@ engineering perspective were these:
 7. Establish a groundwork for a product that is easy to measure, monitor, and
   deploy.
 
-#### For 1 & 2, I chose Java
+<h4 id="for-1-2-i-chose-java">For 1 & 2, I chose Java</h4>
 
 ![](https://reonomy-monona-prd.s3.amazonaws.com/2015/Dec/rush-1450889733731.png)
 
@@ -81,7 +81,7 @@ always do, a sad and broken human.)
 And hey, Facebook and Etsy were built on _PHP_, so sweating too hard on
 language/stack choices eventually becomes a void proposition.
 
-#### For 6 & 7, I chose Dropwizard
+<h4 id="for-6-7-i-chose-dropwizard">For 6 & 7, I chose Dropwizard</h4>
 
 ![](https://reonomy-monona-prd.s3.amazonaws.com/2015/Dec/MegaManEightBit-1450889746811.png)
 
@@ -93,7 +93,7 @@ while also still giving you the flexibility to do things your own way. This
 wasn't a do-everything-for-you framework, nor a
 we-serve-endpoints-and-nothing-else microframework.
 
-#### For 3, 4, and 5…
+<h4 id="for-3-4-and-5">For 3, 4, and 5…</h4>
 
 And here's the meat! Out of the box, Dropwizard requires some configuration if
 you'd like to integrate Rollbar or Swagger. And _those_ tools may not always
@@ -103,7 +103,7 @@ endpoints][9].
 I'll go over our Swagger integration, our Rollbar integration, and making sure
 your JSON models are consistent if you're using [Retrofit][19].
 
-#### Swagger, or Love You Some Annotations
+<h4 id="swagger-or-love-you-some-annotations">Swagger, or Love You Some Annotations</h4>
 
 ![](https://reonomy-monona-prd.s3.amazonaws.com/2015/Dec/toadman_intro-1450889783384.gif)
 
@@ -114,7 +114,7 @@ the following here:
 * Allowing these to work with [Dropwizard Auth][22].
 * Allowing the server to self-serve its documents using [Swagger UI][23].
 
-##### Hooking it up
+<h5 id="hooking-it-up">Hooking it up</h5>
 
 You'll want to add the following to your `build.gradle`:
 
@@ -202,7 +202,7 @@ Once this is set up, start up your server and navigate to
 `<toplevel>/swagger.json`. You should see a Swagger document with your values
 populated!
 
-##### Working with @Auth
+<h5 id="working-with-auth">Working with @Auth</h5>
 
 I later ran into a bug where the `@Auth` param was getting recorded in the
 Swagger documentation, suggesting to clients that my endpoints _all_ required
@@ -281,7 +281,7 @@ _Voila!_ The @Auth parameters (and anything else you mark as `access =
 
 ![](https://reonomy-monona-prd.s3.amazonaws.com/2015/Dec/toadman_weapon_get-1450889862478.gif)
 
-##### Serving it up
+<h5 id="serving-it-up">Serving it up</h5>
 
 This last bit is likely the most hackey: using Swagger UI to self-serve our
 docs. We'll likely move to a model where our docs are served by a dedicated
@@ -318,7 +318,7 @@ that bespoke change, and checking this in messes with your repo's statistics:
 But now it's done and you can improve it later. And what is engineering but a
 set of compromises that makes you cry?
 
-#### Rollbar, a story of appenders and design choices
+<h4 id="rollbar-a-story-of-appenders-and-design-choices">Rollbar, a story of appenders and design choices</h4>
 
 ![](https://reonomy-monona-prd.s3.amazonaws.com/2015/Dec/pharoahman_intro-1450890803670.gif)
 
@@ -394,6 +394,7 @@ And _finally_, include the needed variables in your YAML config file:
 
 ```
 logging:
+<h1 id="-logging-settings-as-you-like"># logging settings as you like</h1>
     # logging settings as you like
     appenders:
         - type: rollbar
@@ -402,7 +403,7 @@ logging:
           threshold: ERROR
 ```
 
-#### JSON, and MORE
+<h4 id="json-and-more">JSON, and MORE</h4>
 
 ![](https://reonomy-monona-prd.s3.amazonaws.com/2015/Dec/pharoahman_weapon_get-1450889922618.gif)
 
@@ -473,7 +474,7 @@ new RestAdapter.Builder()
     .setConverter(new JacksonConverter(mapper))
 ```
 
-### Still to come!
+<h3 id="still-to-come">Still to come!</h3>
 
 There are a number of other integrations/properties that I've included or would
 like to include that didn't make it in time for this blog post:

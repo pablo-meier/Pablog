@@ -10,7 +10,7 @@ Here is a 20-something male's OPINION on a video game, on the Internet. Imagine!
 
 <!-- more -->
 
-### Actually playing the game.
+<h3 id="actually-playing-the-game">Actually playing the game.</h3>
 
 The fun of consuming the game doesn't really come from playing it. It's a typical
 FPS that's been tweaked to be the _just right_ difficulty for the target
@@ -41,7 +41,7 @@ That said, this game puts _all_ of its chips in the idea that its story will
 wow you, presenting question after question until they reveal the rules of the
 world and THE BIG TWIST in the last 15 minutes.
 
-### And what about that storyline?
+<h3 id="and-what-about-that-storyline">And what about that storyline?</h3>
 
 Well, something like this:
 
@@ -66,7 +66,7 @@ As the [Zero Punctuation guy][4] said, this game can't help but travel into its
 own ass more than a few times, and while he was less bothered by it, I just
 threw up my arms and felt that I'd wasted a ton of hours on a lost opportunity.
 
-### Regarding some reactions to elements in the game.
+<h3 id="regarding-some-reactions-to-elements-in-the-game">Regarding some reactions to elements in the game.</h3>
 
 Zero Punctuation actually echoes a common complaint that I've heard about the
 game, especially from my Caucasian friends: Comstock and his subjects are

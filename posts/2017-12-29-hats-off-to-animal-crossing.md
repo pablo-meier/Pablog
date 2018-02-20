@@ -7,7 +7,7 @@ recently: [Animal Crossing: New Leaf.][9]
 
 <!-- more -->
 
-### What I love about it
+<h3 id="what-i-love-about-it">What I love about it</h3>
 
 For those who don't know, _Animal Crossing_ has you move a character into a
 town of cute animals. From there you can do an assortment of things: talk to the
@@ -38,7 +38,7 @@ And I think that's the best description. Also, its aesthetics are **adorable**.
 
 A few words on what else I love about it:
 
-#### Better "gamification"
+<h4 id="better-gamification">Better "gamification"</h4>
 
 Most software I'm using these days employ people whose entire job it is to
 increase my engagement with their product. Each engagment is designed to be a
@@ -70,7 +70,7 @@ not to mention it.
 Overall, it's _peaceful_ to play, which isn't something I can say about almost
 anything else I do.
 
-#### Relationship hacks
+<h4 id="relationship-hacks">Relationship hacks</h4>
 
 The game is fine fun, but it's _really_ fun if you share a space with someone or
 someones. I'm thinking of getting a 3DS and leaving a copy in my office for
@@ -80,7 +80,7 @@ Leaf_ town with my current girlfriend, and it gives us a fun, low-pressure thing
 to bond over. She wants to cut down some trees so I leave her axes. She knows I
 love [Gyroids][8], so she leaves them for me.
 
-### What could be better
+<h3 id="what-could-be-better">What could be better</h3>
 
 While not being Internet-connected is a core part of the charm, you can't help
 but feel there's missed opportunities on visiting other towns, or sharing your
@@ -92,7 +92,7 @@ I'm glad design decisions opted towards offline rather than online content, but
 I feel like Something Greater lies in the space between the online experiences
 of this game and the Click Factories that Zynga got temporarily rich with.
 
-### Not _Pocket Camp_
+<h3 id="not-pocket-camp">Not _Pocket Camp_</h3>
 
 You may be tempted, as I was, to see if there's a version of the game you can
 play on your phone. I have the [newest Layton game][10] on my phone and certainly
@@ -107,7 +107,7 @@ Besides, I like the form factor of not having it on my phone. The 3DS sits in
 the apartment as the "Animal Crossing" machine we pass around and/or leave for
 each other.
 
-### Additional Reading
+<h3 id="additional-reading">Additional Reading</h3>
 
 - GamaSutra had [a great set of interviews with developers about _Pocket Camp_][1],
 where I quoted Daniel Cook above. It also included this great line by Yoko Taro:

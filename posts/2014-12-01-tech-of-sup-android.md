@@ -21,9 +21,9 @@ miscellany is [here.][6]
 
 <!-- more -->
 
-## Architecture
+<h2 id="architecture">Architecture</h2>
 
-### Few Activities, many Fragments (or ViewGroups)
+<h3 id="few-activities-many-fragments-or-viewgroups">Few Activities, many Fragments (or ViewGroups)</h3>
 
 [Activities][7], [Intents][8], [Fragments][9], and [Contexts][10] are, like
 politics, [weird... and creepy][11]. Similar to gall bladders, they either
@@ -60,7 +60,7 @@ as it’s not hit 1.0 yet, it looks to be optimized for use with [Mortar][16]
 (which I have less charitable opinions of), and Saint Jake [seems to be][17]
 [holding off on][18] endorsing it.
 
-### What benefits has this approach given?
+<h3 id="what-benefits-has-this-approach-given">What benefits has this approach given?</h3>
 
 The biggest benefit is that you can seperate app-wide logic from screen-specific
 logic. As an example, consider Profile Cards in Sup:
@@ -104,7 +104,7 @@ Anywhere In The App that is distinct from Things That Happen On This Screen
 (this is how we can Sup users from most screens, and receive invites from them
 too).
 
-### DAG your app’s data flow
+<h3 id="dag-your-apps-data-flow">DAG your app’s data flow</h3>
 
 _Try to ensure that everything flows in one direction, and relies on as few other
 components as possible._ This seems obvious is retrospect and almost silly on

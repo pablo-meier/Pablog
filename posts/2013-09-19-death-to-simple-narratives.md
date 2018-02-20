@@ -6,7 +6,7 @@ I've never been partial to mantras or aphorisms, but one has stuck with me for
 the last year or so and I'm finding it pretty lovely. It's "Death to Simple
 Narratives."
 
-## Death to Simple Narratives, in Fiction
+<h2 id="death-to-simple-narratives-in-fiction">Death to Simple Narratives, in Fiction</h2>
 
 <!-- more -->
 
@@ -47,7 +47,7 @@ making his narratives just a little less Simple.
 Why does this matter? Well, because the fiction we produce and consume has a
 large part in how we process the rest of the world, which leads to...
 
-## Death to Simple Narratives, In Non-Fiction and the News
+<h2 id="death-to-simple-narratives-in-nonfiction-and-the-news">Death to Simple Narratives, In Non-Fiction and the News</h2>
 
 Millenials are entitled and self-centered. Straight guys desire women with big
 tits. Men and women are biologically programmed to be different. Just like we

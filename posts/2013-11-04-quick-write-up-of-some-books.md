@@ -12,7 +12,7 @@ I read them:
 
 <!-- more -->
 
-### _Bossypants_, by Tina Fey
+<h3 id="bossypants-by-tina-fey">_Bossypants_, by Tina Fey</h3>
 
 <img src="/img/2013/11/bossypants.jpg" alt="cover of Bossypants, by Tina Fey" style="float:right; margin: 0 0 15px 15px;" />
 
@@ -83,7 +83,7 @@ they'd been present.
 But that is the minorest of minor complaints. Overall it's a very fun and
 rewarding read, please pick it up yourself and tell me I'm too sensitive :)
 
-### _The Psychopath Test_, by Jon Ronson
+<h3 id="the-psychopath-test-by-jon-ronson">_The Psychopath Test_, by Jon Ronson</h3>
 
 <img src="/img/2013/11/psychopath-test.jpg" alt="cover of The Psychopath Test, by Tina Fey" style="float:left; margin: 0 15px 15px 0;" />
 
@@ -123,7 +123,7 @@ Variety and the Human Body][10]_, by Armand Marie Leroi. It's a similar
 story-based treatment of the history of genetic mutations, which I also enjoyed
 immensely).
 
-### _Redshirts_, by John Scalzi
+<h3 id="redshirts-by-john-scalzi">_Redshirts_, by John Scalzi</h3>
 
 <img src="/img/2013/11/redshirts.jpg" alt="cover of Redshirts, by John Scalzi" style="float:right; margin: 0 0 15px 15px;" />
 

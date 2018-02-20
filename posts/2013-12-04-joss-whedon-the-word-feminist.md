@@ -19,7 +19,7 @@ response to the response. That should fix it.
 
 <!-- more -->
 
-### Some basic, basic reminders.
+<h3 id="some-basic-basic-reminders">Some basic, basic reminders.</h3>
 
 * You can like problematic works or works created by people who've said or done
   problematic things, just don't be in denial if that work or creator is called
@@ -64,7 +64,7 @@ But Z is the issue!
 So don't worry Whedonites -- nobody's calling him the bogeyman, or you a
 terrible person for loving _The Avengers._ Put down them pitchforks.
 
-### Lightening Rod: Joss Whedon is a white dude who hates the word "feminist"
+<h3 id="lightening-rod-joss-whedon-is-a-white-dude-who-hates-the-word-feminist">Lightening Rod: Joss Whedon is a white dude who hates the word "feminist"</h3>
 
 Despite the incorrectness of his claims or rationale (see the responses I linked
 above), a sticking point, for me, is his issues with the word "feminist." At some
@@ -114,7 +114,7 @@ just that it's almost always those people who by construction can't understand
 what feminists fight against, and it's patronizing and lacking in empathy to tell
 them they're doing it wrong.
 
-### Popular issues with the word "feminist."
+<h3 id="popular-issues-with-the-word-feminist">Popular issues with the word "feminist."</h3>
 
 Like "Obamacare," feminism is funny in that virtually everybody loves what the
 the word stands for before entering a seething rage at the mention of it.
@@ -185,7 +185,7 @@ always, with some exceptions, used by indignant guys who just hate the word
 feminist and are looking for an excuse to avoid it. While equivalent in theory,
 _de facto_ it's been pretty spoiled for me.
 
-### From the other side
+<h3 id="from-the-other-side">From the other side</h3>
 
 With all that said, there is one line of argument that I consider more seriously
 for issues with the word feminism: like "egalitarian" above, the term has been a
@@ -204,7 +204,7 @@ I confess I haven't read enough into these conversations to have a strong stance
 on it, but my leanings are for a more intersectional and inclusive movement,
 naturally.
 
-### Just listen more, goddammit
+<h3 id="just-listen-more-goddammit">Just listen more, goddammit</h3>
 
 The second major idealogical reason why I stick with "feminism" instead of an
 alternative term is because _it's not my place to have a particularly loud

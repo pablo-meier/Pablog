@@ -13,7 +13,7 @@ filetypes. Then, it _swaps the files_, but also _swaps their filenames._ Let's
 see this in action:
 
 ```
-# Find two files of similar types, then do something like:
+<h1 id="find-two-files-of-similar-types-then-do-something-like">Find two files of similar types, then do something like:</h1>
 
 File1=$HOME/Videos/wedding_video.mp4
 File2=$HOME/secret/gigli_ben_afflect_j_lo.mp4

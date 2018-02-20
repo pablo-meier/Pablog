@@ -36,7 +36,7 @@ became less of a "Web" and more of braid of three major tangles.
 culture around web services and it more readily encouraged value generation
 through mixing/accessibility and user protections.
 
-### What have I done so far?
+<h3 id="what-have-i-done-so-far">What have I done so far?</h3>
 
 - Making authoring posts/publishing the blog a whole lot easier. Blog tech/meta
   is often pretty boring, so I won't go into it.
@@ -51,7 +51,7 @@ through mixing/accessibility and user protections.
 
 - Beefed up and started using my [Feedly][11] account more.
 
-### What am I doing in addition? What's on the roadmap?
+<h3 id="what-am-i-doing-in-addition-whats-on-the-roadmap">What am I doing in addition? What's on the roadmap?</h3>
 
 - Something like a newsletter. I'd like to enable folks to subscribe to posts in
   batches via email, like a digest, so one doesn't have to check back all the
@@ -77,7 +77,7 @@ through mixing/accessibility and user protections.
 - Maybe look into hosting my own [Mastodon][8] instance for myself and/or
   friends.
 
-### Exceptions?
+<h3 id="exceptions">Exceptions?</h3>
 
 There are a few exceptions I'd like to note:
 
@@ -96,7 +96,7 @@ There are a few exceptions I'd like to note:
 - This site is hosted on AWS, and I think it's unlikely this changes. The
   offering is incredibly cheap, and managing your own servers is a **bear.**
 
-### A process
+<h3 id="a-process">A process</h3>
 
 Like going vegetarian or vegan, one can transition slowly. I tried quitting
 Twitter a few years ago and it absolutely didn't last. But now I'm in a better

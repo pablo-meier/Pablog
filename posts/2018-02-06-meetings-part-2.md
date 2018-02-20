@@ -23,7 +23,7 @@ both meetings and fever are each symptoms of a large category of dysfunctions.
 Here are a few weaknesses and restrictions I've observed to make meetings appear
 necessary.
 
-### Incorrect org structure
+<h3 id="incorrect-org-structure">Incorrect org structure</h3>
 
 This is the easiest one to understand, and the one that most absolves leadership
 of having to think critically of their behavior: we just have the wrong team
@@ -52,7 +52,7 @@ necessary.
 That said, one of the other reasons might still be at play, because in theory,
 these two chatty teams could just use email, or Google Docs?
 
-### 10 generals planning a battle for 12 soldiers
+<h3 id="10-generals-planning-a-battle-for-12-soldiers">10 generals planning a battle for 12 soldiers</h3>
 
 One broken org structure deserves special attention.
 
@@ -71,7 +71,7 @@ in this case to accommodate what your workers need. If you're at this point
 already, each loss costs more than the last, is harder to rebuild from, and the
 ones vocalizing their discontent are probably already on their way out anyways.
 
-### Lack of feeling safe when making or announcing decisions
+<h3 id="lack-of-feeling-safe-when-making-or-announcing-decisions">Lack of feeling safe when making or announcing decisions</h3>
 
 Variations of "lack of trust" and "lack of safety" should be one of your first
 guesses when considering virtually any cultural issue. Cultural wrongs exist
@@ -86,7 +86,7 @@ individual, or the company as a whole) has most folks feeling…
 - "Stakeholders won't engage with a doc"
 - "My asks aren't precise, and I can't make what I want precise."
 
-#### "Stakeholders won't engage" = Permission vs. Intent, Bad Prioritization
+<h4 id="stakeholders-wont-engage-permission-vs-intent-bad-prioritization">"Stakeholders won't engage" = Permission vs. Intent, Bad Prioritization</h4>
 
 Here's very common one: meetings that largely go over the content of a
 doc. One could presumably just send out the doc and eschew the meeting, but
@@ -121,7 +121,7 @@ is needed to move forward, and all teams need that attention, Leader gets busy
 and can't read the prepared docs adequately. The only way to get their full
 attention is to put them in a meeting. So.
 
-### "My asks aren't precise" = Lack of direction or vision
+<h3 id="my-asks-arent-precise-lack-of-direction-or-vision">"My asks aren't precise" = Lack of direction or vision</h3>
 
 Sometimes the initiator of a meeting can't write it in a doc because they're not
 clear on what they want, or has dependencies they can't satisfy without putting
@@ -151,7 +151,7 @@ vs. what other teams own, or how they fit into the company's greater objectives;
 and they use meetings as an ad-hoc way to clarify these. Be mindful of this
 possibility.
 
-### #NotAllMeetings
+<h3 id="notallmeetings">#NotAllMeetings</h3>
 
 Reminder that many meetings are necessary, many that are part of your core
 structure (sprint planning, sprint retro, manager 1:1s) aren't bad

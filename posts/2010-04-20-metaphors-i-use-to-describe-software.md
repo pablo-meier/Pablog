@@ -2,7 +2,7 @@
     Date:2010-04-20T15:35:00
     Tags: pablolife
 
-#### Programming is Magic
+<h4 id="programming-is-magic">Programming is Magic</h4>
 
 [![][1]][2]
 
@@ -22,7 +22,7 @@ And like magic, you have to do it just right. Compilers will annoyingly tell
 you it's _Wingardium Leviosa_, not _Wingardium Leviosaaaa_! The worst are
 spells that pass, but work incorrectly. You may end up spitting slugs.
 
-#### Programming is the new literacy
+<h4 id="programming-is-the-new-literacy">Programming is the new literacy</h4>
 
 [![][3]][4]
 
@@ -48,7 +48,7 @@ I'm with the authors of [How To Design Programs][5] in that I believe
 [everybody should learn to design programs][6], just as we expect them to
 learn to read and do math.
 
-#### On imperative vs. functional
+<h4 id="on-imperative-vs-functional">On imperative vs. functional</h4>
 
 Most programmers are imperative programmers, which I like to think of as
 boxers. They punch very hard, and very well. They have giant upper bodies,

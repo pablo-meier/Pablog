@@ -18,11 +18,11 @@ here's some reflections/thoughts having been in this now for about 6 months.
 
 <!-- more -->
 
-## I like it. A lot.
+<h2 id="i-like-it-a-lot">I like it. A lot.</h2>
 
 This wasn't a certainty, so I'm happy to report, I do!
 
-## More like Theater than Engineering
+<h2 id="more-like-theater-than-engineering">More like Theater than Engineering</h2>
 
 When asked about the gig, this is what I lead with: the actual, day-to-day work
 of running the teams has more do to with my theater background than anything I
@@ -65,7 +65,7 @@ A corollary to this is **I don't think people who don't care about or enjoy
 professional life. But the reason I'm enjoying (and hopefully succeeding) in
 this role is because I also happen to love of working with people.
 
-## Remember who does the work
+<h2 id="remember-who-does-the-work">Remember who does the work</h2>
 
 I've been accurately accused of caring more about the people reporting to me
 than my laterals and/or the executives and investors above me. I understand [the
@@ -99,7 +99,7 @@ and you can make this job someone's best job.
 
 <img src="/img/2016/08/comrade_doggo.jpg" alt="Comrade Doggo" style="max-width: 450px; margin: 15px auto;" />
 
-## Resources I Consumed
+<h2 id="resources-i-consumed">Resources I Consumed</h2>
 
 I've been reading a lot of management-ey books during these last few months to
 get a sense of how I can improve. I haven't read any that I'd call useless yet;
@@ -110,7 +110,7 @@ book."][17]
 
 Here are some that I've read, reactions to them:
 
-### [The First 90 Days][10] — Michael Watkins
+<h3 id="the-first-90-days10-michael-watkins">[The First 90 Days][10] — Michael Watkins</h3>
 
 This was suggested by my CTO, Chris, and also where the word salad in the link
 above came from. There were a few valuable things I got out of this:
@@ -138,7 +138,7 @@ above came from. There were a few valuable things I got out of this:
 It's pretty clear they're writing this book for Tactical Action People:
 virtually every chapter has three "fill in the squares of this table" exercises.
 
-### [The Hard Thing About Hard Things][11] — Ben Horowitz
+<h3 id="the-hard-thing-about-hard-things11-ben-horowitz">[The Hard Thing About Hard Things][11] — Ben Horowitz</h3>
 
 This is probably the one I'm most conflicted about. This suggestion came from my
 COO, Brooks. This had the most "screencaps because I'm _fucking retching_ here."
@@ -157,7 +157,7 @@ think a church is worshipping clearly false idols but still find value in
 reading their holy texts, especially if you don't have much of a choice but to
 have to deal with them.
 
-### [Getting to Yes][12] — Roger Fisher and William Ury
+<h3 id="getting-to-yes12-roger-fisher-and-william-ury">[Getting to Yes][12] — Roger Fisher and William Ury</h3>
 
 If there's one book of these that I can recommend to anybody, for any reason,
 it'd be this one. I learned about it from a post I link in [my Engineering
@@ -174,7 +174,7 @@ positions held) in any conflict.
 
 <small>\*extremely actor voice\*: "what is my motivation?"</small>
 
-### [Five Dysfunctions of a Team][16] — Patrick Lencioni and Kensuke Okabayashi
+<h3 id="five-dysfunctions-of-a-team16-patrick-lencioni-and-kensuke-okabayashi">[Five Dysfunctions of a Team][16] — Patrick Lencioni and Kensuke Okabayashi</h3>
 
 Also a recommendation from COO Brookie. I enjoyed this, even though I didn't
 always agree with it. I got the Manga Edition because it's more fun, and lets be
@@ -213,16 +213,16 @@ knowledge of this is setting up non-assholes (so, not me) to fail.
 ---
 On the docket to be read next:
 
-### Turn This Ship Around! — L. David Marquet
+<h3 id="turn-this-ship-around-l-david-marquet">Turn This Ship Around! — L. David Marquet</h3>
 
 Mentioned in the Camille Fournier post I linked above, and recommended by a
 co-worker.
 
-### High Output Management — Andrew Grove
+<h3 id="high-output-management-andrew-grove">High Output Management — Andrew Grove</h3>
 
 Mentioned on my Twitter feed and seconded by COO. Started it, so far so good.
 
-### A book on Appreciative Inquiry
+<h3 id="a-book-on-appreciative-inquiry">A book on Appreciative Inquiry</h3>
 
 My mom did her Master's Thesis in Organizational Development on this, so I'll
 probably be reading a book or two on it (I asked her to pull out her thesis, but
@@ -257,7 +257,7 @@ dropout? Seems like a decent enough guy, and Lord knows I love my Wendy's. I'm
 just saying success in business does not necessarily correlate to these
 Atlas-like images most of these people have for themselves.</small>
 
-## Overall
+<h2 id="overall">Overall</h2>
 
 I've still got a lot to learn. I'm blessed with two fantastic teams, and a
 supportive boss. I don't know what work life after this company looks like:

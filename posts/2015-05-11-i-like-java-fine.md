@@ -38,7 +38,7 @@ Let's break it down…
 
 <!-- more -->
 
-### Tooling
+<h3 id="tooling">Tooling</h3>
 
 Except for C++ in Visual Studio ([real one][31], not [the newcomer][30] and again, kept
 away from many of us for being Windows-only), there's no other language I've
@@ -70,7 +70,7 @@ and readily handle industry demands. But in the dozen or two languages I've
 written projects in, none except Java and VS have had an extraordinary story
 here.
 
-### Performance
+<h3 id="performance">Performance</h3>
 
 This would be a punchline in the late 90's before dynamic languages swept the
 planet, but again, compare the landscapes here: for a GC-ed language with memory
@@ -101,7 +101,7 @@ memory safe languages with decent concurrency stories, modern package managers,
 strong industry investment that perform quite beautifully. They can't catch up
 on the tooling or ecosystem soon enough!)
 
-### Ecosystem
+<h3 id="ecosystem">Ecosystem</h3>
 
 One of the nicest things about the languages I singled-out above is package
 managers. `gem install`, `pip` and `npm install --save` make adding libraries to
@@ -119,7 +119,7 @@ with the languages above. And there are JARs for everything. [Check out my post
 on Android libraries][21] to get a sense of how much of a role it can play in
 your development, and Getting Things Done.
 
-##### Sidenote: The JAR format, and there is so much shit is written in Java
+<h5 id="sidenote-the-jar-format-and-there-is-so-much-shit-is-written-in-java">Sidenote: The JAR format, and there is so much shit is written in Java</h5>
 
 I'll make another case here: JARs and Java's tooling are great too in odd cases
 where you might want to use an executable as a library. This isn't wholly unique
@@ -154,7 +154,7 @@ easy bridge to most of it, even if they were originally CLIs.
 Unrelated: I love Erlang, but _maybe_ it was a bad choice for the application
 logic.
 
-### In defense of idiot-proofing
+<h3 id="in-defense-of-idiotproofing">In defense of idiot-proofing</h3>
 
 Most smart devs I know understand that you don't want to be _too_ clever, and
 [The Zen of Python][24] very nicely states that "Explicit is better than implicit.
@@ -196,13 +196,13 @@ tied in Java. You can [certainly make messes in Java][29]. But a) I feel like
 you really gotta work harder to make that mess with your hands tied, and b) with
 better tooling, I find it's often easier to navigate anyways.
 
-### A better, more thorough defense by example
+<h3 id="a-better-more-thorough-defense-by-example">A better, more thorough defense by example</h3>
 
 Is available [here.][22] It's an excellent series in 3 parts that goes over a
 radically different workflow than most people expect when they think of
 programming Java. It's also a year old, so I expect a lot has changed!
 
-### It's perfect and I love it forever.
+<h3 id="its-perfect-and-i-love-it-forever">It's perfect and I love it forever.</h3>
 
 It's not and I _definitely_ don't. But if someone says "I wrote it in Java/want
 to write it in Java" and you instinctively roll your eyes because it's not

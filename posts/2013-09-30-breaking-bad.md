@@ -45,7 +45,7 @@ show great in the first place. _Ozymandias_ was the episode the whole series was
 built for. Walt _finally_ feels the shit hitting the fan. Ultimately, the show
 found a way back to its center.
 
-### On fans
+<h3 id="on-fans">On fans</h3>
 
 Watching people watch the show was as much fun as watching the show.
 [Anna Gunn][4] wrote about the vitriol a huge segment of fans direct at her
@@ -72,7 +72,7 @@ account for the leeway they give every other character on the show.
 Besides, it's pretty obvious to anyone with a brain that the show's creators
 engineer the show for you to root for Walt. [Take it from them, not me.][7]
 
-### On the finale
+<h3 id="on-the-finale">On the finale</h3>
 
 <img src="/img/2013/09/thats-all-bitch.jpg" style="display: block; margin: 30px auto;" alt="that's all, bitch" />
 
@@ -99,7 +99,7 @@ he was a greedy, selfish asshole. Because it's fiction, I have no qualms in
 wishing he died cold, lonely, and without any chance of a decent legacy.
 [Walter White should die of gonorrhea and rot in hell.][12]
 
-### Why I liked it
+<h3 id="why-i-liked-it">Why I liked it</h3>
 
 My biggest takeaway from the series wasn't the standard "power corrupts" or
 "crime doesn't pay" that seems to get most people. It's that **many, ordinary

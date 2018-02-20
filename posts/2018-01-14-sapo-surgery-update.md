@@ -36,7 +36,7 @@ licking the wounds, but this is worthwhile.
 
 He's a champ and we love him.
 
-### Epilogue
+<h3 id="epilogue">Epilogue</h3>
 
 (Content Note: gross dog bodily functions)
 

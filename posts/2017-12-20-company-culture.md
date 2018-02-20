@@ -6,7 +6,7 @@ Here are two little anecdotes about companies and culture, apropos of nothing.
 
 <!-- more -->
 
-### The "electric bananas" experiment
+<h3 id="the-electric-bananas-experiment">The "electric bananas" experiment</h3>
 
 This is purely apocryphal and I have _no_ idea if this is really happened:
 
@@ -50,7 +50,7 @@ eventually they'll stop offering them. But even if a few especially
 disillusioned folks leave, new hires will still be conditioned by those who
 remain to not produce ideas.
 
-### Selecting for the job vs. Performing the tasks of the job
+<h3 id="selecting-for-the-job-vs-performing-the-tasks-of-the-job">Selecting for the job vs. Performing the tasks of the job</h3>
 
 Healthcare.org was a failure on launch that anybody thinking at the systems
 level could have predicted. Managing the purchase of health insurance across 50

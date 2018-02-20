@@ -10,21 +10,21 @@ that I've done substantial work on it.
 
 <!-- more -->
 
-# I ❤️ Erlang
+<h1 id="i-erlang">I ❤️ Erlang</h1>
 
-### Pattern matching.
+<h3 id="pattern-matching">Pattern matching.</h3>
 
 Srsly, this ruins you when you use other languages. Using raw `if` statements to
 choose your branches, and/or extracting nested data into a variable feels just
 _so_ cumbersome in other languages.
 
-### Binaries
+<h3 id="binaries">Binaries</h3>
 
 I don't have much use for them in Ghostlight, but when I have needed them (once
 for a [very old project][19]) it's far and away easiest way to work with binary
 data. This is illustrated pretty well in [this solution to a Go challenge.][3]
 
-### "Small, simple language"
+<h3 id="small-simple-language">"Small, simple language"</h3>
 
 This phrase apparently gets repeated a lot with some eyeroll, given how hard it
 can be to get any of your code _running_ in Erlang before you understand OTP
@@ -39,7 +39,7 @@ meanings of `this`, an atom type, and tuples and lists as distinct data types.
 
 Oh, and
 
-### Being the only (kinda, sorta, I guess) mainstream language that gets software right
+<h3 id="being-the-only-kinda-sorta-i-guess-mainstream-language-that-gets-software-right">Being the only (kinda, sorta, I guess) mainstream language that gets software right</h3>
 
 Most "Why Erlang?" posts cover this beautifully, so you can start by reading
 [Evan Miller][2]. In particular, I love his points that many of the benefits of
@@ -104,9 +104,9 @@ Per pattern matching above — once you have a system that is _built_ around
 realistic view of transient errors… well goddamn, you'll never feel comfortable
 programming anywhere else.
 
-# Where Erlang has bitten me
+<h1 id="where-erlang-has-bitten-me">Where Erlang has bitten me</h1>
 
-### (For a web app,) Too many data formats
+<h3 id="for-a-web-app-too-many-data-formats">(For a web app,) Too many data formats</h3>
 
 We deal with 4 primary resources in Ghostlight:
 
@@ -158,14 +158,14 @@ While I have many engineering qualms against a lot of hot tech (Node is garbage,
 ORMs are poison), it's cases like these where a Node + JSON object store look
 mighty attractive, since so much code is spent just shuffling the format.
 
-### Static Types
+<h3 id="static-types">Static Types</h3>
 
 We have [Dialyzer][15], but I can't help but feel if you're going for a Weird
 Language, you should go big and get one with even a passable static type system.
 Static type systems are like polio vaccines in that we have the solution to a
 giant class of suffering and just choose not to put it in widespread use.
 
-### Tooling
+<h3 id="tooling">Tooling</h3>
 
 [rebar3][16] is _fabulous_ compared to what came before, but it's still a very
 far cry from a more modern package manager and/or builder, like `npm`, or even
@@ -177,7 +177,7 @@ As mentioned before, bundling code in OTP Applications and releasing with
 Releases has a high learning curve. Those are solutions to real problems, but
 they can be daunting when you're just trying to get your shit up.
 
-### Bas-ackwards Abstraction Model
+<h3 id="basackwards-abstraction-model">Bas-ackwards Abstraction Model</h3>
 
 This is harder to say concretely, but — there are many things that are done
 differently in Erlang than virtually everywhere else. While this already true by

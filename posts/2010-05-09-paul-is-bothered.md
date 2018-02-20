@@ -78,7 +78,6 @@ let my biases shine through and used "imperative" interchangeably with
 "luddite." But let's never forget our buddy C++:
 
 ```cpp
-#include <list>
 using namespace std;
 
 list<string>::iterator iter;

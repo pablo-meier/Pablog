@@ -50,7 +50,7 @@ Some things left to do:
   write a post about the language I used, some Pablo opinions, things I learned,
   the choices I made, etc.
 
-### Did you learn anything new?
+<h3 id="did-you-learn-anything-new">Did you learn anything new?</h3>
 
 Tons! And I'll hopefully blog about those in the future. Here are a few:
 
@@ -75,7 +75,7 @@ Prolog before, but had an absolute blast using it here. Ditto Mercury.
 Mercury or Factor code, you're a bit SOL. It was refreshing getting to, like,
 _debug_ again, since you couldn't rely on StackOverflow.
 
-### Miscellanea
+<h3 id="miscellanea">Miscellanea</h3>
 
 **Languages I used for the very first time:** Factor, Pyret, OCaml, Elixir,
 Mercury, Lua.
@@ -95,7 +95,7 @@ for hiring (also described [here][5]), which tended to be more algorithmic
 (graph construction/traversal, clever trees, and dynamic programming were
 popular in those). Few of these required anything quite like that.
 
-### With that
+<h3 id="with-that">With that</h3>
 
 More to come, I hope! 😛
 

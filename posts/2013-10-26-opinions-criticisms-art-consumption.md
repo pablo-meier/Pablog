@@ -13,7 +13,7 @@ game criticism, and life in general.
 
 <!-- more -->
 
-### We mostly agree
+<h3 id="we-mostly-agree">We mostly agree</h3>
 
 First things first: I fully agree with virtually everything he writes about
 BioShock as a game. He writes that its critics take a less confrontational
@@ -26,7 +26,7 @@ Character in reaction to Anita Sarkeesian's analysis of women's representations.
 On the whole, I'd **love** more voices like Tevis' in the conversation of games
 and its press. Read it even if you don't finish this, the rest is mostly nitpicking.
 
-### Details glossed over
+<h3 id="details-glossed-over">Details glossed over</h3>
 
 Where I differ isn't in any of his assessments of the game or the industry (yes,
 the video games mainstream is dominated shallow investigations of cliché themes
@@ -66,7 +66,7 @@ analysis, "corrects" it to match the first graph.
 
 
 
-### An example, provided by -- Tevis!
+<h3 id="an-example-provided-by-tevis">An example, provided by -- Tevis!</h3>
 
 Tevis wrote another article that got a little less circulation, but I reacted to
 in a similar way: his [Saving Zelda][3].
@@ -186,7 +186,7 @@ eaiser than the other. Complain from the wings all you want, even if you're
 right (and I think you are) it doesn't change the fact that Nintendo's in this
 game only to make money for their shareholders, not make great games.
 
-### All this to say...
+<h3 id="all-this-to-say">All this to say...</h3>
 
 All this to say, in an OPINIONS based-world where everything is Great or
 Terrible for Your One Perspective, you'll spend a lot of time spinning tires,

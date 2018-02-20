@@ -15,7 +15,7 @@ interesting.
 
 <!-- more -->
 
-## "Hopefully for the last time"?
+<h2 id="hopefully-for-the-last-time">"Hopefully for the last time"?</h2>
 
 There's a great passage in a favorite essay [_"Don't Call Yourself A Programmer,
 And Other Career Advice"_][1]:
@@ -56,7 +56,7 @@ So a personal goal of mine: for gigs after this one, either [start my own
 company][14], or have built a network (and subsequently leverage it) to keep
 these shenanigans to a minimum, because they are shenanigans.
 
-## Observations
+<h2 id="observations">Observations</h2>
 
 There is an **extremely high correlation** to anyone who looked up my work
 before an interview and getting an offer. Anytime someone indicates to me that
@@ -108,7 +108,7 @@ high levels but can't really produce it. After you've established that the
 person knows enough to write code in a more comfortable environment, check more
 rigorously for the strength you're looking for during onsites.
 
-## Smarter people than me on this topic
+<h2 id="smarter-people-than-me-on-this-topic">Smarter people than me on this topic</h2>
 
 * Cate Huston's [_How I Interview_][18] is pretty fabulous, as is her [_Things
   You Don't Learn In Technical Interviews_][19]. She also wrote [_this essay for
@@ -138,7 +138,7 @@ rigorously for the strength you're looking for during onsites.
   lemons_][27] and [_We only hire the best means we only hire the
   trendiest_][28].
 
-## So… what's next, Pablo?
+<h2 id="so-whats-next-pablo">So… what's next, Pablo?</h2>
 
 Why, [ClassPass][30]! Thanks for asking, imaginary Pablo!
 

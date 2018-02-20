@@ -20,7 +20,7 @@ light of this, one of [so many][12] mass shootings we get here.
 Here are some pretty basic concepts people need to get into their skulls about
 gun control and these shootings. First, stop saying the following:
 
-### "It's not about guns, it's about people."
+<h3 id="its-not-about-guns-its-about-people">"It's not about guns, it's about people."</h3>
 
 Oh shut the fuck up already. Nobody promoting a discussion on gun control reform
 is absolving "people," whatever that means. We _know_ evil, violent, and
@@ -52,7 +52,7 @@ href="https://twitter.com/laurelita/status/279683092430585859"
 data-datetime="2012-12-14T20:23:40+00:00">December 14, 2012</a></blockquote>
 
 
-### "Don't politicize a tragedy."
+<h3 id="dont-politicize-a-tragedy">"Don't politicize a tragedy."</h3>
 
 Again, spare me. By silencing a challenge to the status quo, you are
 politicizing it. Don't tell me when a military-grade assault rifle used to gun
@@ -60,7 +60,7 @@ down 20 kindergardeners, that the "assault rifle" part is off-limits.
 
 <img src="/img/2012/12/assault-rifle.png" alt="yeah, this is reasonable" />
 
-### "The solution is more guns/the victims could have protected themselves with guns."
+<h3 id="the-solution-is-more-gunsthe-victims-could-have-protected-themselves-with-guns">"The solution is more guns/the victims could have protected themselves with guns."</h3>
 
 Jesus, NO. In [61 mass killings, none of them were stopped by civilians with guns.][2]
 Do you _really_ suggest students at Virginia Tech (and by extension, every

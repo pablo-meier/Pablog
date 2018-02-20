@@ -9,7 +9,7 @@ proficiency.
 
 <!-- more -->
 
-### First, about blogging
+<h3 id="first-about-blogging">First, about blogging</h3>
 
 [tef][1] is one of many programmers to make the observation that if a
 problem is 90% social and 10% technical, programmers will spend most of their
@@ -36,7 +36,7 @@ don't hold any illusions that the tools are anything other than ancillary.
 
 But if you're into details -- ahoy!
 
-### For virtually everybody: out-of-the-box, externally hosted, dynamic blog engines.
+<h3 id="for-virtually-everybody-outofthebox-externally-hosted-dynamic-blog-engines">For virtually everybody: out-of-the-box, externally hosted, dynamic blog engines.</h3>
 
 For pretty much everybody, I'll recommend **[WordPress][6]** or **[Blogger][7]**.
 **[LiveJournal][8]** fits in this category too, but its [got some issues][17].
@@ -53,7 +53,7 @@ Examples of sites on WordPress are [Jamie Zawinski's][9] blog and [Charly Evon S
 page. An example of a Blogger site would be the [the former host to this one][16], or
 [if you can read this, you're lying][31].
 
-### The Happy Hacker: Self-hosted, dynamic product-based solution
+<h3 id="the-happy-hacker-selfhosted-dynamic-productbased-solution">The Happy Hacker: Self-hosted, dynamic product-based solution</h3>
 
 For most of my hacker friends who might want to run a server sometime (try it!
 It's super fun and instructive!) I'd recommend doing a self-hosted install of a
@@ -81,7 +81,7 @@ the WordPress theme and get human-readable titles again.
 An example of Ghost is my friend [Adam Zethraeus' site][18], whose first post is
 exactly about using Ghost.
 
-### The command-line masochist -- static blog generators.
+<h3 id="the-commandline-masochist-static-blog-generators">The command-line masochist -- static blog generators.</h3>
 
 Maybe the title's a little harsh, but these days the trend is to go with static
 blog generators: [Jekyll][20], or its popular wrapper, [Octopress][21], usually
@@ -105,7 +105,7 @@ So why do I say it's the masochist route? A few reasons:
 All this to say: I love me my Frog, but I would never suggest this (or a similar
 workflow) for anybody who didn't love process. 
 
-### Conclusion
+<h3 id="conclusion">Conclusion</h3>
 
 I'm probably missing some solutions (hybrids? other major products?), but these
 are what I've used over the years. Short answer: use WordPress. Self-host it if

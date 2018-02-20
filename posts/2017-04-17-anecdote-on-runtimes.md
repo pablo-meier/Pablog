@@ -21,7 +21,7 @@ as lightheartedly as I'm writing it!**
 
 <!-- more -->
 
-### ActionScript
+<h3 id="actionscript">ActionScript</h3>
 
 First, some background: Flash allowed users to write scripts in a language that
 resembled JavaScript called ActionScript. Then they made a second version, so
@@ -44,7 +44,7 @@ browser vendors,][8] By that time Adobe had already built it into their product
 and written things like [GUI Toolkits][9] around it. So Mozilla didn't
 incorporate Tamarin, and Adobe rebranded it as ActionScript 3 (AS3).
 
-### The Product
+<h3 id="the-product">The Product</h3>
 
 You also have to understand what AIR was: I say "ahead of its time" because it
 was essentially a more featureful [Electron][1]. It's very goal was to make
@@ -64,7 +64,7 @@ either author your app in the [Flash Authoring][11] tool or write an AS3 app.
 Famous apps using Adobe AIR include Pandora, the League of Legends out-of-game
 client (where you could buy skins, chat with friends, etc.), You Need A Budget.
 
-### About the internals
+<h3 id="about-the-internals">About the internals</h3>
 
 The last prerequisite knowledge needed is to know a few things about how the
 Flash VMs achieved backward compatibility: every instance of the Flash Runtime
@@ -88,7 +88,7 @@ Given this, a few Adobe engineers found they could make the VM _significantly_
 faster if it had all the type annotations, so they set to work on a VM called
 AS3' ("AS3 prime") that would be yet another code path for a version to take.
 
-### Finally, the anecdote
+<h3 id="finally-the-anecdote">Finally, the anecdote</h3>
 
 When you have an AIR app on your desktop, how do you support all of this? Well,
 naturally, you have a copy of your three VMs for you Flash code: AS2, AS3, and
@@ -139,7 +139,7 @@ How many ActionScript VMs do you have in here?  **At least 9**. Also, for a
 while, we were going to add a fourth, AS4 (or AS Next). I left in 2012, and [it
 looks like that got cancelled in early 2013][20].
 
-### Other fun facts
+<h3 id="other-fun-facts">Other fun facts</h3>
 
 AIR wasn't a tiny runtime (a couple dozen MB if I remember correctly); but
 almost all of its disk size came from embedding WebKit. This was also when
@@ -171,7 +171,7 @@ build files I've ever encountered)
 
 Flash wasn't perfect, but it worked quite reliably on all of them. Good times 😄
 
-### Big Thanks
+<h3 id="big-thanks">Big Thanks</h3>
 
 If you take anything away from me mentioning Adobe time, I want to make
 something **1000%** clear: Adobe is a fantastic company with brilliant, kind

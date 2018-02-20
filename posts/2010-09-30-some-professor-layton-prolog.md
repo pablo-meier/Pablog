@@ -15,7 +15,7 @@ I'll post the puzzle and solution here; hopefully someone finds it fun!
 
 [![][3]][4]
 
-### No 151 from Professor Layton and the Diabolical Box: Colin's Score
+<h3 id="no-151-from-professor-layton-and-the-diabolical-box-colins-score">No 151 from Professor Layton and the Diabolical Box: Colin's Score</h3>
 
 Four students took a test where every question had two possible answers, A or
 B. Each question was worth 10 points, for a total of 100 points.

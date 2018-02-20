@@ -20,7 +20,7 @@ but I only speak from what I know.**
 
 **Also, trigger warnings for suicide, and depression.\]**
 
-### What is depression and what does it feel like?
+<h3 id="what-is-depression-and-what-does-it-feel-like">What is depression and what does it feel like?</h3>
 
 * [Hyperbole and a Half][1] has a wonderful two-part comic ([1][2], [2][3]) describing it.
 * [Ken White at Popehat][2] describes depression, from a first-person perspective, in [this article](http://www.popehat.com/2013/03/24/three-things-you-may-not-get-about-the-aaron-swartz-case/) (from "The Third Thing" onwards).
@@ -101,7 +101,7 @@ I lied though, when I said stigma and discomfort is the biggest reason. The
 **actual** biggest reason for not telling others about depression is that
 telling others might lead you to taking steps to feel better.
 
-### On reluctance to get better, or, losing your logic
+<h3 id="on-reluctance-to-get-better-or-losing-your-logic">On reluctance to get better, or, losing your logic</h3>
 
 A funny thing about depression (and another thing I feel is not entirely
 well-understood by neurotypicals) is that it's exceptionally good at defending
@@ -167,7 +167,7 @@ brain can produce, and it's lashing out at you for threatening it.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/x6rsp6phb5U" frameborder="0" allowfullscreen></iframe>
 
-### It's all chemicals
+<h3 id="its-all-chemicals">It's all chemicals</h3>
 
 When I say "you aren't dealing with your friend," what I mean to say is that
 _it's all just chemicals_. Your brain is a sack of neurons in soup, and if you
@@ -210,7 +210,7 @@ stuff, and much of the suffering from Depression is just a chemical process
 that's not going how it should, like diabetics with insulin in their
 bloodstream.
 
-### A few more links, final thoughts.
+<h3 id="a-few-more-links-final-thoughts">A few more links, final thoughts.</h3>
 
 * Wil Wheaton [wrote about his depression][9] very sincerely, and did so again to remind everyone that [you aren't alone in this][11].
 * Matt Fraction [writes about][10] his close calls with suicide, and what kept him from doing it.

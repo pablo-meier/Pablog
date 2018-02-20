@@ -14,7 +14,7 @@ an email, I have it hosted on a private repo on [Bitbucket][2].
 
 **\[Update! I've put it on [Github](https://github.com/paul-meier/Ebooker).\]**
 
-### "Ebooker"?
+<h3 id="ebooker">"Ebooker"?</h3>
 
 Ebooker takes it's name from [@horse\_ebooks][3], one of the most famous Twitter
 accounts that (legend has it) was a spam bot that forgot to sell its wares,
@@ -67,7 +67,7 @@ tweets:
 The nice thing about Ebooker is that it does the tweeting for you: I tell it who
 I want to mix and match, how often I want it to tweet, and it does the rest.
 
-### How does it work?
+<h3 id="how-does-it-work">How does it work?</h3>
 
 Ebooker bots, like most Twitter bots, work via a mechanism called [Markov chains][13].
 Despite the length and jargon in the Wikipedia entry, it's really pretty simple
@@ -227,7 +227,7 @@ someone else's voice!
 
 (someone did this with Garfield comics, by the way... check out [Garkov][17])
 
-### Bots managed by Ebooker
+<h3 id="bots-managed-by-ebooker">Bots managed by Ebooker</h3>
 
 Ebooker is currently whirring away, sending up tweets for the following bots:
 
@@ -239,7 +239,7 @@ Ebooker is currently whirring away, sending up tweets for the following bots:
 **If there's a bot you'd like to see, let me know! I'm happy to get a few more
 up there!**
 
-### Onwards!
+<h3 id="onwards">Onwards!</h3>
 
 I might write about this again, since getting the Markov chains was only a day
 of work (and that's in a language I'd never seen before). The more technically

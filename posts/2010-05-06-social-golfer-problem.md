@@ -20,7 +20,7 @@ lots of them can be easily described without mathematical notation. One of
 these has been a real hair-puller these last few days, called the **Social
 Golfer Problem**.
 
-### Problem Statement
+<h3 id="problem-statement">Problem Statement</h3>
 
 The premise is this: you're organizing a golf tournament with 9 people in it.
 They play every week in groups of 3, and want to play for three weeks.

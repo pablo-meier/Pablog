@@ -27,7 +27,7 @@ I think the embedded video above is a bit more romantic, but I have some ideas.
 
 <!-- more -->
 
-### Competing with yourself
+<h3 id="competing-with-yourself">Competing with yourself</h3>
 
 My girlfriend [Charly][4] runs half-marathons, and hopes to train for a full
 one. She said something about races that I liked: while you're ostensibly racing
@@ -51,7 +51,7 @@ the time when I played them, didn't have the maturity to push myself to improve)
 StarCraft and other competitive games are the closest thing I've had to a practiced
 craft that wasn't also my job.
 
-### Drama
+<h3 id="drama">Drama</h3>
 
 Jazz (or Classical) is rarely interesting for the composition being played, but
 how it's being played. Jazz musicians know about 200 "standards," and audiences
@@ -88,7 +88,7 @@ frameborder="0" allowfullscreen></iframe>
 
 (overwrought, but man it was thrilling to see it happen live)
 
-### Consistency
+<h3 id="consistency">Consistency</h3>
 
 Finally, there are ups and there are downs, and for whatever's going on, I've
 got StarCraft. It reminds me of a rant Jimmy Fallon's character from

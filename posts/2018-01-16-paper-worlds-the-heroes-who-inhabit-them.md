@@ -68,7 +68,7 @@ I get a lot of joy in thinking about writing prompts, so here's one: pick an
 absolutely unforgiveable action, make that the climax, and spent a whole book
 trying to make it seem possible, even defensible.
 
-### Further reading
+<h3 id="further-reading">Further reading</h3>
 
 The _real_ further reading is any of the links in the previous section. But
 here's some miscellanea:
