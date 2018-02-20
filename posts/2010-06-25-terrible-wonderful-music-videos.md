@@ -70,8 +70,8 @@ look hardcore. Gotta love the sweet Techno Dance Hall interlude near the end.
 
    [1]: http://www.youtube.com/watch?v=WsQhuxPsSjE
    [2]: http://www.youtube.com/watch?v=-l92QRJPaqk&feature=channel
-   [3]: http://www.morepablo.com/2010/04/baal-bless-internet.html
-   [4]: http://www.morepablo.com/2010/04/another-remix.html
+   [3]: /2010/04/baal-bless-internet.html
+   [4]: /2010/04/another-remix.html
    [5]: http://www.colbertnation.com/the-colbert-report-videos/239946/july-27-2009/movits-
    [6]: http://miranda.org.uk/
    [7]: http://haskell.org/

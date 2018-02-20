@@ -71,7 +71,7 @@ basic that shortsells the truth, like "lesbian couples tend to be more
 monogomous than straight couples" getting heard as "lesbians aren't promiscouous".
 
 
-   [1]: http://morepablo.com/2013/09/bioshock-infinite.html
+   [1]: /2013/09/bioshock-infinite.html
    [2]: http://youtu.be/-Bc0mG5omTo
    [3]: http://en.wikipedia.org/wiki/Mr._Monk_and_the_Three_Pies
    [4]: http://en.wikipedia.org/wiki/Mr._Monk_Takes_Manhattan

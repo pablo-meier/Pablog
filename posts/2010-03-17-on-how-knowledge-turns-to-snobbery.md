@@ -89,6 +89,6 @@ Haskell programmer][5] ^_^.
 
    [1]: http://www.alistapart.com
    [2]: http://www.alistapart.com/articles/flashstandards/
-   [3]: http://www.morepablo.com/2010/02/hiatus-and-voyage-of-vim.html
+   [3]: /2010/02/hiatus-and-voyage-of-vim.html
    [4]: http://gist.github.com/289467
    [5]: http://www.willamette.edu/~fruehr/haskell/evolution.html

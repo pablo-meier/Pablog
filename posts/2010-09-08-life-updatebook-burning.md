@@ -84,39 +84,21 @@ Really kids, what would Jesus do?
 
 
    [1]: http://4.bp.blogspot.com/_3ys1dwfzc2w/TIhotgpnyQI/AAAAAAAAAG4/_RhybUX76E0/s200/Adobe_Air_Logo.jpg
-
    [2]: http://4.bp.blogspot.com/_3ys1dwfzc2w/TIhotgpnyQI/AAAAAAAAAG4/_RhybUX76E0/s1600/Adobe_Air_Logo.jpg
-
    [3]: http://www.adobe.com/products/air/
-
    [4]: http://timesreader.nytimes.com/timesreader/
-
    [5]: http://www.tweetdeck.com/
-
    [6]: http://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.offering&offeringid=10223&marketplaceid=1
-
    [7]: http://pw.brown.edu/~paul/Mouthey.gif
-
    [8]: http://pw.brown.edu/~paul/Eyes.gif
-
    [9]: http://pw.brown.edu/~paul/NoNo.gif
-
    [10]: http://pw.brown.edu/~paul/YeahYeah.gif
-
    [11]: http://us.battle.net/sc2/en/profile/697265/1/sicp/
-
    [12]: http://github.com/paul-meier/ScrabbleCheat
-
    [13]: http://www.nytimes.com/roomfordebate/2010/8/17/is-the-mosque-issue-a-risk-for-obama/who-has-moral-courage
-
    [14]: http://www.salon.com/news/opinion/glenn_greenwald/2010/08/17/courage
-
    [15]: http://daryllang.com/blog/4421
-
    [16]: http://www.insurancejournal.com/news/southeast/2010/09/07/113034.htm
-
    [17]: http://articles.cnn.com/2010-07-29/us/florida.burn.quran.day_1_american-muslims-religion-cair-spokesman-ibrahim-hooper?_s=PM:US
-
-   [18]: http://www.morepablo.com/2010/07/on-freedom-of-speech.html
-
+   [18]: /2010/07/on-freedom-of-speech.html
    [19]: http://www.youtube.com/watch?v=08xQLGWTSag

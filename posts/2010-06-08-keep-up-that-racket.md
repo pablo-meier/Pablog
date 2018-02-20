@@ -50,11 +50,11 @@ it to keep learning. But what a wonderful day when people who develop software
 who know at least what I do will come standard.
 
 
-   [1]: http://www.morepablo.com/2010/04/common-lisp.html
+   [1]: /2010/04/common-lisp.html
    [2]: http://reprog.wordpress.com/2010/03/11/the-difference-between-imperative-and-functional-programming/#comment-860
    [3]: http://racket-lang.org/new-name.html
    [4]: http://racket-lang.org
    [5]: http://thedailywtf.com/Articles/Poke-a-Dot.aspx
    [6]: http://thedailywtf.com/Articles/The-Certified-DBA.aspx
    [7]: http://thedailywtf.com/
-   [8]: http://www.morepablo.com/2010/04/software-and-evolution.html
+   [8]: /2010/04/software-and-evolution.html

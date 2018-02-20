@@ -24,7 +24,7 @@ nobody's played, like Skies of Arcadia.
 
 
    [1]: http://blogs.suntimes.com/ebert/2010/07/okay_kids_play_on_my_lawn.html
-   [2]: http://www.morepablo.com/2010/04/video-games-and-failure-of-word-art.html
+   [2]: /2010/04/video-games-and-failure-of-word-art.html
    [3]: http://www.reddit.com/r/gaming/comments/cjjht/saddest_moment_in_a_game/
    [4]: http://www.nytimes.com/2010/06/20/books/review/Suellentrop-t.html
    [5]: http://www.reddit.com/r/gaming/comments/cjjht/saddest_moment_in_a_game/c0t13eh

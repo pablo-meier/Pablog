@@ -31,9 +31,6 @@ mostly is now), but usable!
 
 
    [1]: http://landoflisp.com/
-
-   [2]: http://www.morepablo.com/2010/04/common-lisp.html
-
+   [2]: /2010/04/common-lisp.html
    [3]: http://www.github.com/paul-meier/ScrabbleCheat
-
    [4]: http://en.wikipedia.org/wiki/Ncurses

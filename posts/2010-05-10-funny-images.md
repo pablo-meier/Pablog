@@ -50,10 +50,10 @@ Fun during the holidays: [Sketchy Santas][23]:
 And my dad thinks he's not missing anything by staying off the Internet. Pah!
 
 
-   [1]: http://www.morepablo.com/2010/04/baal-bless-internet.html
-   [2]: http://www.morepablo.com/2010/04/another-remix.html
-   [3]: http://www.morepablo.com/2010/04/being-lucky-being-strange-being-lucky.html
-   [4]: http://www.morepablo.com/2010/03/books-books-musical-fruit.html
+   [1]: /2010/04/baal-bless-internet.html
+   [2]: /2010/04/another-remix.html
+   [3]: /2010/04/being-lucky-being-strange-being-lucky.html
+   [4]: /2010/03/books-books-musical-fruit.html
    [5]: http://thebigcaption.com/
    [6]: http://www.boston.com/bigpicture/
    [7]: http://4.bp.blogspot.com/_3ys1dwfzc2w/S-izjzg61DI/AAAAAAAAAEw/S02yoCtnm3Q/s320/epicbaptismi.jpg

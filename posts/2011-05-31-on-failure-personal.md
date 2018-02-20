@@ -56,8 +56,8 @@ It's a good thing to do this in life as well. Don't be stupid, but for the good
 of you, take a risk every once in a while. You'll never be more proud.
 
 
-   [1]: http://morepablo.com/2011/05/on-failure-computing.html
-   [2]: http://www.morepablo.com/uploads/2011/05/degree.jpg
+   [1]: /2011/05/on-failure-computing.html
+   [2]: /uploads/2011/05/degree.jpg
    [3]: https://wiki.brown.edu/confluence/display/Spring07BN0102S01/BN102+Principles+of+Neurobiology
    [4]: http://cs.brown.edu/courses/cs273/2009/
    [5]: http://www.math.brown.edu/~banchoff/CalcPlacement.htm#CalcCourseDescriptions

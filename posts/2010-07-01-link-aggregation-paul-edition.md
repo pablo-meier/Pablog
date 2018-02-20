@@ -58,9 +58,9 @@ internets keep this more entertaining ^_^
 Jesus answer: Who else? Glenn Beck.
 
 
-   [1]: http://www.morepablo.com/2010/06/terrible-wonderful-music-videos.html
-   [2]: http://www.morepablo.com/2010/05/funny-images.html
-   [3]: http://www.morepablo.com/2010/04/baal-bless-internet.html
+   [1]: /2010/06/terrible-wonderful-music-videos.html
+   [2]: /2010/05/funny-images.html
+   [3]: /2010/04/baal-bless-internet.html
    [4]: http://3.bp.blogspot.com/_3ys1dwfzc2w/TC1RIM-riMI/AAAAAAAAAGQ/NWP0MS5s1v4/s320/tumblr_l4tthpOdKB1qbauyyo1_500.jpg
    [5]: http://3.bp.blogspot.com/_3ys1dwfzc2w/TC1RIM-riMI/AAAAAAAAAGQ/NWP0MS5s1v4/s1600/tumblr_l4tthpOdKB1qbauyyo1_500.jpg
    [6]: http://teapartyjesus.tumblr.com

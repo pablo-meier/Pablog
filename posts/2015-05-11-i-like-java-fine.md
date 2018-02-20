@@ -238,7 +238,7 @@ of a rebar.config + Makefiles, and I'd love to abide as long as I can.</small></
    [18]: https://github.com/rustyio/sync
    [19]: http://www.erlang.org/doc/apps/jinterface/jinterface_users_guide.html
    [20]: https://github.com/owasp/java-html-sanitizer
-   [21]: http://morepablo.com/2014/12/tech-of-sup-android-libraries.html
+   [21]: /2014/12/tech-of-sup-android-libraries.html
    [22]: http://blog.paralleluniverse.co/2014/05/01/modern-java/ 
    [23]: https://www.youtube.com/watch?v=bzkRVzciAZg
    [24]: https://www.python.org/doc/humor/#the-zen-of-python

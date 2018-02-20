@@ -149,7 +149,7 @@ where I quoted Daniel Cook above. It also included this great line by Yoko Taro:
    [1]: https://www.gamasutra.com/view/news/311352/What_devs_are_saying_about_the_design_of_Animal_Crossing_Pocket_Camp.php
    [2]: https://www.polygon.com/2017/11/27/16704558/animal-crossing-pocket-camp-review-chrissy-teigen-twitter
    [3]: https://kotaku.com/animal-crossing-pocket-camp-is-charming-but-sleazy-1820651797
-   [4]: https://morepablo.com/2010/09/repost-professor-layton-and-hell-yes.html
+   [4]: /2010/09/repost-professor-layton-and-hell-yes.html
    [5]: https://blog.kissmetrics.com/increase-engagement-on-facebook/
    [6]: https://darkpatterns.org/
    [7]: http://animalcrossing.wikia.com/wiki/MEOW_Coupons

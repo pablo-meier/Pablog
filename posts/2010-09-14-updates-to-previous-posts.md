@@ -69,24 +69,14 @@ close with my favorite headline, stolen from reddit:
 at Ground Zero!?!?!?**
 
 
-   [1]: http://www.morepablo.com/2010/08/life-isnt-fair-and-eat-pray-love.html
-
+   [1]: /2010/08/life-isnt-fair-and-eat-pray-love.html
    [2]: http://slog.thestranger.com/slog/archives/2010/09/14/pay-sit-barf
-
    [3]: http://www.thestranger.com/seattle/burkas-and-birkins/Content?oid=4132715
-
-   [4]: http://www.morepablo.com/2010/08/making-living-being-artist.html
-
+   [4]: /2010/08/making-living-being-artist.html
    [5]: http://www.digitalsociety.org/2010/07/jason-robert-brown-debates-rationalization-of-theft/
-
    [6]: http://www.thestranger.com/slog/archives/2010/01/12/what-audiences-want-to-watch&view=comments
-
    [7]: http://slog.thestranger.com/slog/archives/2010/06/23/arena-stage-in-washington-dc-puts-playwrights-on-the-payroll
-
-   [8]: http://www.morepablo.com/2010/09/life-updatebook-burning.html
-
+   [8]: /2010/09/life-updatebook-burning.html
    [9]: http://www.youtube.com/watch?v=VoCAbieZj1w
-
    [10]: http://www.businessweek.com/news/2010-09-13/iran-ayatollahs-issue-fatwas-against-koran-burners.html
-
    [11]: http://yglesias.thinkprogress.org/2010/09/on-koran-burning/

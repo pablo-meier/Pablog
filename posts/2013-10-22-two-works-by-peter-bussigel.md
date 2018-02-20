@@ -19,4 +19,4 @@ width="500" height="281" frameborder="0" webkitallowfullscreen
 mozallowfullscreen allowfullscreen></iframe>
 
    [1]: http://bussigel.com/pb/
-   [2]: http://www.morepablo.com/2010/11/i-have-music-degree-too.html
+   [2]: /2010/11/i-have-music-degree-too.html

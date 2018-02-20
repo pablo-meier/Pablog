@@ -105,7 +105,7 @@ href="http://t.co/Wc391GtTtt">pic.twitter.com/Wc391GtTtt</a></p>&mdash; p͗́́�
 That playlist is still going strong, btw!
 
    [1]: http://en.wikipedia.org/wiki/Analysis_paralysis
-   [2]: http://morepablo.com/2013/10/on-depression-mine.html
+   [2]: /2013/10/on-depression-mine.html
    [3]: http://ghostlight.io
    [4]: http://techcrunch.com/2014/08/07/sup-app/
    [5]: http://www.jwz.org/blog/2014/01/jawbone-tower/

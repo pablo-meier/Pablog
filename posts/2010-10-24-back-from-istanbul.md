@@ -46,25 +46,14 @@ price ^\_^
 
 
    [1]: http://istanbabble.blogspot.com
-
    [2]: http://www.facebook.com/#!/album.php?aid=2062768&id=1135710488
-
    [3]: http://www.youtube.com/watch?v=X1granQNSqg#t=00m52s
-
    [4]: http://3.bp.blogspot.com/_3ys1dwfzc2w/TMT-JFCAlxI/AAAAAAAAAHY/Jsj-AmclrYg/s400/69854_1452166540912_1135710488_31205117_5430153_n.jpg
-
    [5]: http://3.bp.blogspot.com/_3ys1dwfzc2w/TMT-JFCAlxI/AAAAAAAAAHY/Jsj-AmclrYg/s1600/69854_1452166540912_1135710488_31205117_5430153_n.jpg
-
    [6]: http://en.wikipedia.org/wiki/Mustafa_Kemal_Atatürk#Turkey
-
-   [7]: http://www.morepablo.com/2010/07/on-freedom-of-speech.html
-
-   [8]: http://www.morepablo.com/2010/09/updates-to-previous-posts.html
-
+   [7]: /2010/07/on-freedom-of-speech.html
+   [8]: /2010/09/updates-to-previous-posts.html
    [9]: http://thelede.blogs.nytimes.com/2007/03/07/youtube-banned-in-turkey-after-insults-to-ataturk/
-
    [10]: http://www.businessandleadership.com/technology/item/25269-turkey-russia-most/
-
    [11]: http://2.bp.blogspot.com/_3ys1dwfzc2w/TMT-JR3-RII/AAAAAAAAAHg/G8PW8ELOOYY/s400/73308_1452165700891_1135710488_31205109_6181048_n.jpg
-
    [12]: http://2.bp.blogspot.com/_3ys1dwfzc2w/TMT-JR3-RII/AAAAAAAAAHg/G8PW8ELOOYY/s1600/73308_1452165700891_1135710488_31205109_6181048_n.jpg

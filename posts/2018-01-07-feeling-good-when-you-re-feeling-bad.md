@@ -114,14 +114,14 @@ You really won't miss them.
   In general, if you get a notification, ask yourself "is this something I want
   to keep hearing about?" and decide _right then_ to turn it off, in-app.
 
-   [1]: https://morepablo.com/2013/10/on-depression-mine.html
+   [1]: /2013/10/on-depression-mine.html
    [2]: https://jaceharr.com/
    [3]: http://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play
    [4]: https://alexvermeer.com/life-hacking/
    [5]: https://alexvermeer.com/
    [6]: https://smile.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427
-   [7]: https://morepablo.com/2017/12/hats-off-to-animal-crossing.html
+   [7]: /2017/12/hats-off-to-animal-crossing.html
    [8]: http://www.cumc.columbia.edu/features/quick-diagnosis-rare-disease-leads-remarkable-recovery
    [9]: https://www.talkspace.com/
-   [10]: https://morepablo.com/2018/01/towards-a-more-open-web.html
+   [10]: /2018/01/towards-a-more-open-web.html
    [11]: https://www.youtube.com/watch?v=Rciee-oQLoI

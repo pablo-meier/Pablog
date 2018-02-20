@@ -94,8 +94,8 @@ techniques on many Android components, so give her a look.
 Lastly, the official Android resources, like the [Android Developers Blog][21]
 and the [Android Developers YouTube page][22] will keep you up on what’s fresh.
 
-   [1]: http://morepablo.com/2014/12/tech-of-sup-android.html
-   [2]: http://morepablo.com/2014/12/tech-of-sup-android-libraries.html
+   [1]: /2014/12/tech-of-sup-android.html
+   [2]: /2014/12/tech-of-sup-android-libraries.html
    [3]: https://gigamonkeys.wordpress.com/2009/10/05/coders-unit-testing/
    [4]: http://square.github.io/spoon/
    [5]: https://code.google.com/p/android-test-kit/wiki/Espresso

@@ -323,15 +323,15 @@ systems you can experience with a person, the combinations of which will vary
 and fluctuate.<a href="#ref2" title="Jump back to the text">↩</a></p>
 
 
-   [1]: https://morepablo.com/2016/01/year-in-review.html
+   [1]: /2016/01/year-in-review.html
    [2]: https://classpass.com
-   [3]: https://morepablo.com/2016/08/six-months-of-managing.html
-   [4]: https://morepablo.com/2013/10/on-depression-mine.html
+   [3]: /2016/08/six-months-of-managing.html
+   [4]: /2013/10/on-depression-mine.html
    [8]: https://medium.com/@AaronBleyaert/how-to-lose-weight-in-4-easy-steps-1f135f7e1dec#.e7b5ebnjq
    [9]: https://github.com/pablo-meier/ghostlight
-   [10]: https://morepablo.com/2016/08/business-i-might-build.html
+   [10]: /2016/08/business-i-might-build.html
    [11]: http://mcfunley.com/choose-boring-technology
-   [12]: https://morepablo.com/2016/12/advent-of-code.html
+   [12]: /2016/12/advent-of-code.html
    [13]: https://github.com/pablo-meier/advent-of-code/blob/master/day2/part1.factor
    [14]: https://github.com/pablo-meier/advent-of-code/blob/master/day19/advent1.m
    [15]: https://github.com/pablo-meier/advent-of-code/blob/master/day6/part1.c

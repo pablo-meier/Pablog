@@ -50,7 +50,7 @@ Salvation.
    [8]: http://www.heydonworks.com/article/on-writing-less-damn-code
    [9]: https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/
    [10]: https://slack.engineering/taking-php-seriously-cf7a60065329
-   [11]: https://morepablo.com/2016/06/new-look-new-page.html
+   [11]: /2016/06/new-look-new-page.html
    [12]: https://www.youtube.com/watch?v=fHRDfut2Vx0
    [13]: https://www.youtube.com/watch?v=bq7Vj3GMd1M
    [14]: https://www.youtube.com/watch?v=YTihsJQHt48

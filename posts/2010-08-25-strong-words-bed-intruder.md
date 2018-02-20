@@ -36,4 +36,4 @@ band!
 
 Are we lucky to be alive now, or what?
 
-   [1]: http://www.morepablo.com/2010/04/i-read-news.html
+   [1]: /2010/04/i-read-news.html

@@ -171,7 +171,7 @@ faith than I should in something I still consider 91% jiggery-pokery.<a href="#r
 
    [1]: https://www.youtube.com/watch?v=cjd8E1rD3m4&t=1m53s
    [2]: http://www.newyorker.com/magazine/2014/09/01/poison-ivy
-   [3]: http://www.morepablo.com/2013/10/on-depression-mine.html
+   [3]: /2013/10/on-depression-mine.html
    [4]: https://www.bostonglobe.com/lifestyle/health-wellness/2013/05/26/when-brain-attacks-newly-discovered-disease-can-mimic-psychosis/dyixxnwdHJJIUITsNYJC3O/story.html
    [5]: https://www.jwz.org/blog/2011/11/watch-a-vc-use-my-name-to-sell-a-con/
    [6]: https://www.mindbodyonline.com/

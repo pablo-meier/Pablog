@@ -134,6 +134,6 @@ be broken, just that nobody has done it yet. By this logic, _I'm immortal!_"
 meaning `4 - example_one()` might actually not be 0, but some very very small
 number, and the program won't crash. Ignore, please.
 
-  [1]: http://morepablo.com/2011/03/an-anecdote.html
+  [1]: /2011/03/an-anecdote.html
   [2]: http://en.wikipedia.org/wiki/Operational_semantics
   [3]: http://en.wikipedia.org/wiki/Discrete_logarithm#Cryptography

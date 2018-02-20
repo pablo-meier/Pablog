@@ -76,7 +76,7 @@ who hadn't just moved into a city and started my first job while maintaining an
 overseas-then-cohabitating relationship, I would call this 2-3 months of real
 work.
 
-   [1]: http://morepablo.com/2011/05/on-failure-personal.html
+   [1]: /2011/05/on-failure-personal.html
    [2]: http://github.com/paul-meier/ScrabbleCheat
    [3]: http://www.javalimit.com/2011/05/erlang-is-not-a-concurrent-functional-programming-language.html
    [4]: http://pragprog.com/book/jaerlang/programming-erlang

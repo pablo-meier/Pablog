@@ -22,15 +22,9 @@ Remixes man, [how do they work][7]?
 
 
    [1]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
-
    [2]: http://en.wikipedia.org/wiki/Breadth-first_search
-
-   [3]: http://www.morepablo.com/2010/02/hiatus-and-voyage-of-vim.html
-
+   [3]: /2010/02/hiatus-and-voyage-of-vim.html
    [4]: http://www.youtube.com/watch?v=vcpx8O82KLM&feature=iv&annotation_id=annotation_48076
-
-   [5]: http://www.morepablo.com/2010/08/strong-words-bed-intruder.html
-
-   [6]: http://www.morepablo.com/2010/09/because-i-backtraced-it.html
-
-   [7]: http://www.morepablo.com/2010/07/magnets-how-do-they-work.html
+   [5]: /2010/08/strong-words-bed-intruder.html
+   [6]: /2010/09/because-i-backtraced-it.html
+   [7]: /2010/07/magnets-how-do-they-work.html

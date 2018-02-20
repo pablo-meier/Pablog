@@ -271,7 +271,7 @@ such a journey.
 
 
   [1]: https://reonomy.com/
-  [2]: https://morepablo.com/2016/01/year-in-review.html
+  [2]: /2016/01/year-in-review.html
   [3]: https://github.com/pablo-meier/ScrabbleCheat/tree/master/code/server/lib/bingad
   [4]: https://gist.github.com/pablo-meier/605834
   [5]: https://github.com/pablo-meier/Invisible-Thief
@@ -284,7 +284,7 @@ such a journey.
   [12]: https://www.amazon.com/Getting-Yes-Negotiating-Agreement-Without/dp/0140157352
   [13]: http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
   [14]: http://www.kalzumeus.com/2012/01/23/salary-negotiation/
-  [15]: https://morepablo.com/Engineering.html
+  [15]: /Engineering.html
   [16]: https://www.amazon.com/Five-Dysfunctions-Team-Manga-Illustrated/dp/0470823380
   [17]: http://www.elidedbranches.com/2016/02/in-defense-of-repetitive-business-book.html
   [18]: https://hbr.org/2009/01/picking-the-right-transition-strategy

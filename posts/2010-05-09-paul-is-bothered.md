@@ -91,4 +91,4 @@ for (iter = my_collection->begin(); iter != my_collection->end(); ++iter) {
 **PUKE**
 
 
-   [1]: http://www.morepablo.com/2010/03/on-how-knowledge-turns-to-snobbery.html
+   [1]: /2010/03/on-how-knowledge-turns-to-snobbery.html

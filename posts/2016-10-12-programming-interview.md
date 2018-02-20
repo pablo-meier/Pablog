@@ -150,12 +150,12 @@ Why, [ClassPass][30]! Thanks for asking, imaginary Pablo!
    [6]: https://github.com/pablo-meier/ScrabbleCheat/tree/master/code/clients/curses
    [7]: https://github.com/pablo-meier/Ebooker/blob/master/src/ebooker/oauth1/oauth1.go
    [8]: https://github.com/pablo-meier/ghostlight
-   [9]: https://morepablo.com/2016/01/dropwizard-rollbar.html
-   [10]: https://morepablo.com/2014/12/tech-of-sup-android.html
-   [11]: https://morepablo.com/2014/12/tech-of-sup-android-libraries.html
-   [12]: https://morepablo.com/2014/12/tech-of-sup-android-misc.html
+   [9]: /2016/01/dropwizard-rollbar.html
+   [10]: /2014/12/tech-of-sup-android.html
+   [11]: /2014/12/tech-of-sup-android-libraries.html
+   [12]: /2014/12/tech-of-sup-android-misc.html
    [13]: https://blog.codinghorror.com/why-cant-programmers-program/
-   [14]: https://morepablo.com/2016/08/business-i-might-build.html
+   [14]: /2016/08/business-i-might-build.html
    [15]: http://ruby-doc.org/core-2.2.2/IO.html#method-i-puts
    [16]: http://erlang.org/doc/man/lists.html#flatten-1
    [17]: https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions
@@ -170,5 +170,5 @@ Why, [ClassPass][30]! Thanks for asking, imaginary Pablo!
    [26]: https://jocelyngoldfein.com/screening-youre-doing-it-wrong-70de1f797c1c#.t7kz0tyie
    [27]: http://danluu.com/hiring-lemons/
    [28]: https://danluu.com/programmer-moneyball/
-   [29]: https://morepablo.com/2016/08/six-months-of-managing.html
+   [29]: /2016/08/six-months-of-managing.html
    [30]: https://classpass.com
