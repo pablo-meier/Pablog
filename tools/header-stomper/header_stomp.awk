@@ -1,7 +1,5 @@
 # This is very bad AWK, forgive me.
 
-# substr($0, 2)
-
 function generate_string(header_level) {
     # String without the hashes
     base = substr($0, header_level + 2);
@@ -26,3 +24,4 @@ $1 == "###" { print generate_string(3); }
 $1 == "####" { print generate_string(4); }
 $1 == "#####" { print generate_string(5); }
 $1 == "######" { print generate_string(6); }
+!/^[#]+/ { print; }
