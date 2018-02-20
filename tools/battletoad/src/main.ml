@@ -7,7 +7,7 @@ let create_new_post name =
 
 
 let build_site () =
-  let src_path = "./bigger-test-case/" in
+  let src_path = "./" in
   let model = Model.build_blog_model src_path in
   let build_dir = (Model.build_dir model) in
   let () =

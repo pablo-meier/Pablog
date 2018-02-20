@@ -29,6 +29,7 @@ prod:
 		-pkg ISO8601 \
 		-pkg omd \
 		-pkg jingoo \
+		-pkg fileutils \
 		-pkg inifiles \
 		-tag "ppx(ppx-jane -as-ppx)" \
 		-tag thread \
