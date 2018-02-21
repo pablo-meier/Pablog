@@ -23,7 +23,8 @@ these lines:
   the rush to condemnation is a result of the cultural weaknesses of millenials,
   who have reduced attention spans and follow outrage instead of valuing
   discourse. Because of this, they likely didn't consider _the true and total
-  cost_ of letting a figurehead like this be fired and disgraced.
+  cost_ of letting a figurehead like this be fired and disgraced. This will hurt
+  diverse viewpoints and Discourse!
 
 My dad asked if I had any good thinkpieces to recommend about millenials and
 their attention spans, and I told him I'd look for one, or write one. I ended up
@@ -42,44 +43,49 @@ are people who study questions like these, professionally, in fields that are
 peer-reviewed and building on centuries of study and rigor.
 
 Most of the people who write columns like this [defend Liberal Arts
-educations][7] but demonstrate no value to attaining one by failing to clarify
-their terms or even ask basic questions, like:
+educations][7] but demonstrate little value to attaining one by failing to
+clarify their terms or even ask basic questions, like:
 
-* How are we defining "reduced attention spans?" Is it what people consume? If
-  so, how do we categorize it as reduced? Is it how _much_ they consume? Is it
-  the level of analysis they produce when they respond to it?
+* How are we defining "reduced attention spans?" Is it what people consume? How
+  much they enjoy that consumption? If so, how do we categorize it as reduced?
+  Is it how _much_ they consume? Is it the level of analysis they produce when
+  they respond to it?
 * What are the challenges of meaningful comparison with prior generations, given the
   differences in technology?
 * Is it the kids who are losing these "attention spans," or everyone who uses
   tech products?
 * Is there a good or justifiable reason "attention spans" get shorter?
 
-They instead build on assumptions (I'd argue they more rely on the ambiguities)
+Authors instead build on assumptions (I'd argue they more rely on the ambiguities)
 and it comes out sounding like "those kids don't focus on Important Things
-(conveniently the things I care about) because of their Snap Chats and their
+(conveniently, the things I care about) because of their Snap Chats and their
 Tweeters and their Face Books." I'm not a social scientist, and my non-STEM
 degree was in Music, and I still thought it important to at least acknowledge
-questions like the above before getting paid to blame society's ills on the
-habits of the most diverse generation of people to reach adulthood (and one that
-got [very uniquely fucked][8] at the wealth game).
+questions like the above before placing Moral And Intellectual Failings on
+a [very fucked][8] generation of people.
 
 The other notable omission in these pieces is forgetting that
-history exists, and considering their arguments in historical contexts. Namely:
-_collectively speaking, every generation tends to think the Kids Aren't
-Alright._ "Get off my lawn" is a joke for a reason, and anyone getting mad at
-millenials for using apps are probably motivated by the same forces that caused
-[Socrates to be against writing.][1] I'm not saying "nobody can criticize apps
-or what they do to us" but if you have to make a direct comparison of millenials
-to their Better Parents please at least demonstrate that you tried
-controlling for bias against people growing up differently than they did.
+history exists, and considering their arguments in historical contexts. Collectively
+speaking, every generation tends to think the Kids Aren't Alright. "Get off my
+lawn" is a joke for a reason, and anyone getting mad at millenials for using
+apps are probably motivated by the same forces that caused [Socrates to be
+against writing.][1] I'm not saying "nobody can criticize apps or what they do
+to us" but if you have to make a direct comparison of millenials to their Better
+Parents please at least demonstrate that you tried controlling for bias against
+people growing up differently than they did.
 
 <h3 id="a-counterexample-using-the-same-bad-rules">A counterexample using the same bad rules</h3>
 
-All that being said, referencing whitepapers is nobody's idea of a good time,
+That said, referencing whitepapers is nobody's idea of a good time,
 and the world runs on simple narratives. So here's one of mine for why it seems
-millenials have shorter attention spans, using the same amount of rigor I'm
-chastising: it's an adaptation for the amount of information we're presented.
+millenials have shorter "attention spans." 
 
+(not a rigorous definition, but here I mean "attention spans" to be the how
+quickly someone consumes media before they've decided they've got enough of it,
+so, how often they read longform articles vs. scroll Instagram images, how often
+they write long Facebook posts vs. draft up a meme)
+
+My thinking: it's an adaptation for the amount of information we're presented.
 Said with metaphor: it's not that we're less hungry, it's just that there's so
 much food all the time that when we finish a meal there are still platters and
 platters of entrees on the table, so now we eat differently, too.
@@ -134,7 +140,8 @@ by Matt Lubchansky at The Nib][5]:
 </div>
 
 I'm sure the author feels things have gone a little too far, but is failing at
-empathy because, well, their lives are doing pretty well on the whole.
+empathy because, well, their lives are largely unchanged if this specific editor
+is allowed to be a creeper.
 
 It's common for folks to believe that abuse may be necessary for great work to
 exist: it is, unfortunately, one of the prevailing cultural narratives in our
@@ -158,9 +165,11 @@ but I was expecting a more reputable outlet (I'd not heard of this one, it was
 started by neocons), has an embarassing website, and most of all, the piece was
 published by a junior in college. Her first job was going to be at one of
 The Bad Dude's cancelled initiatives, and I think that factors into "what was
-lost" (my first gig). It's frankly not worth piling on, and the bullet points my
-dad texted me were actually about as deep as it got, with the added benefit of
-being shorter.
+lost" (my first gig).
+
+It's frankly not worth piling on (I wrote some godawful simple articles around
+my college graduation), and the bullet points my dad texted me were largely match
+as deep as it got, with the added benefit of being shorter.
 
 But I'd already written most of this, so I thought I'd share it anyways.
 
