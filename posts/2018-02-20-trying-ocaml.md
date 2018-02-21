@@ -1,8 +1,17 @@
     Title: Trying OCaml 🐫
     Date: 2018-02-20T11:01:12
     Tags: culture, engineering
+    og_image: https://morepablo.com/img/2018/2/fleaswallow_THUMB.png
+    og_description: I announce a static site generator I wrote and describe first OCaml impressions. 🐫
 
-<small><em>The song for this post is [][], by</em></small>
+<div class="caption-img-block" style="margin: 25px auto">
+<a href="/img/2018/2/fleaswallow.png" target="blank">
+<img src="/img/2018/2/fleaswallow_THUMB.png" alt="Named after this guy. Click for full size." style="margin: 15px auto; max-width: 300px;" /></a>
+<p style="font-style: italic; text-align: center"><small>Named after <a href="http://parappatherapper.wikia.com/wiki/Prince_Fleaswallow">one of my favorite frogs.</a></small></p>
+</div>
+
+<small><em>🎵 The song for this post is 
+<a href="https://www.youtube.com/watch?v=lU69ntXGhVI">Prince Fleaswallow's rap from Parappa the Rapper</a>, by Masaya Matsuura 🎵</em></small>
 
 My most popular original tweet is from 2013:
 
@@ -19,21 +28,25 @@ Even by Pablo standards, it's a dead language.
 
 It was always a dodge that I avoided [OCaml][26] this long. That said, I'm
 happy to announce that **this blog is now built on OCaml, after years of being
-built on Racket.** [I wrote a static site generator][] that still has plenty of
+built on Racket.** [I wrote a static site generator][27] that still has plenty of
 holes, and while I don't recommend anyone else use it in its current state, I
 feel comfortable enough to build my site with it going forward.
 
+_If you see bugs in the site, please report them!_ 😅
+
 ### What's great
 
-#### Closing the gap: correctness
+#### Closing the correctness gap
 
 All of engineering is an exercise in tradeoffs, and while you can have
 preferences, it's dangerous to let yourself believe they are Objectively Better.
-I'll state that **my preference is to maximize correctness when possible, and
-static types with strong correctness guarantees are a great way to achieve this.**
+I'll state that **my preferences are to maximize correctness when possible, and
+static types with strong guarantees are a great way to achieve this.**
 While I love how fast I am when working in something like Python, Ruby, or
-JavaScript, my least favorite tasks in programming are a) writing tests with a
-ton of mocks, and b) debugging bad state.
+JavaScript, my least favorite tasks in programming are 
+
+* writing tests with a ton of mocks
+* debugging bad state
 
 If you're familiar with OCaml, you'll know that these are tasks the languages
 greatly reduces. Your programs are a little harder to write, but much easier to
@@ -42,7 +55,7 @@ ideal!  Testing is great! But I'd never even conceive of writing other software
 this way in another language, because I wouldn't have confidence that the system
 I build would have its invariants preserved.
 
-#### Closing the gap: performance
+#### Closing the performance gap
 
 If you spend enough time in dynamic, interpreted languages, you forget how fast
 computers really are. I didn't think I'd get to "launch" this project until I
@@ -51,7 +64,7 @@ changed and only rebuilds the parts of the site as necessary. A clean build in
 Frog takes me about 16 seconds, and one from cache takes about 3.
 
 When I first ran a complete build, my OCaml project built the entire site in
-about .2 seconds. This is not a burn on Racket or Frog! They are _amazing_
+less than a second. This is not a burn on Racket or Frog! They are _amazing_
 products by amazing people that I wholeheartedly admire! But there is a real joy
 in seeing optimized, compiled code work as quickly as it does.
 
@@ -66,10 +79,10 @@ problem you can imagine has been solved by multiple other people. Your package
 managers just work. There are a million StackExchange answers on every
 permutation of tool connections.
 
-When using an OCaml library, my process was
+When considering an OCaml library, my process was
 
 * Can I install this with [OPAM][11]? If not, I didn't include it: I really would
-  prefer to stick to reproducible builds.
+  prefer to stick to reproducible builds with a simple packaging mechanism.
 
 * How do I use this? I'd download it, look at its signatures in [utop][12], and
   usually look at the source code itself (like [this file in the Markdown
@@ -151,3 +164,5 @@ other features, but those are a few of my favorite things.
    [24]: https://github.com/janestreet/core
    [25]: http://batteries.forge.ocamlcore.org/
    [26]: https://ocaml.org/
+   [27]: https://github.com/pablo-meier/fleaswallow
+   
