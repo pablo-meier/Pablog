@@ -24,7 +24,6 @@ page][7].
 Omd doesn't respect self-closing tags as HTML, relies on a close to read it as
 HTML.
 
-   [1]: https://github.com/greghendershott/frog
    [2]: https://racket-lang.org/
    [3]: https://morepablo.com
    [4]: https://docs.racket-lang.org/frog/Quick_start.html#%28part._.Installing_.Frog%29
