@@ -37,7 +37,7 @@
                 <li>{{post.datestring}} &mdash; <a href='{{post.url}}'>{{post.title}}</a></li>
               {% endfor %}
             </ul>
-            <p>Archives for <a href="/archives.html">all posts</a>, or by category ().
+            <p>Archives for <a href="/archives.html">all posts</a>, or by category ({% for tag in tags %}<a href="{{tag.url}}">{{tag.name}}</a> {% endfor %}).
         </div>
         <div id="favorite-posts">
             <h2>My Favorites</h2>
