@@ -1,8 +1,9 @@
     Title: Services, monoliths, modularity
     Date: 2018-01-23T20:47:52
     Tags: engineering
+    og_description: A people perspective to why so many startups wanna Microservice, and why I think this isn't the right call.
 
-_🎵 The song for this post is [Men in Black][16], by Will Smith 🎵_
+<small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=fiBLgEx6svA">Men in Black</a>, by Will Smith</em></small>
 
 I haven't written about code in a long time, so here are some reckons about
 (micro)services, monoliths, and modularity.
@@ -251,7 +252,6 @@ Good luck to you, it's hard out there. 💪🏼
    [13]: http://learnyousomeerlang.com
    [14]: https://github.com/videlalvaro/gen_microservice
    [15]: http://learnyousomeerlang.com/clients-and-servers#callback-to-the-future
-   [16]: https://www.youtube.com/watch?v=fiBLgEx6svA
    [17]: https://techcrunch.com/2014/08/07/sup-app
    [18]: https://www.reonomy.com/
    [19]: https://classpass.com/
