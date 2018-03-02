@@ -6,9 +6,9 @@
 <small><em>🎵 The song for this post is <a href="https://www.youtube.com/watch?v=Hy8kmNEo1i8">Scatman</a>, by Scatman John.</em></small>
 
 In 2014, I [built two Android apps][1] for a 5-person startup in about two and a
-half months. In part because of lessons learned from the iOS app, was able to
+half months. In part because of lessons learned from the iOS app, I was able to
 architect it such that it had some features iOS didn't. When the CEO asked the
-CTO if it was possible to port some of the features back into iOS, the CTO said 
+CTO if it was possible to port some of the features back into iOS, the CTO said:
 
 > The iOS app has a fair bit of legacy code that makes this extremely challenging.
 
@@ -47,7 +47,7 @@ confront that their rationalizations may simply be their lizard brain saying
 
 **If you're an engineer:** Remember to challenge yourself and ask how much
 of your decision to label something as "legacy" or "awful code" is based on your
-lack of understanding of it? This is true beyond code: [ignorance is a common
+lack of understanding of it. This is true beyond code: [ignorance is a common
 cause of fear.][4] And as with all fear or pain, ask yourself why it's present.
 You'll probably unearth learnings (about yourself, about your team/company
 culture, about the project) that will pay back in spades.
@@ -67,7 +67,7 @@ both them and the org.
 Legacy systems, by definition, are already running and providing enough value to
 justify their existence. While everyone intellectually understands the
 importance of keeping a system running, it doesn't feel as satisfying, for
-employees or stakeholders, than being responsible for the Hot New
+employees or stakeholders, as being responsible for the Hot New
 Thing. That new revenue stream, that UI redesign, that architecture rewrite:
 all of them are easier to pin hopes and dreams to than what's old and known.
 This is human: [we're terrible at valuing maintenance and infrastructure.][5]
