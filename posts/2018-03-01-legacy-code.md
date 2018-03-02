@@ -95,7 +95,7 @@ it like a plumber repairing a leak: a sufficiently smart engineer
 can find the bug, patch it, and the component will work as normal. In reality,
 they have to learn the system, build fixtures to determine and subsequently work
 around its existing behavior, architect and (re)implement the solution, then
-gradually remove the fixtures, documenting the whole process. Its more akin to a
+gradually remove the fixtures, documenting the whole process. It's more akin to a
 jockey doing surgery on a racehorse as it's running a race.
 
 So many engineers (rightfully!) fear that they won't get the time, space,
@@ -111,7 +111,7 @@ challenge each other and stand up for each other for many months to come.
 
 Despite the old truism, [successful rewrites of old codebases are possible][6].
 And there's [a playbook or two for working with Legacy Systems][7]. Whether
-you're the engineer in charge or their manager, recognize that with diliigence
+you're the engineer in charge or their manager, recognize that with diligence
 and significant investment, getting what you need from an old codebase is very
 possible.
 
