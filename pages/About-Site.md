@@ -1,45 +1,46 @@
 # About (this site)
 
 This website is built a bit atypically; and while I think this bores a ton of 
-people, hopefully others will find it interesting.
+people, hopefully others will find it interesting!
 
 ## Current
 
 ### Content
 
 The repo for the site is hosted on GitHub [here][3]. It's a generated static
-site, a la [Jekyll][1] or [Octopress][2]. I'm using [Frog][4], for a few
-reasons:
+site, which has some nice perks:
 
-* [Racket!][7]
+* I can version control the content. I can push it to GitHub, Bitbucket, and/or
+  ZIP it and push it to Google Drive. I've lost a website or two in my time,
+  this is something even I can't fuck up.
 
-* Greg Hendershott, author of Frog, wrote [the best damn Scheme Macro tutorial ever.][8]
+* Generated sites are extremely cheap to host: putting it on S3 costs me a
+  single-digit number of dollars a month.
 
-* Generated sites are extremely cheap to host, I can version control the content.
+* If I have a question or edit to make, I can use command-line tools (i.e. find
+  all instances I've used a word, feed this into a Markov chain, or somesuch).
 
-I used Jekyll previously, but its original author [heinously mismanaged
-GitHub][6] and was a petulant little asshole about his deservedly shameful exit.
-I'll follow [Julie's advice][5] and not associate with him or his work if I can
-help it.
+I'm using a tool I wrote myself, ([Fleaswallow][49]). Before Fleaswallow, I used
+other engines:
+
+* [Frog][4], by Greg Hendershott. Greg also wrote [the best damn Scheme Macro
+  tutorial ever,][8] and I love supporting [Racket.][7]
+
+* Jekyll, but its original author [heinously mismanaged GitHub][6] and was a
+  petulant little asshole about his deservedly shameful exit. I'll follow
+  [Julie's advice][5] and not associate with him or his work if I can help it.
 
 I've [written before][9] about various other blogging engines and approaches
-I've used over the years, and while I think my preference is for a self-hosted
-out-of-the-box system like [Ghost][10], its generally not worth the trouble of
-migrating at this point 😛
+I've used over the years, and while I think my preference, from a user
+experience, is for a self-hosted out-of-the-box system like [Ghost][10], its
+generally not worth the trouble of migrating at this point 😛
 
 I use a few scripts on top of Racket to manage things:
 
-* A [simple shell script][39] to publish the built site.
-* A [command here and there][40] in a Makefile around the Frog commands.
-* A [tool to facilitate image uploads][41]. It's in OCaml, which is terrible
-  "right tool for the job" thinking: Python would have been much less trouble.
-  Still, I learned things 😄 The issues I'm solving for images are in [the
-  README.][42]
-
-I'm _loosely_ planning on migrating this to a tool I write. There's some
-functionality that I'd like to have that I don't think I'd like to argue for in
-the upstream branch, nor do I want to hard fork it. Besides, I like the excuse
-to play in a new stack.
+* A [simple shell script][39] to publish the built site to AWS via CloudFront.
+* A [command here and there][40] in a Makefile around the Fleaswallow commands.
+* A [tool to facilitate image uploads][41]. Also in OCaml, I might find a way
+  to integrate it with Fleaswallow. More in [the README.][42]
 
 ### Hosting
 
@@ -49,12 +50,13 @@ stack of S3, CloudFront, and Route 53. A decent guide to do this is [here][32].
 Note that if you want to add [HSTS][37] with this stack, it's a bit more
 cumbersome than using CloudFlare as I did before, when I was hosting this on a
 running nginx container. Julia Evans [explains the basics of the tech here][34],
-and this posts [explains how to do it in this stack here][35]. If you're feeling
-so empowered, check your site [Mozilla Observatory][36].
+and this post [explains how to do it in the AWS stack here][35]. If you're
+feeling so empowered, check your site on [Mozilla Observatory][36].
 
-Comments were something of A Decision, I ended up using [Discourse][] with
-[embedded topics][]. The main other contender was [Talk][], as part of [The Coral
-Project][]. If you're looking for a solution, you can also look at [Staticman][].
+Comments were something of A Decision, I ended up using [Discourse][50] with
+[embedded topics][51]. The main other contender was [Talk][52], as part of
+[The Coral Project][53]. If you're looking for a purely static solution, you can
+also look at [Staticman][54].
 
 The Discourse instance is hosted on Digital Ocean, because the prices for the
 compute looked comparable and their interface is just a whole lot nicer.
@@ -65,7 +67,16 @@ The backbone of this aesthetic comes from [Best Motherfucking Website][43], part
 of a family of sites I mentioned [here.][44]
 
 That said, I do add images to most posts, and I'm adding styles/nav back. I am
-committed to keeping this site pretty simple.
+committed to keeping this site pretty simple. Avoiding JS makes your sites
+automatically
+
+* Render fast, even in terrible network conditions
+* No blink render
+* Declarative (HTML doesn't throw an exception)
+* Search-indexable
+* Accessible
+* Semantic + "View Source"-able
+* Battery friendly
 
 ### Perf
 
@@ -113,8 +124,8 @@ commit && git push` them to the cloud).
 ### Hosting
 
 After the above and I switched to static sites, I put my files into a
-[Linode][48]. This worked a bit S3 (push the diff) except it was more like an
-EC2 instance with raw nginx. It was probably the simplest stack I've run.
+[Linode][48]. It was probably the simplest stack I've run until I landed back on
+S3.
 
 Two years ago, as containers were blowing up, I thought I'd learn them with this
 site. The most ridiculous thing I ever did was host this on Google Cloud (my old
@@ -156,8 +167,6 @@ better. Now I'm trying to stay off both.
 
 Use Squarespace.
 
-   [1]: https://jekyllrb.com/
-   [2]: https://github.com/octopress/octopress
    [3]: https://github.com/pablo-meier/Pablog
    [4]: https://github.com/greghendershott/frog
    [5]: https://twitter.com/nrrrdcore/status/459358875213238272
@@ -205,3 +214,9 @@ Use Squarespace.
    [46]: https://ilcapitano.livejournal.com/
    [47]: https://web.archive.org/web/20080723191834/http://www.morepaul.com
    [48]: https://www.linode.com/
+   [49]: https://github.com/pablo-meier/fleaswallow
+   [50]: https://www.discourse.org/
+   [51]: https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963
+   [52]: https://coralproject.net/products/talk.html
+   [53]: https://coralproject.net/
+   [54]: https://staticman.net/

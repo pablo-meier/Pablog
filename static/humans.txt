@@ -1,14 +1,21 @@
-/* I am */
-Name: Pablo Meier
-Site: https://morepablo.com
-Twitter: @SrPablo
-Location: New York, NY, USA
+/* Ya boi */
+  Name: Pablo Meier
+  Site: https://morepablo.com
+  Twitter: @SrPablo
+  Location: New York, NY, USA
 
 /* Thanks! */
-Name: Greg Hendershott
-Twitter: @GregHendershott
-Role: He wrote Frog! https://github.com/greghendershott/frog
+  Name: Yaron Minksy
+  Twitter: @yminsky
+  Name: Anil Madhavapeddy
+  Twitter: @avsm
+  Name: Jason Hickey
+  Role: These friends wrote Real World OCaml, which helped me tremendously writing Fleaswallow :)
+
+  Name: Greg Hendershott
+  Twitter: @GregHendershott
+  Role: He wrote Frog, a precursor to Fleaswallow! https://github.com/greghendershott/frog
 
 /* Site */
-Components: Frog, Nginx, Bootstrap
-Software: Vim, Racket.
+  Made with: Fleaswallow
+  in turn baked with: Vim, OCaml
