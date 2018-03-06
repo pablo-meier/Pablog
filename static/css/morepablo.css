@@ -527,45 +527,20 @@ blockquote p {
   margin: 15px auto;
 }
 
-/*
-#page-footer {
-  background-color: rgb(230, 230, 230);
+
+/*                                                   Donut Page */
+.donuts li {
+  list-style-type: none;
 }
 
-#page-footer .row, #index-header .row {
-  max-width: 1200px;
+.donuts img {
+  display: block;
+  max-width: 600px;
+  margin: 20px auto;
 }
 
-@media only screen and (min-width: 630px) {
-    #page-footer .row {
-      padding-top: 15px;
-    }
-}
-
-#index-header img {
-  max-width: 450px;
-  margin: 15px auto;
-}
-
-#index-header h1 {
+.donuts p {
+  font-weight: bold;
   text-align: center;
-  font-size: 10rem;
+  font-size: 14px;
 }
-
-#index-header p {
-  text-align: center;
-}
-
-#index-header-row {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
-@media only screen and (min-width: 630px) {
-  #index-header-synopsis {
-    margin-top: 100px;
-  }
-}
-*/
-
