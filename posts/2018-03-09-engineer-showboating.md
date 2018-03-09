@@ -1,5 +1,5 @@
-    Title: Engineer Showboating Guide
-    Date: 2018-03-08T16:49:09
+    Title: Engineer Showboating
+    Date: 2018-03-09T16:49:09
     Tags: engineering culture management
     og_image: https://morepablo.com/img/2018/3/profunctor_optics_THUMB.jpg
     og_description: How to fake it (in 2010, anyways)
