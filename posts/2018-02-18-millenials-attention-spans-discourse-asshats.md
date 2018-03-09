@@ -121,7 +121,7 @@ people who almost always get punished for calling out their experiences.
 I'll also point to this great essay, [on how #MeToo isn't so much about sex as
 it is about work.][4] We should remember the other effects of predatory men in
 the workplace in addition to sexual trauma. Every woman founder I know gets hit
-on by VCs, and get offered funding in exchange for dates and sex. This happens
+on by VCs, and get offered funding contingent on dates and sex. This happens
 to almost none of the male founders I know. You can't tell me it's a fair 
 obstacle to disproportionately put on entrepreneurial women who want to start
 companies.
@@ -147,7 +147,7 @@ It's common for folks to believe that abuse may be necessary for great work to
 exist: it is, unfortunately, one of the prevailing cultural narratives in our
 stories. From Tonya Harding's mother in _I, Tonya_ to J.K. Simmon's character
 in _Whiplash,_ to Daniel Day-Lewis in _The Phantom Thread,_ to the myth of Steve
-Jobs, to _House_… it's everywhere. I imagine if you're someone who doesn't think
+Jobs, to _House_ … it's everywhere. I imagine if you're someone who doesn't think
 much, it's tempting to think those are an accurate reflection of human output in
 the real world.
 
@@ -165,11 +165,11 @@ but I was expecting a more reputable outlet (I'd not heard of this one, it was
 started by neocons), has an embarassing website, and most of all, the piece was
 published by a junior in college. Her first job was going to be at one of
 The Bad Dude's cancelled initiatives, and I think that factors into "what was
-lost" (my first gig).
+lost" ("my first gig, to be a token hip young conservative").
 
-It's frankly not worth piling on (I wrote some godawful simple articles around
-my college graduation), and the bullet points my dad texted me were largely match
-as deep as it got, with the added benefit of being shorter.
+It's frankly not worth piling on (I've written terrible, simple articles in my
+undergrad days), and the bullet points my dad texted me were largely
+representative for how deep as it got, with the added benefit of being shorter.
 
 But I'd already written most of this, so I thought I'd share it anyways.
 
