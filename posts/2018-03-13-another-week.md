@@ -42,19 +42,18 @@ reporting and verifying][3] a trove of leaked documents on abusive police member
 who were allowed to stay on the force. Any settlements paid to victims of these
 officers come out of our taxes.
 
-If you want a starter kit on why cops need reform or abolition, here's a starter
-pack:
+Here's a starter pack on why cops need reform or abolition:
 
 * Killing unarmed people and lying about it in police reports. [Eric
-  Garner][18], [Tamir Rice][19], [Walter Scott][17], and way too many others,
-  and these were the ones where we were lucky to have footage of the incident
+  Garner][18], [Tamir Rice][19], [Walter Scott][17], way too many others.
+  And these were the ones where we were lucky to have footage of the incident
   disproving the lies.
 * [Civil forfeiture][8], or [how cops steal more than burglars.][7] A
   [video][20], if you prefer that over text.
 * Prosecution tactics that are one-sided, intended to get convictions and fill
   our prisons rather than seek justice. [Never talk to cops][9] without an
   attorney present.
-* Leaving folks in prison [years without a trial.][11]
+* Leaving folks in prison for [years without a trial.][11]
 * [Planting evidence][12] [happens.][13]
 * Cops [abuse their partners][15] at 2-5x the rate of general population.
 * "But they risk their lives!" Their jobs, on the whole, are [less dangerous than
@@ -65,11 +64,12 @@ pack:
   their custody.
 * ICE [threw a detainee in solitary confinement for 60 hours][23] until she recanted
   an accusation of sexual assault.
+* The phrase ["42 years of solitary confinement."][24]
 
 Their union(s) and leadership doesn't speak out substantially against any of
 this, and demand you worship them as heroes. While I recognize every population
-has bad actors, normally there is recourse if they wreck lives. I don't have a
-choice but to have my taxes support them, so I'll do everything else to point
+has bad actors, normally there is recourse if a party wrecks lives. I don't have
+a choice but to have my taxes support them, so I'll do everything else to point
 out that they're an institution built on punching the weak.
 
 ### Banality of Evil
@@ -117,3 +117,4 @@ do in a Civil Rights movement? Congrats, you're in one.
    [21]: https://twitter.com/i/moments/973668542443868161
    [22]: https://www.buzzfeed.com/albertsamaha/this-teenager-accused-two-on-duty-cops-of-rape-she-had-no?utm_term=.ro0QdKgw08#.rfdrW4gwD3
    [23]: https://www.dailykos.com/stories/2018/2/14/1741308/-ICE-allegedly-threw-a-detainee-in-solitary-for-60-hours-in-demand-she-recant-sexual-abuse-claims
+   [24]: http://www.independent.co.uk/news/world/americas/former-black-panther-herman-wallace-dies-days-after-judge-overturns-murder-conviction-that-saw-him-8859711.html
