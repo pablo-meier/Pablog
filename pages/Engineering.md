@@ -103,6 +103,20 @@ I challenged myself to do [Advent of Code][20] every day in a new language.
 There were 25 days, I got through about 20 to completion, with half-solutions to
 another 3 or 4.
 
+### Screamchess
+
+_Chess! But with more screaming!_
+
+Summer 2017. [GitHub][30]. Python, collaboration with Karen Castelletti and Sara
+Drakeley.
+
+---
+
+For Burning Man 2017, we built a physical chess set that used a plexiglass
+board, a Raspberry Pi, a webcam, speakers, and some software to build a chess
+set that reacted to the game. So pieces would mourn their deaths, give
+soliloquys, and heckle the player.
+
 ### Ghostlight
 
 _IMDb for live performance web app (or most of it, anyways)._
@@ -192,3 +206,4 @@ shaped how I approach programming in industry.
    [27]: http://www.codeofhonor.com/blog/the-starcraft-path-finding-hack
    [28]: http://queue.acm.org/detail.cfm?id=2349257
    [29]: https://michaelochurch.wordpress.com/2012/07/08/dont-waste-your-time-in-crappy-startup-jobs/
+   [30]: https://github.com/stay-whimsical/screamchess
