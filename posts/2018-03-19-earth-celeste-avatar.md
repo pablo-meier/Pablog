@@ -56,7 +56,7 @@ I'll say the following:
 </a>
 </div>
 
-Celeste is a satisfying and heartwarming platformer. The dialogue is
+[Celeste][6] is a satisfying and heartwarming platformer. The dialogue is
 well-written, the art and music are beautiful, and the characters are charming.
 One of its central themes is depression and mental health, and it engages with
 it in some of the most affirming and relatable ways I've ever seen.
@@ -100,3 +100,4 @@ Share yours!
    [3]: https://www.nytimes.com/2017/09/26/books/review/nk-jemisin-stone-sky-broken-earth-trilogy.html
    [4]: https://arstechnica.com/gaming/2017/09/if-you-read-one-sci-fi-series-this-year-it-should-be-the-broken-earth/
    [5]: https://www.youtube.com/watch?v=ZbV5hn_ET0U
+   [6]: http://www.celestegame.com/
