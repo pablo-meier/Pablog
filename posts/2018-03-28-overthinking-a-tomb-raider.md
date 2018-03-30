@@ -22,7 +22,7 @@ articulate why I loved the rebooted games was that they cashed the
 checks the _Tomb Raider_ series has been writing since its inception: beautiful,
 mysterious tombs and a hell of a fun time raiding them.
 
-Additionally, they took one of the most iconic characters in video games who I
+Additionally, they took one of the most iconic characters in video games 
 and improved everything about her too. Lara from the aughts was a weird mix of
 male gaze and unaware adventure trope campiness. "You don't shoot with pistols
 in each hand!" I'd yell with food flying out my mouth. "You especially can't do
@@ -63,17 +63,17 @@ don't [define her as a daughter][2] of someone nobody cares about.
 I'll broaden the statement that everything concerning her dad was fluffy and
 unnecessary. Nobody cares or has ever cared about Lara Croft on the basis of
 whatever "being a Croft" means. Her growth as a character in the newer games is
-stronger in the games precisely because she does it entirely on her own.
+stronger precisely because she does it entirely on her own.
 
 The games knew where to apply thick layers of schlock and where not to. The
 movie has this weird thematic issue with whether or not magic behind the tomb
-their raiding is real; the games just said "fuck it, we're owning it, magic is a
+they're raiding is real; the games just said "fuck it, we're owning it, magic is a
 thing because it makes the game more fun." The movies made weaker choices. Ditto
 Matthias (the villain) who was the wrong amount of ham.
 
 The callbacks to the game were not well-selected or well-executed. Lara holding
 two pistols as the final shot is a silly callback to promo materials of the bad
-old days, Croft Manor as a setting could have been made to please fans a whole
+old days; Croft Manor as a setting could have been made to please fans a whole
 lot more with an action or training sequence there ([or locking a butler in a
 meat freezer][7]). If a studio can greenlight Shia LeBeouf swinging from vines with the
 help of monkeys in _Indiana Jones and the Kingdom of the Crystal Skull_, surely
@@ -83,18 +83,17 @@ spiders, and once, a T-Rex).
 
 Independent of the source material, the writing was weak, and the structure
 tried cramming in a whole lot of irrelevant material. The 2013 game started
-with her island shipwreck with the occasional flashback, would've worked fine
-here. They have weird thematic beats, like the repeated insistence that she's
+with her island shipwreck with the occasional flashback, which would've worked fine
+here. They have odd thematic beats, like the repeated insistence that she's
 Totally Smart but then you have her delegate all the "numbers business" to an
 estranged, clearly-evil aunt.
 
-On that note, the secondary characters were wasted. Lu Ren, like many of the
-side actors (and Vikander herself), did the best with what he had, but they
-weren't given much. Her boxing friends, the street race crews, the snooty desk
-clerk, the longing foodservice worker… all could have split Dad Croft's or
-Matthias' lines and it would have been a better movie. The wealth
-manager's speaking affect was one of the most ticklish bits of acting I've seen
-in years.
+On that note, the secondary characters were wasted. The actors did pretty well
+with what they were given, but they weren't given much. Lara's boxing friends,
+the street race crews, the snooty desk clerk, the longing foodservice worker…
+all could have split Dad Croft's or Matthias' lines and it would have been a
+better movie. The wealth manager's speaking affect was one of the most ticklish
+bits of acting I've seen in years.
 
 Next time: more tombs, more raiding, more traps, more acrobatics, more
 [a' splosions][4], more Lara; less "Croft", less half-committed hammy choices,
