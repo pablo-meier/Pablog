@@ -35,7 +35,7 @@ The art is beautiful, and I can confirm it's a wonderful campaign setting:
 </a>
 </div>
 
-I was aiming for something different than homage, so let me introduce Gorlif:
+I was aiming for something different than Homage, so let me introduce Gorlif:
 
 ### Background
 
@@ -162,19 +162,19 @@ at my worst I'd reduce them to a caricature of basicness and blame my unhappines
 on them for not being what I think they should be (things that, conveniently, I
 am!).
 
-I recognized that on some level, I'm jealous as hell of people who just contentedly go
-about their lives happily, who meet new people with good nature and excitement.
-The people I judge are often demonstrating a calm I can only achieve I can now
+I recognized that on some level, I'm jealous as hell of people who just
+contentedly go about their lives, who meet new people with good nature and
+excitement.  The people I judge are often demonstrating a calm I can now
 recognize as healthy and aspirational.
 
-Many RPG characters are some kind of reflection of their creator, and Gorlif is
-someone who is happy and comfortable with not being the best at things (he's the
-freshest and least immediately capable mouse in our party), who assumes good
-intentions in others, and puts his best foot forward. I sometimes can't help
-myself and make him a bit clownish or put him on silly adventures (every town
-he's in he tries to get people to name their products after him; once we
-succeeded and a town has a beer called "Gorlifbrau"), regardless, it's been
-tremendous fun.
+Many RPG characters are some kind of reflection of their creator, and Gorlif
+contains bits of me that I consider healthy and aspirational: someone who is
+happy and comfortable with not being the best at things (he's the freshest and
+least immediately capable mouse in our party), who assumes good intentions in
+others, and puts his best foot forward. I sometimes can't help myself and make
+him a bit clownish, or put him on silly adventures (every town he's in he tries
+to get people to name their products after him; once we succeeded and a town has
+a beer called "Gorlifbrau"), regardless, it's been tremendous fun.
 
 ### Playing Mouse Guard
 
