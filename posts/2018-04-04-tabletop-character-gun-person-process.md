@@ -1,4 +1,4 @@
-    Title: Tabletop Character: Gun person (process)
+    Title: Tabletop Character: Gun person (process) 🔫
     Date: 2018-04-04T15:53:12
     Tags: culture, games
     og_image: https://morepablo.com/2018/04/tabletop-character-homage.html
