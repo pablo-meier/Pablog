@@ -1,6 +1,6 @@
     Title: Services, monoliths, modularity
     Date: 2018-01-23T20:47:52
-    Tags: engineering
+    Tags: engineering, management, essay
     og_description: A people perspective to why so many startups wanna Microservice, and why I think this isn't the right call.
 
 <small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=fiBLgEx6svA">Men in Black</a>, by Will Smith</em></small>

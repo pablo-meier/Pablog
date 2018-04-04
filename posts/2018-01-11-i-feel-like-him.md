@@ -1,6 +1,6 @@
     Title: I feel like him
     Date: 2018-01-11T15:04:22
-    Tags: images, pablolife
+    Tags: personal
 
 <div class="caption-img-block" style="margin: 25px auto">
   <a href="/img/2018/1/i_feel_like_pablo.jpg" target="blank">

@@ -1,6 +1,6 @@
     Title: Celeste playthrough
     Date: 2018-03-23T20:42:57
-    Tags: culture, pablolife
+    Tags: culture, personal, projects, games, videogames
     og_image: https://morepablo.com/img/2018/3/celeste-banner_THUMB.jpg
     og_description: Video when I played through a game I love
 

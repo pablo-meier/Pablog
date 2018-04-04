@@ -1,6 +1,6 @@
     Title: Advent of Code 2016
     Date:2016-12-29T23:34:00
-    Tags: pablolife, engineering
+    Tags: personal, plt, engineering, projects
 
 A co-worker linked a few of us to [Advent of Code][1], a coding challenge that
 released a new puzzle every day for December, leading to the 25th.

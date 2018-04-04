@@ -1,6 +1,6 @@
     Title: Feeling good when you're feeling bad
     Date: 2018-01-07T17:43:11
-    Tags: pablolife, essay, culture
+    Tags: personal, essay, culture
 
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="/img/2018/1/sapo_rest_optimized.jpg" target="blank">

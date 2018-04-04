@@ -1,6 +1,6 @@
     Title: Tabletop character: Gorlif 🐭⚔️
     Date: 2018-04-03T20:34:23
-    Tags: culture games
+    Tags: tabletop, games, personal, projects
     og_image: https://morepablo.com/img/2018/4/mouse_guard_swords_THUMB.jpg
     og_description: Wrote up my Mouse Guard character
 

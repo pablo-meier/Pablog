@@ -1,6 +1,6 @@
     Title: That consumption life: Culture Lectures
     Date: 2018-01-18T17:26:38
-    Tags: culture
+    Tags: culture, essay
 
 <div class="caption-img-block" style="margin: 25px auto">
   <a href="/img/2018/1/guatemala_market.jpg" target="blank">

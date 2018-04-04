@@ -1,6 +1,6 @@
     Title: Towards a More Open Web
     Date: 2018-01-02T15:12:43
-    Tags: pablolife, culture
+    Tags: personal, culture, engineering, blog-meta
 
 <div class="caption-img-block" style="margin: 25px auto">
   <img src="/img/2018/1/turtle_THUMB.jpg" alt="Hooray for turtles." style="margin: 15px auto;" />

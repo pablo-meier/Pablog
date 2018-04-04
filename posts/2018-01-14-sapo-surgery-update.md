@@ -1,6 +1,6 @@
     Title: 🐸 Sapo 🐸 surgery update
     Date: 2018-01-14T18:13:00
-    Tags: pablolife, sapogoeswoof
+    Tags: personal, sapogoeswoof
 
 <small><em>🎵 The song for this post is [Turn Down for What][1], by DJ Snake and Lil Jon 🎵</em></small>
 

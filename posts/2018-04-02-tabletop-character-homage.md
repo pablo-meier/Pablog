@@ -1,6 +1,6 @@
     Title: Tabletop character: Homage/Karreus! 😈
     Date: 2018-04-03T20:14:12
-    Tags: culture, games
+    Tags: tabletop, games, personal, projects
     og_image: https://morepablo.com/img/2018/4/dnd_tiefling_THUMB.png
     og_description: Meet my most recent D&D character.
 

@@ -1,6 +1,6 @@
     Title: Two anecdotes about culture
     Date: 2017-12-20T10:00:00
-    Tags: pablolife, management, culture
+    Tags: personal, management, culture, essay
 
 Here are two little anecdotes about companies and culture, apropos of nothing.
 

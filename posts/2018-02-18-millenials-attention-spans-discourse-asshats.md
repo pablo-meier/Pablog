@@ -1,6 +1,6 @@
     Title: Millenials, Attention Spans, Discourse, Creepers
     Date: 2018-02-19T23:22:16
-    Tags: culture
+    Tags: culture, essay
 
 <div class="caption-img-block" style="margin: 25px auto;">
 <a href="/img/2018/2/midvale.png" target="blank">

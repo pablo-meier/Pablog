@@ -1,6 +1,6 @@
     Title: Moved to Brooklyn
     Date: 2018-02-24T20:23:18
-    Tags: pablolife
+    Tags: personal, sapogoeswoof
     og_image: https://morepablo.com/img/2018/2/moving_THUMB.jpg
     og_description: 200-odd words after being awake for 28 hours, packing and moving.
 

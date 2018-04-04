@@ -1,6 +1,6 @@
     Title: ⛓ＢＬＯＣＫＣＨＡＩＮ⛓
     Date: 2018-01-10T11:07:20
-    Tags: engineering, culture
+    Tags: engineering, culture, essay
 
 <div class="caption-img-block" style="margin: 25px auto">
   <a href="https://twitter.com/MikeIsaac/status/950430971144187904">

@@ -1,6 +1,6 @@
     Title: An anecdote on runtimes
     Date: 2017-06-05T22:15:00
-    Tags: engineering, pablolife
+    Tags: engineering, plt
 
 <div style="max-width: 300px; margin: 20px auto; text-align:center">
 <img src="/img/2017/06/adobe_air_logo.jpg" alt="Adobe AIR!" style="display: inline;" />

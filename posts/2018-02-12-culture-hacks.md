@@ -1,6 +1,6 @@
     Title: Fun rituals for the Coder at Work 🖥
     Date: 2018-02-12T11:01:12
-    Tags: culture, engineering
+    Tags: culture, engineering, management, personal
 
 <small>_🎵 The song for this post is [Motownphilly][12], by Boyz II Men._</small>
 

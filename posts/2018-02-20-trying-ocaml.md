@@ -1,6 +1,6 @@
     Title: Trying OCaml 🐫
     Date: 2018-02-20T11:01:12
-    Tags: culture, engineering
+    Tags: culture, engineering, projects, plt
     og_image: https://morepablo.com/img/2018/2/fleaswallow_THUMB.png
     og_description: I announce a static site generator I wrote and describe first OCaml impressions. 🐫
 

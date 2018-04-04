@@ -1,6 +1,6 @@
     Title: Dip your toes into some MUSIC (part 1: Chip, Dub, #Deep, Mashup)
     Date: 2017-06-17T20:28:00
-    Tags: music, pablolife
+    Tags: culture, personal
 
 One of the most fun parts of dating someone can be learning about the art that
 moves them and sharing the art that moves you. I've read books for people,

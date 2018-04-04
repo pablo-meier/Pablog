@@ -1,6 +1,6 @@
     Title: 2016 in review
     Date: 2017-06-05T16:00:00
-    Tags: essay, pablolife
+    Tags: essay, personal
 
 **I wrote most of this on the last day of 2016. Then I put it down and forgot
 about it. I'm publishing it late, but will throw color commentary _in italics_.

@@ -1,6 +1,6 @@
     Title: Minimal Pages, brought to you by the letter F
     Date: 2018-01-04T11:40:11
-    Tags: pablolife, meta, engineering
+    Tags: personal, blog-meta, engineering
 
 New look! [Two][1] [screenshots][2] of the before (and the previous new look was
 logged [here][11]).

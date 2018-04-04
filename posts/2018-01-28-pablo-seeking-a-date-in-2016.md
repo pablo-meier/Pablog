@@ -1,6 +1,6 @@
     Title: Pablo seeking a date in 2016
     Date: 2018-01-28T15:12:06
-    Tags: culture, pablolife
+    Tags: culture, personal, essay
 
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="https://twitter.com/SrPablo/status/645360215647485952" target="blank">

@@ -1,6 +1,6 @@
     Title: NYer article on communities, social media
     Date: 2018-03-12T14:54:23
-    Tags: culture
+    Tags: culture, essay, personal
     og_description: Don't say "there are no good solutions," there are.
 
 <small><em>The song for this post is <a href="https://www.youtube.com/watch?v=TmUsHH5lxsA">Trisection</a>, from the Final Fantasy Tactics soundtrack, composed by Masaharu Iwata and Hitoshi Sakimoto.</em></small>
