@@ -190,7 +190,7 @@ predators can't be killed.
 
 The mechanics are an interesting twist: conflicts encompass more than fights,
 and things like persuading a mass of mice in town square, negotiation a
-contract, or winning a debating all fall under the "fight system." It lovely,
+contract, or winning a debate all fall under the "fight system." It's lovely,
 and allows for more chance than D&D's turn-based system. The stakes are often high,
 and the world of mice is adorable.
 
