@@ -93,22 +93,22 @@ without fur on his left side from a brewery accident when he was a younger.
 
 <div>
 <dt>Parents</dt>
-<dd>Jasper and Clia Embertwixt (Brewers)</dd>
+<dd>Jasper and Clia Embertwixt (Brewers).</dd>
 </div>
 
 <div>
 <dt>Age</dt>
-<dd>15</dd>
+<dd>15.</dd>
 </div>
 
 <div>
 <dt>Senior Artisan</dt>
-<dd>Clive, a Mouse Guard cartographer in Lockhaven</dd>
+<dd>Clive, a Mouse Guard cartographer in Lockhaven.</dd>
 </div>
 
 <div>
 <dt>Mentor</dt>
-<dd>Garreth, another mouse on his squad</dd>
+<dd>Garreth, another mouse on his patrol.</dd>
 </div>
 
 <div>
@@ -127,7 +127,7 @@ apprenticeship, sabotaging my maps. He's in Mouse Guard for the wrong reasons.</
 
 <div>
 <dt>Cloak Color</dt>
-<dd>N/A, he's a <a href="http://mouseguard.wikia.com/wiki/Mouse_Guard_(faction)#Ranks_of_the_Guard">Tenderpaw</a></dd>
+<dd>N/A, he's a <a href="http://mouseguard.wikia.com/wiki/Mouse_Guard_(faction)#Ranks_of_the_Guard">Tenderpaw</a>.</dd>
 </div>
 
 <div>
@@ -153,6 +153,10 @@ and imminently memorable (he's got horns! and solid green eyes and grey skin and
 a tail!). Gorlif was my shot at something else: I wanted to play him a little
 more "straight:" he isn't _tortured_ or fighting demons, he's a bit of a normie
 who enlisted in the Guard because he wanted to be something.
+
+(This wasn't the first idea: my notepad had the words **MOUSE CANNIBAL**, he
+initially was a mouse who longed to eat more mice, and thought the Guard was the
+best way to access mouse meat. I still worked in mouse cannibalism 😉)
 
 In a way, it's an exercise in empathy: there are a ton of ways that I've felt
 othered and different in my own life (either in how folks treated me, or in how

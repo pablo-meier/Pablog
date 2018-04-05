@@ -35,7 +35,7 @@ Ehrmantrout-type character who's old and hyper competent.
 
 If you don't watch the show, you should know that the actor is 71 years old.
 He's a former cop and he moves pretty slowly. He's usually thought things ahead
-of time and knows "the game" pretty well. He's usually underestimated and rarely
+of time and knows "the game" pretty well. He's frequently underestimated and rarely
 in danger. I can't find the full scene, but here's [a short demonstration][4]
 where someone who got hired for the same protection job is teasing him for not
 carrying a gun (he's not carrying a gun because he did legwork on the dealer
