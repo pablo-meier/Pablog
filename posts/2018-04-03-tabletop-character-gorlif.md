@@ -172,7 +172,7 @@ excitement.  The people I judge are often demonstrating a calm I can now
 recognize as healthy and aspirational.
 
 Many RPG characters are some kind of reflection of their creator, and Gorlif
-contains bits of me that I consider healthy and aspirational: someone who is
+contains bits of me that I hope to connect more with: someone who is
 happy and comfortable with not being the best at things (he's the freshest and
 least immediately capable mouse in our party), who assumes good intentions in
 others, and puts his best foot forward. I sometimes can't help myself and make
