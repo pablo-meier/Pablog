@@ -24,7 +24,7 @@ The GM established the following guidelines:
 This goes against a lot of Pablo favorite tropes, but here were some concepts I
 threw together:
 
-### The Mike Ehrmantrout idea
+### The Mike Ehrmantraut idea
 
 <div class="caption-img-block" style="margin: 25px auto">
 <img src="/img/2018/4/mike_erhmantraut.jpg" alt="Photo of Mike Erhmantraut" style="margin: 15px auto;" />
