@@ -84,7 +84,7 @@ Skies of Arcadia had a great gunslinging character, Gilder:
 He was a bit of a playboy, had that very cute parrot, and would yell "[Dance for
 Me!][6]" when firing in rapid succession. I'm kind of into the idea of a character
 who does it for the style points, names guns, and draws little faces into the
-bullets. Maybe mods the guns to make their gunshots in line with certain
+bullets. Maybe mods the guns to make their gunshots "sing" with certain
 pitches. Basically, they're insufferable, but they do make things go BOOM when
 needed.
 
