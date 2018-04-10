@@ -31,7 +31,7 @@ threw together:
 </div>
 
 Per _Breaking Bad_ and _Better Call Saul_, I love the idea of a Mike
-Ehrmantrout-type character who's old and hyper competent.
+Ehrmantraut-type character who's old and hyper competent.
 
 If you don't watch the show, you should know that the actor is 71 years old.
 He's a former cop and he moves pretty slowly. He's usually thought things ahead
