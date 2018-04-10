@@ -1,7 +1,7 @@
     Title: Tabletop Character: Gun person (process) 🔫
     Date: 2018-04-04T15:53:12
     Tags: tabletop, games, personal, projects
-    og_image: https://morepablo.com/2018/04/tabletop-character-homage.html
+    og_image: https://morepablo.com/img/2018/4/gilder-skies.jpg
     og_description: I needed a gun character, here are some concepts.
 
 <small><em>The song for this post is <a href="https://www.youtube.com/watch?v=NkVsJGl5d6E">Candy</a>, by Mandy Moore.</em></small>
