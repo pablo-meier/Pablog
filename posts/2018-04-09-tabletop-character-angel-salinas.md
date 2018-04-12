@@ -90,7 +90,7 @@ tuberculosis. He killed the imposter, went to the warehouse, and liberated his
 former and current wife, leaving a number of dead bodies. He gave them each half
 of his savings, told them to flee. One of his proteges from his police days
 who'd made it to the _Agrupamiento Alfa_ told him he could get him in a safe
-house in the USA. At 54, he fled again, this time to Billings, Colorado.
+house in the USA. At 54, he fled again, this time to Billings, Montana.
 
 He spent the first 4 years as a tailor at a Nordstrom, but wanted more _pista_
 to live a little more comfortably, pay a Private Investigator to keep him
