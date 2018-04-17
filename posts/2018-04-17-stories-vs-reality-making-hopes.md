@@ -64,16 +64,8 @@ infrastructure for distribution + delivery, and somehow the context so children
 could meaningfully build on these things. You only have [a limited number of
 innovation tokens][2], at least at launch.
 
-I remember an old thinkpiece from the late aughts that that argued,
-paraphrasing: the reason _The X-Files_ didn't survive the transfer from the Clinton
-presidency into the Bush years was because during the Bush years, the thought of
-a government competent enough to manage such resources and manpower to a
-maintain a conspiracy became farcical. The truth is, getting large
-numbers of people to work together to do pretty much _anything_ is extremely
-hard.
-
 There are a few other things that make the OLPC story so compelling to me. One,
-**I love the idea of building devices to encourage production instead of just
+**I love the idea of building devices to encourage production instead of 
 consumption.** Our operating systems and devices used to be more tweakable,
 hackable, and accessible, they're being designed purely for consumption now.
 Someone once described owning a computer and not learning to program it like
@@ -83,30 +75,32 @@ harder. I don't like a future where it's so hard to build things.
 
 The other main thing is that **OLPC was cashing in on the kind of utopianism I'd
 love to see flourish.** Like I mentioned in ["my dream setup"][3], meaningfully
-better software and things we build on it require us to invest in meaningful
+better software and things we build on it require us to invest in deep
 change of our building blocks: why can't we collectively invest in a Free
 Software phone OS that's pleasant to use? Why can't we have better development
 tools? I _highly_ recommend [A Whole New World][4] by Gary Bernhardt (22:10
 video) and [Inventing on Principle][5] by Bret Victor (~54:00 video) for
 painfully inspiring variations of these themes. _Maybe we can have nice things._
 
-I'd _love_ a durable, creator-centric, mesh network, Free Software,
+I'd love a durable, creator-centric, mesh network, Free Software,
 works-for-children, low-cost computing device. While it's obvious OLPC was
 misguided in a few ways, I'd love to still see us build something like it.
 
 ---
 
 On the theme of "that shit's hard," I went to a talk by my old Programming
-Languages professor on [CS curriculum design to teach children.][6] I found it
-inspirational, and gives me the most confidence of anything I've seen on a
+Languages professor on [engineering a CS curriculum for children.][6] I found it
+inspirational, and gives me the most confidence of anything I've seen for a
 vision for computing education. Jane Street put up a recording:
 
 <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/5c0BvOlR5gs?rel=0" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Utopianism is nice, but if it involves _fantastical gadgets_ as its centerpiece
-and ignores the realities of education, it's probably snake oil.
+Utopianism is nice, but solving real problems probably doesn't involve
+_fantastical gadgets_ you can just plop in front of someone to fix it as its
+centerpiece. Education is an established field, and if you're not engaging with
+the folks already tackling it there's a good chance you're wasting your time.
 
    [1]: https://www.theverge.com/2018/4/16/17233946/olpcs-100-laptop-education-where-is-it-now
    [2]: http://mcfunley.com/choose-boring-technology
