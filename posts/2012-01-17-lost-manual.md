@@ -2,6 +2,18 @@
     Date:2012-01-17T12:00:00
     Tags: pablolife, culture, engineering, rants, essay
 
+Note: I edited a bunch of this language to be a bit more, uh, fair. Looking
+back, I was very angry! This is also an example of "ignoring Hot New Things is
+its own skill."
+
+I also regret bringing up Uncle Bob because when he's
+not [denying trans people's struggles][23] or [wanting to fuck his computer][24],
+he's [giving terrible programming advice][25] that amounts to "toughen up" and
+"but I, personally, don't already do that." The useful bit about the talk he gave
+was citing Ward Cunningham anyways.
+
+---
+
 I hate to be GrandPaul, the old curmudgeon who hates things that just
 ain't the way they used to be. But I've decided to touch webdev for
 [ScrabbleCheat][15] and by jove, I feel those RoR kids have jumped the
@@ -23,7 +35,7 @@ far, addressing the "failed promises" of TDD. Some of those promises
   long for this to break down. What about the 92% of TDD practitioners
   who, at some point, broke down and wrote code before tests just that
   once (and again and again)? What about all that semantically useless
-  boilerplate (all the Mock libraries, all the fixtures, what have you)?
+  boilerplate (all the Mock libraries, all the fixtures)?
   At the very best you have verbose, very technical and
   implementation-obsessed documentation only your coders can read.<br /><br />
   Sure, by being executable and by having very wide coverage, Unit tests
@@ -32,21 +44,18 @@ far, addressing the "failed promises" of TDD. Some of those promises
   does_. BDD rectifies this by separating the specification of the
   behavior (what behavior you are testing) with the implementation of
   how you test it, and achieves this further (in the RoR world, anyways)
-  with a butt-ton of fancy DSLs to make your tests read like English.
+  with a ton of fancy DSLs to make your tests read like English.
 
 * **TDD is a boon to the developer, but the benefits aren't directly known to the client.**
-  RoR folks, moreso in my anecdotal observation
-  than most other types of devs, love to talk about what tools they're
-  using, usually much more than the projects they're working on. So
-  while they can circlejerk to _each other_ about how great their
+  While your devs can talk to _each other_ about how great their
   methodology is and what gems they're using, how much better would it
   be if they could include the person footing the bill, and give them
   that extra-personal experience? <br /><br />
-  I only mention this because everytime Cucumber lists its advantages,
+  I only mention this because every time Cucumber lists its advantages,
   it's always mentioned that you can show your _cukes_ (Feature
   Definition files) to the clients and they will be able to read and
-  understand it, even as nontechnical people. So that's a weakness of
-  unit testing, I guess -- you can't show _that_ typing to the clients
+  understand it, even as non-technical people. So that's a weakness of
+  unit testing, I guess — you can't show _that_ typing to the clients
   and it be anything meaningful.
 
 I bring all this up because, well, I'm trying to get on this train and
@@ -60,12 +69,13 @@ Despite my seething cynicism, I'm working through it and giving it a
 try. Hell, the only reason I joined Twitter was because, four years
 ago, I was getting angry at its very existence, feeling that "Web 2.0"
 had brought us to such a shallow, useless service. Then I realized I
-was sounding like my (awesome, wonderful) Luddite father, so I signed
-up immediately. 2500 tweets later, I love it. So maybe (and I still
+was Getting Mad About The Kids, and that path looked doomed to bitterness, so I
+signed up. 2500 tweets later, I love it. Maybe (and I still
 believe this) I'll come around and preach this the way the Ruby kids
 do these days.
 
-But where to start learning? I looked at RoR years ago, back when we
+But where to start learning? I looked at RoR when it just hit the scene and I'd
+taken exactly one programmng class, back when we
 were all still using [Test::Unit][5], I understand MVC, but wanted to
 do things _right_ this time. So I read about RSpec and Cucumber, go to
 their respective websites, and try to write my first cukes and
@@ -100,9 +110,10 @@ writing these files. Similarly, RSpec shows you tons of files like
 All of this is well and cute, so you ask yourself, "where is the DSL
 reference so I can write my own?"
 
-No really, where is it? Because I still haven't found it. I'm looking
-all through the interwebz, but neither Cucumber nor RSpec have a
-definitive listing of their DSLs. There are a few half-baked
+No really, where is it? Because I still haven't found it. I've looked
+all through the interwebz, but couldn't find a definitive reference for the DSLs
+of either the Cucumber libraries I'm using nor RSpec.
+There are a few half-baked
 tutorials, some Wikis on the Github pages, and while they all describe
 these technologies on a very shallow level, they barely answer my
 questions. When you run `rspec` from the command-line, where is it
@@ -117,9 +128,6 @@ how they all play well together, how they'll turn you into a rockstar
 ninja coder that makes makes clients happy. I'd believe them, but if I
 want to read _how_ you'll redirect me to a dozen scattered wiki links
 and shallow blog posts with toy examples.
-
-Funnily enough, the best source of information is to dive into source:
-the kind of thing these tools are supposed to prevent.
 
 Well, that's not quite true. Because for $25 you can buy [The RSpec
 Book][6]. Or [the Cucumber book][7], for another $25. Note that many a
@@ -166,7 +174,7 @@ killed Smalltalk could kill Ruby, too"][11], and he highlights
 properties of the Smalltalk culture before it died: a bunch of very
 talented, smug programmers who were sure they would inherit the world
 because their tools were so much better than the competition. You can
-ask the Lisp guys how that worked for them, too. But at the end of the
+ask Lispers how that worked for them, too. But at the end of the
 day, Rubyists: try not to make too much of a mess, since for every
 person like me who comes along to join the party, 10 won't stick
 around past this frustration as I have. Do the dirty work and write a
@@ -205,8 +213,8 @@ reverse order:
   expect in security, why not automate the drudgery of coming up with
   unit tests?
 
-  Bryan O'Sullivan (of [Real World Haskell][22] fame) had a zinger of
-  a comment in [an article describing BDD][21]:
+Bryan O'Sullivan (of [Real World Haskell][22] fame) had a zinger of a comment in
+[an article describing BDD][21]:
 
 > Oh wow. I never knew that Rubyists had a Cobol fetish. I think I
 > liked my brain better when it didn't contain that knowledge.
@@ -239,3 +247,6 @@ wanted to get this off my chest.
    [20]: http://www.amazon.com/dp/1934356549/ref=asc_df_19343565491864467?smid=ATVPDKIKX0DER&tag=hyprod-20&linkCode=asn&creative=395093&creativeASIN=1934356549
    [21]: http://www.randomhacks.net/articles/2009/04/30/rspec-cucumber-book-recommendation
    [22]: http://book.realworldhaskell.org/
+   [23]: https://twitter.com/unclebobmartin/status/981237703428714498
+   [24]: https://programmingisterrible.com/post/85430787033/creepy-uncle-bob
+   [25]: https://dev.to/bosepchuk/is-uncle-bob-serious-dhi
