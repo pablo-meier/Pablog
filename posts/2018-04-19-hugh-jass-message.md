@@ -64,9 +64,7 @@ end up writing a ton of middleware (input validation, logging, asset minificatio
 etc.) and I would love to be surrounded by something with _opinions_, finally.
 
 [Dropwizard][16] was a favorite for a while, but even it makes certain basic
-things hard, and I'm not feeling in a Java mood recently. [Last time I tried
-Rails][17], in 2012, I wasn't really ready (I was a worse and immature
-programmer). I was right about BDD tho.
+things hard, and I'm not feeling in a Java mood recently.
 
 I find Elixir strange. That will pass, but its syntax is a bit sugary for
 my tastes. I'm finding tools like [Distillery][11], [Mix][10], and [Hex][12]
@@ -100,6 +98,5 @@ Have fun! And ping me if you run into any bugs! 😄
    [14]: http://flask.pocoo.org/
    [15]: https://expressjs.com/
    [16]: http://www.dropwizard.io
-   [17]: /2012/01/lost-manual.html
    [18]: https://letsencrypt.org/
    [19]: https://devops.stackexchange.com/questions/653/what-is-the-definition-of-cattle-not-pets
