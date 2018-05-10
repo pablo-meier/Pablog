@@ -25,11 +25,11 @@ placemat of our family's weekly night out, and Charly often incorporated
 elements of astrology in our stories (Year of the Tiger and Virgo, baby).
 Myers-Briggs is its own industry, even though it's [largely for funzies][4].
 
-I approach the Enneagram with a similar of whimsy, though I give it a bit more
+I approach the Enneagram with a similar degree of whimsy, though I give it a bit more
 credit than most because its basis for personality types are fears and
-motivations as forces behind the classification, rather than what year or month
-you were born in. This makes it feel a bit more directly applicable: these are,
-in my experience, great ways to model people and their decisionmaking.
+motivations, rather than what year or month you were born in. This makes it feel
+a bit more directly applicable: these are, in my experience, great ways to model
+people and their decisionmaking.
 
 Online treatments of the Enneagram are pretty lovely, but Karen and Sara always
 seemed to know a lot more about the types and what their characteristics are, so
