@@ -8,7 +8,7 @@
 href="https://www.youtube.com/watch?v=Jne9t8sHpUc">Ironic</a>, by Alanis
 Morissette.</em></small>
 
-My proposal for a talk got selected, so I'll be speaking at [DeconstructConf][1]
+My proposal for a talk got selected, so I'll be speaking at [Deconstruct][1]
 this May! While I have some experience speaking to smaller audiences (and as an
 actor about a decade ago), this is my first time speaking at a conference. The
 title of my talk is **"A Fresh Look At Failure."**
@@ -41,7 +41,7 @@ some future ones!
 Deconstruct has these properties that I'm comfortable calling Objectively Good: 
 
 * Diverse speaker lineup. People of all backgrounds participate in our industry
-  and have lots to share; conferences should [aim to be part of the solution.][7]
+  and have lots to share; conferences should aim to be part of the solution.
 
 * Speaker accommodations: most conferences place the burdens of travel and
   lodging on their speakers, and don't pay them for their time. This means a
