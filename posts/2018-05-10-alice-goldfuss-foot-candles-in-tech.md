@@ -5,7 +5,7 @@
 
 <small><em>The song for this post is <a href="https://www.youtube.com/watch?v=0VY5IGJ7_3Q">Blue Bossa (Live)</a>, as performed by the Ray Brown Trio.</em></small>
 
-The blog has slowed down a bit while working on [my Deconstruct talk,][] but while
+The blog has slowed down a bit while working on [my Deconstruct talk,][4] but while
 you're here, [Alice Goldfuss][1] wrote [a must-read post][2] on different paths to tech,
 and where/how to learn different things along the way:
 
