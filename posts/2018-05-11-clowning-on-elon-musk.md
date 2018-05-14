@@ -1,4 +1,4 @@
-    Title: Clowning on Elon Musk 🤡
+    Title: Stop lionizing Elon Musk 🤡
     Date: 2018-05-11T17:48:49
     Tags: essay
     og_image: https://morepablo.com/img/2018/5/musk_wonka_THUMB.png
@@ -11,34 +11,35 @@ inspire joy rather than anger; be part of the solution instead of part of the
 problem. Statements that were benign and agreed-upon ("Nazis are bad people,"
 "police shooting unarmed people is wrong," "the President should be transparent
 about their finances and shouldn't profit from the policies they enact") are
-recently _divisive_, and I believe this is in part due to algorithms and
+recently, weirdly, _divisive_, and I believe this is in part due to algorithms and
 products that [are explicitly designed to extract dollars from our attention.][9]
 It doesn't have to be this way.
 
 But.
 
-We also can't _fix_ any of the above without identifying where it comes from.
-If our attention and compassion are being strip-mined for profit, who's calling
-those shots? Who decides that money is worth the downgrade of society? While
-many systematic problems can't be assigned to mere individuals, you also can't
-assign them to _nobody_ or their choices.
+We also can't _fix_ any of the above without identifying its causes and
+symptoms. If our attention and compassion are being strip-mined for profit,
+who's calling those shots? Who decides that money is worth the downgrade of
+society? While many systematic problems can't be blamed on mere individuals,
+you also can't assign them to _nobody_ or their choices.
 
-So I might as in here, write a character portrait of certain prominent figures
-whose roles in the above need to be
-better-understood.<sup id="place1"><a href="#footnote1">1</a></sup> I spend a
-lot of energy being grumpy and goddammit, if you're reading this, you're invited
-to see why.
+So I might occasionally write a character portrait of certain prominent figures
+whose roles in the above, I feel, need to be better-understood.<sup id="place1"><a href="#footnote1">1</a></sup>
+It's not the powerless or the poor who create and uphold systems which keep
+the powerless and poor in place.
 
-Today let me tell you what I think about Elon Musk.
+I spend a lot of energy being grumpy and goddammit, if you're reading this,
+you're invited to see why. Today let me tell you a bunch of things about Elon
+Musk.
 
 ### Why he's celebrated
 
 It's easy to see why: Elon is the public face behind a number of companies
-that look like they're paving the way for the science-fiction future we were
-promised. "Where's my flying car?!" is answered by the companies he's creating:
-[SpaceX][10] (rockets and space travel), [Tesla][11] (named after the [folk geek
-hero][4], cars of the future!) and [The Boring Company][12] (kill traffic with
-high-speed pneumatic tunnels!).
+that look like they're paving the way for the science-fiction future we dream of.
+"Where's my flying car?!" for his admirers is answered by the
+companies he's creating: [SpaceX][10] (rockets and space travel), [Tesla][11]
+(named after the [folk geek hero][4], cars of the future!) and [The Boring
+Company][12] (kill traffic with high-speed pneumatic tunnels!).
 
 His personal brand is one of effervescent nerd-humor: he wanted to sell a
 flamethrower, wasn't allowed to, so he sells it as ["not a flamethrower."][5]
@@ -53,22 +54,30 @@ societies have been conditioned, correctly, to look for people to bring on that
 next world-changer, and it looks, at a casual glance, like Musk is an engaged
 visionary who could bring it about.
 
+For a lot of people, he's [Hank Rearden][34], and his products are their own
+versions of Rearden Steel: through sheer genius and force of will, he's building
+better cars than the car people, better rockets than the rocket people.
+
 ### Alright, but
 
 But, well, he largely sucks, and his companies are very expensive branding
-exercises that fail, as projects and/or businesses.
+exercises that fail, as projects and/or businesses. Folks making him out like
+some kind of Henry Rearden are just [suckers for simple stories and have
+incomplete models of reality][35] (and/or don't have a whole lot of empathy for people).
 
-We'll start with Tesla, because it's the easiest. [They burn an extraordinary
+We'll start with Tesla. [They burn an extraordinary
 amount of money.][13] Taking VC dollars and using it capriciously to gain market
 dominance is pretty expected, but we're talking about a level that scares VCs.
 They post abysmal numbers and [his shareholder call trying to assuage them went
-rather off the rails.][14]
+rather off the rails,][14] where he pretends that _investors caring about the
+financial performance of their investment_ is somehow "boring" and "stupid."
 
 He's in the midsts of [gender discrimination][16] and [racial
-discrimination][15] lawsuits, which [he clearly is not taking very seriously.][17]
-His company has been investigated several times for poor working conditions and
-found to be negligent ([May 2017][18], [Feb 2018][19], [April 2018][20]).
-He [brushed that off too.][21] Weirdly, [the company retaliates against those who
+discrimination][15] lawsuits, the merits of which [he is clearly is not taking
+very seriously.][17] His company has been investigated several times for poor
+working conditions and found to be negligent and dangerous for workers (three
+separate times! [May 2017][18], [Feb 2018][19], [April 2018][20]). He [brushes
+that off too.][21] Weirdly, [the company retaliates against those who
 want to start a union!][22]
 
 <div class="caption-img-block" style="margin: 25px auto">
@@ -82,64 +91,59 @@ which will do public transit's job better than public transit, [but he hates
 public transit and demonstrates no evidence of interest or knowledge][23] on its
 successes or failures in over a century of history.
 
-I find SpaceX to be the one I have the least issue with; it's also the one I see
-Musk interact with the least. The rockets actually launch, which I like.
+SpaceX (and other companies) [take massive government subsidies while still
+being privately owned][36]. He's privatized the gains but socialized the
+investment. He's loved by libertarians and Objectivists but [behaves exactly
+like the antagonist of Atlas Shrugged did][37].
 
-If you've ever heard the term "Starter Wife," the wife a man uses to get a taste
-of marriage before dumping her and settling going back to younger women, it was
-[coined by Elon's ex, Justine Musk,][24] based on her experiences being married
-to him. Check it out if you want to read about a dude who wasn't a great husband
-with winners like "if you were my employee, I'd fire you."
+If you've ever heard the term "Starter Wife" it was [coined by Elon's ex,
+Justine Musk,][24] based on her experiences being married to him. Check it out
+if you want to read about a dude who wasn't a great husband with winners like
+"if you were my employee, I'd fire you."
 
 ### Why does this matter
 
 Because, stupid as it sounds, we can only address our social problems when we
 address our social problems. A foppish billionaire using several hundred
-millions of VC dollars to ostensibly build toys for the rich in the success case
-(let's be real, he's not putting poor people in those rockets to Mars) saps away
-efforts to meaningfully address social problems that affect people. Said another
-way: praise and reward people who _don't_ suck.
+millions of VC dollars (and billions of public dollars) to ostensibly build toys
+for the rich in the success case (let's be real, he's not putting poor people in
+his rockets to Mars) saps away efforts to meaningfully address social problems
+that affect people.
+
+Even if you want research that leads to better cars or rockets (I hate that we
+barey fund NASA, personally), can you invest in a person who doesn't brush off
+workplace accidents? Someone who's companies don't become hotbeds of
+discrimination? Can the people footing the bill be included in its profits?
 
 The workers cited in the Tesla workplace accidents? The employees behind the
 racial and sexual harassment claims? These are _real people_ who are negatively
 impacted by choices Elon makes, and it's a disservice to give him a wide pass
 because [he jokes about bacon on Twitter.][25]
 
+There are some smooth-brains who will support a charismatic character no matter
+what facts you throw at them (apparently Elizabeth Holmes still has acolytes).
+The rest of us, though: don't fall for his grift. Demand more.
+
 I was at Google when Larry Page was CEO, and the culture there told us to target
-"moonshots": highly improbable projects that can change the world. Oddly, the
-following are never considered appropriate moonshots:
+"moonshots:" highly improbable projects that can change the world. Oddly, the
+following are never considered moonshots to tech luminaries like Larry and Elon:
 
 * Poverty
 * Hunger
 * Racism
 * Sexism
 
-even though they've never been solved and affect billions of people 🤷🏼‍♂️
+I think they should be considered… they seem ambitious enough 🤷🏼‍♂️
 
-They mean things like [Wi-Fi balloons and self-driving cars][8]. Larry even said,
-paraphrasing, that when he dies [he'd rather give away all his money to Elon Musk
-instead of charity.][26]
+But nah, they want toys like [balloons to increase their customer bases and
+self-driving cars][8]. Larry even said, paraphrasing, that when he dies [he'd
+rather give away all his money to Elon Musk instead of charity.][26]
 
-So yeah, stop lionizing this shit.
+So yeah, stop lionizing this shit. Or, continue to! But don't get huffy if I
+consequently think you're either ignorant of what I'm linking to here (no longer
+an excuse!) or a simpleton lacking in empathy.
 
-<!--
-
----
-
-I promised clowning, so let's clown:
-
-variations of [his and Grimes appearance at the Met Gala][29]
-
-- [One][28]
-- [Two][30]
-- [Three][31]
-- [Four][32]
-- [Five][33]
-
-but my favorite is _the Onion_: [Horrified Grimes Stumbles Upon Boyfriend’s $18 Billion Plan
-For All-New, Reinvented Grimes][27]
-
--->
+[A good comic,][38] as a chaser.
 
 ---
 
@@ -147,7 +151,8 @@ For All-New, Reinvented Grimes][27]
 A favorite example of this exercise is Alex Pareene's [The Hack List][1]. There
 are a number of Serious Figures in national discourse who suck and make things
 worse for everybody. His dressing down of [Jonah Goldberg][2] is a favorite, and
-in a similar vein, [this takedown][3] of Ben Shapiro is a cathartic read.
+in a similar vein, [this takedown][3] of Ben Shapiro by Nathan J. Robinson is a
+cathartic read.
 
    [1]: https://www.salon.com/topic/the_hack_list/
    [2]: https://www.salon.com/2012/05/10/jonah_goldbergs_desperation/
@@ -182,3 +187,8 @@ in a similar vein, [this takedown][3] of Ben Shapiro is a cathartic read.
    [31]: https://twitter.com/__sagwa__/status/993656936313884672
    [32]: https://twitter.com/markyannna/status/993668999782154240
    [33]: https://twitter.com/epitasis/status/993665930449350656
+   [34]: https://en.wikipedia.org/wiki/List_of_Atlas_Shrugged_characters#Henry_%22Hank%22_Rearden
+   [35]: /2018/01/paper-worlds-the-heroes-who-inhabit-them.html
+   [36]: http://www.latimes.com/business/la-fi-hy-musk-subsidies-20150531-story.html
+   [37]: https://twitter.com/existentialcoms/status/995039103237341184
+   [38]: http://existentialcomics.com/comic/other/17
