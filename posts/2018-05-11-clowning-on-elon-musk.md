@@ -1,5 +1,5 @@
     Title: Stop lionizing Elon Musk 🤡
-    Date: 2018-05-11T17:48:49
+    Date: 2018-05-14T14:51:49
     Tags: essay
     og_image: https://morepablo.com/img/2018/5/musk_wonka_THUMB.png
     og_description: If you admire Elon Musk I think you're wrong, or at least focus on the wrong things.
