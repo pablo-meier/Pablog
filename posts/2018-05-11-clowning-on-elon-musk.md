@@ -111,7 +111,7 @@ his rockets to Mars) saps away efforts to meaningfully address social problems
 that affect people.
 
 Even if you want research that leads to better cars or rockets (I hate that we
-barey fund NASA, personally), can you invest in a person who doesn't brush off
+barely fund NASA, personally), can you invest in a person who doesn't brush off
 workplace accidents? Someone who's companies don't become hotbeds of
 discrimination? Can the people footing the bill be included in its profits?
 
