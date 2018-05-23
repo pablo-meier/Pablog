@@ -29,7 +29,7 @@ it is _globally scoped by default_. All functions are vararg functions. You have
 no integers, all numbers are floats. Null, [the billion-dollar mistake,][6] is
 in JavaScript, but there's _another_ value that means nothing, `undefined`.
 Implicit casting rules, combined with truthy/falsey values,
-[are a legendarily hell.][7] `==`, but also [`===`][8]!
+[are a legendary hell.][7] `==`, but also [`===`][8]!
 
 And listen: there's a lot of undue hate to JavaScript and its community. But
 even if it's a language you use and love, **I can never look at the above and
