@@ -46,7 +46,7 @@ If you want a blog post with a great description of what Erlang and its runtime 
 well, Evan Miller wrote [a great summary][9] of its unique charms, and [another
 extolling the virtues of the VM][10], using Elixir as its example. Since I
 opened the talk with a comparison to Go, Evan also wrote [his impressions on
-Go][11], which I found humorous.
+Go][11], which I found humorous with reservations.
 
 Joe Armstrong is probably the most visible of original Erlang implementers, and
 he gives a ton of talks, many I like, like ["The Mess We're In"][15]
