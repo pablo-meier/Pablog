@@ -524,6 +524,12 @@ blockquote {
   margin: 15px auto;
 }
 
+.caption-img-block-2 img {
+  max-width: 45%;
+  display: inline;
+  margin: 15px auto;
+}
+
 
 /*                                                   Donut Page */
 .donuts li {

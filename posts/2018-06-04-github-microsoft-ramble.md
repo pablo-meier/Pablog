@@ -39,14 +39,14 @@ Adobe initially tried to do with [Brackets][12] and a similar thing to what
 GitHub tried with [Atom][14]: releasing a cross-platform world-class text editor
 that's hackable with web technologies. It's [dead-easy to get Ubuntu on your
 Windows 10 box.][28] For a while they were [in the "top contributor" category of
-Linux contributors.][15].
+Linux contributors.][15]
 
 Even in the Terrible Days, Microsoft has cared about longevity,
 archivability, and backwards compatibility more than any other company I can
 think of. Software you wrote for Windows 95 still runs on Windows 10. You can
 upgrade [from the original Windows all the way up][17]. Compare this to Facebook
 capriciously shipping breaking changes to their API in its first few years (Ian
-Bogost wrote [one of my favorite articles][16]), or Instagram and Twitter
+Bogost wrote [one of my favorite articles][16] about this), or Instagram and Twitter
 neutering their APIs, or Apple [deprecating OpenGL and letting their proprietary
 method be the only way to draw a triangle on a Mac][18]. Google killed Google
 Code, Google Reader, Google Wave, Google Buzz, about 200 messaging apps,
@@ -76,7 +76,7 @@ tools.
 Many are afraid this will make them change, and I truly
 hope they do. Their product decisions are a big part of why maintainers burn
 out. One person getting much richer in this deal than most of the people who've
-toiled at GitHub for years is a toxic co-founder [who's heinously mismanaged
+toiled at GitHub for years is a toxic co-founder [who heinously mismanaged
 a personnel situation.][22] The company also [mismanaged an employee who's worked
 very hard to make open source more humane.][23] GitHub is where much of the
 shitty "Meritocracy" culture comes from.
@@ -114,13 +114,13 @@ I joked with this initial impression:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">tired:
 migrate your repos to GitLab!<br>wired: switch to Mercurial, re-ignite the
 2008-era DVCS war, host on Bitbucket<br>inspired: host your own code server
-😎<br><br>inspired (alt): do it all in Fossil</p>&mdash; 💣 b∀BГO 💣 (@SrPablo)
+😎<br>inspired (alt): do it all in Fossil</p>&mdash; 💣 b∀BГO 💣 (@SrPablo)
 <a href="https://twitter.com/SrPablo/status/1003429168468692992?ref_src=twsrc%5Etfw">June 4, 2018</a></blockquote>
 
 Most of the angst I observe is people using this event to confront realities
 they didn't confront at the same time before:
 
-* Wow, GitHub consolidated a lot of power
+* Wow, GitHub consolidated a lot of power.
 * Wow, these companies are in this to make money.
 
 I wish we did more to diversify our story around version control
