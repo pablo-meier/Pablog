@@ -1,5 +1,6 @@
 .DS_Store
 build/
+static/no_robots/
 .frog
 env_vars
 *.swp
