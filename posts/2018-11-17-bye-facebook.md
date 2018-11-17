@@ -1,5 +1,5 @@
     Title: Bye, Facebook. You're terrible.
-    Date: 2018-11-16T16:34:04
+    Date: 2018-11-17T17:40:04
     Tags: culture
     og_image: https://morepablo.com/img/2018/11/facebook2006_THUMB.jpg
     og_description: I'm deactivating Facebook, it's Bad.
@@ -27,8 +27,8 @@ again, there are no specifics. "We did bad shit, but trust us, we have good
 hearts."
 
 And, like, of course this is the case. In the run-up to the midterms,
-[journalists were able to buy ads and claim they were Paid For folks like ISIS
-or Mike Pence.][2] This, even after they built [a symbolic "war room" that
+[journalists were able to buy ads and claim they were paid for by ISIS
+and Mike Pence.][2] This, even after they built [a symbolic "war room" that
 didn't seem to do anything meaningful other than signal intent.][3]
 
 This is the company who put Peter Thiel on their board. This is the company
@@ -48,23 +48,31 @@ is "buy ads on our platform to influence behavior").
 **Don't believe their promises; they've said kind words for over a decade and
 its made shit difference.**
 
-For that reason, I deactived my Facebook profile today. Will I miss some photos?
-Sure. Will I miss some news? Yeah, and that sucks. Will it be harder to maintain
-certain friendships? Totally. Like a tobacco company, they've specifically
-engineered the product to be [hard to leave.][7]
+For that reason, I'm deactivating my Facebook profile as soon as [my data
+download][32] is ready. Will I miss some photos?  Sure. Will I miss some news?
+Yeah, and that sucks. Will it be harder to maintain certain friendships?
+Totally. Like a tobacco company, they've specifically engineered the product to
+be [hard to leave.][7]
 
 But I have one life, if I'm going to spend it having my own life mirrored back
 at me with ads to make sociopaths rich, they could at least be better sociopaths.
 
+<div class="caption-img-block" style="margin: 25px auto">
+<a href="/img/2018/11/profile_download.png" target="blank">
+<img src="/img/2018/11/profile_download_THUMB.png" alt="Facebook screenshot saying they're preparing my download 2 days after I requested it. Click for full size." style="margin: 15px auto;" />
+</a>
+<p style="font-style: italic; text-align: center; font-size: small">I asked for this two days ago; it's taking an awful long time for them to prepare this data 🤔</p>
+</div>
+
 ### What are you doing now?
 
-I'll try to blog more. I'll be on Twitter for a bit longer. It also makes me sad
-and is run by a clueless fascist sympathizer, but it's at least entertaining.
-I'll figure out a migration plan away from that too.
+I'll try to blog more. I'll be on Twitter for a bit longer. Twitter also makes
+me sad and is run by a clueless fascist sympathizer, but it's at least
+entertaining. I'll figure out a migration plan away from that too.
 
 I might look at other social-ish products, like [Secure Scuttlebutt][8]. I might
 host a [Pleroma][9] or [Mastodon][10] instance. I haven't completely figured it
-but if I wait until I feel like I have I might never get off.
+but if I wait for perfect I'll never actually do it.
 
 That said, my email address is at the bottom of all these posts. Get in contact!
 I'll give my phone number away freely to anyone who asks. I'm on [Signal.][23]
@@ -88,10 +96,13 @@ There are two major things keeping me from irrevocably killing it all:
   dump the data before I left, but it's laborious and I don't know when I'll get
   the chance.
 
-* Unsuprisingly, it's where almost all photos of my life are. I should really
-  pull those down. It looks like most tools that could assist with this don't
-  work anymore, largely because Facebook, like most other VC companies, neutered
-  their APIs (see [the end of ThinkUp][27], or [OAuth of Fealty][28]).
+* Unsuprisingly, it's where almost all photos of my life for the past decade
+  are. I should really pull those down. It looks like most tools that could
+  assist with this don't work anymore, largely because Facebook, like most other
+  VC companies, neutered their APIs, in part for security (Cambridge Analytica)
+  but also because they already got what they wanted, which wasn't a better
+  ecosystem, but monopoly power and financial dominance (see [the end of
+  ThinkUp][27], or [OAuth of Fealty][28]).
 
 I still hold out some hope I'd write tools to pull these down.
 
@@ -107,6 +118,8 @@ political ads. A blocker (I use [uBlock Origin][13]) will also help sanitize you
 web browsing, and keep their tentacles just a bit further away.
 
 ### Link hell
+
+Here's just a bunch of other stories, in one place:
 
 Facebook is being manipulated by bad-faith people who call themselves
 conservatives:
@@ -161,3 +174,4 @@ Facebook ads they might put them on sites you didn't ask them to.
    [29]: https://www.vanityfair.com/news/2018/10/was-the-medias-big-pivot-to-video-all-based-on-a-lie
    [30]: https://www.youtube.com/watch?v=l9ZqXlHl65g
    [31]: https://www.youtube.com/watch?v=oVfHeWTKjag
+   [32]: https://www.facebook.com/help/1701730696756992?helpref=hc_global_nav
