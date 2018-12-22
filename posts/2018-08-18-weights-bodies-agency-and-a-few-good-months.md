@@ -178,7 +178,7 @@ out of it.
 <p style="font-style: italic; text-align: center; font-size: small">Taking a lot more classes</p>
 </div>
 
-My last gig before Lyft was [ClassPass][14], which put in something of an advantage in
+My last gig before Lyft was [ClassPass][14], which put me in something of an advantage in
 knowing about studio fitness in NYC. Here are studios I've tried and have
 reactions to, if you have zero interest in NYC studio fitness, scroll down:
 
@@ -204,7 +204,7 @@ reactions to, if you have zero interest in NYC studio fitness, scroll down:
   work.
 
 Zumba! I still **love** dance fitness more than any other workout.
-Unfortunately, NYC eats Zumba instructors: previous favorite classes are not
+Unfortunately, NYC eats Zumba instructors: previous favorite classes are
 unavailable. That said, I've never had a bad class with [Z Club NY][19], which has
 classes in Upper West Side, Upper East Side, and SoHo. None are convenient
 locations, but when I need to dance I'll make it happen. I've taken classes with
