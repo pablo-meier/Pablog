@@ -12,9 +12,10 @@
 </a>
 </div>
 
-My partner Karen also writes software, and we worked together on a screaming
-chess set (a player moves a piece, and a speaker would play a sound of the piece
-begging for its life). We butted heads on how to model the chess logic.
+My partner Karen also writes software, and with another friend we worked
+together on a screaming chess set (a player moves a piece, and a speaker would
+play a sound of the piece begging for its life). We butted heads on how to model
+the chess logic.
 
 I was modeling it like a functional programmer (all examples in Python):
 
