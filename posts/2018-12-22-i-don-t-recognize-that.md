@@ -134,7 +134,7 @@ Welp.
 Stepping back, I personally prefer CSS-As-Designed than CSS-In-JS, but the
 emergence of CSS-In-JS doesn't surprise me. Over the last 20 years, our pages
 became apps, those apps have more users than the populations of most nations,
-and as our Webmasters became teams of dozens or hundreds of full-time software
+and our Webmasters became teams of dozens or hundreds of full-time software
 developers working together to support every screen size for hundreds of
 millions of people who never log off.
 
@@ -166,7 +166,7 @@ blessing to have your work gated off from someone else.
 
 Most tech fighting is people saying true statements about a technology to argue
 some variation of "I don't yet recognize your what tradeoffs you're making, and
-I can't imagine why they're valid." These are oftenl said with a ton of
+I can't imagine why they're valid." These are often said with a ton of
 invective.
 
 I wish we'd stop doing that! I also recognize it's hard (you can probably find
