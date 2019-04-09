@@ -21,7 +21,7 @@ Tumblr is [killing porn on their platform.][16] There's a lot to unpack here.
 </div>
 
 It's usually attributed to one immediate and obvious reason, one less obvious
-reason, and one backgroud reason:
+reason, and one background reason:
 
 **Immediate and obvious:** [Apple removed Tumblr from the App Store in late
 November][2] citing reasons of finding child porn. Obviously there isn't any of
