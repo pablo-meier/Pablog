@@ -1,4 +1,4 @@
-    Title: 🌓 City In The Middle Of The Night 🐊
+    Title: 🌓 The City In The Middle Of The Night 🐊
     Date: 2019-04-09T13:27:52
     Tags: culture
     og_image: https://morepablo.com/img/2019/4/city_int_the_middle_of_the_night_THUMB.jpg
@@ -8,13 +8,13 @@
 
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="/img/2019/4/city_int_the_middle_of_the_night.jpg" target="blank">
-<img src="/img/2019/4/city_int_the_middle_of_the_night_THUMB.jpg" alt="FILLME.  Click for full size." style="margin: 15px auto;" />
+<img src="/img/2019/4/city_int_the_middle_of_the_night_THUMB.jpg" alt="Cover for The City In The MIddle Of The Night.  Click for full size." style="margin: 15px auto;" />
 </a>
 </div>
 
 As a listener and [Patron][1] of the podcast [Flash Forward][2] (you should
 listen! it's a _fantastic show!_) I'm part of its nascent book club, our first
-book was [The City in the Middle of the Night][3], by Charlie Jane Anders. I
+book was [The City In The Middle Of The Night][3], by Charlie Jane Anders. I
 really enjoyed this!
 
 <!-- more -->

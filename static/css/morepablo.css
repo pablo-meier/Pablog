@@ -524,6 +524,12 @@ blockquote {
   margin: 15px auto;
 }
 
+.caption-img-block p {
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+}
+
 .caption-img-block-2 img {
   max-width: 45%;
   display: inline;
@@ -546,4 +552,22 @@ blockquote {
   font-weight: bold;
   text-align: center;
   font-size: 14px;
+}
+
+
+/*                                                   Asia Trip photos */
+.photo-list li {
+  display: inline-block;
+  padding: 0;
+  list-style-type: none;
+}
+.photo-list li img {
+  max-width: 95%;
+  display: block;
+  margin: 15px auto;
+}
+.photo-list p {
+  text-align: center;
+  font-style: italic;
+  font-size: small;
 }
