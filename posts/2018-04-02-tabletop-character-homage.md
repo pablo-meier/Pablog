@@ -4,7 +4,7 @@
     og_image: https://morepablo.com/img/2018/4/dnd_tiefling_THUMB.png
     og_description: Meet my most recent D&D character.
 
-<small><em>The song for this post is <a href="https://www.youtube.com/watch?v=6oipFiNPfdY">No Rain</a>, by Blind Melon.</em></small>
+<small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=6oipFiNPfdY">No Rain</a>, by Blind Melon.</em> 🎵</small>
 
 <div class="caption-img-block" style="margin: 25px auto">
 <img src="/img/2018/4/dnd_tiefling.png" alt="D&Ds art for tieflings" style="margin: 15px auto;" />

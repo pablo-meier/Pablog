@@ -3,9 +3,9 @@
     Tags: culture, videogames
     og_description: I saw Tomb Raider, played Tomb Raider
 
-<small><em>The song for this post is <a
+<small>🎵 <em>The song for this post is <a
 href="https://www.youtube.com/watch?v=ZQlLl2j5THQ">Silver Surfer for the NES
-soundtrack</a>, by Tim Follin.</em></small>
+soundtrack</a>, by Tim Follin.</em> 🎵</small>
 
 I saw the Tomb Raider movie. I'm probably overestimating exactly how hard it is
 to put a good movie together, but it felt like a missed opportunity.
@@ -56,8 +56,8 @@ and everywhere it deviated was bad:
 
 The "protect Lara" impulse was quite strong. She has a line where her dad was
 saying "[the man who never gives up] died years ago" and she says, defiantly
-"well I'm still his daughter!" and runs off. Like… if you have the main
-character who carries the series having a moment to define herself, _please_
+"well I'm still his daughter!" and runs off. Like… if you give the main
+character who carries the series a moment to define herself, _please_
 don't [define her as a daughter][2] of someone nobody cares about.
 
 I'll broaden the statement that everything concerning her dad was fluffy and
@@ -68,7 +68,7 @@ stronger precisely because she does it entirely on her own.
 The games knew where to apply thick layers of schlock and where not to. The
 movie has this weird thematic issue with whether or not magic behind the tomb
 they're raiding is real; the games just said "fuck it, we're owning it, magic is a
-thing because it makes the game more fun." The movies made weaker choices. Ditto
+thing because it makes the game more fun." The movie made weaker choices. Ditto
 Matthias (the villain) who was the wrong amount of ham.
 
 The callbacks to the game were not well-selected or well-executed. Lara holding

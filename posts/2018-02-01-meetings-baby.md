@@ -133,7 +133,7 @@ perpetuate and defend it, since it keeps the spotlight on where they are strong
 rather than where they are clueless. Commanding a high salary while always being
 in Important Meetings is one of the most accepted and desirable narratives in professional
 life, so to many people, this _is_ success. It shouldn't surprise that there's
-an unwillingness to question whether all these meeetings are the expensive
+an unwillingness to question whether all these meetings are the expensive
 illusion of success. **The main thing you can do to remove meetings
 from your org is to remove the people who seem to need them like oxygen.**
 

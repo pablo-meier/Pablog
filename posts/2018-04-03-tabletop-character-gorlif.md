@@ -4,7 +4,7 @@
     og_image: https://morepablo.com/img/2018/4/mouse_guard_swords_THUMB.jpg
     og_description: Wrote up my Mouse Guard character
 
-<small><em>The song for this post is <a href="https://www.youtube.com/watch?v=pJV2pWFyfn4">Papa Was A Rolling Stone</a>, by The Temptations.</em></small>
+<small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=pJV2pWFyfn4">Papa Was A Rolling Stone</a>, by The Temptations.</em> 🎵</small>
 
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="/img/2018/4/mouse_guard_swords.jpg" target="blank">
@@ -47,7 +47,7 @@ loved the stories of other mice, and hated working on the grain.
 It was always the same: the bartender would pretend to believe him when he
 claimed that yes, it's okay that I'm here. He'd have a beer and sip slowly,
 partially because he wasn't there to get drunk, and partially because it was
-often his parent's brew that he'd worked on, and he didn't love being reminded
+often his parent's brew that he'd sipped on, and he didn't love being reminded
 of his transgressions. Beer details aside, he lived to hear travelers and
 passers-by describe and unwind from lives far more interesting than his.
 
@@ -122,7 +122,7 @@ Mouse Guard.</dd>
 <dt>Enemy</dt>
 <dd>Victor, a thin red mouse who joined me as a recruit and is now a
 tenderpaw in another patrol. He severely mistreated me during the the
-apprenticeship, sabotaging my maps. He's in Mouse Guard for the wrong reasons.</dd>
+apprenticeship, sabotaging my maps. He's in Mouse Guard for the wrong reasons (think: a cop who gets off on power).</dd>
 </div>
 
 <div>
@@ -163,8 +163,7 @@ othered and different in my own life (either in how folks treated me, or in how
 I wanted to see myself), and when I'd meet people like Gorlif the ceiling and
 floor of my judgements were pretty low. At best I found them inoffensive, and
 at my worst I'd reduce them to a caricature of basicness and blame my unhappiness
-on them for not being what I think they should be (things that, conveniently, I
-am!).
+on them for not being what I think they should be.
 
 I recognized that on some level, I'm jealous as hell of people who just
 contentedly go about their lives, who meet new people with good nature and

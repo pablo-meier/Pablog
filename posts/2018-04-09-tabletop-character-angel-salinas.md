@@ -4,7 +4,7 @@
     og_image: https://morepablo.com/img/2018/4/hector_elizondo.jpg
     og_description: Description of my Fate character, Ángel Salinas.
 
-<small><em>The song for this post is <a href="https://www.youtube.com/watch?v=ffH_Mp74xh4">HATE</a>, by Charisma.com.</em></small>
+<small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=ffH_Mp74xh4">HATE</a>, by Charisma.com.</em> 🎵</small>
 
 To recap this recent set of tabletop gaming blog posts, I've been playing
 _Dungeons & Dragons_ as [Homage][1], _Mouse Guard_ as [Gorlif][2], and I'm about

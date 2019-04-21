@@ -23,8 +23,8 @@ it, and left the following review:
 > If you have Latinx people in your life, they will probably gush to you about the
 > wonders of chorizo. Chipotle launched and killed chorizo as one of their
 > desperate ploys to get out of their post-salmonella tailspin, but their launch
-> strategy reflects and organization in distress, and their offering somehow took
-> an offering from God and made it an inferior, forgettable paste; reminiscent of
+> strategy reflected an organization in distress: their offering somehow took
+> a material of God and made it an inferior, forgettable paste; reminiscent of
 > the Taco Bell "meat" (which is [35% beef][3]) that their brand is virtually
 > defined against. Eating Chipotle burritos is arguably the longest relationship
 > in my life: I've eaten there for longer than all my romantic relationships

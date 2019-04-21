@@ -4,7 +4,7 @@
     og_image: https://morepablo.com/img/2018/4/gilder-skies.jpg
     og_description: I needed a gun character, here are some concepts.
 
-<small><em>The song for this post is <a href="https://www.youtube.com/watch?v=NkVsJGl5d6E">Candy</a>, by Mandy Moore.</em></small>
+<small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=NkVsJGl5d6E">Candy</a>, by Mandy Moore.</em> 🎵</small>
 
 I described [Homage][1] and [Gorlif][2], now for something different: a
 character I'm actively creating!
@@ -39,8 +39,7 @@ of time and knows "the game" pretty well. He's frequently underestimated and rar
 in danger. I can't find the full scene, but here's [a short demonstration][4]
 where someone who got hired for the same protection job is teasing him for not
 carrying a gun (he's not carrying a gun because he did legwork on the dealer
-executing the drug trade he's protecting and learned enough to know there won't
-be a gunfight).
+executing the drug trade and learned enough to know there won't be a gunfight).
 
 ### The IG-88 idea
 
@@ -57,7 +56,7 @@ Element][5]).
 
 It can have an independence story a la Short Circuit? Maybe it's a pacifist who
 hates that it's programmed to kill? Maybe it makes commentary about other
-digital systems (like "ooh, she's sultry" when they see an electric thermostat).
+digital systems (like "ooh, she's sultry" when they see a thermostat).
 
 ### The Barrett Wallace idea
 

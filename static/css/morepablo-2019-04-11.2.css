@@ -561,8 +561,11 @@ blockquote {
   padding: 0;
   list-style-type: none;
 }
-.photo-list li img {
-  max-width: 95%;
+.photo-list > ul {
+  padding: 0;
+}
+.photo-list li img, .photo-list li video {
+  max-width: 95% !important;
   display: block;
   margin: 15px auto;
 }
