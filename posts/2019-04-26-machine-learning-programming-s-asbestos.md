@@ -2,7 +2,7 @@
     Date: 2019-04-26T15:03:19
     Tags: engineering, culture, essay
     og_image: https://morepablo.com/img/2019/4/charly_pablo_ml_fail_THUMB.png
-    og_description: Recent Machine Learning advances are cool bit IMO pretty overhyped.
+    og_description: Recent Machine Learning advances are cool but IMO pretty overhyped.
 
 <small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=SJwh3erQlyE">the Title Screen theme for Pictionary for the NES</a>, by Tim Follin.</em> 🎵</small>
 
@@ -73,7 +73,7 @@ tested it on_. Then it pulls another example from the stack and repeats the
 process. It does this on machine-level timescales: millions of times, every hour.
 
 After hours or days of this "training" on a giant dataset, the final version of
-the artifact, in thoery, does a pretty good job at solving the problem, because
+the artifact, in theory, does a pretty good job at solving the problem, because
 its tweaks have been guided by millions of question-and-answer examples.
 
 Said another way:
@@ -214,7 +214,7 @@ what I'm after given the semantic equivalence, but I can hear a little voice
 bugging me about it, so maybe you've got that voice too.
 
 <span id="footnote1">2.</span> <a href="#place1"><strong>^</strong></a>
-I wrote about blockchain and its continued irrelevance in the face of hype [here](/2018/01-blockchain.html).
+I wrote about blockchain and its continued irrelevance in the face of hype [here](/2018/01/blockchain.html).
 
 
    [1]: https://petewarden.com/2018/03/19/the-machine-learning-reproducibility-crisis/
