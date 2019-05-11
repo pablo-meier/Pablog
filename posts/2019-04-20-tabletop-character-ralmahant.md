@@ -12,13 +12,12 @@
 <p style="font-style: italic; text-align: center; font-size: small">BEHOLD THE HARBINGER OF DEATH</p>
 </div>
  
-I've written up that I play tabletop RPGs with friends, and wrote up some
-characters I've developed for them (I wrote up [Homage][1] for [Dungeons &
-Dragons][2], [Gorlif][3] for [Mouse Guard][4], and [Ángel][5] for [Fate][6] as well
-as shared some of [the sketches that led to Ángel][7]). My group is concluding
-its Mouse Guard run and bringing in a new Fate campaign in a different setting,
-which means — new character time! Meet **Ralmahant**, the newest character I
-plan on piloting.
+I've written up some characters I've developed for tabletop RPGs I play
+with friends (there's [Homage][1] for [Dungeons & Dragons][2], [Gorlif][3] for
+[Mouse Guard][4], and [Ángel][5] for [Fate][6] as well as some of [the sketches
+that led to Ángel][7]). My group is concluding its Mouse Guard run and bringing
+in a new Fate campaign in a different setting, which means — new character time!
+Meet **Ralmahant**, the newest character I plan on piloting.
 
 ### Campaign setting
 
@@ -94,7 +93,7 @@ because he's an only child. With four in the litter coming out stillborn, two mo
 dying in infancy, he grew up with only two siblings: sisters Danali and
 Anurzura. Danali was a prodigy voxxer with a knack for stone; unfortunately, she
 learned this after petrifying herself in an unsupervised and ambitious voxxing
-accident at the age of 10 (Ralmahant the kept the largest pieces of the statue).
+accident at the age of 10 (Ralmahant kept the largest pieces of the statue).
 Anurzura died in a duel over pride, when they were both 17.
 
 All this to say, even by Xunvi standards, he's always felt a little special. He
@@ -157,8 +156,8 @@ He wears 10 rings for each of his fallen family members:
 
 He has tongue, septum, and several eyebrow and ear piercings.
 
-He carries a cane, the head of which is adorned with the head of his petrified,
-10 year-old sister, mid-scream.
+He carries a cane, adorned with the head of his petrified, 10 year-old sister,
+mid-scream.
 
 The knack of his voxxing is _dessication,_ thematically tied to death, entropy,
 and (dry) decay. At home, there are plentiful maggots, beetles, cicadas, grubs,
