@@ -1,7 +1,7 @@
     Title: 💻 That Consumption life: The Big Nine 9️⃣
     Date: 2019-05-10T17:32:41
     Tags: culture
-    og_image: aba
+    og_image: https://morepablo.com/img/2019/5/big_nine_cover.jpg
     og_description: I read The Big Nine, liked it fine, but with many qualms.
 
 <small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=_Z4G7z1Ojlw">Frog Fractions</a>, by Khotin.</em> 🎵</small>
