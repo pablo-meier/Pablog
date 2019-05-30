@@ -127,7 +127,7 @@ capital-C community with it sometime.
 
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="https://toots.morepablo.com" target="blank">
-<img src="/img/2019/5/pleroma_screenshot_THUMB.png" alt="Screenshot of my Pleroma instance" style="margin: 15px auto; max-width: 500px;" />
+<img src="/img/2019/5/pleroma_screenshot_THUMB.png" alt="Screenshot of my Pleroma instance" style="margin: 15px auto; width: 500px; max-width: 95%;" />
 </a>
 </div>
 

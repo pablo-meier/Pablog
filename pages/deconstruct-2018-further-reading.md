@@ -68,8 +68,6 @@ am. Bret Victor has a great talk called ["The Future of Programming"][12] where
 he talks about computing's bright future from the perspective of 1970s, mostly
 showing a lot of those "uneaten desserts" I was alluding to.
 
-I'll post my slides too, but I'm off to dinner for now!
-
    [1]: https://www.youtube.com/watch?v=4ZIPijEqrNI
    [2]: https://ferd.ca/the-zen-of-erlang.html
    [3]: https://www.youtube.com/watch?v=W0BR_tWZChQ
