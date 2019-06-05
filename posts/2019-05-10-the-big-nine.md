@@ -265,7 +265,7 @@ that I could find:
 
 > Lastly, regulations, which might seem like the best solution, are absolutely
 > the wrong choice. Regardless of whether they're written independently by
-> lawmakers or influenced by lobbysists, a regulatory pursuit will shortchange
+> lawmakers or influenced by lobbyists, a regulatory pursuit will shortchange
 > our future. Politicians and government officials like regulations because the
 > tend to be single, executable plans that are clearly defined. In order for
 > regulations to work, they have to be specific. At the moment, AI progress is

@@ -57,7 +57,8 @@ will do, or tuples, or a dictionary.
 These days, I tend to use a [namedtuples][8] for compound data, and [enums][9]
 for sum types. I don't love that everything is effectively typed Optional, but
 Python 3 has type annotations, and projects like [mypy][10] help as well. If
-_absolutely_ necessary, I'll write with objects.
+_absolutely_ necessary, I'll write with objects. If you're using 3.7 or above,
+[dataclasses][16] fit this need very well 😄
 
 ### Grinds my gears
 
@@ -116,3 +117,4 @@ without them, this is the one to beat (until I try Elixir, idk).
    [13]: https://pythonhosted.org/six/
    [14]: http://www.runestorm.com/viscera
    [15]: https://wiki.python.org/moin/GlobalInterpreterLock
+   [16]: https://realpython.com/python-data-classes/
