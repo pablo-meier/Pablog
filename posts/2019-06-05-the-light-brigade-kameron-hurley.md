@@ -4,7 +4,7 @@
     og_image: https://morepablo.com/img/2019/6/the_light_brigade_THUMB.jpg
     og_description: I read (and enjoyed) The Light Brigade, by Kameron Hurley
 
-<small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=o0u4M6vppCI">Shia LeBeouf</a>, by Rob Cantor.</em> 🎵</small>
+<small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=o0u4M6vppCI">Shia LeBeouf</a>, by Rob Cantor.</em> This one is really good, if you haven't seen it, I highly suggest you give it a look. 🎵</small>
 
 <div class="caption-img-block" style="margin: 25px auto">
 <img src="/img/2019/6/the_light_brigade_THUMB.jpg" alt="Cover for &quot;The Light Brigade&quot;" style="margin: 15px auto;" />
@@ -18,12 +18,12 @@ last month's non-fiction about AI][4], and [the first entry, some fun sci-fi][5]
 
 I largely loved it; some people in the book club mentioned having trouble
 relating to the main character, but I absolutely did since their prime
-motivations were spite and revenge (what powers Pablo? a consistent stream of
-self-regenerating bile!).
+motivations were spite and revenge (what powers Pablo? a consistent supply of
+self-generating bile!).
 
 More charitably, when one has suffered severe trauma, you can cope a lot of
-ways; one way is to put yourself in reckless situations and be desperate for a
-purpose. This looks a lot like being single-minded about revenge against the the
+ways; one way is to put yourself in reckless, harmful situations, desperate for a
+purpose. This can look a lot like being single-minded about revenge against the the
 perpetrators of the trauma that affected you.
 
 <div class="caption-img-block" style="margin: 25px auto">
@@ -60,9 +60,10 @@ align closely to mine.
 ### Spoiler-filled stream of consciousness
 
 I love stories with excellent representation, and it especially amplifies the
-strenghts of sci-fi by pointing out how far we would still have to go. I had a
-friend who observed that in a lot of sci-fi with alien societies, they may have
-gills or lay eggs, but still have two genders, sexual reproduction, and hetero
+strengths of sci-fi's social commentary by pointing out how far we would still
+have to go once we have many forms of social parity. I had a friend who
+observed that in a lot of sci-fi with alien societies, they may have gills or
+lay eggs, but still have two genders, sexual reproduction, and hetero
 nuclear family structure (early _Star Trek_ comes to mind). Similarly, we have
 _fucking grisly, terrible **war**_ in a world, but it's gender-balanced! It
 reminds me of this old tweet (since deleted):
@@ -76,9 +77,9 @@ there, since we could very plausibly still end up in a futuristic warzone
 hell-hole. But, like, with women!
 
 I got some accidental introspection of my biases at the end of the book when I
-heard the character's first name. It's also an incredibly touching moment, and
-is in strong contrast with the depersonalization/coping I mentioned
-above.
+heard the main character's love interest address them. It's also an incredibly
+touching moment, and is in strong contrast with the depersonalization/coping
+with war I mentioned above.
 
 Like _City In The Middle Of The Night_, it's fun to see futures where it's
 suggested that US hegemony stopped being so singular and dominant, where the
