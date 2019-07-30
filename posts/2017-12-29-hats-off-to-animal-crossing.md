@@ -1,6 +1,6 @@
     Title: Animal Crossing: New Leaf
     Date: 2017-12-29T13:10:41
-    Tags: personal, culture, games, videogames
+    Tags: personal, culture, games, video games
 
 I used to blog about [fun things I loved][4], so here's one I've been enjoying
 recently: [Animal Crossing: New Leaf.][9]

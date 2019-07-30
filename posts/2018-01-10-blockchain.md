@@ -7,7 +7,7 @@
   <img src="/img/2018/1/mike_isaac_THUMB.png" alt="Click to go to the Tweet." /></a>
 <p style="font-style: italic; text-align: center; font-size: small">Thanks, Mike.</p>
 </div>
- 
+
 <small><em>🎵 The song for this post is [Finesse (Remix)][1], by Bruno Mars
 feat. Cardi B 🎵</em></small>
 

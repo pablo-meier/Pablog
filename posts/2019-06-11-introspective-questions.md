@@ -122,7 +122,7 @@ that wellspring of joy and curiousity alive inside himself.
 I have a lot of trouble relaxing; this isn't usually a pleasant state to be in.
 It does provide some advantages.
 
-I'm doing everything I can to see you.Virtually everyone leaks a ton of signal,
+I'm doing everything I can to see you. Virtually everyone leaks a ton of signal,
 e.g. what jokes they react to, what stories they choose to tell, how they hold
 themselves physically, how they choose to describe things they like or not.
 This, combined with what I consider a pretty excellent memory, leads to me
