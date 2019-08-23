@@ -2,7 +2,7 @@
     Date: 2019-08-01T03:58:58
     Tags: engineering
     og_image: https://morepablo.com/img/2019/8/containers_THUMB.png
-    og_description: I have beefs with Docker.
+    og_description: I have some beefs with Docker, also talk about what's good about it.
 
 <small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=fUPSz1SOrtM">Aguzate</a>, by Richie Ray and Bobby Cruz.</em> 🎵</small>
 
@@ -14,7 +14,7 @@ Let's start with a silly point: if you're developing your software on a Mac,
 _you're incurring the costs of virtual machines, **not** exclusively containers._
 
 Let's start with what containers _are_: unlike VMs, they have direct access to
-syscalls and don't need to virtualize them, saving you a ton of overhead that
+the host OS and don't need to virtualize them, saving you a ton of overhead that
 makes VMs hard to provision, boot, load, and sluggish to run. This comparison
 diagram from _Using Docker: Developing and Deploying Software with Containers_
 shows you the difference:
@@ -26,10 +26,11 @@ shows you the difference:
 
 So you can imagine how great it is to use these instead of VMs.
 
-But if you've worked at companies like I have, all our development is done on
-overpriced Mac laptops. And can a Linux container speak _directly_ to a
+But if you've worked at companies like the ones I have, all our development is
+done on overpriced Mac laptops. And can a Linux container speak _directly_ to a
 non-Linux OS as if they were the same kernel? Of course not, so how does Docker
-for Mac fix this? By running the Linux kernel _in a Linux VM._
+for Mac fix this? By having Linux containers speak to the Linux kernel _in a
+Linux VM._
 
 So! There are many technical cool things about containers, many around how much
 better they are in utilization than a VM. But if you're on a Mac, you're
@@ -48,14 +49,15 @@ As you consider that, consider…
 
 Learning the funny rules of networking, config, and how to get components to
 talk to each other is hard enough already, but now on top of hostnames and
-ports, you need to learn all the `docker` commands and the rules on naming
+ports, you need to learn all the `docker` commands and the rules on links
 between containers. You'll have to shell into them and run diagnostics. You'll
 want to know all about `/etc/hosts` and how Docker manipulates them.
 
 Config files? Make sure you're looking at the right filesystem. Environment
 variables? Did you build the image with an `ARG` _then_ set it with `ENV`? Were
-the secrets available at build time? With all this surface, are you leaking
-sensitive information anywhere?
+the secrets available at build time, or do you need them dynamically on
+container runtime? With all this surface, are you leaking sensitive information
+anywhere?
 
 This isn't to say these problems are easy outside of Docker, just that adding
 this much surface and multiple copies of every abstraction you're already using
@@ -64,12 +66,12 @@ this much surface and multiple copies of every abstraction you're already using
 ### Stateful but not
 
 When you make a change you'd like to keep inside a Docker container, do you know
-the commands on-hand to persist them? To push them back to the image definition?
-To the registry? Does your org have and pay for a gated-off image
-registry? Are all these components observable so you can catch when something
-gets misconfigured?
+the commands to persist them for the next time you enter a shell in the
+container? To push them back to the image definition? To the registry? Does your
+org have and pay for a gated-off image registry? Are all these components
+observable so you can catch when something gets misconfigured?
 
-Do you know off-hand how to rebuild from specific layers of a `Dockerfile`? Do
+Do you know how to rebuild from specific layers of a `Dockerfile`? Do
 you remember which commands, off-hand, will be read as state-changing and
 trigger a layer rebuild vs. those that don't?
 
@@ -89,22 +91,27 @@ that Docker is Bad, just that all abstractions carry a cost. It's always worth
 asking "does this abstraction do enough for me that it's worth putting the time
 into?"
 
-My favorite example of this is the first question on ["Joel Test"][1], from _the
-year 2000_.  For those who don't know, the "Joel Test" was simple questions you
-can ask any engineering org to find out if they were serious about building
-quality software. The first question is laughable in 2019, but is worth
-reflecting on: "Do you use source control?"
+My favorite example of this is considering the first question on ["Joel
+Test"][1] from the year 2000 in today's context. For those who don't know, the
+"Joel Test" was simple questions you can ask any engineering org to find out if
+they were serious about building quality software. The first question is
+laughable in 2019, but is worth reflecting on: "Do you use source control?"
 
 It's worth noting that before Git and Mercurial (first released in 2005), source
-control was pretty hard to do! [CVS][12] and [SVN][13] required someone set up an
-always-on machine, secure it from outsiders but make it accessible to employees,
-and host a server. Employees then had to learn esoteric commands if they ever
-wanted to _edit files_ (the parlance was "checking out the files").
+control was pretty hard to do! [CVS][12] and [SVN][13] required someone set up,
+monitor, and maintain a server, and secure it from outsiders but make it
+accessible to employees. The server contained your source and all its history, so
+you'd probably also want to back it up, and test backups/restores. Employees
+then had to learn esoteric commands if they ever wanted to _edit files_ (the
+parlance was "checking out the files").
 
 So it's funny to remember a time when a lot of people didn't think it was worth
-the effort! Email files, pass around floppies, maybe copy files to a "master"
-computer manually—setting up the server was hard! So maybe I'm being a big baby,
-or maybe the tooling will get around to make it trivially easy to use. But even
+the effort! They'd email files, pass around floppies, maybe copy files to a
+"master" computer, since setting up and maintaining the server + teaching all
+their employees to use it _wasn't free._
+
+Maybe I'm being a big baby, or maybe the tooling will get around to make
+container workflows as Obviously Good to use as source control is now. But even
 great abstractions can cost teams enough that they don't want to adopt it.
 
 ## Docker as VC-backed company (NPM and the lessons therein)
@@ -119,8 +126,8 @@ returns.
 This is tied to bigger problems of open source and who funds the commons ("the
 best thing about Open Source is the whole world can collaborate on San
 Francisco's problems"). I won't get into it all here, I'm just nervous that
-we're putting so much of our infrastructure and collective future on a very
-specialization of a technology (Docker is mostly Linux namespaces and cgroups)
+we're putting so much of our infrastructure and collective future on a specific
+implmentation of a technology (Docker is mostly Linux namespaces and cgroups)
 that happens to be massively VC-invested.
 
 ## Alternatives
@@ -138,7 +145,7 @@ in comparison to its alternative, which is…
 alternative to Docker (or at least, _assistant_ to Docker, so your Docker
 image just something like `ENTRYPOINT java -jar my_jar.jar`) is to leverage your
 language's packaging and deployment mechanisms and run/maintain a server that
-builds it on change.
+builds your app on change.
 
 It doesn't have to be too complicated:
 
@@ -171,7 +178,7 @@ And what if you don't have these features? That's where Docker comes in.
 
 See, each of those examples above has some kind of compilation phase, and/or a
 VM built by teams or companies over decades that prioritized packaging
-and deployment. But those aren't the technologies that are popular for startups.
+and deployment. But those aren't the technologies that are popular at startups.
 
 Ruby and Python don't have much of a compilation step: to distribute the program
 (simplistically) is to distribute the sources. The packaging systems are largely
@@ -183,12 +190,13 @@ Generally, fans of Docker are seeking two things:
 
 * "I want to deploy it and know it works the way it did on my computer."
 
-In languages like Ruby and Python, this is notoriously hard to achieve,
-thus the need for things like [virtualenv][9] or [Pipenv][8] or [tox][7], or
-[this xkcd comic.][10] So while _distributing the program_ is easy (it's just
-the sources!), your program depends on a giant, mutable environment, which
-Docker makes easy to set up. In the Build Server examples above, you can build
-in a way to make the environment almost irrelevant.
+In languages like Ruby and Python, environment parity is notoriously hard to
+achieve, thus the need for things like [virtualenv][9] or [Pipenv][8] or
+[tox][7], or [this xkcd comic.][10] So while _distributing the program_ is easy
+(it's just the sources!), your program depends on a giant, mutable environment,
+which Docker makes easy to set up. The Build Server examples above, to
+constrast, allow you to build an artifact in a way to make the environment
+almost irrelevant.
 
 After a bunch of complaining, I'll say this: Ruby, Python, and Node projects are
 ones where Docker makes more sense to me than in other tech stacks. But! Even
@@ -202,16 +210,56 @@ The other thing I see Docker for:
   clone` then `docker-compose up -d`)."
 
 I don't have a great answer to this other than to suggest that exposing that
-complexity to developer setup is a) a one-time cost, and b) probably not the
-worst thing for them to be mindful of, all things considered? If you're
-maintaining Redis and Elasticsearch and RabbitMQ for your api server serving an
-SSR React app _in production_, I don't think it's a great sign if your devs can
-only work with any subset of it when its all containerized. I've frequently seen
-this:
+complexity to developer setup is a) a one-time cost per dev, and b) probably not
+the worst thing for them to be mindful of, all things considered? If you're
+maintaining Redis and Elasticsearch and RabbitMQ for your api server serving
+endpoints for an SSR React app  in production, I don't think it's a great sign
+if your devs can only work with any subset of it when its all containerized.
+I've frequently seen this:
 
 > <p>"How do I run it?"</p>
 > <p>"`docker-compose up -d`!"</p>
 > <p>"Great! Now… I… don't know how to do anything else now… and it's all opaquely behind Docker…"</p>
+
+## Alternatives, alternatively
+
+WhatsApp rather famously [supported 900m users on software run by only 50
+engineers.][19] But there's another big story here when I saw this slide:
+
+<div class="caption-img-block" style="margin: 25px auto">
+<img src="/img/2019/8/erlang_deploys_THUMB.png" alt="Slide from CodeBeamSF from a WhatsApp engineer showing their changes after being acquired by Facebook." style="margin: 15px auto;" />
+<p style="font-style: italic; text-align: center; font-size: small">(<a href="https://twitter.com/contrepoint21/status/1101565432517947392">via</a>)</p>
+</div>
+
+They ran software powering billions of messages _with manual, bare-metal
+deploys_ and _without extensive use of containers._
+
+Part of this is because distributed real-time messaging apps is literally what
+Erlang is built for, but it's worth considering that the pressure to use all
+these hip technologies (and the dream to grow your company to hundreds or
+thousands of engineers) is probably not strictly technical.
+
+To contrast, at Lyft:
+
+<div class="caption-img-block" style="margin: 25px auto">
+<img src="/img/2019/8/lyft_redis_THUMB.png" alt="Matt Klein's Twitter post noting 40m rsp on Redis at Lyft." style="margin: 15px auto;" />
+<p style="font-style: italic; text-align: center; font-size: small">(<a href="https://twitter.com/mattklein123/status/1156717487234306049">via</a>)</p>
+</div>
+
+I don't mean to single Lyft out here, I just think their architecture and
+codebase is indicative of high-growth, VC-backed, trendy SF software companies,
+and Matt was kind enough to share this stat for some admittedly impressive tech.
+
+They do have Scale™. But it's orders of magnitude _less_ than WhatsApp scale!
+And 40 MILLION REQUESTS. EVERY SECOND. ONLY TO REDIS. Like, think of the carbon
+footprint of that! If it takes you 6 seconds to read this sentence, in that time
+their Redis instances have served a quarter _billion_ requests. They serve a lot
+of rides, but it's not in the _millions per second_, and how many Redis calls do
+you need? This is probably why the entered a deal where they [committed to
+spending $300m on infrastructure through 2021.][20] That's not nothing!
+
+Computers are pretty powerful in 2019. Maybe look at how to use software to fully
+leverage it.
 
 ## The Future™
 
@@ -223,10 +271,10 @@ this:
 This battle is more or less lost, IMO; devs will keep following trends and
 optimizing for hypergrowth and engineering org size. There are real benefits to
 Docker and containers, and great use cases, but I worry that for many
-engineering teams, it makes it ever harder to know what a computer is doing;
-meanwhile, everything gets slower, [latencies increase][17], our devices draw more
-power, and we keep building datacenters optimizing for scaling cases we wish we
-had.
+engineering teams, it makes it ever harder to know what a computer is ever
+actually doing; meanwhile, everything gets slower, [latencies increase][17], our
+devices draw more power, and we keep building datacenters optimizing for scaling
+cases we wish we had.
 
 ## Further reading
 
@@ -254,3 +302,5 @@ had.
    [16]: https://www.theregister.co.uk/2019/04/22/npm_fired_staff_union_complaints/#
    [17]: https://danluu.com/input-lag/
    [18]: https://twitter.com/danveloper/status/1118816110571339778?lang=en
+   [19]: https://www.wired.com/2015/09/whatsapp-serves-900-million-users-50-engineers/
+   [20]: https://www.businessinsider.com/lyft-ipo-amazon-web-services-2019-3
