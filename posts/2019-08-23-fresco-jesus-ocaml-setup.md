@@ -1,20 +1,27 @@
     Title: 🐸 Fleaswallow 2, and an OCaml setup 🐫
-    Date: 2019-08-23T02:21:46
+    Date: 2019-08-24T19:21:46
     Tags: engineering, culture, projects, plt
-    og_image: https://morepablo.com/img/2018/2/fleaswallow.png
+    og_image: https://morepablo.com/img/2019/8/camel-pxhere_THUMB.jpg
     og_description: I decided to step up my OCaml game, here are lessons I learned; this post is a monstrosity.
 
 <small>🎵 <em>The song for this post is <a href="https://www.youtube.com/watch?v=fKHKaBM54IU">Swing Me Another 6</a>, by chipzel for the game Dicey Dungeons.</em> 🎵</small>
 
+<div class="caption-img-block" style="margin: 25px auto">
+<a href="https://pxhere.com/en/photo/1589239" target="blank">
+<img src="/img/2019/8/camel-pxhere_THUMB.jpg" alt="Camel relaxing with a pyramid in the background" style="margin: 15px auto;" />
+</a>
+<p style="font-style: italic; text-align: center; font-size: small">(<a href="https://pxhere.com/en/photo/1589239">via</a>)</p>
+</div>
+
 Everyone knows I stan for Erlang, but for most people I'd sooner suggest
-Elixir _because the tooling and conventions are that much nicer._ While I
+Elixir because the tooling and conventions are _that_ much nicer. While I
 personally prefer Erlang the language, there's a lot more to development than
 "formulating solutions in source code" and those other things (managing and using
 dependencies, running tests, running a REPL, hell, even _typing that source
-code_), are a fair bit easier in the newer toolchain.
+code_) are a fair bit easier in the newer toolchain.
 
 While [rebar3][1] cleans a lot of this up (it's really the best thing to happen
-to Erlang in years), the fact is, lower barrier to entry and great tools count
+to Erlang this decade), the fact is, lower barrier to entry and great tools count
 for a lot. It's not enough to have fabulous semantics.
 
 I mentioned [trying OCaml last year][53] and successfully finishing a project in
@@ -23,7 +30,7 @@ polish off the old blog software, but this time, I'd do things _right_.
 
 Getting velocity in OCaml? Oh boy.
 
-## A sample OCaml project that has top-level commands configured.
+## Set you up an OCaml for great good!
 
 This post goes over how I finally got what I _hope_ is a reproducible build and
 development setup for [Fleaswallow][14] that covers most of the bases you want
@@ -34,12 +41,12 @@ guide.
 
 The goal is to make starting or hacking on an OCaml project as "obvious" as
 `npm i` or `pipenv shell` and or `mix test` or what-have-you.  Hopefully by the
-end of this you can test hypothesis in a REPL, write a test, or install a
+end of this you can test hypotheses in a REPL, write a test, or install a
 package without thinking too hard about how to do it.
 
-Full disclosure—I've _just_ started doing anything in OCaml, and most of this is
-from hitting my head repeatedly on docs and experimentation. There may be
-simpler ways to do all of this.
+Full disclosure—I've never written OCaml professionally or with comrades,
+and most of this is from hitting my head repeatedly on docs and experimentation.
+There may be simpler ways to do all of this.
 
 **Before we start,** you'll need 2 main tools to get going:
 
@@ -47,11 +54,10 @@ simpler ways to do all of this.
   manager.
 
 * **[Dune][3]** is a [Jane Street Open Source project][4] that tries to be an
-  end-all build tool for OCaml projects. While I find it extremely technically
-  impressive, its ultimate design is very ["programmers and knobs"][6], likely
-  because it's trying to unify so many different views of OCaml projects (the
-  [evergreen comic about this][5]). I think it's the worst, except for
-  everything else.
+  end-all build tool for OCaml projects. While it's very impressive, its design
+  is very ["programmers and knobs"][6], likely because it's trying to unify so
+  many different views of OCaml projects (the [evergreen comic about this][5]).
+  I think it's the worst, except for everything else.
 
 Finally, you'll want to install OCaml itself. Luckily, this can be done with
 `opam`! Most of you are on overpriced Macs like me, so you can run
@@ -67,8 +73,8 @@ And you should have enough to get going. Lets hit the workflows!
 
 ### Runtime management ("virtualenv", "asdf", "rbenv") — opam "switches"
 
-**What problem it solves:** While "code in [My Language]" _should_ mean that you
-just need "[My language] interpreter or compiler" to run it, in practice, we've
+**What problem it solves:** While "code in MyLanguage" _should_ mean that you
+just need "MyLanguage interpreter or compiler" to run it, in practice, we've
 complicated this a fair bit:
 
 * What happens if your code was written for a previous version of the language
@@ -100,8 +106,9 @@ external project would install `C` at 2.1); this is more-or-less how Node's
 But some languages were built with slightly different assumptions of how the
 runtime would view its host machine and its "installed libraries" (e.g. Python),
 so we created "virtual environments," which mean your shell session is
-limited in it sees, and a bit of care is required to keep installed libraries
-close to the project that uses them, rather than make them available globally.
+limited in what it sees, and a bit of care is required to keep installed
+libraries close to the project that uses them, rather than make them available
+globally.
 
 **In OCaml…**
 
@@ -109,8 +116,8 @@ opam has [switches][12], which more-or-less cover both of these bases. Your
 current "switch" can point to a specific instance of an OCaml installation,
 _and_ it contains which packages your project can "see" installed. So
 if you've `opam install`-ed [`ocaml-inifiles`][13] in one switch but not the
-other, you can build a project with `ocaml-inifiles` as a dependency while the
-first switch is "checked out," but it won't find it elsewhere.
+other, you can build a project with `ocaml-inifiles` as a dependency while in the
+first switch, but it won't find it otherwise.
 
 You can see your switches right now! Run `opam switch list` to get a looksee!
 It's probably at `default`, which is fine. This means any opam packages are
@@ -167,7 +174,7 @@ The tool for this is opam again, but, _it's a little weird._
 
 While most of those other tools have a single convention for which single file
 can run its config (`package.json` or `mix.exs`), opam looks for any number
-of toplevel files in your project root that might chnage what `opam install`
+of toplevel files in your project root that might change what `opam install`
 might do. Dune, the build tool we'll play with later, prefers
 `<project_name>.opam`, but many projects will just have `opam`. The full list is
 [here.][17] Whichever file you end up using, you can list your dependencies as a
@@ -187,7 +194,7 @@ re-download? There's a step I'm missing here.
 
 The reason I hedge is because opam also has this notion of _pinning_, which, as
 far as I can tell, started as a way to say "stop updating this package beyond
-the version its aleady at," but is now, more generally, "alter how I fetch this
+the version its already at," but is now, more generally, "alter how I fetch this
 package from the default."
 
 The first functionality, "stop altering this package," is _local to your
@@ -221,6 +228,12 @@ Correct Path when we stopped checking in our dependencies. All this tooling
 could have been avoided with a `deps/` or a `third-party/` and a `git add`. Many
 large shops just do this and call it "vendoring," and why Hot Tech Startups
 don't continues to be a mystery to me.
+
+<div class="caption-img-block" style="margin: 25px auto">
+<a href="https://www.jwz.org/blog/2016/09/searching-for-finally-got-my-emacs-setup-just-how-i-like-it-yields-excellent-results/" target="blank">
+<img src="/img/2019/8/emacs.jpg" alt="FILLME. Click for full size." style="margin: 15px auto;" /></a>
+<p style="font-style: italic; text-align: center; font-size: small"><a href="https://www.jwz.org/blog/2016/09/searching-for-finally-got-my-emacs-setup-just-how-i-like-it-yields-excellent-results/">"Finally got my Emacs setting just how I like it"</a></p>
+</div>
 
 ### Building
 
@@ -261,7 +274,7 @@ A few things to know about Dune:
 
 * Like `opam`, it likes to have files without extensions littered about where it
   expects information that it needs. This usually looks like a toplevel `dune`
-  file, and one any subdirectory that gets to be a part of your build. It's a
+  file, and one in any subdirectory that gets to be a part of your build. It's a
   bit reminiscent of systems like [redo][52].
 
 In most build tools I've used, you can say "sources are in this directory,
@@ -284,9 +297,10 @@ sources, then put an empty `dune` file at the top.
 **What problem it solves.** Unit tests! The final frontier! The [_only_ approved
 software technique of Uncle Bob][29] (he's the guy who sucks). While the world of
 software verification is vast and delightful (property-based tests, formal
-verification, fuzzing, defect injection, design-by-contract a la Eiffel…), in
-practice most people don't study or use too many techniques; unit tests seem to
-be the baseline every working engineer is expected to perform.
+verification, fuzzing, defect injection, design-by-contract a la Eiffel,
+bebugging…), in practice most people don't study or use too many techniques;
+unit tests seem to be the baseline every working engineer is expected to
+perform.
 
 I have many a rant on the limits of unit testing and the antipatterns I see in
 test suites, but that's for another day! For now, I'll just say almost everyone
@@ -309,10 +323,11 @@ of ways to skin this cat. The experience it most resembles most closely was when
 I [wrote C unit tests for ScrabbleCheat][28] using a library called [Check][27].
 You wrote your tests as other C source files, had to compile them into a
 separate binary, and execute _that_ binary. It was possible! But felt a little
-unnatural!
+unnatural, and its hard to escape the fact that this language's source code is
+primarily designed to be compiled into a single, fast, customer-facing binary.
 
-Similarly, to make this work with Dune, you can test libraries with
-"inline" tests, or you' can test an executable whole-hog via observing its
+To make this work with Dune, you can test libraries with
+"inline" tests, or you can test an executable whole-hog via observing its
 side-effects when you run it. If you have a large executable and you'd like to
 test its "units" individually? Dune doesn't have a runner that supports this.
 
@@ -456,10 +471,10 @@ before, I'm pulled pretty hard by conventions.
 Kidding! LOL! Of course I'm kidding! Have you read any other section of this
 post?! Of course you can't just run it!
 
-_First_ you need to install it in your switch. This isn't so bad: add it as a
-dependency in your `opam` file, `opam install . --deps-only`. This might also be
-a case where it makes sense to install it globally, since it doesn't run during
-the formal build part of your program.
+_First_ you need to install it. You might want to put it in your switch (it's
+what I did), but if you do this as a dependency of your project the opam
+maintainers might complain if you ever publish your package. Consider installing
+it globally.
 
 _Then_ you need to tell your root-level `dune-project` file that you want to use
 the formatting extension. Add `(using fmt 1.2)` to the file.
@@ -475,7 +490,7 @@ They have a few presets! Try out your favorite!
 
 ### Quick-fire topics
 
-I could write more, but jesus this is long enough, so we'll quickfire these.
+I could write more, but Jesus this is long enough, so we'll quickfire these.
 
 #### Editor config
 
@@ -488,7 +503,7 @@ Merlin installed, and uses it under the hood. When combine with [ale][43] and
 I set vim shortcuts for useful "jump to definition" or "tell me the type of this
 expression". More [instructions here][45].
 
-#### Configuration
+#### Project Config
 
 Erlang and Elixir projects tend to have a standardized way of doing config. Most
 dynlangs use JSON or YAML. You're _already_ being a microbrew weirdo by using
@@ -521,6 +536,14 @@ I don't know anything about profiling, property-based testing, post-mortem
 debugging, many of the fancy monad tricks that I'm seeing get popular, syntax
 extensions + term rewriters.
 
+## In conclusion
+
+Use Python.
+
+Okay, _kidding_ (but, like, not really). But last year I unofficially designated
+it my Year of OCaml, then I gave up and made it my Year of Elixir. I'm gonna try
+to pick OCaml back up again for a few projects; if you're curious to try
+this out with me, hope this helps you too 🐫.
 
    [1]: https://www.rebar3.org/
    [2]: https://opam.ocaml.org/
