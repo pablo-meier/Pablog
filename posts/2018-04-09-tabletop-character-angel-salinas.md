@@ -80,17 +80,19 @@ most of his energies tracking down Ángel. Ángel was wary but trusting, and spe
 the next few weeks applying some detective skills to verify the story. It didn't
 check out: he deduced that Bruno was an imposter, paid on behalf of the son of a
 gang leader he'd testified against as a detective, years ago. He surprised
-Bruno, interrogated him, and learned of their revenge plot: his current and
-former wife were just transported to a warehouse, and figures in Nicaragua were
-on their way up to have their own machinations against him.
+Bruno, interrogated him, and learned of their revenge plot: his Nicaraguan wife
+and kids (sans Osvaldo) were transported to a warehouse, and figures in
+Nicaragua were on their way up to have their own machinations against him.
 
 He also learned that "Bruno" was based on a real identity: Sara _really did_ have
 a son named Bruno who's out there somewhere, and she really did die of
-tuberculosis. He killed the imposter, went to the warehouse, and liberated his
-former and current wife, leaving a number of dead bodies. He gave them each half
-of his savings, told them to flee. One of his proteges from his police days
-who'd made it to the _Agrupamiento Alfa_ told him he could get him in a safe
-house in the USA. At 54, he fled again, this time to Billings, Montana.
+tuberculosis. He killed the imposter, went to the warehouse, finding Concepción
+smoking the fancy cigarettes of her captors, who were lying dead around her
+(turns out Concepción also picked up some skills during Nicaragua's civil war).
+He gave her half of his savings, the other half to his current wife, and
+told everyone to flee. One of his proteges from his police days who'd made it to
+the _Agrupamiento Alfa_ told him he could get him in a safe house in the USA. At
+54, he fled again, this time to Billings, Montana.
 
 He spent the first 4 years as a tailor at a Nordstrom, but wanted more _pista_
 to live a little more comfortably, pay a Private Investigator to keep him
