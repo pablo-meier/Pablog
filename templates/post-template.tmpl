@@ -4,16 +4,16 @@
     <title>{{title}}</title>
     <meta name="author" content="{{author}}">
     <meta name="keywords" content="Pablo Meier, {{keywords_list}}">
-    
+
     <meta name="description" content="{{description_abridged}}">
     <meta property="og:description" content="{{og_description}}">
 
     <meta property="og:title" content="{{title}}">
     <meta property="og:image" content="{{og_image}}">
-    
+
     <meta property="og:url" content="{{full_uri}}">
     <link rel="canonical" href="{{full_uri}}">
-    
+
     <meta property="og:type" content="article">
     <link ref="alternate" type="application/rss+xml" href="{{rss_feed_uri}}" title="RSS Feed">
 
@@ -32,17 +32,13 @@
             <hr /> {% endif %}
         {{content | safe}}
         <footer>
-        	<div id="nav-links">
-        	  <ul>
-        	  {% if link_to_newer %}<li id="next">&larr; <a href="{{link_to_newer.url}}">{{link_to_newer.name}}</a></li>{% endif %}
-        	  {% if link_to_older %}<li id="prev"><a href="{{link_to_older.url}}">{{link_to_older.name}}</a> &rarr;</li>{% endif %}
-        	  </ul>
-        	</div>
+          {% if link_to_newer %}<p id="next">&larr; <a href="{{link_to_newer.url}}">{{link_to_newer.name}}</a></p>{% endif %}
+          {% if link_to_older %}<p id="prev"><a href="{{link_to_older.url}}">{{link_to_older.name}}</a> &rarr;</p>{% endif %}
         </footer>
-      
+
         <section>
-          <p style="text-align: center; font-size: small;"><strong>Thanks for the read!</strong> Disagreed? <em>Violent agreement!?</em> Feel free to drop me a line at <span id="contact-mail"></span>, or leave a comment below! I'd love to hear from you 😄</p>
-      
+          <p style="text-align: center; font-size: small;"><strong>Thanks for the read!</strong> Disagreed? <em>Violent agreement!?</em> Feel free to drop me a line at <span class="contact-mail"></span>, or leave a comment below! I'd love to hear from you 😄</p>
+
           <!-- Obfuscate for 2006-era scrapers -->
           <script>
       (function() {
@@ -54,23 +50,25 @@
           var translate = x => index(x) > -1 ? output[index(x)] : x;
           return str.split('').map(translate).join('');
         }
-      
-        const email_obs = 'cnoyb>n>zrvre&tznvy>pbz';
+
+        const email_obs = 'cnoyb&zbercnoyb>pbz';
         const email_plaintext = rot13(email_obs);
-      
+
         const mailElem = document.createElement('a');
         const textNodeElem = document.createTextNode(email_plaintext);
         mailElem.setAttribute('href', rot13('znvygb!') + email_plaintext);
         mailElem.appendChild(textNodeElem);
-        document.getElementById('contact-mail').appendChild(mailElem);
+        document.getElementsByClassName('contact-mail').forEach( (e) => {
+          e.appendChild(mailElem.cloneNode(true));
+        });
       })();
           </script>
-      
+
           <div id='discourse-comments'></div>
           <script type="text/javascript">
             DiscourseEmbed = { discourseUrl: 'https://us.morepablo.com/',
                                discourseEmbedUrl: '{{full_uri}}' };
-      
+
             (function() {
               var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
               d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
