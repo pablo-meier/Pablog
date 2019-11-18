@@ -54,7 +54,7 @@ You should [read the whole thing][1]. The art's pretty rad, too.
 
 <div class="caption-img-block" style="margin: 25px auto">
 <a href="https://www.artstation.com/artwork/Oyqqd6" target="blank">
-<img src="/img/2019/1/reagan-long-chompette_THUMB.jpg" alt="FILLME. Click for full size." style="margin: 15px auto;" /></a>
+<img src="/img/2019/1/reagan-long-chompette_THUMB.jpg" alt="Chain Chomp bowsette looking amazing." style="margin: 15px auto;" /></a>
 <p style="font-style: italic; text-align: center; font-size: small">"Chompette"
 was my favorite Bowsette. This one comes from <a href="https://www.artstation.com/reagan_long">Reagan Long</a>, who you can follow on <a href="https://twitter.com/reagan_long_art">Twitter</a> or <a href="https://www.instagram.com/reagan_long_art">Instagram</a>.</p>
 </div>
