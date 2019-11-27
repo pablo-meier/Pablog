@@ -60,7 +60,7 @@ adventure was meant look like this, with hurrying or delay as necessary:
 
 The second set of the session picks up where we left off, nonstop puzzlin' +
 brawlin' + RPing until we wrap it up with 1 character of each PC leaves (it
-migth not be the same one!).
+might not be the same one!).
 
 ### Cast
 
@@ -83,7 +83,7 @@ one, but people don't often know many.
 _Merovech_: Halfling barkeep + owner of _The Chill Basilisk._ Hamster-sized
 mutton chops, missing for a few days.
 
-_Vix_: Tabaxi, leader of the Gorroliths in Landria, and guardian of the
+_Vix_: Tabaxi, leader of the Gorroliths in Landra, and guardian of the
 Ulaikeria, she presents the PCs the, ahem, opportunity to join the Gorroliths
 and figuring out what happened to Shatsnay, and felt like Merovech would be able
 to help, but he… didn't make it through the Ulaikeria entirely as himself.
