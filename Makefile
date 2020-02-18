@@ -1,6 +1,7 @@
 # Assumes you have the npm program 'http-server' to simple serve
 
 BUILD_DIR=build
+CACHE_FILE=.fleaswallow_cache
 BT=./fleaswallow
 
 serve: build
@@ -15,4 +16,4 @@ build:
 	$(BT) -b
 
 clean:
-	rm -rf $(BUILD_DIR)
+	rm -rf $(BUILD_DIR) $(CACHE_FILE)
