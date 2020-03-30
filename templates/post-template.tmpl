@@ -32,8 +32,8 @@
             <hr /> {% endif %}
         {{content | safe}}
         <footer>
-          {% if link_to_newer %}<p id="next">&larr; <a href="{{link_to_newer.url}}">{{link_to_newer.name}}</a></p>{% endif %}
-          {% if link_to_older %}<p id="prev"><a href="{{link_to_older.url}}">{{link_to_older.name}}</a> &rarr;</p>{% endif %}
+          {% if link_to_newer %}<p id="prev"><a href="{{link_to_newer.url}}">{{link_to_newer.name}} &rarr;</a></p>{% endif %}
+          {% if link_to_older %}<p id="next"><a href="{{link_to_older.url}}">&larr; {{link_to_older.name}}</a></p>{% endif %}
         </footer>
 
         <section>
@@ -58,7 +58,7 @@
         const textNodeElem = document.createTextNode(email_plaintext);
         mailElem.setAttribute('href', rot13('znvygb!') + email_plaintext);
         mailElem.appendChild(textNodeElem);
-        document.getElementsByClassName('contact-mail').forEach( (e) => {
+        Array.from(document.getElementsByClassName('contact-mail')).forEach( (e) => {
           e.appendChild(mailElem.cloneNode(true));
         });
       })();

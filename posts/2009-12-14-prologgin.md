@@ -15,8 +15,6 @@ problem (most problems require some mathematical insight, this was a
 straight-up write-it-out problem). In Problem 54, they provide a file with 1000
 games of poker, and you must determine how many games the first player wins.
 
-<!-- more -->
-
 **So here I saw an opportunity: Prolog!** Wouldn't it be more fun to just
 _declare_ the rules of Poker and say "go," rather than hard-code every
 individual evaluation possibility?
@@ -69,9 +67,9 @@ two hands is a game between two players.
 Throwing it all together, here's are some of the rules I wrote that determine
 a player's hand in poker:
 
-```prolog
+<pre style="background-color: #efefef; font-size: .8em">
 determine_hand([[_,X],[_,X],[_,X],[_,X],[_,X]], flush).
-```
+</pre>
 
 In English, this says: the relation `determine_hand` is true if two conditions
 are met. The first value is a hand of cards, for which the second value on
@@ -80,9 +78,9 @@ every pair (the suit) is the same value X. Second, the second value of
 values of the cards tells Prolog "we don't care what goes there," since
 getting a flush is only dependent on the suits of the cards. Here is another:
 
-```prolog
+<pre style="background-color: #efefef; font-size: .8em">
 determine_hand([[10,X],[jack,X],[queen,X],[king,X],[ace,X]], royal_flush).
-```
+</pre>
 
 This clause says: the relation `determine_hand` is true if two things occur:
 the first, its left side is a 5-tuple of pairs. The values of the represented
@@ -92,18 +90,18 @@ each card must all be the same value X. Secondly, the right side of
 
 So if I then prompted Prolog with:
 
-```prolog
+<pre style="background-color: #efefef; font-size: .8em">
 determine_hand([[10,clubs],[3,clubs],[8,clubs],[queen,clubs],[6,clubs]], HandType).
-```
+</pre>
 
 Prolog would search the possible values for `HandType` (variables begin with
 capital letters) until it found some value to make it true given the rules
 I've provided above. We see that all suit values are the same ("clubs"), so
 Prolog replies:\*
 
-```prolog
+<pre style="background-color: #efefef; font-size: .8em">
 HandType = flush.
-```
+</pre>
 
 ---
 
@@ -119,7 +117,7 @@ chained together with standard boolean operators. The following mean:
 This should be enough (coming at you very fast!) to give you a flavor for how
 the program worked. Here is the top-level relation:
 
-```prolog
+<pre style="background-color: #efefef; font-size: .8em">
 winner(H1, H2, Winner) :-
    sort_hand(H1, Sorted_Hand1),
    sort_hand(H2, Sorted_Hand2),
@@ -132,7 +130,7 @@ winner(H1, H2, Winner) :-
     tiebreak(X1, Sorted_Hand1, Sorted_Hand2, SortedWinner),
      (SortedWinner = left, Winner = H1 ;
       SortedWinner = right, Winner = H2)).
-```
+</pre>
 
 It goes something like this in English: The _winner_ relation is true if the
 following are true, for two poker hands H1 and H2, and some value Winner:
@@ -179,7 +177,6 @@ Prolog links:
 * [99 Prolog Problems.][8] These have [since][9] [been][10] [copied][11] many times over, but the first '99 Problems' set of this sort was by Prologgers.
 * [The First 10 Prolog Programming Contests.][12] A good read for idiomatic language use, and seeing it solve all levels of problems.
 
-
 \* = If, given the definitions, you then passed `determine_hand(X,Y)`, where x
 was a royal flush, y would be bound to "flush." why? because the first
 predicate we defined was successful (a royal flush is just a more specialized
@@ -188,11 +185,11 @@ do we get around this? you can either by ordering your clauses appropriately,
 or explicitly stating that one clause can only be true when the others are
 false.
 
+---
 
---
 The complete code, which I ran on SWI-Prolog on a Powerbook G4:
 
-```prolog
+<pre style="background-color: #efefef; font-size: .8em">
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Top Level
 
@@ -375,8 +372,7 @@ value_greater_than(X,Y) :-
   successor(X,P),
   (Y = P;
   value_greater_than(P,Y)).
-
-```
+</pre>
 
 Enjoy!
 

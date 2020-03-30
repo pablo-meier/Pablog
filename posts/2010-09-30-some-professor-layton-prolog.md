@@ -8,12 +8,7 @@ spent 40 minutes working out, but instead spent an hour and half solving in
 Prolog (for those unfamiliar with Prolog, check out [this post][2] for a
 description of what this magic language is!).
 
-
-<!-- more -->
-
 I'll post the puzzle and solution here; hopefully someone finds it fun!
-
-[![][3]][4]
 
 <h3 id="no-151-from-professor-layton-and-the-diabolical-box-colins-score">No 151 from Professor Layton and the Diabolical Box: Colin's Score</h3>
 
@@ -25,14 +20,16 @@ to tally Colin's score. Colin was heading to the teacher's office when Mary
 called him back, saying they could figure out his score using the results from
 the other tests. Can you figure out Colin's score?
 
--
+[![][3]][4]
+
+---
 
 Below is the program I wrote to solve it. Verbose by contemporary language
 standards, but almost no thinking required, and the answer in an instant! Note
 the original version didn't have so many comments; these are to guide the
 curious reader.
 
-```prolog
+<pre style="background-color: #efefef; font-size: .8em">
 %% A question is a [[question number,answer], correctness].
 %% Example:
 %% [[1,a], correct]
@@ -150,7 +147,7 @@ colin_score(Score) :-
   colin_test(X),
   test_integrity(X),
   test_score(X, Score).
-```
+</pre>
 
    [1]: /2010/09/repost-professor-layton-and-hell-yes.html
    [2]: /2009/12/prologgin.html

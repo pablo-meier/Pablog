@@ -203,6 +203,10 @@ ones where Docker makes more sense to me than in other tech stacks. But! Even
 with this in mind, the tradeoffs of Docker in development processes should not
 be discounted.
 
+<div class="caption-img-block" style="margin: 25px auto; max-width: 450px;">
+<img src="/img/2020/3/docker_meme_THUMB.png" alt="Image of a crying boy &quot;It works on my machine!&quot; A man comforts him, &quot;Then we will ship your machine.&quot; Caption: AND THAT'S HOW DOCKER WAS BORN." style="margin: 15px auto;" />
+</div>
+
 The other thing I see Docker for:
 
 * "My project has a lot of components and I'd like to programmatically express
