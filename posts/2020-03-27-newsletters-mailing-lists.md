@@ -80,7 +80,7 @@ So to go back to mailing lists, creators like them because:
 
 - Better understanding of audience: compared to blogs, you don't have to look at
   analytics numbers, deal with spammers, worry about users with adblock. You can
-  see how big your subscriber list and (barring some percentage of them who
+  see how big your subscriber list is and (barring some percentage of them who
   aren't real) you know its going to a number of mailboxes. I'm sure many of
   these services offer tracking pixels, too.
 
@@ -100,7 +100,7 @@ Readers like them, too:
   make an account on the site.
 
 I think they're fun, and subscribe to a few. I've thought of building my own (I
-own `mcfeely.app`, after Mr. McFeely from _Mister Roger's Neighborhood._) and
+own `mcfeely.app`, after Mr. McFeely from _Mister Roger's Neighborhood_) and
 might still. Email is the cockroach of internet freedom: while Google will
 probably make plays to centralize over time, it's one of the few surviving,
 successful protocols left. We don't build API's or protocols like we used to

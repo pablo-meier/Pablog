@@ -49,7 +49,7 @@ I'm trying out [Alcotest][3] for my OCaml bot, and the README says:
 Now, listen. Did you have to write "simple" twice in two sentences?
 
 **Simple doesn't mean anything,** other than "I like it this way," or "it makes
-sense to me, right now, with low effort." That last one is usually often because
+sense to me, right now, with low effort." That last one is often because
 "I wrote it!" also applies. It's become such a thing that I reflexively hiss
 when I see it in READMEs.
 
