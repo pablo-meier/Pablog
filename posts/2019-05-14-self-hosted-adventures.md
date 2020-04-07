@@ -64,7 +64,7 @@ doing it with a static site generator, at least do it with something like
 in 2013 that I think still holds up: most people should buy a domain and point
 it to a WordPress install.
 
-### Discourse
+<h3 id="comments-via-discourse-install">Discourse</h3>
 
 <div class="caption-img-block" style="margin: 25px auto">
 <img src="/img/2019/5/logo-discourse_THUMB.png" alt="Discourse logo" style="max-width: 325px; margin: 10px; display: inline;" />

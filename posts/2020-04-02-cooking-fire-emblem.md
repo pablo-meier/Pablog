@@ -95,10 +95,10 @@ in this game.
 One of the games inside _Fire Emblem_: a tea-drinking minigame that is literally
 the Simpsons joke of a _My Dinner With Andre_ arcade game:
 
-<video autoplay controls="false" loop>
+<video style="max-width: 95%" autoplay controls="false" loop>
 <source src="/img/2020/4/my_dinner_with_andre.mp4" type="video/mp4" />
 </video>
-<video autoplay controls="false" loop>
+<video style="max-width: 95%" autoplay controls="false" loop>
 <source src="/img/2020/4/my_dinner_with_andre_2.mp4" type="video/mp4" />
 </video>
 

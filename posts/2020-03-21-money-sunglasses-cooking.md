@@ -60,22 +60,22 @@ were repercussions for crapping so hard in society's oatmeal.
 Let's watch some music videos together. One, _how_ is Daddy Yankee still kicking
 it? He's ageless; the Paul Rudd of pop music. Look at this shit:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/90YQDT7LWxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/90YQDT7LWxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To say nothing of his appearance in _Despacito_:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/kJQP7kiw5Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/kJQP7kiw5Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The first video (Muevelo) has a similar "music is outlawed by martial rule" as
 this old favorite by BIGBANG, which was big when I was seeing a lot of K-Pop
 because StarCraft. I still watch it from time to time because I like the tune
 and costumes:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/AAbokV76tkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/AAbokV76tkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here's _Gasolina_ for context, which is from George W. Bush's first term:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/CCF1_jI8Prk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/CCF1_jI8Prk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Wild.
 
@@ -89,7 +89,7 @@ time.
 
 And, like, see this video (**ALSO WITH DADDY YANKEE**)
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/0VR3dfZf9Yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/0VR3dfZf9Yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Literally all of them have sunglasses.
 

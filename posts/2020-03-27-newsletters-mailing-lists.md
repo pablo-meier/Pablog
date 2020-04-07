@@ -50,7 +50,7 @@ With this, it got harder to be a blog, and we had the era of feeds.
 From a publisher/subscriber standpoint, this changed a lot of dynamics; one of
 my favorite explainers is this favorite is this old Veritasium video:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/oVfHeWTKjag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/oVfHeWTKjag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 tl;dr _you have to pay Facebook to reach the people who have explicitly asked to
 receive your content._ And, worse, it won't even do it that well. Also, piracy:

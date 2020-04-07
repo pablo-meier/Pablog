@@ -8,7 +8,7 @@
 
 I loved this:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kBWTFr3bNXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/kBWTFr3bNXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Also, my extended family (most in the DC area) had our first virtual Happy Hour.
 I wasn't prepared for how much it helped me. Try this! With your friends and/or

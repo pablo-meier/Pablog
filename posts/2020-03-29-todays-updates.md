@@ -10,7 +10,7 @@ There's a ton of news outlets trying to make sense of SARS-CoV-2; I linked [the
 Kurzgesagt video][2] earlier, [the 3Blue1Brown video][1] also gets linked around
 a lot, but I saw this one today, also appreciated it:
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/54XLXg4fYsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube.com/embed/54XLXg4fYsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 🐫 OCaml again
 

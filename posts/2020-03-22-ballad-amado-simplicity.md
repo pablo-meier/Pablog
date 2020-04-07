@@ -10,13 +10,13 @@ off when YouTube autoplayed it. I lost concentration on my code and just
 alt-tabbed to be like "aaaaAAAAAHHHHHHH!!!!" If you're a Spanish-speaker, do
 give it a listen to the end!
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/F1Y18jJFe70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/F1Y18jJFe70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Grateful to my parents and grandparents for playing all sorts of great music
 in the house growing up 😄
 
 ### Amado milestone
-<video autoplay loop><source src="/img/2020/3/make_it_rain.mp4" type="video/mp4"></video>
+<video style="display: block; max-width: 95%" autoplay loop><source src="/img/2020/3/make_it_rain.mp4" type="video/mp4"></video>
 
 I don't actively work on [Amado 💌][1], but people still talk and hear about it,
 and once in a while someone wants to make one. Today a friend not only launched

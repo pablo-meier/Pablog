@@ -223,6 +223,9 @@ them marry trolls" might have a _bit_ of a thread to [those][11]
 [experiments][12] they did in the 20th century where a chimp would enter a
 family of children as just another sibling.
 
+Great magic power while having your hands covered in rings is right out of The
+Broken Earth trilogy. It's fantastic, give it a read!
+
    [1]: /2018/04/tabletop-character-homage.html
    [2]: http://dnd.wizards.com/
    [3]: /2018/04/tabletop-character-gorlif.html

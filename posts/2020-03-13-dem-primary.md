@@ -103,7 +103,7 @@ forward outside of public service, not just the CFPB but things like [demanding
 personnel concessions from Clinton in 2016][3]. Like any skilled negotiator, she
 seemed to involve diverse groups of people in these endeavors, and made them
 feel like they "won," while still having the impact she was after. I wish I
-could believe in the operationally viability of Bernie's dream, and he's
+could believe in the operational viability of Bernie's dream, and he's
 absolutely my #2 who I'll vote for in my primary, but I couldn't get entirely
 behind him.
 
@@ -120,7 +120,7 @@ A small selection of things (there are more) that I'm critical of Warren over:
 - Her parents told her she had Native ancestry, and she believed them. This
   sucks, and she tried to own up to some of the consequences, [but she could
   have done more][4]. Haters like to bring up the DNA test, which was obviously
-  a collossal misfire, but I trust she recognized it and learned from
+  a colossal misfire, but I trust she recognized it and learned from
   it (just look at the debates).
 
 But we'll always have the greats:

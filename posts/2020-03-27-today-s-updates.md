@@ -46,7 +46,7 @@ That said, I'm seeing [the "Electicity Biscuits" story][5] (which is sincerely
 charming!) several times in my RSS feed now. It brought this scene to mind, from
 _I Love You Phillip Morriss_:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/JDHt9xzJZp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/JDHt9xzJZp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The movie is merely okay, but I think about ☝ a lot. If you want to see a
 criminally-underwatched Jim Carrey comedy, I'd recommend _Fun With Dick and

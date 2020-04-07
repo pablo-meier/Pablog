@@ -12,7 +12,7 @@ Baked some really disappointing biscuits today (I never though I'd have to type
 those words); ate them over a 20-minute break watching this, which I enjoyed
 more than I thought I would:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/sw0VfmXKq54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/sw0VfmXKq54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I'm generally a big fan of the "weird computer things we did to make games
 great" genre: the "War Stories" video series above features Andy Gavin and Naughty

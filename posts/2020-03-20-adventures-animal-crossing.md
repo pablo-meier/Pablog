@@ -58,7 +58,7 @@ think I'm that guy!
 This speedrun was fun to watch though, and did get me curious to play the Zork
 series:
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/dNVaVLyWSEQ?start=194" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="display: block; max-width: 95%" src="https://www.youtube-nocookie.com/embed/dNVaVLyWSEQ?start=194" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Also, [a great longread on Myst.][7] I did play it (with not one, but _two_
 strategy guides!) and followed games media; it was a pretty interesting thing to
