@@ -43,4 +43,8 @@ For _no reason at all_, here's the "I" chapter from _Eunoia_ by Christian Bok:
 > dig this ditch, filling bins with dirt, piling it high, sift-
 > ing it, till I find bright prisms twinkling with glitz.
 
+<link rel="stylesheet" type="text/css" href="/css/markmode-1.css">
+<script src="/js/mark-mode.js"></script>
+<script>document.getElementById('markActivate').addEventListener('click', markMode);</script>
+
    [1]: https://www.poetryinvoice.com/poems/chapter-i

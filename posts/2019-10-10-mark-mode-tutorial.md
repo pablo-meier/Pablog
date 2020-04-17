@@ -165,6 +165,9 @@ for top and left to place it roughly over the letter. Mine looks like this:
 
 And violà! Mark mode, and happy users!
 
+<link rel="stylesheet" type="text/css" href="/css/markmode-1.css">
+<script src="/js/mark-mode.js"></script>
+<script>document.getElementById('markActivate').addEventListener('click', markMode);</script>
 
    [1]: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image
    [2]: https://a.singlediv.com/
