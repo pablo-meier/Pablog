@@ -90,7 +90,7 @@ Remember when we all hated Microsoft? Those were the days, man. Can't find the
 tweet (maybe deleted? deleting old tweets is prudent) but Gary
 Bernhardt once tweeted something like "Telling 2004 me that in 201x I don't like
 Linus Torvalds, and I like things Microsoft is doing with open source. I punch
-the floor so hard my screensaver deativates." (referencing [this][4]). Anyway,
+the floor so hard my screensaver deactivates." (referencing [this][4]). Anyway,
 Microsoft _was_ terrible!
 
 And remember Google? Don't be evil? Before they [gave a guy $90m to leave after

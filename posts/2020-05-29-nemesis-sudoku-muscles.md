@@ -41,7 +41,8 @@ it extremely heartwarming watching the fella work through it:
 The week before, I saw [a cute video][4] about how to write a Sudoku solver in
 Prolog, and [it was surprisingly brief][5]:
 
-<pre style="background-color: #efefef; font-size: .8em">
+<pre>
+<code>
 sudoku(Rows) :-
         length(Rows, 9),
         maplist(same_length(Rows), Rows),
@@ -58,6 +59,7 @@ blocks([], [], []).
 blocks([N1,N2,N3|Ns1], [N4,N5,N6|Ns2], [N7,N8,N9|Ns3]) :-
         all_distinct([N1,N2,N3,N4,N5,N6,N7,N8,N9]),
         blocks(Ns1, Ns2, Ns3).
+</code>
 </pre>
 
 So seeing that video, I tried to encode the new restrictions to solve this

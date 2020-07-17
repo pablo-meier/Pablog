@@ -26,7 +26,7 @@ fucked in every manner social scientists care to measure.
 But it's not just my lifetime: here's _Mississippi Goddamn_, 1964. That's an
 entire generation of people between this and _Public Enemy_:
 
-<iframe width="800" height="450" style="max-widt: 95%" src="https://www.youtube.com/embed/hBiAtwQZnHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" style="max-width: 95%" src="https://www.youtube.com/embed/hBiAtwQZnHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Between that? Another generation of people, and Billie Holiday's _Strange Fruit_
 in 1939:
