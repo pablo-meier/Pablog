@@ -25,8 +25,6 @@ dammit; there are no comments on this blog, Imma just be me.
 That said, **I am better than [Pitchfork][1],** which [famously only gave Music
 a 6.8][2].
 
-<!-- more -->
-
 <h3 id="chip-music">Chip Music</h3>
 
 <h5 id="background">Background</h5>
@@ -175,10 +173,10 @@ With acid, they had movement, and the experience was almost spiritual. Maybe
 you're supposed to just fill in the blanks with your trip.
 
 (On the other hand, I've also long felt that "if you need drugs to enjoy the
-music; maybe your music could be better).
+music; maybe your music could be better").
 
 The other anecdote supports the above and comes from another party. Karen and I
-went there hearing it had a great lineup, and felt a bit let down that all the
+went hearing it had a great lineup, and felt a bit let down that all the
 music sounded similar to everything else we'd heard. We gave up on some of the
 other party spaces, found a chill space, and ended up losing ourselves in
 heart-to-heart conversations. Four hours had passed before I knew it.

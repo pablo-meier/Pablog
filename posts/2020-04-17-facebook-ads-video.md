@@ -20,7 +20,7 @@ relied on will never recover, Facebook's control over the Internet and minds of
 the populace is past the point of easy repair. I don't know how anybody thinks
 populations are "above" propaganda with even a cursory understanding of history.
 And hey, [Facebook's nonconsensual research on its users demonstrates it
-too.][2]It's also the entire business model: "we influence users [their
+too.][2] It's also the entire business model: "we influence users [their
 purchasing decisions via ads]"
 
 I wrote about [why I left][3] (about a year and a half ago!, wow, time!), and

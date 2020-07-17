@@ -105,6 +105,6 @@ I believe it can be done!
    [2]: https://www.youtube.com/watch?v=-Bc0mG5omTo
    [3]: http://www.accursedfarms.com/forums/viewtopic.php?p=53652
    [4]: http://tvtropes.org/pmwiki/pmwiki.php/Main/StuffBlowingUp
-   [5]: https://plus.google.com/+DanielCookGameDesign/posts/W3ys5fKnz5t
+   [5]: https://web.archive.org/web/20181231071417/https://plus.google.com/+DanielCookGameDesign/posts/W3ys5fKnz5t
    [6]: https://www.youtube.com/watch?v=g8D96y_tn2A
    [7]: https://www.youtube.com/watch?v=UxT8ie751rs

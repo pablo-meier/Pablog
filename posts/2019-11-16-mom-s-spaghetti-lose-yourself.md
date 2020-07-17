@@ -95,7 +95,7 @@ having to assure the person they're speaking to "I literally can't tell you."
 
 ### Setting
 
-The "world" is one of the 6 cities if _Eidamesh_, which I [wrote about
+The "world" is one of the 6 cities of _Eidamesh_, which I [wrote about
 previously.][3] I had the players roll a d6 and the mode of the rolls determined
 which city we start in. When I ran it for friends, we were in Landra, the
 bard sanctuary.

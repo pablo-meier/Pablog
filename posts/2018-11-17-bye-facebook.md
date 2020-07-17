@@ -32,7 +32,7 @@ and Mike Pence.][2] This, even after they built [a symbolic "war room" that
 didn't seem to do anything meaningful other than signal intent.][3]
 
 This is the company who put Peter Thiel on their board. This is the company
-that legitimized Palmer Luckey. This is the company that has Josh Kaplan in high
+that legitimized Palmer Luckey. This is the company that has Joel Kaplan in high
 places. Facebook, [like Google][22], _protects_ their top bad actors. When you
 ascend to a certain level, you can't be touched.
 

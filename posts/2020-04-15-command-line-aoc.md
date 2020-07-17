@@ -42,9 +42,9 @@ lot of `find` lol.
 
 Most "modern" takes on these tools are:
 
-- I wrote it! ⭐️
+- "I wrote it! ⭐️"
 - Colorized output in iTerm.
-- I removed or consolidated a lot of the functionality to be some version of
+- Remove or consolidate a lot of the functionality to be some version of
   "cleaner," usually on flags and their use (I often agree).
 - Sometimes, much better performance (ripgrep and tokei are… very fast).
 

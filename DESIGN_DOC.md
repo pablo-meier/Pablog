@@ -9,7 +9,7 @@ A few things I'd like this site to be/do
 I want to have more flexibility for things like linkable paragraphs, or post
 versions, or newsletter-ability.
 
-- Linkable Paragraphs
+Linkable Paragraphs
 
 ### Config for use cases
 
@@ -23,3 +23,7 @@ than rent an EC2 instance.
 ### LiveJournal import?
 
 Get my old old stuff on there.
+
+### Separate media download?
+
+Git repo for the text files, a download/"data lake" for the static files

@@ -12,8 +12,6 @@ I had a few designs, some template code, and may revisit the project. But I'll
 blog about part of what I was hoping to achieve, in case someone else gets
 inspired.
 
-<!-- more -->
-
 Notably, while I certainly had some opinions and ideas of the _features_ of the
 language (static vs. dynamic types, manual or automatic memory management, all
 things syntax), I was hoping to make a bigger dent on on how its
@@ -165,7 +163,7 @@ The advantages to this are manifold:
 This is partially why DrRacket is such a fantastic IDE -- it's written by the
 authors and implementors of the language itself, in the language itself!
 
-<h4 id="use-the-butt4-luke">Use [the Butt][4], Luke</h4>
+#### Use [the Butt][4], Luke
 
 The other idea of using a server model would be to take advantage of yet another
 architectural change that seems to get ignored: we're all multicore, usually
