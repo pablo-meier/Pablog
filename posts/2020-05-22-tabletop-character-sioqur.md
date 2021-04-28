@@ -170,7 +170,7 @@ The Dream Pits is very ["King of the Iron Fist tournament" from the _Tekken_
 games,][5] with touches of [_Bailando por un Sueño_][6], which aired when I was
 finishing high school. But it _really_ (and Sioqur's arc, generally) fits in my
 mind like a _Twisted Metal_ game, where the Dream Pits is where they tell
-Calypso contest narraties, while he himself is in his own. Doskvol being _dark
+Calypso contest narratives, while he himself is in his own. Doskvol being _dark
 and moody_ was a bit of a challenge for me, but I remember loving the way
 _Twisted Metal: Black_ did it. Here's Mr. Grimm's story, for instance:
 

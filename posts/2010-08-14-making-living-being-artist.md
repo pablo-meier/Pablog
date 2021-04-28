@@ -18,8 +18,6 @@ expressed arguments refuting his own position, or even really acknowledge
 their existence. It's as if the only arguments there are are the ones this
 girl mentions, and he predictably takes her to town.
 
-<!-- more -->
-
 Let's make another distinction: this post isn't to say _stealing music is
 okay_, it's more to say _royalties are doomed, think of something else._ With
 this I mean I won't go into the ethics of downloading music illegally because,
@@ -111,7 +109,7 @@ understand the hardest part of the game is not giving up too soon. Picking up
 a skill will help you greatly. Like John Goodman said in _Inside the Actor's
 Studio_, the most useful advice he got for his career as an actor was to learn
 to type, allowing him a stable day job to live off while he worked. That skill
-may even supersede your love for your art, as happened to me. At the very
+may even match your love for your art, as happened to me. At the very
 least you will get more perspective of how most normal, non-artists people
 think and work.
 

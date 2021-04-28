@@ -15,8 +15,6 @@ club<sup id="place1"><a href="#footnote1">1</a></sup>, for which I "read"
 [Customs of the World: Using Cultural Intelligence to Adapt, Wherever You
 Are][1]. Here are some thoughts on it!
 
-<!-- more -->
-
 There are two primary sections: a description of "cultural dimensions"
 (sliding-scale variations you can use to describe cultures in relation to each
 other) and "cultural clusters," where he uses the dimensions to describe

@@ -62,18 +62,16 @@ year-old daughter around town one time and she sees a homeless person.
 It's funny because on some level, why do we "outgrow" what the 5 year-old is
 pointing to here? Why are we content to live our lives while people are hungry
 and there's plenty of food in the country? Why do we let people die without
-insulin because "they" can't afford it? The smooth-brains will talk about
+insulin because "they can't afford it?" The smooth-brains will talk about
 Free Markets and Personal Responsibility with the same rhetorical flourishes (or
 not… have you read The Federalist?) that William F. Buckley would pull out
-when supporting segregation or saying gay people get should get tattoos
-with their HIV status, or Kevin Williamson when he was saying we should hang the
-1 in 4 women who will have an abortion in their lives. They might cite dead 
-elevated people like John Stuart Mill or Adam Smith to give it gravitas. It'll
-have the trappings of a _good argument_, much like putting urine in a frosty
-beer stein can make it seem more like something you'd want to drink if you
-weren't paying too much attention.
+when supporting segregation. They might cite dead elevated people like John
+Stuart Mill or Adam Smith to give it gravitas. It'll have the trappings of a
+_good argument_, much like putting urine in a frosty beer stein can make it seem
+more like something you'd want to drink if you weren't paying too much
+attention.
 
-But any real interrogation on whatever abstraction they rely on (Free Markets
+But any real interrogation of whatever abstraction they rely on (Free Markets
 and Personal Responsibility; Freedom of Speech and "Liberty" are big ones too)
 shows that they're being extremely lazy or forcibly ignorant when confronted
 with the myriad examples of where those abstractions don't play out cleanly
@@ -116,7 +114,7 @@ It's painful to find a specific thing to pull, it's all good:
 To be 1000% clear: I don't love it for _skewering_ women who dare to be
 ambitious (and I don't think it does that, really); I get really sick seeing how
 gleeful comments get on articles when a company doesn't do well under female
-leadership (the glass cliff is real, the Mayer/Tumblr period was rough). More
+leadership (the glass cliff is real, the Mayer/Yahoo! period was rough). More
 that I think corporatized for-profit feminist branding is worth investigating,
 and this is a great one.
 

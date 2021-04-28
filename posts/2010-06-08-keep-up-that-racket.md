@@ -10,8 +10,6 @@ hopefully it's re-branding will make people aware of this.
 (while it is just a name change and new website, I doubt Clojure would have
 gotten it's momentum if it were just called "JVM Lisp").
 
-<!-- more -->
-
 One of the wonderful things about Racket is its mailing list, and a cute
 discussion there generated a major treasure. Namely, someone brought up that
 computer programming isn't really that related to computer science, to which
