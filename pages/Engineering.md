@@ -200,10 +200,10 @@ shaped how I approach programming in industry.
    [21]: https://github.com/pablo-meier/ghostlight
    [22]: https://github.com/pablo-meier/PizzaHutTacoBell
    [23]: http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
-   [24]: http://blogs.msdn.com/b/ericlippert/archive/2003/10/28/53298.aspx
+   [24]: https://ericlippert.com/2003/10/28/how-many-microsoft-employees-does-it-take-to-change-a-lightbulb/
    [25]: http://www.codeofhonor.com/blog/tough-times-on-the-road-to-starcraft
    [26]: http://www.codeofhonor.com/blog/avoiding-game-crashes-related-to-linked-lists
    [27]: http://www.codeofhonor.com/blog/the-starcraft-path-finding-hack
    [28]: http://queue.acm.org/detail.cfm?id=2349257
-   [29]: https://michaelochurch.wordpress.com/2012/07/08/dont-waste-your-time-in-crappy-startup-jobs/
+   [29]: https://web.archive.org/web/20160126190539/https://michaelochurch.wordpress.com/2012/07/08/dont-waste-your-time-in-crappy-startup-jobs/
    [30]: https://github.com/stay-whimsical/screamchess
